@@ -1,1 +1,6 @@
+{
+  "sp500": ["AAPL","MSFT","AMZN","GOOGL","META","NVDA","BRK-B","JPM","JNJ","V"],
+  "nasdaq100": ["AAPL","MSFT","AMZN","GOOGL","META","NVDA","TSLA","AVGO","COST","PEP"],
+  "dow30": ["AAPL","MSFT","JNJ","JPM","V","PG","KO","MCD","CAT","DIS"]
+}
 
