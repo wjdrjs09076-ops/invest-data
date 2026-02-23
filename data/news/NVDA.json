@@ -1,7 +1,7 @@
 {
   "ticker": "NVDA",
-  "generated_at_utc": "2026-02-23T08:16:47Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-02-23T10:31:27Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
