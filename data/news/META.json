@@ -1,7 +1,7 @@
 {
   "ticker": "META",
-  "generated_at_utc": "2026-02-23T13:52:12Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-02-23T16:33:30Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
