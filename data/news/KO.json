@@ -1,7 +1,7 @@
 {
   "ticker": "KO",
-  "generated_at_utc": "2026-02-24T07:35:09Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-02-24T10:29:29Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
