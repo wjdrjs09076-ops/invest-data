@@ -1,16 +1,362 @@
 {
-  "generated_at_utc": "1970-01-01T00:00:00Z",
-  "sections": {
-    "sp500": [
-      { "ticker": "AAPL", "title": "Sample banner (will be replaced by Actions)" },
-      { "ticker": "MSFT", "title": "Sample banner (will be replaced by Actions)" }
-    ],
-    "nasdaq100": [
-      { "ticker": "NVDA", "title": "Sample banner (will be replaced by Actions)" }
-    ],
-    "dow30": [
-      { "ticker": "JPM", "title": "Sample banner (will be replaced by Actions)" }
-    ]
-  }
+  "generated_at_utc": "2026-02-25T09:46:04Z",
+  "universes": [
+    {
+      "universe": "S&P 500",
+      "sections": [
+        {
+          "title": "Momentum TOP",
+          "items": [
+            {
+              "ticker": "JNJ",
+              "label": "20D 11.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "AAPL",
+              "label": "20D 6.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "NVDA",
+              "label": "20D 3.4%",
+              "reason": ""
+            },
+            {
+              "ticker": "BRK-B",
+              "label": "20D 2.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "JPM",
+              "label": "20D -1.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "META",
+              "label": "20D -4.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "V",
+              "label": "20D -6.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "GOOGL",
+              "label": "20D -6.7%",
+              "reason": ""
+            },
+            {
+              "ticker": "AMZN",
+              "label": "20D -12.5%",
+              "reason": ""
+            },
+            {
+              "ticker": "MSFT",
+              "label": "20D -17.1%",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "title": "Oversold Reversal",
+          "items": []
+        },
+        {
+          "title": "Risk High",
+          "items": [
+            {
+              "ticker": "META",
+              "label": "Vol 47%",
+              "reason": ""
+            },
+            {
+              "ticker": "MSFT",
+              "label": "Vol 46%",
+              "reason": ""
+            },
+            {
+              "ticker": "NVDA",
+              "label": "Vol 39%",
+              "reason": ""
+            },
+            {
+              "ticker": "AMZN",
+              "label": "Vol 34%",
+              "reason": ""
+            },
+            {
+              "ticker": "AAPL",
+              "label": "Vol 32%",
+              "reason": ""
+            },
+            {
+              "ticker": "V",
+              "label": "Vol 30%",
+              "reason": ""
+            },
+            {
+              "ticker": "JPM",
+              "label": "Vol 29%",
+              "reason": ""
+            },
+            {
+              "ticker": "GOOGL",
+              "label": "Vol 24%",
+              "reason": ""
+            },
+            {
+              "ticker": "BRK-B",
+              "label": "Vol 16%",
+              "reason": ""
+            },
+            {
+              "ticker": "JNJ",
+              "label": "Vol 14%",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "universe": "NASDAQ-100",
+      "sections": [
+        {
+          "title": "Momentum TOP",
+          "items": [
+            {
+              "ticker": "PEP",
+              "label": "20D 16.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "AAPL",
+              "label": "20D 6.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "NVDA",
+              "label": "20D 3.4%",
+              "reason": ""
+            },
+            {
+              "ticker": "COST",
+              "label": "20D 2.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "AVGO",
+              "label": "20D 0.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "META",
+              "label": "20D -4.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "TSLA",
+              "label": "20D -5.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "GOOGL",
+              "label": "20D -6.7%",
+              "reason": ""
+            },
+            {
+              "ticker": "AMZN",
+              "label": "20D -12.5%",
+              "reason": ""
+            },
+            {
+              "ticker": "MSFT",
+              "label": "20D -17.1%",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "title": "Oversold Reversal",
+          "items": []
+        },
+        {
+          "title": "Risk High",
+          "items": [
+            {
+              "ticker": "META",
+              "label": "Vol 47%",
+              "reason": ""
+            },
+            {
+              "ticker": "MSFT",
+              "label": "Vol 46%",
+              "reason": ""
+            },
+            {
+              "ticker": "AVGO",
+              "label": "Vol 40%",
+              "reason": ""
+            },
+            {
+              "ticker": "NVDA",
+              "label": "Vol 39%",
+              "reason": ""
+            },
+            {
+              "ticker": "AMZN",
+              "label": "Vol 34%",
+              "reason": ""
+            },
+            {
+              "ticker": "TSLA",
+              "label": "Vol 34%",
+              "reason": ""
+            },
+            {
+              "ticker": "AAPL",
+              "label": "Vol 32%",
+              "reason": ""
+            },
+            {
+              "ticker": "PEP",
+              "label": "Vol 28%",
+              "reason": ""
+            },
+            {
+              "ticker": "GOOGL",
+              "label": "Vol 24%",
+              "reason": ""
+            },
+            {
+              "ticker": "COST",
+              "label": "Vol 22%",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "universe": "Dow 30",
+      "sections": [
+        {
+          "title": "Momentum TOP",
+          "items": [
+            {
+              "ticker": "CAT",
+              "label": "20D 20.8%",
+              "reason": ""
+            },
+            {
+              "ticker": "KO",
+              "label": "20D 11.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "JNJ",
+              "label": "20D 11.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "PG",
+              "label": "20D 10.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "AAPL",
+              "label": "20D 6.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "MCD",
+              "label": "20D 6.4%",
+              "reason": ""
+            },
+            {
+              "ticker": "JPM",
+              "label": "20D -1.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "DIS",
+              "label": "20D -4.7%",
+              "reason": ""
+            },
+            {
+              "ticker": "V",
+              "label": "20D -6.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "MSFT",
+              "label": "20D -17.1%",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "title": "Oversold Reversal",
+          "items": []
+        },
+        {
+          "title": "Risk High",
+          "items": [
+            {
+              "ticker": "MSFT",
+              "label": "Vol 46%",
+              "reason": ""
+            },
+            {
+              "ticker": "DIS",
+              "label": "Vol 43%",
+              "reason": ""
+            },
+            {
+              "ticker": "CAT",
+              "label": "Vol 40%",
+              "reason": ""
+            },
+            {
+              "ticker": "AAPL",
+              "label": "Vol 32%",
+              "reason": ""
+            },
+            {
+              "ticker": "V",
+              "label": "Vol 30%",
+              "reason": ""
+            },
+            {
+              "ticker": "JPM",
+              "label": "Vol 29%",
+              "reason": ""
+            },
+            {
+              "ticker": "PG",
+              "label": "Vol 18%",
+              "reason": ""
+            },
+            {
+              "ticker": "KO",
+              "label": "Vol 17%",
+              "reason": ""
+            },
+            {
+              "ticker": "MCD",
+              "label": "Vol 15%",
+              "reason": ""
+            },
+            {
+              "ticker": "JNJ",
+              "label": "Vol 14%",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
-
