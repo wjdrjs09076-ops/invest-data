@@ -47,7 +47,9 @@ def build_universe_block(label, tickers):
         ret_20 = close.iloc[-1] / close.iloc[-21] - 1
         ret_5 = close.iloc[-1] / close.iloc[-6] - 1
         vol_20 = close.pct_change().rolling(20).std().iloc[-1] * (252 ** 0.5)
-       rsi_14 = float(rsi(close, 14).iloc[-1].squeeze())
+      val = rsi(close, 14).iloc[-1]
+rsi_14 = float(val.iloc[0] if hasattr(val, "iloc") else val)
+
 
         rows.append(
             {
