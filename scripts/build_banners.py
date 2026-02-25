@@ -164,7 +164,13 @@ def build_universe_block(label, tickers):
         return {"universe": label, "sections": []}
 
     # 섹션용 랭킹
-    buy = dfm[dfm["signal"] == "BUY"].sort_values(["score", "ret_5"], ascending=False).head(10)
+    buy = dfm[dfm["signal"] == "BUY"].sort_values(["score", "ret_5"], ascending=False)
+
+# BUY가 하나도 없으면 상위 3개를 후보로
+if buy.empty:
+    buy = dfm.sort_values(["score", "ret_5"], ascending=False).head(3)
+
+buy = buy.head(10)
     mom = dfm.sort_values("ret_20", ascending=False).head(10)
     rev = dfm[(dfm["rsi_14"] < 35) & (dfm["ret_5"] > 0)].sort_values("ret_5", ascending=False).head(10)
     risk = dfm.dropna(subset=["vol_20"]).sort_values("vol_20", ascending=False).head(10)
