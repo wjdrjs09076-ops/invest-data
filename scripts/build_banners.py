@@ -16,7 +16,6 @@ def clamp(x: float, lo: float, hi: float) -> float:
 
 
 def rsi(series: pd.Series, period: int = 14) -> pd.Series:
-    # series must be 1D
     series = pd.Series(series).dropna()
     delta = series.diff()
     up = delta.clip(lower=0)
@@ -28,10 +27,6 @@ def rsi(series: pd.Series, period: int = 14) -> pd.Series:
 
 
 def _to_close_series(df: pd.DataFrame) -> pd.Series | None:
-    """
-    yfinance는 상황에 따라 Close가 DataFrame(멀티컬럼)으로 잡히는 경우가 있음.
-    무조건 1D Series로 정규화.
-    """
     if df is None or df.empty:
         return None
     if "Close" not in df.columns:
@@ -39,7 +34,7 @@ def _to_close_series(df: pd.DataFrame) -> pd.Series | None:
 
     close = df["Close"]
 
-    # close가 DataFrame(멀티컬럼)인 경우: 마지막 컬럼 하나 사용
+    # yfinance가 멀티 컬럼으로 주는 경우가 있어 1D로 정규화
     if isinstance(close, pd.DataFrame):
         close = close.iloc[:, -1]
 
@@ -62,7 +57,7 @@ def score_row(ret_20: float, ret_5: float, vol_20: float | None, rsi_14: float) 
     """
     score = 50.0
 
-    # RSI 기반
+    # RSI
     if rsi_14 <= 30:
         score += 18
     elif rsi_14 <= 35:
@@ -72,16 +67,16 @@ def score_row(ret_20: float, ret_5: float, vol_20: float | None, rsi_14: float) 
     elif rsi_14 >= 70:
         score -= 10
 
-    # 단기 반등/하락(5일)
+    # 5D (단기 반등)
     score += clamp(ret_5 * 100, -4, 4) * 2.0  # -8 ~ +8
 
-    # 20일 모멘텀(너무 과열이면 감점, 너무 약세면 가점)
+    # 20D 모멘텀 과열/약세
     if ret_20 >= 0.25:
         score -= 10
     elif ret_20 <= -0.20:
         score += 6
 
-    # 변동성(연율화)
+    # 변동성(연율화) 감점
     if vol_20 is not None:
         if vol_20 >= 0.70:
             score -= 10
@@ -91,7 +86,7 @@ def score_row(ret_20: float, ret_5: float, vol_20: float | None, rsi_14: float) 
     score = clamp(score, 0, 100)
 
     label = "HOLD"
-    if score >= 65:
+    if score >= 70:
         label = "BUY"
     elif score <= 35:
         label = "SELL"
@@ -130,7 +125,7 @@ def build_universe_block(label, tickers):
         if close is None or len(close) < 60:
             continue
 
-        # 최소 21개 필요(20D 수익률)
+        # 20D 수익률 계산은 최소 21개 필요
         if len(close) < 21:
             continue
 
@@ -141,9 +136,10 @@ def build_universe_block(label, tickers):
         vol_20 = float(vol_20_raw) * (252 ** 0.5) if pd.notna(vol_20_raw) else None
 
         rsi_series = rsi(close, 14)
-        if rsi_series is None or len(pd.Series(rsi_series).dropna()) == 0:
+        rsi_series = pd.Series(rsi_series).dropna()
+        if rsi_series.empty:
             continue
-        rsi_14 = float(pd.Series(rsi_series).dropna().iloc[-1])
+        rsi_14 = float(rsi_series.iloc[-1])
 
         score, signal = score_row(float(ret_20), float(ret_5), vol_20, rsi_14)
 
@@ -163,14 +159,12 @@ def build_universe_block(label, tickers):
     if dfm.empty:
         return {"universe": label, "sections": []}
 
-    # 섹션용 랭킹
+    # ✅ BUY 후보 (없으면 score 상위 3개로 채움)
     buy = dfm[dfm["signal"] == "BUY"].sort_values(["score", "ret_5"], ascending=False)
+    if buy.empty:
+        buy = dfm.sort_values(["score", "ret_5"], ascending=False).head(3)
+    buy = buy.head(10)
 
-# BUY가 하나도 없으면 상위 3개를 후보로
-if buy.empty:
-    buy = dfm.sort_values(["score", "ret_5"], ascending=False).head(3)
-
-buy = buy.head(10)
     mom = dfm.sort_values("ret_20", ascending=False).head(10)
     rev = dfm[(dfm["rsi_14"] < 35) & (dfm["ret_5"] > 0)].sort_values("ret_5", ascending=False).head(10)
     risk = dfm.dropna(subset=["vol_20"]).sort_values("vol_20", ascending=False).head(10)
@@ -226,7 +220,7 @@ def main():
         ],
     }
 
-    # ✅ 빈 파일 방지: 최소 하나라도 아이템이 있어야 저장
+    # 빈 파일 방지(완전 0개면 에러로 막음)
     total_items = 0
     for u in payload["universes"]:
         for sec in u.get("sections", []):
