@@ -1,12 +1,28 @@
 {
-  "generated_at_utc": "2026-02-25T10:44:01Z",
+  "generated_at_utc": "2026-02-25T14:11:51Z",
   "universes": [
     {
       "universe": "S&P 500",
       "sections": [
         {
           "title": "Today's BUY Candidates",
-          "items": []
+          "items": [
+            {
+              "ticker": "MSFT",
+              "label": "HOLD • score 58",
+              "reason": "RSI 31, 5D -1.8%, 20D -17.1%"
+            },
+            {
+              "ticker": "NVDA",
+              "label": "HOLD • score 58",
+              "reason": "RSI 58, 5D 4.3%, 20D 3.4%"
+            },
+            {
+              "ticker": "AMZN",
+              "label": "HOLD • score 57",
+              "reason": "RSI 40, 5D 3.7%, 20D -12.5%"
+            }
+          ]
         },
         {
           "title": "Momentum TOP",
@@ -129,7 +145,23 @@
       "sections": [
         {
           "title": "Today's BUY Candidates",
-          "items": []
+          "items": [
+            {
+              "ticker": "MSFT",
+              "label": "HOLD • score 58",
+              "reason": "RSI 31, 5D -1.8%, 20D -17.1%"
+            },
+            {
+              "ticker": "PEP",
+              "label": "HOLD • score 58",
+              "reason": "RSI 69, 5D 4.7%, 20D 16.2%"
+            },
+            {
+              "ticker": "NVDA",
+              "label": "HOLD • score 58",
+              "reason": "RSI 58, 5D 4.3%, 20D 3.4%"
+            }
+          ]
         },
         {
           "title": "Momentum TOP",
@@ -252,7 +284,23 @@
       "sections": [
         {
           "title": "Today's BUY Candidates",
-          "items": []
+          "items": [
+            {
+              "ticker": "MSFT",
+              "label": "HOLD • score 58",
+              "reason": "RSI 31, 5D -1.8%, 20D -17.1%"
+            },
+            {
+              "ticker": "AAPL",
+              "label": "HOLD • score 56",
+              "reason": "RSI 57, 5D 3.1%, 20D 6.6%"
+            },
+            {
+              "ticker": "V",
+              "label": "HOLD • score 54",
+              "reason": "RSI 34, 5D -3.8%, 20D -6.3%"
+            }
+          ]
         },
         {
           "title": "Momentum TOP",
