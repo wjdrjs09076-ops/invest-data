@@ -1,9 +1,13 @@
 {
-  "generated_at_utc": "2026-02-25T10:11:23Z",
+  "generated_at_utc": "2026-02-25T10:27:54Z",
   "universes": [
     {
       "universe": "S&P 500",
       "sections": [
+        {
+          "title": "Today's BUY Candidates",
+          "items": []
+        },
         {
           "title": "Momentum TOP",
           "items": [
@@ -124,6 +128,10 @@
       "universe": "NASDAQ-100",
       "sections": [
         {
+          "title": "Today's BUY Candidates",
+          "items": []
+        },
+        {
           "title": "Momentum TOP",
           "items": [
             {
@@ -242,6 +250,10 @@
     {
       "universe": "Dow 30",
       "sections": [
+        {
+          "title": "Today's BUY Candidates",
+          "items": []
+        },
         {
           "title": "Momentum TOP",
           "items": [
