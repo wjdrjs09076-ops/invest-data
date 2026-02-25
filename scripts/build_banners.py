@@ -91,7 +91,7 @@ def score_row(ret_20: float, ret_5: float, vol_20: float | None, rsi_14: float) 
     score = clamp(score, 0, 100)
 
     label = "HOLD"
-    if score >= 60:
+    if score >= 65:
         label = "BUY"
     elif score <= 35:
         label = "SELL"
