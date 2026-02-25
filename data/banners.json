@@ -1,1 +1,16 @@
+{
+  "generated_at_utc": "1970-01-01T00:00:00Z",
+  "sections": {
+    "sp500": [
+      { "ticker": "AAPL", "title": "Sample banner (will be replaced by Actions)" },
+      { "ticker": "MSFT", "title": "Sample banner (will be replaced by Actions)" }
+    ],
+    "nasdaq100": [
+      { "ticker": "NVDA", "title": "Sample banner (will be replaced by Actions)" }
+    ],
+    "dow30": [
+      { "ticker": "JPM", "title": "Sample banner (will be replaced by Actions)" }
+    ]
+  }
+}
 
