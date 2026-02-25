@@ -12,6 +12,8 @@ OUT_PATH = ROOT / "data" / "banners.json"
 
 
 def rsi(series: pd.Series, period: int = 14) -> pd.Series:
+    # series must be 1D
+    series = pd.Series(series).dropna()
     delta = series.diff()
     up = delta.clip(lower=0)
     down = -delta.clip(upper=0)
@@ -21,11 +23,49 @@ def rsi(series: pd.Series, period: int = 14) -> pd.Series:
     return 100 - (100 / (1 + rs))
 
 
+def _to_close_series(df: pd.DataFrame) -> pd.Series | None:
+    """
+    yfinance는 상황에 따라 컬럼이 MultiIndex로 내려오거나,
+    Close가 DataFrame 형태로 잡히는 경우가 있음.
+    이 함수는 Close를 무조건 1D Series로 정규화한다.
+    """
+    if df is None or df.empty:
+        return None
+
+    if "Close" not in df.columns:
+        return None
+
+    close = df["Close"]
+
+    # close가 DataFrame(멀티컬럼)인 경우: 마지막 컬럼 하나 사용
+    if isinstance(close, pd.DataFrame):
+        # 보통 컬럼이 ('Close', 'AAPL') 같은 MultiIndex거나, 여러 컬럼일 수 있음
+        close = close.iloc[:, -1]
+
+    # 이제 close는 Series여야 함
+    if not isinstance(close, pd.Series):
+        try:
+            close = pd.Series(close)
+        except Exception:
+            return None
+
+    close = close.dropna()
+    return close if not close.empty else None
+
+
 def fetch_prices(tickers, period="6mo"):
     frames = {}
     for t in tickers:
         try:
-            df = yf.download(t, period=period, interval="1d", auto_adjust=True, progress=False)
+            df = yf.download(
+                t,
+                period=period,
+                interval="1d",
+                auto_adjust=True,
+                progress=False,
+                group_by="column",  # 컬럼형태를 조금 더 안정적으로
+                threads=False,      # Actions에서 안정성 ↑
+            )
             if df is None or df.empty:
                 continue
             df = df.dropna()
@@ -40,23 +80,32 @@ def build_universe_block(label, tickers):
 
     rows = []
     for t, df in prices.items():
-        close = df["Close"].copy()
-        if len(close) < 60:
+        close = _to_close_series(df)
+        if close is None or len(close) < 60:
+            continue
+
+        # 안전하게 인덱스 체크
+        if len(close) < 21:
             continue
 
         ret_20 = close.iloc[-1] / close.iloc[-21] - 1
         ret_5 = close.iloc[-1] / close.iloc[-6] - 1
-        vol_20 = close.pct_change().rolling(20).std().iloc[-1] * (252 ** 0.5)
-      val = rsi(close, 14).iloc[-1]
-rsi_14 = float(val.iloc[0] if hasattr(val, "iloc") else val)
 
+        vol_20 = close.pct_change().rolling(20).std().iloc[-1]
+        vol_20 = float(vol_20) * (252 ** 0.5) if pd.notna(vol_20) else None
+
+        rsi_series = rsi(close, 14)
+        if rsi_series is None or len(rsi_series.dropna()) == 0:
+            continue
+        # 마지막 값을 스칼라로 강제
+        rsi_14 = float(pd.Series(rsi_series).dropna().iloc[-1])
 
         rows.append(
             {
                 "ticker": t,
                 "ret_20": float(ret_20),
                 "ret_5": float(ret_5),
-                "vol_20": float(vol_20) if pd.notna(vol_20) else None,
+                "vol_20": vol_20,
                 "rsi_14": rsi_14,
             }
         )
@@ -112,10 +161,18 @@ def main():
         ],
     }
 
+    # ✅ 빈 파일 방지: 최소한 하나라도 아이템이 있어야 저장
+    total_items = 0
+    for u in payload["universes"]:
+        for sec in u.get("sections", []):
+            total_items += len(sec.get("items", []))
+
+    if total_items == 0:
+        raise RuntimeError("No banner items generated. Aborting write to avoid empty banners.json")
+
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote:", OUT_PATH)
 
 
 if __name__ == "__main__":
     main()
-
