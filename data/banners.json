@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-26T10:07:21Z",
+  "generated_at_utc": "2026-02-26T13:43:53Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -29,7 +29,7 @@
           "items": [
             {
               "ticker": "JNJ",
-              "label": "20D 9.2%",
+              "label": "20D 9.8%",
               "reason": ""
             },
             {
@@ -316,13 +316,13 @@
               "reason": ""
             },
             {
-              "ticker": "KO",
-              "label": "20D 9.4%",
+              "ticker": "JNJ",
+              "label": "20D 9.8%",
               "reason": ""
             },
             {
-              "ticker": "JNJ",
-              "label": "20D 9.2%",
+              "ticker": "KO",
+              "label": "20D 9.4%",
               "reason": ""
             },
             {
