@@ -1,7 +1,7 @@
 {
   "ticker": "DIS",
-  "generated_at_utc": "2026-02-27T16:03:55Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-02-27T19:20:18Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
