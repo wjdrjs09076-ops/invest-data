@@ -1,7 +1,7 @@
 {
   "ticker": "AVGO",
-  "generated_at_utc": "2026-02-27T19:20:18Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-02-27T21:55:18Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
