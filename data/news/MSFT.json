@@ -1,7 +1,7 @@
 {
   "ticker": "MSFT",
-  "generated_at_utc": "2026-02-28T15:49:22Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-02-28T18:58:17Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
