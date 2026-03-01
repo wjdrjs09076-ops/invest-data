@@ -1,7 +1,7 @@
 {
   "ticker": "META",
-  "generated_at_utc": "2026-03-01T07:21:27Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-03-01T09:54:37Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
