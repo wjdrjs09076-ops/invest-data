@@ -1,7 +1,7 @@
 {
   "ticker": "AAPL",
-  "generated_at_utc": "2026-03-02T16:06:57Z",
-  "error": "HTTP Error 404: Not Found",
+  "generated_at_utc": "2026-03-02T19:23:32Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
