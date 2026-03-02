@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-02T03:11:14Z",
+  "generated_at_utc": "2026-03-02T04:58:25Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -154,7 +154,7 @@
             {
               "ticker": "COST",
               "label": "HOLD • score 55",
-              "reason": "RSI 62, 5D 2.6%, 20D 6.2%"
+              "reason": "RSI 61, 5D 2.6%, 20D 6.1%"
             },
             {
               "ticker": "AMZN",
@@ -173,7 +173,7 @@
             },
             {
               "ticker": "COST",
-              "label": "20D 6.2%",
+              "label": "20D 6.1%",
               "reason": ""
             },
             {
