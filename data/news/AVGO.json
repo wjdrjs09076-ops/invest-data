@@ -1,7 +1,7 @@
 {
   "ticker": "AVGO",
-  "generated_at_utc": "2026-03-02T13:43:50Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-03-02T16:06:57Z",
+  "error": "HTTP Error 404: Not Found",
   "count": 0,
   "items": []
 }
