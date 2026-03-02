@@ -1,7 +1,7 @@
 {
   "ticker": "AMZN",
-  "generated_at_utc": "2026-03-02T05:05:24Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-03-02T07:34:23Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
