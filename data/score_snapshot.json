@@ -1,0 +1,192 @@
+{
+  "generated_at_utc": "2026-03-03T21:55:21Z",
+  "source": "portal_api:/api/recommendation",
+  "universes": {
+    "sp500": {
+      "label": "S&P 500",
+      "stats": {
+        "n": 10,
+        "mean": 37.0,
+        "p10": 23.0,
+        "p50": 35.0,
+        "p90": 45.0
+      },
+      "scores": {
+        "AAPL": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Technology"
+        },
+        "MSFT": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Technology"
+        },
+        "AMZN": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Retail"
+        },
+        "GOOGL": {
+          "score": 45.0,
+          "confidence": "MED",
+          "sector": "Media"
+        },
+        "META": {
+          "score": 15.0,
+          "confidence": "LOW",
+          "sector": "Media"
+        },
+        "NVDA": {
+          "score": 69.0,
+          "confidence": "MED",
+          "sector": "Semiconductors"
+        },
+        "BRK-B": {
+          "score": 23.0,
+          "confidence": "MED",
+          "sector": "Financial Services"
+        },
+        "JPM": {
+          "score": 43.0,
+          "confidence": "LOW",
+          "sector": "Banking"
+        },
+        "JNJ": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Pharmaceuticals"
+        },
+        "V": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Financial Services"
+        }
+      }
+    },
+    "nasdaq100": {
+      "label": "NASDAQ-100",
+      "stats": {
+        "n": 10,
+        "mean": 35.6,
+        "p10": 27.0,
+        "p50": 35.0,
+        "p90": 45.0
+      },
+      "scores": {
+        "AAPL": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Technology"
+        },
+        "MSFT": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Technology"
+        },
+        "AMZN": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Retail"
+        },
+        "GOOGL": {
+          "score": 45.0,
+          "confidence": "MED",
+          "sector": "Media"
+        },
+        "META": {
+          "score": 15.0,
+          "confidence": "LOW",
+          "sector": "Media"
+        },
+        "NVDA": {
+          "score": 69.0,
+          "confidence": "MED",
+          "sector": "Semiconductors"
+        },
+        "TSLA": {
+          "score": 27.0,
+          "confidence": "MED",
+          "sector": "Automobiles"
+        },
+        "AVGO": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Semiconductors"
+        },
+        "COST": {
+          "score": 30.0,
+          "confidence": "MED",
+          "sector": "Retail"
+        },
+        "PEP": {
+          "score": 30.0,
+          "confidence": "MED",
+          "sector": "Beverages"
+        }
+      }
+    },
+    "dow30": {
+      "label": "Dow 30",
+      "stats": {
+        "n": 10,
+        "mean": 45.4,
+        "p10": 35.0,
+        "p50": 43.0,
+        "p90": 58.0
+      },
+      "scores": {
+        "AAPL": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Unknown"
+        },
+        "MSFT": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Unknown"
+        },
+        "JNJ": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Unknown"
+        },
+        "JPM": {
+          "score": 43.0,
+          "confidence": "LOW",
+          "sector": "Unknown"
+        },
+        "V": {
+          "score": 35.0,
+          "confidence": "LOW",
+          "sector": "Unknown"
+        },
+        "PG": {
+          "score": 58.0,
+          "confidence": "MED",
+          "sector": "Unknown"
+        },
+        "KO": {
+          "score": 55.0,
+          "confidence": "MED",
+          "sector": "Unknown"
+        },
+        "MCD": {
+          "score": 63.0,
+          "confidence": "MED",
+          "sector": "Unknown"
+        },
+        "CAT": {
+          "score": 46.0,
+          "confidence": "MED",
+          "sector": "Unknown"
+        },
+        "DIS": {
+          "score": 49.0,
+          "confidence": "MED",
+          "sector": "Unknown"
+        }
+      }
+    }
+  }
+}
