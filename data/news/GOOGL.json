@@ -1,7 +1,7 @@
 {
   "ticker": "GOOGL",
-  "generated_at_utc": "2026-03-03T07:28:07Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-03-03T10:08:57Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }

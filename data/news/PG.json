@@ -1,7 +1,7 @@
 {
   "ticker": "PG",
-  "generated_at_utc": "2026-03-03T07:28:07Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-03-03T10:08:57Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
