@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-04T02:50:14Z",
+  "generated_at_utc": "2026-03-04T04:51:02Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -316,13 +316,13 @@
               "reason": ""
             },
             {
-              "ticker": "CAT",
-              "label": "20D 4.5%",
+              "ticker": "MCD",
+              "label": "20D 4.9%",
               "reason": ""
             },
             {
-              "ticker": "MCD",
-              "label": "20D 4.3%",
+              "ticker": "CAT",
+              "label": "20D 4.5%",
               "reason": ""
             },
             {
@@ -406,7 +406,7 @@
             },
             {
               "ticker": "MCD",
-              "label": "Vol 18%",
+              "label": "Vol 17%",
               "reason": ""
             },
             {
