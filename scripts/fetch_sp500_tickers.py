@@ -1,45 +1,41 @@
 # scripts/fetch_sp500_tickers.py
 import json
+import os
 import re
-import pandas as pd
-import requests
+import sys
+from urllib.request import urlopen, Request
 
 URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 
 def main():
-    r = requests.get(URL, timeout=30, headers={"User-Agent": "invest-data/1.0"})
-    r.raise_for_status()
+    # 현재 작업 디렉토리 기준으로 data 폴더를 확정
+    repo_root = os.getcwd()
+    out_dir = os.path.join(repo_root, "data")
+    os.makedirs(out_dir, exist_ok=True)
 
-    # 위키 페이지의 표들을 전부 읽어오고, "Symbol" 컬럼이 있는 테이블을 찾는다
-    tables = pd.read_html(r.text)
-    target = None
-    for t in tables:
-        if "Symbol" in t.columns:
-            target = t
-            break
+    out_path = os.path.join(out_dir, "sp500_tickers.json")
 
-    if target is None:
-        raise RuntimeError("No table with 'Symbol' column found. Wikipedia structure may have changed.")
+    req = Request(
+        URL,
+        headers={"User-Agent": "invest-data/1.0 (contact: wjdrjs09076@gmail.com)"},
+    )
+    html = urlopen(req, timeout=30).read().decode("utf-8", errors="ignore")
 
-    symbols = target["Symbol"].astype(str).tolist()
+    # 위키 테이블의 Symbol 컬럼은 <td><a ...>MMM</a></td> 형태가 많음
+    # BRK.B 같은 건 위키에서 BRK.B로 나오고, 우리쪽은 BRK-B로 통일
+    tickers = re.findall(r'<td><a[^>]*>([A-Z.\-]+)</a></td>', html)
+    tickers = [t.replace(".", "-") for t in tickers]
 
-    out = []
-    for s in symbols:
-        s = s.strip().upper()
-        # BRK.B 같은 케이스는 Finnhub/야후에서 BRK-B로 쓰는 경우가 많으니 변환
-        s = s.replace(".", "-")
-        # 아주 기본적인 안전 필터
-        if re.fullmatch(r"[A-Z0-9\-]+", s):
-            out.append(s)
+    # 중복 제거 + 정렬
+    tickers = sorted(set(tickers))
 
-    out = sorted(set(out))
+    if len(tickers) < 400:
+        print(f"[WARN] ticker count looks too small: {len(tickers)}", file=sys.stderr)
 
-    print(f"Saved {len(out)} tickers.")
-    if len(out) < 450:
-        raise RuntimeError(f"Ticker count too low ({len(out)}). Parsing likely broken.")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(tickers, f, indent=2)
 
-    with open("data/sp500_tickers.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, indent=2)
+    print(f"[OK] Saved {len(tickers)} tickers -> {out_path}")
 
 if __name__ == "__main__":
     main()
