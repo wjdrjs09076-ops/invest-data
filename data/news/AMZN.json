@@ -1,7 +1,7 @@
 {
   "ticker": "AMZN",
-  "generated_at_utc": "2026-03-05T07:28:00Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-03-05T10:22:27Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
