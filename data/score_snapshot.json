@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-03-06T21:52:02Z",
+  "generated_at_utc": "2026-03-07T21:43:18Z",
   "source": "portal_api:/api/recommendation",
   "universes": {
     "sp500": {
       "label": "S&P 500",
       "stats": {
         "n": 10,
-        "mean": 40.5,
-        "p10": 35.0,
+        "mean": 37.7,
+        "p10": 23.0,
         "p50": 35.0,
-        "p90": 56.0
+        "p90": 52.0
       },
       "scores": {
         "AAPL": {
@@ -28,12 +28,12 @@
           "sector": "Retail"
         },
         "GOOGL": {
-          "score": 56.0,
+          "score": 52.0,
           "confidence": "MED",
           "sector": "Media"
         },
         "META": {
-          "score": 39.0,
+          "score": 15.0,
           "confidence": "LOW",
           "sector": "Media"
         },
@@ -68,10 +68,10 @@
       "label": "NASDAQ-100",
       "stats": {
         "n": 10,
-        "mean": 39.1,
-        "p10": 30.0,
+        "mean": 36.3,
+        "p10": 27.0,
         "p50": 35.0,
-        "p90": 56.0
+        "p90": 52.0
       },
       "scores": {
         "AAPL": {
@@ -90,12 +90,12 @@
           "sector": "Retail"
         },
         "GOOGL": {
-          "score": 56.0,
+          "score": 52.0,
           "confidence": "MED",
           "sector": "Media"
         },
         "META": {
-          "score": 39.0,
+          "score": 15.0,
           "confidence": "LOW",
           "sector": "Media"
         },
