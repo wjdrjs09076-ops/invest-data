@@ -31,7 +31,7 @@ TOP_N = 3
 WEIGHT_MOM_20D = 0.30
 WEIGHT_MOM_5D = 0.15
 WEIGHT_RSI = 0.15
-WEIGHT_SECTOR = 0.20
+WEIGHT_SECTOR = 0.15
 WEIGHT_RISK = 0.20
 
 # risk 내부 가중치
@@ -202,7 +202,7 @@ def sector_score_fn(sector_strength_pct: float | None) -> float:
     if sector_strength_pct is None:
         return 0.0
     # 시장 대비 +5% 이상 강하면 거의 +1
-    return clip(sector_strength_pct / 5.0, -1.0, 1.0)
+    return clip(sector_strength_pct / 10.0, -1.0, 1.0)
 
 
 def raw_score_to_100(raw: float) -> int:
