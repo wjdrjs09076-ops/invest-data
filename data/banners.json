@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-09T10:07:20Z",
+  "generated_at_utc": "2026-03-09T13:39:46Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -8,19 +8,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
+              "ticker": "BXP",
+              "label": "HOLD • score 66",
+              "reason": "RSI 26, 5D -8.7%, 20D -20.7%"
+            },
+            {
               "ticker": "BLDR",
               "label": "HOLD • score 66",
-              "reason": "RSI 27, 5D -10.7%, 20D -22.4%"
+              "reason": "RSI 25, 5D -9.6%, 20D -27.7%"
             },
             {
-              "ticker": "APO",
-              "label": "HOLD • score 64",
-              "reason": "RSI 34, 5D 3.9%, 20D -13.4%"
-            },
-            {
-              "ticker": "AXP",
-              "label": "HOLD • score 63",
-              "reason": "RSI 30, 5D -2.6%, 20D -15.1%"
+              "ticker": "DAL",
+              "label": "HOLD • score 66",
+              "reason": "RSI 29, 5D -11.8%, 20D -24.6%"
             }
           ]
         },
@@ -29,87 +29,76 @@
           "items": [
             {
               "ticker": "TPL",
-              "label": "20D 52.2%",
+              "label": "20D 43.7%",
               "reason": ""
             },
             {
               "ticker": "AXON",
-              "label": "20D 43.6%",
-              "reason": ""
-            },
-            {
-              "ticker": "COIN",
-              "label": "20D 35.0%",
-              "reason": ""
-            },
-            {
-              "ticker": "APP",
-              "label": "20D 33.8%",
-              "reason": ""
-            },
-            {
-              "ticker": "CEG",
-              "label": "20D 29.1%",
+              "label": "20D 36.5%",
               "reason": ""
             },
             {
               "ticker": "MRNA",
-              "label": "20D 28.5%",
+              "label": "20D 33.1%",
               "reason": ""
             },
             {
               "ticker": "CF",
-              "label": "20D 27.5%",
+              "label": "20D 26.7%",
               "reason": ""
             },
             {
-              "ticker": "DELL",
-              "label": "20D 26.9%",
-              "reason": ""
-            },
-            {
-              "ticker": "LYB",
+              "ticker": "APP",
               "label": "20D 26.1%",
               "reason": ""
             },
             {
-              "ticker": "XYZ",
-              "label": "20D 24.3%",
+              "ticker": "LYB",
+              "label": "20D 24.5%",
+              "reason": ""
+            },
+            {
+              "ticker": "NOW",
+              "label": "20D 22.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "COIN",
+              "label": "20D 22.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "CEG",
+              "label": "20D 19.4%",
+              "reason": ""
+            },
+            {
+              "ticker": "APA",
+              "label": "20D 19.4%",
               "reason": ""
             }
           ]
         },
         {
           "title": "Oversold Reversal",
-          "items": [
-            {
-              "ticker": "APO",
-              "label": "RSI 34, 5D 3.9%",
-              "reason": ""
-            }
-          ]
+          "items": []
         },
         {
           "title": "Risk High",
           "items": [
             {
               "ticker": "APP",
-              "label": "Vol 116%",
+              "label": "Vol 114%",
               "reason": ""
             },
             {
               "ticker": "COIN",
-              "label": "Vol 115%",
-              "reason": ""
-            },
-            {
-              "ticker": "MOH",
-              "label": "Vol 108%",
+              "label": "Vol 107%",
               "reason": ""
             },
             {
               "ticker": "PSKY",
-              "label": "Vol 96%",
+              "label": "Vol 98%",
               "reason": ""
             },
             {
@@ -118,18 +107,8 @@
               "reason": ""
             },
             {
-              "ticker": "HOOD",
-              "label": "Vol 91%",
-              "reason": ""
-            },
-            {
               "ticker": "KEYS",
-              "label": "Vol 91%",
-              "reason": ""
-            },
-            {
-              "ticker": "EPAM",
-              "label": "Vol 85%",
+              "label": "Vol 90%",
               "reason": ""
             },
             {
@@ -138,8 +117,23 @@
               "reason": ""
             },
             {
+              "ticker": "EPAM",
+              "label": "Vol 82%",
+              "reason": ""
+            },
+            {
               "ticker": "SNDK",
-              "label": "Vol 83%",
+              "label": "Vol 81%",
+              "reason": ""
+            },
+            {
+              "ticker": "DDOG",
+              "label": "Vol 79%",
+              "reason": ""
+            },
+            {
+              "ticker": "MRNA",
+              "label": "Vol 79%",
               "reason": ""
             }
           ]
@@ -153,19 +147,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "MSFT",
-              "label": "HOLD • score 58",
-              "reason": "RSI 48, 5D 4.1%, 20D 4.1%"
-            },
-            {
               "ticker": "AVGO",
-              "label": "HOLD • score 57",
-              "reason": "RSI 51, 5D 3.4%, 20D 6.4%"
+              "label": "HOLD • score 58",
+              "reason": "RSI 51, 5D 3.8%, 20D -0.6%"
             },
             {
               "ticker": "GOOGL",
-              "label": "HOLD • score 54",
-              "reason": "RSI 35, 5D -4.2%, 20D -9.9%"
+              "label": "HOLD • score 55",
+              "reason": "RSI 33, 5D -3.5%, 20D -8.4%"
+            },
+            {
+              "ticker": "MSFT",
+              "label": "HOLD • score 53",
+              "reason": "RSI 45, 5D 1.4%, 20D 1.0%"
             }
           ]
         },
@@ -173,53 +167,53 @@
           "title": "Momentum TOP",
           "items": [
             {
-              "ticker": "AVGO",
-              "label": "20D 6.4%",
-              "reason": ""
-            },
-            {
               "ticker": "MSFT",
-              "label": "20D 4.1%",
-              "reason": ""
-            },
-            {
-              "ticker": "NVDA",
-              "label": "20D 3.5%",
+              "label": "20D 1.0%",
               "reason": ""
             },
             {
               "ticker": "COST",
-              "label": "20D 0.9%",
-              "reason": ""
-            },
-            {
-              "ticker": "TSLA",
-              "label": "20D -0.1%",
-              "reason": ""
-            },
-            {
-              "ticker": "META",
-              "label": "20D -3.8%",
-              "reason": ""
-            },
-            {
-              "ticker": "PEP",
-              "label": "20D -4.0%",
+              "label": "20D -0.3%",
               "reason": ""
             },
             {
               "ticker": "AMZN",
-              "label": "20D -4.3%",
+              "label": "20D -0.5%",
+              "reason": ""
+            },
+            {
+              "ticker": "AVGO",
+              "label": "20D -0.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "META",
+              "label": "20D -4.8%",
+              "reason": ""
+            },
+            {
+              "ticker": "NVDA",
+              "label": "20D -4.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "TSLA",
+              "label": "20D -5.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "PEP",
+              "label": "20D -6.0%",
               "reason": ""
             },
             {
               "ticker": "AAPL",
-              "label": "20D -6.6%",
+              "label": "20D -8.1%",
               "reason": ""
             },
             {
               "ticker": "GOOGL",
-              "label": "20D -9.9%",
+              "label": "20D -8.4%",
               "reason": ""
             }
           ]
@@ -233,22 +227,17 @@
           "items": [
             {
               "ticker": "NVDA",
-              "label": "Vol 45%",
+              "label": "Vol 35%",
               "reason": ""
             },
             {
               "ticker": "AVGO",
-              "label": "Vol 41%",
-              "reason": ""
-            },
-            {
-              "ticker": "AMZN",
-              "label": "Vol 33%",
+              "label": "Vol 32%",
               "reason": ""
             },
             {
               "ticker": "TSLA",
-              "label": "Vol 32%",
+              "label": "Vol 30%",
               "reason": ""
             },
             {
@@ -257,28 +246,33 @@
               "reason": ""
             },
             {
+              "ticker": "AMZN",
+              "label": "Vol 28%",
+              "reason": ""
+            },
+            {
+              "ticker": "META",
+              "label": "Vol 26%",
+              "reason": ""
+            },
+            {
               "ticker": "MSFT",
               "label": "Vol 26%",
               "reason": ""
             },
             {
-              "ticker": "META",
-              "label": "Vol 25%",
-              "reason": ""
-            },
-            {
               "ticker": "GOOGL",
-              "label": "Vol 23%",
+              "label": "Vol 22%",
               "reason": ""
             },
             {
               "ticker": "COST",
-              "label": "Vol 23%",
+              "label": "Vol 22%",
               "reason": ""
             },
             {
               "ticker": "PEP",
-              "label": "Vol 22%",
+              "label": "Vol 20%",
               "reason": ""
             }
           ]
@@ -292,19 +286,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
+              "ticker": "JPM",
+              "label": "HOLD • score 54",
+              "reason": "RSI 33, 5D -4.4%, 20D -11.8%"
+            },
+            {
+              "ticker": "DIS",
+              "label": "HOLD • score 54",
+              "reason": "RSI 33, 5D -5.1%, 20D -8.9%"
+            },
+            {
               "ticker": "MSFT",
-              "label": "HOLD • score 58",
-              "reason": "RSI 48, 5D 4.1%, 20D 4.1%"
-            },
-            {
-              "ticker": "V",
-              "label": "HOLD • score 48",
-              "reason": "RSI 44, 5D -0.9%, 20D -3.4%"
-            },
-            {
-              "ticker": "AAPL",
-              "label": "HOLD • score 45",
-              "reason": "RSI 41, 5D -2.5%, 20D -6.6%"
+              "label": "HOLD • score 53",
+              "reason": "RSI 45, 5D 1.5%, 20D 1.0%"
             }
           ]
         },
@@ -313,52 +307,52 @@
           "items": [
             {
               "ticker": "MSFT",
-              "label": "20D 4.1%",
-              "reason": ""
-            },
-            {
-              "ticker": "MCD",
-              "label": "20D 2.0%",
+              "label": "20D 1.0%",
               "reason": ""
             },
             {
               "ticker": "JNJ",
-              "label": "20D 1.6%",
+              "label": "20D 1.0%",
               "reason": ""
             },
             {
-              "ticker": "CAT",
-              "label": "20D 0.4%",
-              "reason": ""
-            },
-            {
-              "ticker": "KO",
-              "label": "20D -1.9%",
+              "ticker": "MCD",
+              "label": "20D 0.2%",
               "reason": ""
             },
             {
               "ticker": "PG",
-              "label": "20D -3.1%",
+              "label": "20D -2.8%",
               "reason": ""
             },
             {
-              "ticker": "DIS",
-              "label": "20D -3.3%",
+              "ticker": "KO",
+              "label": "20D -2.8%",
               "reason": ""
             },
             {
               "ticker": "V",
-              "label": "20D -3.4%",
+              "label": "20D -5.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "CAT",
+              "label": "20D -7.6%",
               "reason": ""
             },
             {
               "ticker": "AAPL",
-              "label": "20D -6.6%",
+              "label": "20D -8.1%",
+              "reason": ""
+            },
+            {
+              "ticker": "DIS",
+              "label": "20D -8.9%",
               "reason": ""
             },
             {
               "ticker": "JPM",
-              "label": "20D -6.7%",
+              "label": "20D -11.8%",
               "reason": ""
             }
           ]
@@ -372,16 +366,11 @@
           "items": [
             {
               "ticker": "CAT",
-              "label": "Vol 43%",
+              "label": "Vol 35%",
               "reason": ""
             },
             {
               "ticker": "DIS",
-              "label": "Vol 31%",
-              "reason": ""
-            },
-            {
-              "ticker": "JPM",
               "label": "Vol 29%",
               "reason": ""
             },
@@ -401,8 +390,13 @@
               "reason": ""
             },
             {
+              "ticker": "JPM",
+              "label": "Vol 25%",
+              "reason": ""
+            },
+            {
               "ticker": "PG",
-              "label": "Vol 23%",
+              "label": "Vol 24%",
               "reason": ""
             },
             {
