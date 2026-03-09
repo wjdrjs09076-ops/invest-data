@@ -1,7 +1,7 @@
 {
   "ticker": "COR",
-  "generated_at_utc": "2026-03-09T16:35:02Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-03-09T19:25:55Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
