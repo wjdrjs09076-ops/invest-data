@@ -70,9 +70,9 @@
     "annual_latest": {
       "revenue": 12241000000.0,
       "op_income": 2544000000.0,
-      "fcf": NaN,
+      "fcf": null,
       "cfo": 4646000000.0,
-      "capex": NaN
+      "capex": null
     }
   },
   "ABT": {
@@ -735,9 +735,9 @@
     "annual_latest": {
       "revenue": 32049000000.0,
       "op_income": 8258000000.0,
-      "fcf": NaN,
+      "fcf": null,
       "cfo": 7246000000.0,
-      "capex": NaN
+      "capex": null
     }
   },
   "APP": {
@@ -1989,9 +1989,9 @@
     "annual_latest": {
       "revenue": 7181325000.0,
       "op_income": 1456145000.0,
-      "fcf": NaN,
+      "fcf": null,
       "cfo": 2426383000.0,
-      "capex": NaN
+      "capex": null
     }
   },
   "COO": {
@@ -2557,8 +2557,8 @@
       "ps": 0.8646526
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 1869000000.0,
       "cfo": 4521000000.0,
       "capex": -2652000000.0
@@ -3775,9 +3775,9 @@
     "annual_latest": {
       "revenue": 4159100000.0,
       "op_income": 720200000.0,
-      "fcf": NaN,
+      "fcf": null,
       "cfo": 1083200000.0,
-      "capex": NaN
+      "capex": null
     }
   },
   "GD": {
@@ -4229,8 +4229,8 @@
       "ps": 2.1636324
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 16325000000.0,
       "cfo": 19810000000.0,
       "capex": -3485000000.0
@@ -4723,8 +4723,8 @@
       "ps": 0.8831917
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 757000000.0,
       "cfo": 1678000000.0,
       "capex": -921000000.0
@@ -5103,8 +5103,8 @@
       "ps": 3.2970676
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 6508342000.0,
       "cfo": 6649878000.0,
       "capex": -141536000.0
@@ -5409,9 +5409,9 @@
     "annual_latest": {
       "revenue": 4362000000.0,
       "op_income": 1025000000.0,
-      "fcf": NaN,
+      "fcf": null,
       "cfo": 1169000000.0,
-      "capex": NaN
+      "capex": null
     }
   },
   "LOW": {
@@ -5654,8 +5654,8 @@
       "ps": 8.707646
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 6672000000.0,
       "cfo": 9447000000.0,
       "capex": -2775000000.0
@@ -6946,7 +6946,7 @@
       "ps": 1.4079732
     },
     "annual_latest": {
-      "revenue": NaN,
+      "revenue": null,
       "op_income": null,
       "fcf": 14834000000.0,
       "cfo": 15119000000.0,
@@ -8278,9 +8278,9 @@
     "annual_latest": {
       "revenue": 20319000000.0,
       "op_income": null,
-      "fcf": NaN,
+      "fcf": null,
       "cfo": 5739000000.0,
-      "capex": NaN
+      "capex": null
     }
   },
   "TGT": {
@@ -8314,8 +8314,8 @@
       "ps": 2.9371984
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 4198000000.0,
       "cfo": 6116000000.0,
       "capex": -1918000000.0
@@ -9397,8 +9397,8 @@
       "ps": 1.48013
     },
     "annual_latest": {
-      "revenue": NaN,
-      "op_income": NaN,
+      "revenue": null,
+      "op_income": null,
       "fcf": 1003659000.0,
       "cfo": 1426203000.0,
       "capex": -422544000.0

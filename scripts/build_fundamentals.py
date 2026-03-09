@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 import yfinance as yf
@@ -23,7 +24,13 @@ def load_json(path: Path, default=None):
 def save_json(path: Path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(
+            data,
+            f,
+            ensure_ascii=False,
+            indent=2,
+            allow_nan=False,  # JSON에 NaN 방지
+        )
 
 
 def normalize_ticker(t: str) -> str:
@@ -34,7 +41,12 @@ def safe_num(x):
     try:
         if x is None:
             return None
+
         v = float(x)
+
+        if math.isnan(v) or math.isinf(v):
+            return None
+
         return v
     except Exception:
         return None
@@ -72,7 +84,6 @@ def first_available(df, labels: list[str]):
     if df is None or getattr(df, "empty", True):
         return None
 
-    # index match
     for label in labels:
         if label in df.index:
             try:
@@ -81,10 +92,11 @@ def first_available(df, labels: list[str]):
             except Exception:
                 pass
 
-    # fuzzy contains
     idx = [str(x) for x in df.index]
+
     for label in labels:
         lower = label.lower()
+
         for i, raw in enumerate(idx):
             if lower == raw.lower():
                 try:
@@ -107,6 +119,7 @@ def build_one(ticker: str):
 
     financials = None
     cashflow = None
+
     try:
         financials = tk.financials
     except Exception:
@@ -156,7 +169,7 @@ def build_one(ticker: str):
 
     fcf = None
     if cfo is not None and capex is not None:
-        fcf = cfo - abs(capex)
+        fcf = safe_num(cfo - abs(capex))
 
     pe = safe_num(info.get("trailingPE"))
     ps = safe_num(info.get("priceToSalesTrailing12Months"))
@@ -188,15 +201,20 @@ def build_one(ticker: str):
 
 def main():
     tickers = read_universe_tickers()
+
     out = {}
     total = len(tickers)
 
     for i, ticker in enumerate(tickers, start=1):
+
         try:
             out[ticker] = build_one(ticker)
+
             if i % 25 == 0 or i == total:
                 print(f"[{i}/{total}] {ticker}")
+
         except Exception as e:
+
             out[ticker] = {
                 "ticker": ticker,
                 "generated_at_utc": None,
@@ -213,6 +231,7 @@ def main():
             }
 
     save_json(OUT_FILE, out)
+
     print(f"[OK] Saved -> {OUT_FILE}")
 
 
