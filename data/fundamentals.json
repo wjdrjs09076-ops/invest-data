@@ -9446,12 +9446,12 @@
     "ticker": "XYL",
     "generated_at_utc": null,
     "source": "yfinance",
-    "name": null,
-    "sector": null,
-    "market_cap": null,
+    "name": "Xylem Inc.",
+    "sector": "Industrials",
+    "market_cap": 29983215616.0,
     "multiples": {
-      "pe": null,
-      "ps": null
+      "pe": 31.415815,
+      "ps": 3.318563
     },
     "annual_latest": {
       "revenue": 9035000000.0,
