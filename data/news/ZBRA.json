@@ -1,7 +1,7 @@
 {
   "ticker": "ZBRA",
-  "generated_at_utc": "2026-03-09T07:35:21Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-03-09T10:27:29Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
