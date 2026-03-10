@@ -1,7 +1,7 @@
 {
   "ticker": "GEHC",
-  "generated_at_utc": "2026-03-10T10:09:20Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-03-10T13:46:01Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
