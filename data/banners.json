@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-10T02:49:54Z",
+  "generated_at_utc": "2026-03-10T04:51:59Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -49,7 +49,7 @@
             },
             {
               "ticker": "CEG",
-              "label": "20D 23.6%",
+              "label": "20D 23.7%",
               "reason": ""
             },
             {
@@ -214,7 +214,7 @@
             },
             {
               "ticker": "GOOGL",
-              "label": "20D -5.1%",
+              "label": "20D -5.0%",
               "reason": ""
             },
             {
