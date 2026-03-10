@@ -1,7 +1,7 @@
 {
   "ticker": "WSM",
-  "generated_at_utc": "2026-03-10T07:27:02Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-03-10T10:09:20Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
