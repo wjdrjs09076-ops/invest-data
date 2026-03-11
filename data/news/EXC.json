@@ -1,7 +1,7 @@
 {
   "ticker": "EXC",
-  "generated_at_utc": "2026-03-11T16:31:20Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-03-11T19:27:55Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
