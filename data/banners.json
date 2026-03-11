@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-11T02:49:24Z",
+  "generated_at_utc": "2026-03-11T04:53:11Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -7,11 +7,6 @@
         {
           "title": "Today's BUY Candidates",
           "items": [
-            {
-              "ticker": "ELV",
-              "label": "HOLD • score 67",
-              "reason": "RSI 30, 5D -0.5%, 20D -13.7%"
-            },
             {
               "ticker": "BLDR",
               "label": "HOLD • score 66",
@@ -21,6 +16,11 @@
               "ticker": "APO",
               "label": "HOLD • score 64",
               "reason": "RSI 34, 5D 1.0%, 20D -18.9%"
+            },
+            {
+              "ticker": "ELV",
+              "label": "HOLD • score 62",
+              "reason": "RSI 31, 5D 0.1%, 20D -13.2%"
             }
           ]
         },
@@ -85,6 +85,11 @@
             {
               "ticker": "APO",
               "label": "RSI 34, 5D 1.0%",
+              "reason": ""
+            },
+            {
+              "ticker": "ELV",
+              "label": "RSI 31, 5D 0.1%",
               "reason": ""
             }
           ]
