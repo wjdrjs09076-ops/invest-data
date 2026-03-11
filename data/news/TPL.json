@@ -1,7 +1,7 @@
 {
   "ticker": "TPL",
-  "generated_at_utc": "2026-03-11T07:29:03Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-03-11T10:22:20Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
