@@ -1,7 +1,7 @@
 {
   "ticker": "IFF",
-  "generated_at_utc": "2026-03-11T13:48:47Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-03-11T16:31:20Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
