@@ -1,7 +1,7 @@
 {
   "ticker": "SRE",
-  "generated_at_utc": "2026-03-13T19:19:13Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-03-13T21:58:49Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
