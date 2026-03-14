@@ -1,7 +1,7 @@
 {
   "ticker": "BLDR",
-  "generated_at_utc": "2026-03-14T07:22:50Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-03-14T09:58:16Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
