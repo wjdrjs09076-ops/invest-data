@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-14T02:50:55Z",
+  "generated_at_utc": "2026-03-14T04:52:21Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -322,7 +322,7 @@
             },
             {
               "ticker": "KO",
-              "label": "20D -2.1%",
+              "label": "20D -1.4%",
               "reason": ""
             },
             {
