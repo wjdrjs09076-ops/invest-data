@@ -1,7 +1,7 @@
 {
   "ticker": "PCG",
-  "generated_at_utc": "2026-03-15T13:31:56Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-03-15T15:55:14Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
