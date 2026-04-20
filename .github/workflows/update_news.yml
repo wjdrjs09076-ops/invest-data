@@ -1,0 +1,30 @@
+name: Update news json
+
+on:
+  schedule:
+    - cron: "35 */3 * * *"   # 3시간마다(UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build news
+        run: python scripts/build_news.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/news/*.json
+          git commit -m "Update news json" || echo "No changes"
+          git push

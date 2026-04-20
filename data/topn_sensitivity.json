@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-03-11T13:48:40.732476+00:00",
+  "rebalance": "monthly",
+  "transaction_cost": 0.0015,
+  "period_years": 3,
+  "results": [
+    {
+      "top_n": 5,
+      "metrics": {
+        "total_return": 3.430700901428592,
+        "cagr": 0.6467855172291979,
+        "volatility": 0.3279661797052866,
+        "sharpe": 1.9721104103185434,
+        "max_drawdown": -0.2961192912564058
+      }
+    },
+    {
+      "top_n": 10,
+      "metrics": {
+        "total_return": 2.5574248880836734,
+        "cagr": 0.5299918029652779,
+        "volatility": 0.27030880095554943,
+        "sharpe": 1.9606901480519374,
+        "max_drawdown": -0.2070602318786301
+      }
+    },
+    {
+      "top_n": 20,
+      "metrics": {
+        "total_return": 2.1395012137228786,
+        "cagr": 0.46724006346458724,
+        "volatility": 0.22055373961985056,
+        "sharpe": 2.118486244077877,
+        "max_drawdown": -0.1904940458450488
+      }
+    }
+  ]
+}

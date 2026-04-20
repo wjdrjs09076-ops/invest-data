@@ -1,0 +1,4517 @@
+{
+  "source": "Wikipedia - List of S&P 500 companies",
+  "current_count": 603,
+  "event_count": 426,
+  "current_tickers": [
+    "AAMI",
+    "AAP",
+    "AAT",
+    "ABCB",
+    "ABG",
+    "ABM",
+    "ABR",
+    "ACA",
+    "ACAD",
+    "ACHC",
+    "ACIW",
+    "ACLS",
+    "ACMR",
+    "ACT",
+    "ADAM",
+    "ADEA",
+    "ADMA",
+    "ADNT",
+    "ADT",
+    "ADUS",
+    "AEO",
+    "AESI",
+    "AGO",
+    "AGYS",
+    "AHCO",
+    "AHH",
+    "AIN",
+    "AIR",
+    "AKR",
+    "AL",
+    "ALEX",
+    "ALG",
+    "ALGT",
+    "ALKS",
+    "ALRM",
+    "AMN",
+    "AMPH",
+    "AMR",
+    "AMRX",
+    "AMSF",
+    "AMTM",
+    "AMWD",
+    "ANDE",
+    "ANGI",
+    "ANIP",
+    "AORT",
+    "AOSL",
+    "APAM",
+    "APLE",
+    "APLS",
+    "APOG",
+    "ARCB",
+    "ARI",
+    "ARLO",
+    "AROC",
+    "ARR",
+    "ASO",
+    "ASTE",
+    "ASTH",
+    "ATEN",
+    "ATGE",
+    "AUB",
+    "AVA",
+    "AVNS",
+    "AWI",
+    "AWR",
+    "AX",
+    "AXL",
+    "AZTA",
+    "AZZ",
+    "BANC",
+    "BANF",
+    "BANR",
+    "BBT",
+    "BCC",
+    "BCPC",
+    "BFH",
+    "BFS",
+    "BGC",
+    "BHE",
+    "BJRI",
+    "BKE",
+    "BKU",
+    "BL",
+    "BLFS",
+    "BLMN",
+    "BMI",
+    "BOH",
+    "BOOT",
+    "BOX",
+    "BRC",
+    "BTSG",
+    "BTU",
+    "BXMT",
+    "CABO",
+    "CAKE",
+    "CALM",
+    "CALX",
+    "CARG",
+    "CARS",
+    "CASH",
+    "CATY",
+    "CBRL",
+    "CBU",
+    "CC",
+    "CCOI",
+    "CCS",
+    "CE",
+    "CENT",
+    "CENTA",
+    "CENX",
+    "CERT",
+    "CFFN",
+    "CHCO",
+    "CHEF",
+    "CLB",
+    "CLSK",
+    "CNK",
+    "CNMD",
+    "CNR",
+    "CNS",
+    "CNXN",
+    "COHU",
+    "COLL",
+    "CON",
+    "CORT",
+    "CPF",
+    "CPK",
+    "CPRX",
+    "CRC",
+    "CRGY",
+    "CRI",
+    "CRK",
+    "CRSR",
+    "CRVL",
+    "CSGS",
+    "CSR",
+    "CSW",
+    "CTKB",
+    "CTRE",
+    "CTS",
+    "CUBI",
+    "CURB",
+    "CVBF",
+    "CVCO",
+    "CVI",
+    "CWEN",
+    "CWEN-A",
+    "CWK",
+    "CWST",
+    "CWT",
+    "CXM",
+    "CXW",
+    "CZR",
+    "DAN",
+    "DCOM",
+    "DEA",
+    "DEI",
+    "DFH",
+    "DFIN",
+    "DGII",
+    "DIOD",
+    "DLX",
+    "DNOW",
+    "DOCN",
+    "DORM",
+    "DRH",
+    "DV",
+    "DXC",
+    "DXPE",
+    "EAT",
+    "ECG",
+    "ECPG",
+    "EFC",
+    "EGBN",
+    "EIG",
+    "EMBC",
+    "EMN",
+    "ENOV",
+    "ENPH",
+    "ENR",
+    "ENVA",
+    "EPAC",
+    "EPC",
+    "EPRT",
+    "ESE",
+    "ESI",
+    "ETD",
+    "ETSY",
+    "EVTC",
+    "EXPI",
+    "EXTR",
+    "EYE",
+    "EZPW",
+    "FBK",
+    "FBNC",
+    "FBP",
+    "FBRT",
+    "FCF",
+    "FCPT",
+    "FDP",
+    "FELE",
+    "FFBC",
+    "FHB",
+    "FIBK",
+    "FIZZ",
+    "FMC",
+    "FORM",
+    "FOXF",
+    "FRPT",
+    "FSS",
+    "FTDR",
+    "FTRE",
+    "FUL",
+    "FULT",
+    "FUN",
+    "FWRD",
+    "GBX",
+    "GDEN",
+    "GDYN",
+    "GEO",
+    "GFF",
+    "GIII",
+    "GKOS",
+    "GNL",
+    "GNW",
+    "GO",
+    "GOGO",
+    "GOLF",
+    "GPI",
+    "GRBK",
+    "GSHD",
+    "GTES",
+    "GTY",
+    "GVA",
+    "HAFC",
+    "HASI",
+    "HAYW",
+    "HCC",
+    "HCI",
+    "HCSG",
+    "HE",
+    "HFWA",
+    "HIW",
+    "HLIT",
+    "HLX",
+    "HMN",
+    "HNI",
+    "HOPE",
+    "HP",
+    "HRMY",
+    "HSTM",
+    "HTH",
+    "HTLD",
+    "HTO",
+    "HTZ",
+    "HUBG",
+    "HWKN",
+    "HZO",
+    "IAC",
+    "IART",
+    "IBP",
+    "ICHR",
+    "ICUI",
+    "IDCC",
+    "IIIN",
+    "IIPR",
+    "INDB",
+    "INDV",
+    "INN",
+    "INSP",
+    "INSW",
+    "INVA",
+    "INVX",
+    "IOSP",
+    "IPAR",
+    "IRDM",
+    "ITGR",
+    "ITRI",
+    "JBGS",
+    "JBLU",
+    "JBSS",
+    "JBTM",
+    "JJSF",
+    "JOE",
+    "JXN",
+    "KAI",
+    "KALU",
+    "KFY",
+    "KGS",
+    "KLIC",
+    "KMT",
+    "KMX",
+    "KN",
+    "KNTK",
+    "KOP",
+    "KREF",
+    "KRYS",
+    "KSS",
+    "KTB",
+    "KW",
+    "KWR",
+    "LBRT",
+    "LCII",
+    "LEG",
+    "LGIH",
+    "LGND",
+    "LKFN",
+    "LKQ",
+    "LMAT",
+    "LNC",
+    "LNN",
+    "LPG",
+    "LQDT",
+    "LRN",
+    "LTC",
+    "LUMN",
+    "LXP",
+    "LZ",
+    "LZB",
+    "MAC",
+    "MAN",
+    "MARA",
+    "MATW",
+    "MATX",
+    "MBC",
+    "MBIN",
+    "MC",
+    "MCRI",
+    "MCW",
+    "MCY",
+    "MD",
+    "MDU",
+    "MGEE",
+    "MGY",
+    "MHK",
+    "MHO",
+    "MIR",
+    "MKTX",
+    "MLKN",
+    "MMI",
+    "MMSI",
+    "MNRO",
+    "MODG",
+    "MOG-A",
+    "MPT",
+    "MRCY",
+    "MRP",
+    "MRTN",
+    "MSEX",
+    "MSGS",
+    "MTH",
+    "MTRN",
+    "MTUS",
+    "MTX",
+    "MWA",
+    "MXL",
+    "MYGN",
+    "MYRG",
+    "NABL",
+    "NATL",
+    "NAVI",
+    "NBHC",
+    "NBTB",
+    "NE",
+    "NEO",
+    "NEOG",
+    "NGVT",
+    "NHC",
+    "NMIH",
+    "NOG",
+    "NPK",
+    "NPO",
+    "NSIT",
+    "NSP",
+    "NTCT",
+    "NVRI",
+    "NWBI",
+    "NWL",
+    "NWN",
+    "NX",
+    "NXRT",
+    "OFG",
+    "OGN",
+    "OI",
+    "OII",
+    "OMCL",
+    "OPLN",
+    "OSIS",
+    "OSW",
+    "OTTR",
+    "OUT",
+    "OXM",
+    "PAHC",
+    "PARR",
+    "PATK",
+    "PAYO",
+    "PBH",
+    "PBI",
+    "PCRX",
+    "PDFS",
+    "PEB",
+    "PECO",
+    "PENG",
+    "PENN",
+    "PFBC",
+    "PFS",
+    "PGNY",
+    "PHIN",
+    "PI",
+    "PIPR",
+    "PJT",
+    "PLAB",
+    "PLAY",
+    "PLMR",
+    "PLUS",
+    "PLXS",
+    "PMT",
+    "POWI",
+    "POWL",
+    "PRA",
+    "PRAA",
+    "PRDO",
+    "PRG",
+    "PRGO",
+    "PRGS",
+    "PRIM",
+    "PRK",
+    "PRKS",
+    "PRLB",
+    "PRSU",
+    "PRVA",
+    "PSMT",
+    "PTCT",
+    "PTEN",
+    "PTGX",
+    "PZZA",
+    "QDEL",
+    "QNST",
+    "QRVO",
+    "QTWO",
+    "RAL",
+    "RAMP",
+    "RCUS",
+    "RDN",
+    "RDNT",
+    "RES",
+    "REX",
+    "REYN",
+    "REZI",
+    "RHI",
+    "RHP",
+    "RNG",
+    "RNST",
+    "ROCK",
+    "ROG",
+    "RRR",
+    "RUN",
+    "RUSHA",
+    "RWT",
+    "RXO",
+    "SABR",
+    "SAFE",
+    "SAFT",
+    "SAH",
+    "SANM",
+    "SBCF",
+    "SBH",
+    "SBSI",
+    "SCHL",
+    "SCL",
+    "SCSC",
+    "SDGR",
+    "SEDG",
+    "SEE",
+    "SEM",
+    "SEZL",
+    "SFBS",
+    "SFNC",
+    "SHAK",
+    "SHEN",
+    "SHO",
+    "SHOO",
+    "SIG",
+    "SITM",
+    "SKT",
+    "SKY",
+    "SKYW",
+    "SLG",
+    "SLVM",
+    "SM",
+    "SMP",
+    "SMPL",
+    "SMTC",
+    "SNCY",
+    "SNDR",
+    "SNEX",
+    "SOLS",
+    "SONO",
+    "SPNT",
+    "SPSC",
+    "SRPT",
+    "SSTK",
+    "STAA",
+    "STBA",
+    "STC",
+    "STEL",
+    "STEP",
+    "STRA",
+    "SUPN",
+    "SXC",
+    "SXI",
+    "SXT",
+    "TALO",
+    "TBBK",
+    "TDC",
+    "TDS",
+    "TDW",
+    "TFIN",
+    "TFX",
+    "TGNA",
+    "TGTX",
+    "THRM",
+    "TILE",
+    "TMDX",
+    "TMP",
+    "TNC",
+    "TNDM",
+    "TPH",
+    "TR",
+    "TRIP",
+    "TRMK",
+    "TRN",
+    "TRNO",
+    "TRST",
+    "TRUP",
+    "TWI",
+    "TWO",
+    "UA",
+    "UAA",
+    "UCB",
+    "UCTT",
+    "UE",
+    "UFCS",
+    "UFPT",
+    "UHT",
+    "UNF",
+    "UNFI",
+    "UNIT",
+    "UPBD",
+    "UPWK",
+    "URBN",
+    "USPH",
+    "UTL",
+    "UVV",
+    "VAC",
+    "VCEL",
+    "VCTR",
+    "VCYT",
+    "VECO",
+    "VIAV",
+    "VICR",
+    "VIR",
+    "VIRT",
+    "VITL",
+    "VRE",
+    "VRRM",
+    "VRTS",
+    "VSAT",
+    "VSCO",
+    "VSH",
+    "VSNT",
+    "VSTS",
+    "VTOL",
+    "VYX",
+    "WABC",
+    "WAFD",
+    "WAY",
+    "WD",
+    "WDFC",
+    "WEN",
+    "WERN",
+    "WGO",
+    "WHD",
+    "WINA",
+    "WKC",
+    "WLY",
+    "WOR",
+    "WRLD",
+    "WS",
+    "WSC",
+    "WSFS",
+    "WSR",
+    "WT",
+    "WU",
+    "WWW",
+    "XHR",
+    "XNCR",
+    "XPEL",
+    "YELP",
+    "YOU",
+    "ZD",
+    "ZWS"
+  ],
+  "events": [
+    {
+      "date": "2019-12-17",
+      "added": [
+        "PLT"
+      ],
+      "removed": [
+        "VSI"
+      ]
+    },
+    {
+      "date": "2019-12-23",
+      "added": [
+        "UNIT"
+      ],
+      "removed": [
+        "CRZO"
+      ]
+    },
+    {
+      "date": "2019-12-23",
+      "added": [
+        "OAS"
+      ],
+      "removed": [
+        "UNIT"
+      ]
+    },
+    {
+      "date": "2019-12-23",
+      "added": [
+        "SWN"
+      ],
+      "removed": [
+        "FTR"
+      ]
+    },
+    {
+      "date": "2020-01-02",
+      "added": [
+        "FBM"
+      ],
+      "removed": [
+        "RH"
+      ]
+    },
+    {
+      "date": "2020-01-27",
+      "added": [
+        "SKT"
+      ],
+      "removed": [
+        "MDR"
+      ]
+    },
+    {
+      "date": "2020-02-04",
+      "added": [
+        "RUN"
+      ],
+      "removed": [
+        "DAR"
+      ]
+    },
+    {
+      "date": "2020-02-06",
+      "added": [
+        "GDOT"
+      ],
+      "removed": [
+        "WLH"
+      ]
+    },
+    {
+      "date": "2020-02-13",
+      "added": [
+        "ALEX"
+      ],
+      "removed": [
+        "DPLO"
+      ]
+    },
+    {
+      "date": "2020-02-13",
+      "added": [
+        "CRMT"
+      ],
+      "removed": [
+        "CRCM"
+      ]
+    },
+    {
+      "date": "2020-04-17",
+      "added": [
+        "YETI"
+      ],
+      "removed": [
+        "LHCG",
+        "LHC"
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "added": [
+        "CLB"
+      ],
+      "removed": [
+        "AKRX"
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "added": [
+        "MDP"
+      ],
+      "removed": [
+        "DO"
+      ]
+    },
+    {
+      "date": "2020-05-12",
+      "added": [
+        "CPRI"
+      ],
+      "removed": [
+        "ACOR"
+      ]
+    },
+    {
+      "date": "2020-05-22",
+      "added": [
+        "HP"
+      ],
+      "removed": [
+        "JCP"
+      ]
+    },
+    {
+      "date": "2020-06-01",
+      "added": [
+        "DHC"
+      ],
+      "removed": [
+        "FG",
+        "FGL"
+      ]
+    },
+    {
+      "date": "2020-06-01",
+      "added": [
+        "SLP"
+      ],
+      "removed": [
+        "TIVO"
+      ]
+    },
+    {
+      "date": "2020-06-01",
+      "added": [
+        "PLMR"
+      ],
+      "removed": [
+        "LXU",
+        "LSB"
+      ]
+    },
+    {
+      "date": "2020-06-01",
+      "added": [
+        "CHRS"
+      ],
+      "removed": [
+        "OPB"
+      ]
+    },
+    {
+      "date": "2020-06-01",
+      "added": [
+        "PTEN",
+        "UTI"
+      ],
+      "removed": [
+        "NE"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "DNOW",
+        "NOW"
+      ],
+      "removed": [
+        "TLRD"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "CAKE"
+      ],
+      "removed": [
+        "CBL"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "REZI"
+      ],
+      "removed": [
+        "HPR"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "BSIG"
+      ],
+      "removed": [
+        "TTI",
+        "TETRA"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "BBBY"
+      ],
+      "removed": [
+        "STRA"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "MTDR"
+      ],
+      "removed": [
+        "QLYS"
+      ]
+    },
+    {
+      "date": "2020-06-22",
+      "added": [
+        "MDRX"
+      ],
+      "removed": [
+        "GBCI"
+      ]
+    },
+    {
+      "date": "2020-06-25",
+      "added": [
+        "EAT"
+      ],
+      "removed": [
+        "AXE"
+      ]
+    },
+    {
+      "date": "2020-06-30",
+      "added": [
+        "RPAI"
+      ],
+      "removed": [
+        "BLD"
+      ]
+    },
+    {
+      "date": "2020-06-30",
+      "added": [
+        "BDN"
+      ],
+      "removed": [
+        "BGG"
+      ]
+    },
+    {
+      "date": "2020-07-24",
+      "added": [
+        "FHB"
+      ],
+      "removed": [
+        "EBS"
+      ]
+    },
+    {
+      "date": "2020-08-03",
+      "added": [
+        "BANF"
+      ],
+      "removed": [
+        "RUN"
+      ]
+    },
+    {
+      "date": "2020-08-03",
+      "added": [
+        "DLX"
+      ],
+      "removed": [
+        "EE"
+      ]
+    },
+    {
+      "date": "2020-08-03",
+      "added": [
+        "CRS"
+      ],
+      "removed": [
+        "CDR"
+      ]
+    },
+    {
+      "date": "2020-08-17",
+      "added": [
+        "FBK",
+        "FB"
+      ],
+      "removed": [
+        "FSB"
+      ]
+    },
+    {
+      "date": "2020-08-17",
+      "added": [
+        "CXW"
+      ],
+      "removed": [
+        "VAL"
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "added": [
+        "BKU"
+      ],
+      "removed": [
+        "LAD"
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "added": [
+        "TRUP"
+      ],
+      "removed": [
+        "REI"
+      ]
+    },
+    {
+      "date": "2020-09-21",
+      "added": [
+        "PBF"
+      ],
+      "removed": [
+        "WING"
+      ]
+    },
+    {
+      "date": "2020-09-21",
+      "added": [
+        "ATI"
+      ],
+      "removed": [
+        "MEDP"
+      ]
+    },
+    {
+      "date": "2020-09-21",
+      "added": [
+        "CLI"
+      ],
+      "removed": [
+        "FOXF"
+      ]
+    },
+    {
+      "date": "2020-09-21",
+      "added": [
+        "COOP"
+      ],
+      "removed": [
+        "EXPR"
+      ]
+    },
+    {
+      "date": "2020-09-21",
+      "added": [
+        "RCM"
+      ],
+      "removed": [
+        "PEI"
+      ]
+    },
+    {
+      "date": "2020-09-25",
+      "added": [
+        "FLGT"
+      ],
+      "removed": [
+        "GTX"
+      ]
+    },
+    {
+      "date": "2020-10-01",
+      "added": [
+        "CPK"
+      ],
+      "removed": [
+        "MNTA"
+      ]
+    },
+    {
+      "date": "2020-10-05",
+      "added": [
+        "SBH"
+      ],
+      "removed": [
+        "OAS"
+      ]
+    },
+    {
+      "date": "2020-10-07",
+      "added": [
+        "CFFN"
+      ],
+      "removed": [
+        "NEOG"
+      ]
+    },
+    {
+      "date": "2020-10-07",
+      "added": [
+        "AGO"
+      ],
+      "removed": [
+        "SSD"
+      ]
+    },
+    {
+      "date": "2020-10-07",
+      "added": [
+        "RNST"
+      ],
+      "removed": [
+        "NR"
+      ]
+    },
+    {
+      "date": "2020-11-13",
+      "added": [
+        "FBNC"
+      ],
+      "removed": [
+        "AMAG"
+      ]
+    },
+    {
+      "date": "2020-11-13",
+      "added": [
+        "GEO"
+      ],
+      "removed": [
+        "GPOR"
+      ]
+    },
+    {
+      "date": "2020-11-13",
+      "added": [
+        "MD"
+      ],
+      "removed": [
+        "WPG"
+      ]
+    },
+    {
+      "date": "2020-12-02",
+      "added": [
+        "AMCX",
+        "AMC"
+      ],
+      "removed": [
+        "RRD",
+        "R-R"
+      ]
+    },
+    {
+      "date": "2020-12-02",
+      "added": [
+        "AAN"
+      ],
+      "removed": [
+        "GEOS"
+      ]
+    },
+    {
+      "date": "2020-12-29",
+      "added": [
+        "SMPL"
+      ],
+      "removed": [
+        "KNSL"
+      ]
+    },
+    {
+      "date": "2021-01-07",
+      "added": [
+        "CELH"
+      ],
+      "removed": [
+        "CPRI"
+      ]
+    },
+    {
+      "date": "2021-01-07",
+      "added": [
+        "ELF"
+      ],
+      "removed": [
+        "BRKS"
+      ]
+    },
+    {
+      "date": "2021-01-21",
+      "added": [
+        "HTH"
+      ],
+      "removed": [
+        "YETI"
+      ]
+    },
+    {
+      "date": "2021-01-29",
+      "added": [
+        "PBH"
+      ],
+      "removed": [
+        "FBM"
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "added": [
+        "ISBC"
+      ],
+      "removed": [
+        "BEAT"
+      ]
+    },
+    {
+      "date": "2021-02-12",
+      "added": [
+        "COLL"
+      ],
+      "removed": [
+        "IRDM"
+      ]
+    },
+    {
+      "date": "2021-02-16",
+      "added": [
+        "HNI"
+      ],
+      "removed": [
+        "VRTU"
+      ]
+    },
+    {
+      "date": "2021-03-01",
+      "added": [
+        "WSFS"
+      ],
+      "removed": [
+        "CLF"
+      ]
+    },
+    {
+      "date": "2021-03-22",
+      "added": [
+        "VCEL"
+      ],
+      "removed": [
+        "QEP"
+      ]
+    },
+    {
+      "date": "2021-03-22",
+      "added": [
+        "EPC"
+      ],
+      "removed": [
+        "EXTN"
+      ]
+    },
+    {
+      "date": "2021-03-30",
+      "added": [
+        "OI",
+        "O-I"
+      ],
+      "removed": [
+        "HMSY",
+        "HMS"
+      ]
+    },
+    {
+      "date": "2021-04-08",
+      "added": [
+        "CARA"
+      ],
+      "removed": [
+        "MTSC",
+        "MTS"
+      ]
+    },
+    {
+      "date": "2021-04-12",
+      "added": [
+        "IDCC"
+      ],
+      "removed": [
+        "CKH"
+      ]
+    },
+    {
+      "date": "2021-04-15",
+      "added": [
+        "RILY",
+        "B"
+      ],
+      "removed": [
+        "MIK"
+      ]
+    },
+    {
+      "date": "2021-04-20",
+      "added": [
+        "UFS"
+      ],
+      "removed": [
+        "EGOV",
+        "NIC"
+      ]
+    },
+    {
+      "date": "2021-05-03",
+      "added": [
+        "GNW"
+      ],
+      "removed": [
+        "GLUU"
+      ]
+    },
+    {
+      "date": "2021-05-03",
+      "added": [
+        "UTL"
+      ],
+      "removed": [
+        "WDR"
+      ]
+    },
+    {
+      "date": "2021-05-07",
+      "added": [
+        "TBBK"
+      ],
+      "removed": [
+        "RCM"
+      ]
+    },
+    {
+      "date": "2021-05-14",
+      "added": [
+        "EFC"
+      ],
+      "removed": [
+        "NSA"
+      ]
+    },
+    {
+      "date": "2021-05-17",
+      "added": [
+        "AVNS"
+      ],
+      "removed": [
+        "AEGN"
+      ]
+    },
+    {
+      "date": "2021-05-27",
+      "added": [
+        "JYNT"
+      ],
+      "removed": [
+        "CUB"
+      ]
+    },
+    {
+      "date": "2021-06-02",
+      "added": [
+        "ORGO"
+      ],
+      "removed": [
+        "CROX"
+      ]
+    },
+    {
+      "date": "2021-06-04",
+      "added": [
+        "SVC"
+      ],
+      "removed": [
+        "LCI"
+      ]
+    },
+    {
+      "date": "2021-06-10",
+      "added": [
+        "SLQT"
+      ],
+      "removed": [
+        "CTB"
+      ]
+    },
+    {
+      "date": "2021-06-15",
+      "added": [
+        "AMEH"
+      ],
+      "removed": [
+        "ELY"
+      ]
+    },
+    {
+      "date": "2021-06-22",
+      "added": [
+        "TWO"
+      ],
+      "removed": [
+        "CATM"
+      ]
+    },
+    {
+      "date": "2021-07-07",
+      "added": [
+        "ATGE"
+      ],
+      "removed": [
+        "BPFH"
+      ]
+    },
+    {
+      "date": "2021-07-15",
+      "added": [
+        "MSEX"
+      ],
+      "removed": [
+        "LMNX"
+      ]
+    },
+    {
+      "date": "2021-08-03",
+      "added": [
+        "STRA"
+      ],
+      "removed": [
+        "BELFB"
+      ]
+    },
+    {
+      "date": "2021-08-04",
+      "added": [
+        "LKFN"
+      ],
+      "removed": [
+        "GME"
+      ]
+    },
+    {
+      "date": "2021-08-04",
+      "added": [
+        "INT"
+      ],
+      "removed": [
+        "SPOK"
+      ]
+    },
+    {
+      "date": "2021-08-30",
+      "added": [
+        "BLFS"
+      ],
+      "removed": [
+        "SAIA"
+      ]
+    },
+    {
+      "date": "2021-08-30",
+      "added": [
+        "CNK"
+      ],
+      "removed": [
+        "USCR",
+        "U-S"
+      ]
+    },
+    {
+      "date": "2021-08-30",
+      "added": [
+        "TRMK"
+      ],
+      "removed": [
+        "SYKE"
+      ]
+    },
+    {
+      "date": "2021-09-03",
+      "added": [
+        "THS"
+      ],
+      "removed": [
+        "CORE"
+      ]
+    },
+    {
+      "date": "2021-09-07",
+      "added": [
+        "LGND"
+      ],
+      "removed": [
+        "CBB"
+      ]
+    },
+    {
+      "date": "2021-09-20",
+      "added": [
+        "WW"
+      ],
+      "removed": [
+        "TISI"
+      ]
+    },
+    {
+      "date": "2021-09-20",
+      "added": [
+        "HCSG"
+      ],
+      "removed": [
+        "MSTR"
+      ]
+    },
+    {
+      "date": "2021-09-20",
+      "added": [
+        "QURE",
+        "N-V"
+      ],
+      "removed": [
+        "UIHC"
+      ]
+    },
+    {
+      "date": "2021-10-04",
+      "added": [
+        "OPRX"
+      ],
+      "removed": [
+        "LDL"
+      ]
+    },
+    {
+      "date": "2021-10-04",
+      "added": [
+        "SLVM"
+      ],
+      "removed": [
+        "STMP"
+      ]
+    },
+    {
+      "date": "2021-10-11",
+      "added": [
+        "CCSI"
+      ],
+      "removed": [
+        "RGS"
+      ]
+    },
+    {
+      "date": "2021-10-19",
+      "added": [
+        "FBRT",
+        "BSP"
+      ],
+      "removed": [
+        "CMO"
+      ]
+    },
+    {
+      "date": "2021-10-22",
+      "added": [
+        "HRMY"
+      ],
+      "removed": [
+        "RPAI"
+      ]
+    },
+    {
+      "date": "2021-10-22",
+      "added": [
+        "TREE"
+      ],
+      "removed": [
+        "KRG"
+      ]
+    },
+    {
+      "date": "2021-10-29",
+      "added": [
+        "CDMO"
+      ],
+      "removed": [
+        "CADE"
+      ]
+    },
+    {
+      "date": "2021-11-05",
+      "added": [
+        "NTCT"
+      ],
+      "removed": [
+        "IVC"
+      ]
+    },
+    {
+      "date": "2021-11-09",
+      "added": [
+        "LYLT"
+      ],
+      "removed": [
+        "AAOI"
+      ]
+    },
+    {
+      "date": "2021-11-16",
+      "added": [
+        "ONL",
+        "REIT"
+      ],
+      "removed": [
+        "DAKT"
+      ]
+    },
+    {
+      "date": "2021-11-24",
+      "added": [
+        "THRY"
+      ],
+      "removed": [
+        "ECHO"
+      ]
+    },
+    {
+      "date": "2021-11-30",
+      "added": [
+        "EBS"
+      ],
+      "removed": [
+        "UFS"
+      ]
+    },
+    {
+      "date": "2021-12-02",
+      "added": [
+        "KAR"
+      ],
+      "removed": [
+        "MDP"
+      ]
+    },
+    {
+      "date": "2021-12-02",
+      "added": [
+        "CARS"
+      ],
+      "removed": [
+        "DSPG",
+        "DSP"
+      ]
+    },
+    {
+      "date": "2021-12-02",
+      "added": [
+        "NVEE"
+      ],
+      "removed": [
+        "RAVN"
+      ]
+    },
+    {
+      "date": "2021-12-20",
+      "added": [
+        "TR"
+      ],
+      "removed": [
+        "M"
+      ]
+    },
+    {
+      "date": "2021-12-20",
+      "added": [
+        "TDS"
+      ],
+      "removed": [
+        "VICR"
+      ]
+    },
+    {
+      "date": "2021-12-20",
+      "added": [
+        "NKTR"
+      ],
+      "removed": [
+        "POWI"
+      ]
+    },
+    {
+      "date": "2021-12-30",
+      "added": [
+        "DOUG"
+      ],
+      "removed": [
+        "MTRX"
+      ]
+    },
+    {
+      "date": "2022-01-05",
+      "added": [
+        "ITOS"
+      ],
+      "removed": [
+        "MGLN"
+      ]
+    },
+    {
+      "date": "2022-02-01",
+      "added": [
+        "CMP"
+      ],
+      "removed": [
+        "GWB"
+      ]
+    },
+    {
+      "date": "2022-02-01",
+      "added": [
+        "TWNK"
+      ],
+      "removed": [
+        "WTS"
+      ]
+    },
+    {
+      "date": "2022-02-03",
+      "added": [
+        "JACK"
+      ],
+      "removed": [
+        "SPPI"
+      ]
+    },
+    {
+      "date": "2022-02-15",
+      "added": [
+        "XPEL"
+      ],
+      "removed": [
+        "PDCE",
+        "PDC"
+      ]
+    },
+    {
+      "date": "2022-02-18",
+      "added": [
+        "UE"
+      ],
+      "removed": [
+        "ONB"
+      ]
+    },
+    {
+      "date": "2022-02-18",
+      "added": [
+        "CRSR"
+      ],
+      "removed": [
+        "FMBI"
+      ]
+    },
+    {
+      "date": "2022-03-02",
+      "added": [
+        "GDEN"
+      ],
+      "removed": [
+        "RRC"
+      ]
+    },
+    {
+      "date": "2022-03-02",
+      "added": [
+        "ZIMV"
+      ],
+      "removed": [
+        "TRHC"
+      ]
+    },
+    {
+      "date": "2022-03-14",
+      "added": [
+        "CRNC"
+      ],
+      "removed": [
+        "CPS"
+      ]
+    },
+    {
+      "date": "2022-03-16",
+      "added": [
+        "ASO"
+      ],
+      "removed": [
+        "KRA"
+      ]
+    },
+    {
+      "date": "2022-03-30",
+      "added": [
+        "SONO"
+      ],
+      "removed": [
+        "GTLS"
+      ]
+    },
+    {
+      "date": "2022-04-04",
+      "added": [
+        "VIR"
+      ],
+      "removed": [
+        "MTDR"
+      ]
+    },
+    {
+      "date": "2022-04-04",
+      "added": [
+        "EMBC"
+      ],
+      "removed": [
+        "BNED"
+      ]
+    },
+    {
+      "date": "2022-04-06",
+      "added": [
+        "PRG",
+        "PROG"
+      ],
+      "removed": [
+        "FRGI"
+      ]
+    },
+    {
+      "date": "2022-04-07",
+      "added": [
+        "RCUS"
+      ],
+      "removed": [
+        "ISBC"
+      ]
+    },
+    {
+      "date": "2022-04-08",
+      "added": [
+        "GOGO"
+      ],
+      "removed": [
+        "FLOW",
+        "SPX"
+      ]
+    },
+    {
+      "date": "2022-04-26",
+      "added": [
+        "ATEN"
+      ],
+      "removed": [
+        "FOE"
+      ]
+    },
+    {
+      "date": "2022-05-03",
+      "added": [
+        "TPH"
+      ],
+      "removed": [
+        "ECOL",
+        "US"
+      ]
+    },
+    {
+      "date": "2022-05-17",
+      "added": [
+        "DVAX"
+      ],
+      "removed": [
+        "EPAY"
+      ]
+    },
+    {
+      "date": "2022-05-19",
+      "added": [
+        "AOSL"
+      ],
+      "removed": [
+        "IRT"
+      ]
+    },
+    {
+      "date": "2022-06-16",
+      "added": [
+        "EYE"
+      ],
+      "removed": [
+        "REGI"
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "added": [
+        "TRN"
+      ],
+      "removed": [
+        "ENDP"
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "added": [
+        "YELP"
+      ],
+      "removed": [
+        "RRGB"
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "added": [
+        "URBN"
+      ],
+      "removed": [
+        "TCMD"
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "added": [
+        "RAMP"
+      ],
+      "removed": [
+        "VRA"
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "added": [
+        "IRWD"
+      ],
+      "removed": [
+        "GHL"
+      ]
+    },
+    {
+      "date": "2022-06-29",
+      "added": [
+        "APPS"
+      ],
+      "removed": [
+        "TVTY"
+      ]
+    },
+    {
+      "date": "2022-07-05",
+      "added": [
+        "LRN"
+      ],
+      "removed": [
+        "OMCL"
+      ]
+    },
+    {
+      "date": "2022-07-05",
+      "added": [
+        "EHAB"
+      ],
+      "removed": [
+        "LYLT"
+      ]
+    },
+    {
+      "date": "2022-07-05",
+      "added": [
+        "SNCY"
+      ],
+      "removed": [
+        "NP"
+      ]
+    },
+    {
+      "date": "2022-07-06",
+      "added": [
+        "FTDR"
+      ],
+      "removed": [
+        "SWN"
+      ]
+    },
+    {
+      "date": "2022-07-20",
+      "added": [
+        "GRBK"
+      ],
+      "removed": [
+        "COKE"
+      ]
+    },
+    {
+      "date": "2022-07-21",
+      "added": [
+        "SHO"
+      ],
+      "removed": [
+        "VG"
+      ]
+    },
+    {
+      "date": "2022-07-26",
+      "added": [
+        "SIX"
+      ],
+      "removed": [
+        "NTUS"
+      ]
+    },
+    {
+      "date": "2022-08-04",
+      "added": [
+        "AHCO"
+      ],
+      "removed": [
+        "MTOR"
+      ]
+    },
+    {
+      "date": "2022-08-10",
+      "added": [
+        "CLFD"
+      ],
+      "removed": [
+        "CELH"
+      ]
+    },
+    {
+      "date": "2022-09-01",
+      "added": [
+        "AVID"
+      ],
+      "removed": [
+        "POLY"
+      ]
+    },
+    {
+      "date": "2022-09-15",
+      "added": [
+        "CPRX"
+      ],
+      "removed": [
+        "MANT"
+      ]
+    },
+    {
+      "date": "2022-09-19",
+      "added": [
+        "HPP"
+      ],
+      "removed": [
+        "APEI"
+      ]
+    },
+    {
+      "date": "2022-09-19",
+      "added": [
+        "MCY"
+      ],
+      "removed": [
+        "EHTH"
+      ]
+    },
+    {
+      "date": "2022-09-19",
+      "added": [
+        "AEO"
+      ],
+      "removed": [
+        "CAMP"
+      ]
+    },
+    {
+      "date": "2022-09-19",
+      "added": [
+        "MTX"
+      ],
+      "removed": [
+        "GLT"
+      ]
+    },
+    {
+      "date": "2022-09-19",
+      "added": [
+        "OUT"
+      ],
+      "removed": [
+        "FOSL"
+      ]
+    },
+    {
+      "date": "2022-09-28",
+      "added": [
+        "LESL"
+      ],
+      "removed": [
+        "GCP"
+      ]
+    },
+    {
+      "date": "2022-10-03",
+      "added": [
+        "HAIN"
+      ],
+      "removed": [
+        "HNGR"
+      ]
+    },
+    {
+      "date": "2022-10-03",
+      "added": [
+        "MCW"
+      ],
+      "removed": [
+        "EXLS",
+        "EXL"
+      ]
+    },
+    {
+      "date": "2022-10-03",
+      "added": [
+        "XPER"
+      ],
+      "removed": [
+        "SLQT"
+      ]
+    },
+    {
+      "date": "2022-10-03",
+      "added": [
+        "STEL"
+      ],
+      "removed": [
+        "ABTX"
+      ]
+    },
+    {
+      "date": "2022-10-12",
+      "added": [
+        "PAYO"
+      ],
+      "removed": [
+        "LNTH"
+      ]
+    },
+    {
+      "date": "2022-10-18",
+      "added": [
+        "MLKN"
+      ],
+      "removed": [
+        "CVET"
+      ]
+    },
+    {
+      "date": "2022-11-02",
+      "added": [
+        "BFH"
+      ],
+      "removed": [
+        "UFI"
+      ]
+    },
+    {
+      "date": "2022-12-01",
+      "added": [
+        "SABR"
+      ],
+      "removed": [
+        "FBC"
+      ]
+    },
+    {
+      "date": "2022-12-01",
+      "added": [
+        "NUS"
+      ],
+      "removed": [
+        "PBF"
+      ]
+    },
+    {
+      "date": "2022-12-19",
+      "added": [
+        "MBC"
+      ],
+      "removed": [
+        "CONN"
+      ]
+    },
+    {
+      "date": "2022-12-19",
+      "added": [
+        "NUVA"
+      ],
+      "removed": [
+        "TUP"
+      ]
+    },
+    {
+      "date": "2022-12-19",
+      "added": [
+        "SMTC"
+      ],
+      "removed": [
+        "DHC"
+      ]
+    },
+    {
+      "date": "2022-12-19",
+      "added": [
+        "CWK"
+      ],
+      "removed": [
+        "DBD"
+      ]
+    },
+    {
+      "date": "2022-12-19",
+      "added": [
+        "SJW"
+      ],
+      "removed": [
+        "CATO"
+      ]
+    },
+    {
+      "date": "2022-12-19",
+      "added": [
+        "AGTI"
+      ],
+      "removed": [
+        "LL"
+      ]
+    },
+    {
+      "date": "2023-01-05",
+      "added": [
+        "RXO"
+      ],
+      "removed": [
+        "JYNT"
+      ]
+    },
+    {
+      "date": "2023-01-31",
+      "added": [
+        "DV"
+      ],
+      "removed": [
+        "VIVO"
+      ]
+    },
+    {
+      "date": "2023-02-02",
+      "added": [
+        "NOG"
+      ],
+      "removed": [
+        "SJI"
+      ]
+    },
+    {
+      "date": "2023-02-06",
+      "added": [
+        "CRK"
+      ],
+      "removed": [
+        "ADC"
+      ]
+    },
+    {
+      "date": "2023-02-23",
+      "added": [
+        "OTTR"
+      ],
+      "removed": [
+        "UFPI",
+        "UFP"
+      ]
+    },
+    {
+      "date": "2023-03-01",
+      "added": [
+        "VRRM"
+      ],
+      "removed": [
+        "COLB"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "LUMN"
+      ],
+      "removed": [
+        "BBBY"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "TNDM"
+      ],
+      "removed": [
+        "ZIMV"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "HBI"
+      ],
+      "removed": [
+        "OPRX"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "PEB"
+      ],
+      "removed": [
+        "ILPT"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "JBGS",
+        "JBG"
+      ],
+      "removed": [
+        "GPMT"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "KMT"
+      ],
+      "removed": [
+        "PKE"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "DY"
+      ],
+      "removed": [
+        "HT"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "WAFD"
+      ],
+      "removed": [
+        "SRDX"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "VSAT"
+      ],
+      "removed": [
+        "ORGO"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "CBRL"
+      ],
+      "removed": [
+        "UIS"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "SLG",
+        "SL"
+      ],
+      "removed": [
+        "PNTG"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "RDN"
+      ],
+      "removed": [
+        "UEIC"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "NEX"
+      ],
+      "removed": [
+        "MPAA"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "AUB"
+      ],
+      "removed": [
+        "FSP"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "added": [
+        "KW"
+      ],
+      "removed": [
+        "WW"
+      ]
+    },
+    {
+      "date": "2023-03-21",
+      "added": [
+        "CVI",
+        "CVR"
+      ],
+      "removed": [
+        "AAWW"
+      ]
+    },
+    {
+      "date": "2023-03-22",
+      "added": [
+        "CERT"
+      ],
+      "removed": [
+        "EXPO"
+      ]
+    },
+    {
+      "date": "2023-04-03",
+      "added": [
+        "NABL",
+        "N"
+      ],
+      "removed": [
+        "STAR"
+      ]
+    },
+    {
+      "date": "2023-04-05",
+      "added": [
+        "PACW"
+      ],
+      "removed": [
+        "NKTR"
+      ]
+    },
+    {
+      "date": "2023-05-01",
+      "added": [
+        "CTKB"
+      ],
+      "removed": [
+        "CSII"
+      ]
+    },
+    {
+      "date": "2023-06-01",
+      "added": [
+        "BOH"
+      ],
+      "removed": [
+        "HMST"
+      ]
+    },
+    {
+      "date": "2023-06-14",
+      "added": [
+        "EXPI"
+      ],
+      "removed": [
+        "HSKA"
+      ]
+    },
+    {
+      "date": "2023-06-14",
+      "added": [
+        "PRVA"
+      ],
+      "removed": [
+        "RUTH"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "DISH"
+      ],
+      "removed": [
+        "CUTR"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "NAVI"
+      ],
+      "removed": [
+        "ZUMZ"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "SITM"
+      ],
+      "removed": [
+        "GCO"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "MAC"
+      ],
+      "removed": [
+        "BOOM"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "VSCO"
+      ],
+      "removed": [
+        "GCI"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "DEI"
+      ],
+      "removed": [
+        "LPSN"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "FULT"
+      ],
+      "removed": [
+        "RYAM"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "NGVT"
+      ],
+      "removed": [
+        "PLCE"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "SPWR"
+      ],
+      "removed": [
+        "EGRX"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "WLY"
+      ],
+      "removed": [
+        "CMTL"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "DAN"
+      ],
+      "removed": [
+        "PETS"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "UFPT",
+        "UFP"
+      ],
+      "removed": [
+        "BIG"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "SDGR"
+      ],
+      "removed": [
+        "CARA"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "PECO"
+      ],
+      "removed": [
+        "FARO"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "MC"
+      ],
+      "removed": [
+        "DOUG"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "CARG"
+      ],
+      "removed": [
+        "INGN"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "CRC"
+      ],
+      "removed": [
+        "TG"
+      ]
+    },
+    {
+      "date": "2023-06-19",
+      "added": [
+        "APAM"
+      ],
+      "removed": [
+        "TREE"
+      ]
+    },
+    {
+      "date": "2023-06-23",
+      "added": [
+        "ABR"
+      ],
+      "removed": [
+        "ROCC"
+      ]
+    },
+    {
+      "date": "2023-07-03",
+      "added": [
+        "FTRE"
+      ],
+      "removed": [
+        "SENEA"
+      ]
+    },
+    {
+      "date": "2023-07-03",
+      "added": [
+        "PHIN"
+      ],
+      "removed": [
+        "LOCO"
+      ]
+    },
+    {
+      "date": "2023-08-01",
+      "added": [
+        "MSGS"
+      ],
+      "removed": [
+        "AJRD"
+      ]
+    },
+    {
+      "date": "2023-08-21",
+      "added": [
+        "MRCY"
+      ],
+      "removed": [
+        "ARNC"
+      ]
+    },
+    {
+      "date": "2023-08-22",
+      "added": [
+        "STAA"
+      ],
+      "removed": [
+        "UBA"
+      ]
+    },
+    {
+      "date": "2023-08-25",
+      "added": [
+        "AAP"
+      ],
+      "removed": [
+        "EBS"
+      ]
+    },
+    {
+      "date": "2023-09-01",
+      "added": [
+        "JXN"
+      ],
+      "removed": [
+        "NEX"
+      ]
+    },
+    {
+      "date": "2023-09-01",
+      "added": [
+        "GSHD"
+      ],
+      "removed": [
+        "NUVA"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "APLE",
+        "REIT"
+      ],
+      "removed": [
+        "CPSI"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "LBRT"
+      ],
+      "removed": [
+        "ZYXI"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "BXMT"
+      ],
+      "removed": [
+        "RMAX",
+        "RE-MAX"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "HASI"
+      ],
+      "removed": [
+        "FF"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "JBLU"
+      ],
+      "removed": [
+        "ONL",
+        "REIT"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "TRIP"
+      ],
+      "removed": [
+        "VNDA"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "HIW"
+      ],
+      "removed": [
+        "ANGO"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "XRX"
+      ],
+      "removed": [
+        "OPI"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "ENR"
+      ],
+      "removed": [
+        "EGHT"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "CATY"
+      ],
+      "removed": [
+        "CHRS"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "SXT"
+      ],
+      "removed": [
+        "NTGR"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "PZZA"
+      ],
+      "removed": [
+        "AAN"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "OMCL"
+      ],
+      "removed": [
+        "TSE"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "NWL"
+      ],
+      "removed": [
+        "UVE"
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "added": [
+        "LNC"
+      ],
+      "removed": [
+        "QURE"
+      ]
+    },
+    {
+      "date": "2023-09-29",
+      "added": [
+        "HAYW"
+      ],
+      "removed": [
+        "CIVI"
+      ]
+    },
+    {
+      "date": "2023-10-03",
+      "added": [
+        "KLG",
+        "WK"
+      ],
+      "removed": [
+        "AVD"
+      ]
+    },
+    {
+      "date": "2023-10-03",
+      "added": [
+        "KSS"
+      ],
+      "removed": [
+        "HA"
+      ]
+    },
+    {
+      "date": "2023-10-03",
+      "added": [
+        "DXC"
+      ],
+      "removed": [
+        "EBIX"
+      ]
+    },
+    {
+      "date": "2023-10-18",
+      "added": [
+        "OGN"
+      ],
+      "removed": [
+        "ONTO"
+      ]
+    },
+    {
+      "date": "2023-10-18",
+      "added": [
+        "NATL",
+        "NCR"
+      ],
+      "removed": [
+        "ITOS"
+      ]
+    },
+    {
+      "date": "2023-10-20",
+      "added": [
+        "VICR"
+      ],
+      "removed": [
+        "CIR"
+      ]
+    },
+    {
+      "date": "2023-11-07",
+      "added": [
+        "ENV"
+      ],
+      "removed": [
+        "TWNK"
+      ]
+    },
+    {
+      "date": "2023-11-10",
+      "added": [
+        "AMR"
+      ],
+      "removed": [
+        "AVID"
+      ]
+    },
+    {
+      "date": "2023-11-13",
+      "added": [
+        "ACIW",
+        "ACI"
+      ],
+      "removed": [
+        "NXGN"
+      ]
+    },
+    {
+      "date": "2023-11-30",
+      "added": [
+        "CWEN",
+        "CWEN-A"
+      ],
+      "removed": [
+        "VRTV"
+      ]
+    },
+    {
+      "date": "2023-11-30",
+      "added": [
+        "WOR"
+      ],
+      "removed": [
+        "AVTA"
+      ]
+    },
+    {
+      "date": "2023-11-30",
+      "added": [
+        "ICUI",
+        "ICU"
+      ],
+      "removed": [
+        "PACW"
+      ]
+    },
+    {
+      "date": "2023-12-04",
+      "added": [
+        "WS"
+      ],
+      "removed": [
+        "SNBR"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "SEE"
+      ],
+      "removed": [
+        "OFIX"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "ALSK"
+      ],
+      "removed": [
+        "RMBS"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "SEDG"
+      ],
+      "removed": [
+        "FIX",
+        "USA"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "MODG"
+      ],
+      "removed": [
+        "CLFD"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "VSTS"
+      ],
+      "removed": [
+        "OSPN"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "ALKS"
+      ],
+      "removed": [
+        "CYH"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "AWI"
+      ],
+      "removed": [
+        "IVR"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "NHC"
+      ],
+      "removed": [
+        "CDMO"
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "added": [
+        "PJT"
+      ],
+      "removed": [
+        "JRVR"
+      ]
+    },
+    {
+      "date": "2024-01-02",
+      "added": [
+        "SATS"
+      ],
+      "removed": [
+        "DISH"
+      ]
+    },
+    {
+      "date": "2024-01-02",
+      "added": [
+        "VYX",
+        "NCR"
+      ],
+      "removed": [
+        "LTHM"
+      ]
+    },
+    {
+      "date": "2024-01-02",
+      "added": [
+        "RUSHA"
+      ],
+      "removed": [
+        "RPT"
+      ]
+    },
+    {
+      "date": "2024-01-05",
+      "added": [
+        "PDCO"
+      ],
+      "removed": [
+        "CHS",
+        "FAS"
+      ]
+    },
+    {
+      "date": "2024-01-23",
+      "added": [
+        "BTU"
+      ],
+      "removed": [
+        "ELF"
+      ]
+    },
+    {
+      "date": "2024-03-04",
+      "added": [
+        "CXM"
+      ],
+      "removed": [
+        "MDRX"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "CALX"
+      ],
+      "removed": [
+        "CYTK"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "MPW"
+      ],
+      "removed": [
+        "AIT"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "MGY"
+      ],
+      "removed": [
+        "CRMT"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "AL"
+      ],
+      "removed": [
+        "TBI"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "BOX"
+      ],
+      "removed": [
+        "FORR"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "BGC"
+      ],
+      "removed": [
+        "OIS"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "BL"
+      ],
+      "removed": [
+        "APPS"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "ARCH"
+      ],
+      "removed": [
+        "CCSI"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "added": [
+        "MGEE",
+        "MGE"
+      ],
+      "removed": [
+        "IRBT"
+      ]
+    },
+    {
+      "date": "2024-04-01",
+      "added": [
+        "RUN"
+      ],
+      "removed": [
+        "PGTI",
+        "PGT"
+      ]
+    },
+    {
+      "date": "2024-04-01",
+      "added": [
+        "NARI"
+      ],
+      "removed": [
+        "CPE"
+      ]
+    },
+    {
+      "date": "2024-04-03",
+      "added": [
+        "VFC",
+        "VF"
+      ],
+      "removed": [
+        "MODV"
+      ]
+    },
+    {
+      "date": "2024-04-03",
+      "added": [
+        "FOXF"
+      ],
+      "removed": [
+        "SSP",
+        "E",
+        "W"
+      ]
+    },
+    {
+      "date": "2024-04-22",
+      "added": [
+        "CABO"
+      ],
+      "removed": [
+        "MDC"
+      ]
+    },
+    {
+      "date": "2024-04-23",
+      "added": [
+        "CNS"
+      ],
+      "removed": [
+        "KAMN"
+      ]
+    },
+    {
+      "date": "2024-05-06",
+      "added": [
+        "IAC"
+      ],
+      "removed": [
+        "AEL"
+      ]
+    },
+    {
+      "date": "2024-05-07",
+      "added": [
+        "DOCN"
+      ],
+      "removed": [
+        "AGTI"
+      ]
+    },
+    {
+      "date": "2024-05-08",
+      "added": [
+        "MARA"
+      ],
+      "removed": [
+        "AAON"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "CMA"
+      ],
+      "removed": [
+        "ADTN"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "RHI"
+      ],
+      "removed": [
+        "HOUS"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "LEG"
+      ],
+      "removed": [
+        "MEI"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "HTZ"
+      ],
+      "removed": [
+        "CLDT"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "GO"
+      ],
+      "removed": [
+        "NFBK"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "PENN"
+      ],
+      "removed": [
+        "XPER"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "IART"
+      ],
+      "removed": [
+        "RGP"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "WERN"
+      ],
+      "removed": [
+        "ATNI",
+        "ATN"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "KRYS"
+      ],
+      "removed": [
+        "OSUR"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "VIRT"
+      ],
+      "removed": [
+        "MCS"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "STEP"
+      ],
+      "removed": [
+        "TTEC"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "WHD"
+      ],
+      "removed": [
+        "MED"
+      ]
+    },
+    {
+      "date": "2024-06-24",
+      "added": [
+        "TDW"
+      ],
+      "removed": [
+        "CRNC"
+      ]
+    },
+    {
+      "date": "2024-07-03",
+      "added": [
+        "PTGX"
+      ],
+      "removed": [
+        "WIRE"
+      ]
+    },
+    {
+      "date": "2024-07-22",
+      "added": [
+        "GTES"
+      ],
+      "removed": [
+        "ANF"
+      ]
+    },
+    {
+      "date": "2024-07-26",
+      "added": [
+        "QDEL"
+      ],
+      "removed": [
+        "HIBB"
+      ]
+    },
+    {
+      "date": "2024-07-31",
+      "added": [
+        "SNDR"
+      ],
+      "removed": [
+        "SLCA",
+        "U-S"
+      ]
+    },
+    {
+      "date": "2024-08-09",
+      "added": [
+        "SWI"
+      ],
+      "removed": [
+        "SPWR"
+      ]
+    },
+    {
+      "date": "2024-09-06",
+      "added": [
+        "INVX"
+      ],
+      "removed": [
+        "DRQ"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "ETSY"
+      ],
+      "removed": [
+        "HVT"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "TGNA"
+      ],
+      "removed": [
+        "DBI"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "ZD"
+      ],
+      "removed": [
+        "FN"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "MP"
+      ],
+      "removed": [
+        "CVGW"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "PGNY"
+      ],
+      "removed": [
+        "EHAB"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "ADNT"
+      ],
+      "removed": [
+        "MERC"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "WOLF"
+      ],
+      "removed": [
+        "CMP"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "HELE"
+      ],
+      "removed": [
+        "DDD"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "ZWS"
+      ],
+      "removed": [
+        "CHCT"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "YOU"
+      ],
+      "removed": [
+        "VREX"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "TGTX",
+        "TG"
+      ],
+      "removed": [
+        "DIN"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "INSP"
+      ],
+      "removed": [
+        "NUS"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "CSW"
+      ],
+      "removed": [
+        "AMCX",
+        "AMC"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "ADMA"
+      ],
+      "removed": [
+        "ZEUS"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "added": [
+        "PI"
+      ],
+      "removed": [
+        "RILY",
+        "B"
+      ]
+    },
+    {
+      "date": "2024-10-01",
+      "added": [
+        "CURB"
+      ],
+      "removed": [
+        "CCRN"
+      ]
+    },
+    {
+      "date": "2024-10-01",
+      "added": [
+        "TMDX"
+      ],
+      "removed": [
+        "ENSG"
+      ]
+    },
+    {
+      "date": "2024-10-01",
+      "added": [
+        "BBWI"
+      ],
+      "removed": [
+        "MOV"
+      ]
+    },
+    {
+      "date": "2024-10-04",
+      "added": [
+        "CRGY"
+      ],
+      "removed": [
+        "PRFT"
+      ]
+    },
+    {
+      "date": "2024-10-09",
+      "added": [
+        "HIMS"
+      ],
+      "removed": [
+        "VGR"
+      ]
+    },
+    {
+      "date": "2024-10-11",
+      "added": [
+        "MDU"
+      ],
+      "removed": [
+        "CHUY"
+      ]
+    },
+    {
+      "date": "2024-10-15",
+      "added": [
+        "PENG"
+      ],
+      "removed": [
+        "SGH"
+      ]
+    },
+    {
+      "date": "2024-11-04",
+      "added": [
+        "ECG"
+      ],
+      "removed": [
+        "CLW"
+      ]
+    },
+    {
+      "date": "2024-11-25",
+      "added": [
+        "DFH"
+      ],
+      "removed": [
+        "HAYN"
+      ]
+    },
+    {
+      "date": "2024-11-25",
+      "added": [
+        "AZTA"
+      ],
+      "removed": [
+        "ENV"
+      ]
+    },
+    {
+      "date": "2024-11-26",
+      "added": [
+        "AESI"
+      ],
+      "removed": [
+        "MLI"
+      ]
+    },
+    {
+      "date": "2024-11-27",
+      "added": [
+        "CON"
+      ],
+      "removed": [
+        "MYE"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "added": [
+        "QRVO"
+      ],
+      "removed": [
+        "KELYA"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "added": [
+        "AMTM"
+      ],
+      "removed": [
+        "SVC"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "added": [
+        "VSH"
+      ],
+      "removed": [
+        "CMA"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "added": [
+        "CRI"
+      ],
+      "removed": [
+        "CRS"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "added": [
+        "TRNO"
+      ],
+      "removed": [
+        "HPP"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "added": [
+        "SKY"
+      ],
+      "removed": [
+        "RGNX"
+      ]
+    },
+    {
+      "date": "2024-12-30",
+      "added": [
+        "INSW"
+      ],
+      "removed": [
+        "CNSL"
+      ]
+    },
+    {
+      "date": "2025-01-02",
+      "added": [
+        "GDYN"
+      ],
+      "removed": [
+        "GEAR"
+      ]
+    },
+    {
+      "date": "2025-01-03",
+      "added": [
+        "JBTM",
+        "JBT"
+      ],
+      "removed": [
+        "JBT"
+      ]
+    },
+    {
+      "date": "2025-01-03",
+      "added": [
+        "ACAD"
+      ],
+      "removed": [
+        "IBTX"
+      ]
+    },
+    {
+      "date": "2025-01-14",
+      "added": [
+        "ENOV"
+      ],
+      "removed": [
+        "ARCH"
+      ]
+    },
+    {
+      "date": "2025-01-27",
+      "added": [
+        "ARWR"
+      ],
+      "removed": [
+        "B"
+      ]
+    },
+    {
+      "date": "2025-02-10",
+      "added": [
+        "MRP"
+      ],
+      "removed": [
+        "IRWD"
+      ]
+    },
+    {
+      "date": "2025-02-13",
+      "added": [
+        "GOLF"
+      ],
+      "removed": [
+        "ROIC"
+      ]
+    },
+    {
+      "date": "2025-02-19",
+      "added": [
+        "KAI"
+      ],
+      "removed": [
+        "NARI"
+      ]
+    },
+    {
+      "date": "2025-02-25",
+      "added": [
+        "SNDK"
+      ],
+      "removed": [
+        "LESL"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "TFX"
+      ],
+      "removed": [
+        "VFC",
+        "VF"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "CE"
+      ],
+      "removed": [
+        "ALK"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "FMC"
+      ],
+      "removed": [
+        "HIMS"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "BWA"
+      ],
+      "removed": [
+        "AMBC"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "CC"
+      ],
+      "removed": [
+        "BBWI"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "TDC"
+      ],
+      "removed": [
+        "ATI"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "NEOG"
+      ],
+      "removed": [
+        "SATS"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "RHP"
+      ],
+      "removed": [
+        "WNC"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "ESI"
+      ],
+      "removed": [
+        "GDOT"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "FRPT"
+      ],
+      "removed": [
+        "FLGT"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "WSC"
+      ],
+      "removed": [
+        "NBR"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "MWA"
+      ],
+      "removed": [
+        "GPRE"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "KTOS"
+      ],
+      "removed": [
+        "MATV"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "added": [
+        "CLSK"
+      ],
+      "removed": [
+        "HAIN"
+      ]
+    },
+    {
+      "date": "2025-04-02",
+      "added": [
+        "ANGI"
+      ],
+      "removed": [
+        "ODP"
+      ]
+    },
+    {
+      "date": "2025-04-16",
+      "added": [
+        "ACT"
+      ],
+      "removed": [
+        "SWI"
+      ]
+    },
+    {
+      "date": "2025-04-17",
+      "added": [
+        "STRL"
+      ],
+      "removed": [
+        "PDCO"
+      ]
+    },
+    {
+      "date": "2025-06-06",
+      "added": [
+        "HTO"
+      ],
+      "removed": [
+        "SJW"
+      ]
+    },
+    {
+      "date": "2025-07-01",
+      "added": [
+        "RAL"
+      ],
+      "removed": [
+        "WOLF"
+      ]
+    },
+    {
+      "date": "2025-07-18",
+      "added": [
+        "VCTR"
+      ],
+      "removed": [
+        "AVAV"
+      ]
+    },
+    {
+      "date": "2025-07-29",
+      "added": [
+        "VCYT"
+      ],
+      "removed": [
+        "TGI"
+      ]
+    },
+    {
+      "date": "2025-08-06",
+      "added": [
+        "KGS"
+      ],
+      "removed": [
+        "NVEE"
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "added": [
+        "ADAM"
+      ],
+      "removed": [
+        "NYMT"
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "added": [
+        "BHLB"
+      ],
+      "removed": [
+        "BBT"
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "added": [
+        "SRPT"
+      ],
+      "removed": [
+        "BRKL"
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "added": [
+        "KNTK"
+      ],
+      "removed": [
+        "PPBI"
+      ]
+    },
+    {
+      "date": "2025-09-08",
+      "added": [
+        "PRKS"
+      ],
+      "removed": [
+        "FL"
+      ]
+    },
+    {
+      "date": "2025-09-09",
+      "added": [
+        "MIR"
+      ],
+      "removed": [
+        "GMS"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "HL"
+      ],
+      "removed": [
+        "SLP"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "WAY"
+      ],
+      "removed": [
+        "JACK"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "QTWO"
+      ],
+      "removed": [
+        "BGS",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "NE"
+      ],
+      "removed": [
+        "OMI"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "MAN"
+      ],
+      "removed": [
+        "MLAB"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "ACHC"
+      ],
+      "removed": [
+        "TTGT"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "WEN"
+      ],
+      "removed": [
+        "XRX"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "ENPH"
+      ],
+      "removed": [
+        "PUMP"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "CZR"
+      ],
+      "removed": [
+        "KTOS"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "added": [
+        "MKTX"
+      ],
+      "removed": [
+        "MP"
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "added": [
+        "REYN"
+      ],
+      "removed": [
+        "SPTN"
+      ]
+    },
+    {
+      "date": "2025-09-26",
+      "added": [
+        "ACMR",
+        "ACM"
+      ],
+      "removed": [
+        "KLG",
+        "WK"
+      ]
+    },
+    {
+      "date": "2025-10-06",
+      "added": [
+        "WU"
+      ],
+      "removed": [
+        "COOP"
+      ]
+    },
+    {
+      "date": "2025-10-20",
+      "added": [
+        "BTSG"
+      ],
+      "removed": [
+        "VBTX"
+      ]
+    },
+    {
+      "date": "2025-10-31",
+      "added": [
+        "KMX"
+      ],
+      "removed": [
+        "USNA",
+        "USANA"
+      ]
+    },
+    {
+      "date": "2025-11-04",
+      "added": [
+        "EMN"
+      ],
+      "removed": [
+        "CAL"
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "added": [
+        "RRR"
+      ],
+      "removed": [
+        "STRL"
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "added": [
+        "PTCT",
+        "PTC"
+      ],
+      "removed": [
+        "SNDK"
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "added": [
+        "UPWK"
+      ],
+      "removed": [
+        "PINC"
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "added": [
+        "FIBK"
+      ],
+      "removed": [
+        "HBI"
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "added": [
+        "VITL"
+      ],
+      "removed": [
+        "HSII"
+      ]
+    },
+    {
+      "date": "2025-12-15",
+      "added": [
+        "SEZL"
+      ],
+      "removed": [
+        "VTLE"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "PRIM"
+      ],
+      "removed": [
+        "SPXC",
+        "SPX"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "UA-UAA",
+        "A",
+        "C"
+      ],
+      "removed": [
+        "DY"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "POWI"
+      ],
+      "removed": [
+        "HL"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "PRGO"
+      ],
+      "removed": [
+        "RC"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "IRDM"
+      ],
+      "removed": [
+        "SITC",
+        "SITE"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "VAC"
+      ],
+      "removed": [
+        "THRY"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "NSP"
+      ],
+      "removed": [
+        "HELE"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "CWST"
+      ],
+      "removed": [
+        "ASIX"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "INDV"
+      ],
+      "removed": [
+        "RGR"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "HE"
+      ],
+      "removed": [
+        "MGPI",
+        "MGP"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "LKQ"
+      ],
+      "removed": [
+        "BWA"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "SOLS"
+      ],
+      "removed": [
+        "CEVA"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "added": [
+        "MHK"
+      ],
+      "removed": [
+        "SCVL"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "added": [
+        "OPLN"
+      ],
+      "removed": [
+        "KAR"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "added": [
+        "VSNT"
+      ],
+      "removed": [
+        "BDN"
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "added": [
+        "WINA"
+      ],
+      "removed": [
+        "GES"
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "added": [
+        "AMRX"
+      ],
+      "removed": [
+        "TTMI",
+        "TTM"
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "added": [
+        "LZ"
+      ],
+      "removed": [
+        "ELME"
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "added": [
+        "APLS"
+      ],
+      "removed": [
+        "AEIS"
+      ]
+    },
+    {
+      "date": "2026-02-09",
+      "added": [
+        "ADT"
+      ],
+      "removed": [
+        "ARWR"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "added": [
+        "OSW"
+      ],
+      "removed": [
+        "DVAX"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "added": [
+        "MBIN"
+      ],
+      "removed": [
+        "THS"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "added": [
+        "RNG"
+      ],
+      "removed": [
+        "HI"
+      ]
+    }
+  ],
+  "notes": [
+    "Current membership is parsed from the Wikipedia S&P 500 constituents table.",
+    "Change history is parsed from the Wikipedia changes table.",
+    "Historical membership should be reconstructed by reversing change events from the current set.",
+    "Ticker normalization converts dots to dashes for compatibility with yfinance (e.g. BRK.B -> BRK-B)."
+  ]
+}

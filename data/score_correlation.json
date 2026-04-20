@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-11T13:28:48.523064+00:00",
+  "lookback_years": 3,
+  "forward_days": 20,
+  "data": [
+    {
+      "quantile": "Q1",
+      "avg_return": 0.015065381558561082,
+      "median_return": 0.011439261622223418,
+      "count": 3234,
+      "avg_score": 26.357452071737786
+    },
+    {
+      "quantile": "Q2",
+      "avg_return": 0.011898101770215585,
+      "median_return": 0.009830267684759142,
+      "count": 3092,
+      "avg_score": 40.10769728331177
+    },
+    {
+      "quantile": "Q3",
+      "avg_return": 0.014800052695474677,
+      "median_return": 0.011711948908347924,
+      "count": 3021,
+      "avg_score": 50.52962595167163
+    },
+    {
+      "quantile": "Q4",
+      "avg_return": 0.015201321009516778,
+      "median_return": 0.013633636435189445,
+      "count": 3109,
+      "avg_score": 60.867481505307175
+    },
+    {
+      "quantile": "Q5",
+      "avg_return": 0.01885802183590886,
+      "median_return": 0.01246605364603437,
+      "count": 2995,
+      "avg_score": 73.93489148580969
+    }
+  ]
+}

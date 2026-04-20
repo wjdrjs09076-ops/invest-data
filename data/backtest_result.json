@@ -1,0 +1,43 @@
+{
+  "strategy": {
+    "rebalance": "monthly",
+    "selection": "BUY",
+    "top_n": 10,
+    "transaction_cost": 0.0015,
+    "period_years": 3,
+    "execution_lag_days": 1,
+    "portfolio_construction": {
+      "method": "score_x_inverse_vol",
+      "score_alpha": 1.0,
+      "min_weight": 0.15,
+      "max_weight": 0.5,
+      "vol_fallback": 0.35,
+      "vol_floor": 0.18,
+      "formula": "weight_i ∝ (score_i ^ alpha) / max(vol20_i, vol_floor)"
+    }
+  },
+  "metrics": {
+    "total_return": 2.023912732817226,
+    "cagr": 0.34964256173455666,
+    "volatility": 0.23119955977147108,
+    "sharpe": 1.5122976967610164,
+    "max_drawdown": -0.17492783106301935
+  },
+  "benchmark": {
+    "ticker": "SPY",
+    "metrics": {
+      "total_return": 0.8263914688115508,
+      "cagr": 0.17729012231846264,
+      "volatility": 0.16492284847828667,
+      "sharpe": 1.0749882381627929,
+      "max_drawdown": -0.1875523767324494
+    }
+  },
+  "notes": [
+    "Universe based on current constituents (survivorship bias possible)",
+    "Ranking uses historical slice through rebalance date close",
+    "Selected portfolio is applied with a 1-day execution lag",
+    "Transaction cost is applied when holdings change on execution day",
+    "Portfolio weights use score × inverse volatility weighting instead of equal weighting"
+  ]
+}

@@ -1,0 +1,4006 @@
+{
+  "source": "Wikipedia - List of S&P 500 companies",
+  "count": 400,
+  "items": [
+    {
+      "ticker": "AA",
+      "name": "Alcoa",
+      "sector": "Materials",
+      "subIndustry": "Aluminum",
+      "headquarters": "Pittsburgh, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AAL",
+      "name": "American Airlines Group",
+      "sector": "Industrials",
+      "subIndustry": "Passenger Airlines",
+      "headquarters": "Fort Worth, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AAON",
+      "name": "AAON",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Tulsa, Oklahoma",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ACI",
+      "name": "Albertsons",
+      "sector": "Consumer Staples",
+      "subIndustry": "Food Retail",
+      "headquarters": "Boise, Idaho",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ACM",
+      "name": "AECOM",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ADC",
+      "name": "Agree Realty",
+      "sector": "Real Estate",
+      "subIndustry": "Retail REITs",
+      "headquarters": "Bloomfield Hills, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductor Materials & Equipment",
+      "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AFG",
+      "name": "American Financial Group",
+      "sector": "Financials",
+      "subIndustry": "Multi-line Insurance",
+      "headquarters": "Cincinnati, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AGCO",
+      "name": "AGCO",
+      "sector": "Industrials",
+      "subIndustry": "Agricultural & Farm Machinery",
+      "headquarters": "Duluth, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT",
+      "sector": "Real Estate",
+      "subIndustry": "Health Care REITs",
+      "headquarters": "Irvine, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AIT",
+      "name": "Applied Industrial Technologies",
+      "sector": "Industrials",
+      "subIndustry": "Trading Companies & Distributors",
+      "headquarters": "Cleveland, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ALGM",
+      "name": "Allegro MicroSystems",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Manchester, New Hampshire",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ALK",
+      "name": "Alaska Air Group",
+      "sector": "Industrials",
+      "subIndustry": "Passenger Airlines",
+      "headquarters": "SeaTac, Washington",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ALLY",
+      "name": "Ally Financial",
+      "sector": "Financials",
+      "subIndustry": "Consumer Finance",
+      "headquarters": "Detroit, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ALV",
+      "name": "Autoliv",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Parts & Equipment",
+      "headquarters": "Stockholm, Sweden",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AM",
+      "name": "Antero Midstream",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Storage & Transportation",
+      "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AMG",
+      "name": "Affiliated Managers Group",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "West Palm Beach, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AMH",
+      "name": "American Homes 4 Rent",
+      "sector": "Real Estate",
+      "subIndustry": "Single-Family Residential REITs",
+      "headquarters": "Las Vegas, Nevada",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AMKR",
+      "name": "Amkor Technology",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Tempe, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AN",
+      "name": "AutoNation",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Retail",
+      "headquarters": "Fort Lauderdale, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ANF",
+      "name": "Abercrombie & Fitch",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel Retail",
+      "headquarters": "New Albany, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "APG",
+      "name": "APi Group",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "New Brighton, Minnesota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "APPF",
+      "name": "AppFolio",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "Goleta, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AR",
+      "name": "Antero Resources",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ARMK",
+      "name": "Aramark",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Distributors",
+      "headquarters": "Philadelphia, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ARW",
+      "name": "Arrow Electronics",
+      "sector": "Information Technology",
+      "subIndustry": "Technology Distributors",
+      "headquarters": "Centennial, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ARWR",
+      "name": "Arrowhead Pharmaceuticals",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "Pasadena, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ASB",
+      "name": "Associated Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Green Bay, Wisconsin",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ASGN",
+      "name": "ASGN Inc.",
+      "sector": "Information Technology",
+      "subIndustry": "IT Consulting & Other Services",
+      "headquarters": "Glen Allen, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ASH",
+      "name": "Ashland Global",
+      "sector": "Materials",
+      "subIndustry": "Diversified Chemicals",
+      "headquarters": "Wilmington, Delaware",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ATI",
+      "name": "ATI Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ATR",
+      "name": "AptarGroup",
+      "sector": "Materials",
+      "subIndustry": "Metal, Glass & Plastic Containers",
+      "headquarters": "Crystal Lake, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AVAV",
+      "name": "AeroVironment",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Arlington County, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AVNT",
+      "name": "Avient",
+      "sector": "Materials",
+      "subIndustry": "Specialty Chemicals",
+      "headquarters": "Avon Lake, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AVT",
+      "name": "Avnet",
+      "sector": "Information Technology",
+      "subIndustry": "Technology Distributors",
+      "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AVTR",
+      "name": "Avantor",
+      "sector": "Health Care",
+      "subIndustry": "Life Sciences Tools & Services",
+      "headquarters": "Radnor, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AXTA",
+      "name": "Axalta",
+      "sector": "Materials",
+      "subIndustry": "Specialty Chemicals",
+      "headquarters": "Philadelphia, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "AYI",
+      "name": "Acuity Brands",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Atlanta, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Industrials",
+      "subIndustry": "Research & Consulting Services",
+      "headquarters": "McLean, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BBWI",
+      "name": "Bath & Body Works, Inc.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Other Specialty Retail",
+      "headquarters": "Columbus, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BC",
+      "name": "Brunswick",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Leisure Products",
+      "headquarters": "Mettawa, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BCO",
+      "name": "Brink's",
+      "sector": "Industrials",
+      "subIndustry": "Security & Alarm Services",
+      "headquarters": "Richmond, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BDC",
+      "name": "Belden Inc.",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Components",
+      "headquarters": "St. Louis, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BHF",
+      "name": "Brighthouse Financial",
+      "sector": "Financials",
+      "subIndustry": "Life & Health Insurance",
+      "headquarters": "Charlotte, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BILL",
+      "name": "Bill Holdings",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "San Jose, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BIO",
+      "name": "Bio-Rad Laboratories",
+      "sector": "Health Care",
+      "subIndustry": "Life Sciences Tools & Services",
+      "headquarters": "Hercules, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club",
+      "sector": "Consumer Staples",
+      "subIndustry": "Consumer Staples Merchandise Retail",
+      "headquarters": "Marlborough, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BKH",
+      "name": "Black Hills Corporation",
+      "sector": "Utilities",
+      "subIndustry": "Multi-Utilities",
+      "headquarters": "Rapid City, South Dakota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BLD",
+      "name": "TopBuild Corp.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Homebuilding",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BLKB",
+      "name": "Blackbaud",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "Charleston, South Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BMRN",
+      "name": "BioMarin Pharmaceutical",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "San Rafael, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BRBR",
+      "name": "BellRing Brands",
+      "sector": "Consumer Staples",
+      "subIndustry": "Packaged Foods & Meats",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BRKR",
+      "name": "Bruker",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Equipment",
+      "headquarters": "Billerica, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BROS",
+      "name": "Dutch Bros Inc.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Restaurants",
+      "headquarters": "Tempe, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BRX",
+      "name": "Brixmor Property Group",
+      "sector": "Real Estate",
+      "subIndustry": "Retail REITs",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BSY",
+      "name": "Bentley Systems",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "Exton, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BURL",
+      "name": "Burlington Stores",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel Retail",
+      "headquarters": "Burlington, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BWA",
+      "name": "BorgWarner",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Parts & Equipment",
+      "headquarters": "Auburn Hills, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Lynchburg, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "BYD",
+      "name": "Boyd Gaming",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Casinos & Gaming",
+      "headquarters": "Las Vegas, Nevada",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CACI",
+      "name": "CACI International",
+      "sector": "Industrials",
+      "subIndustry": "Diversified Support Services",
+      "headquarters": "Reston, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CAR",
+      "name": "Avis Budget Group",
+      "sector": "Industrials",
+      "subIndustry": "Passenger Ground Transportation",
+      "headquarters": "Parsippany, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CART",
+      "name": "Maplebear Inc.",
+      "sector": "Consumer Staples",
+      "subIndustry": "Food Retail",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CASY",
+      "name": "Casey's General Stores",
+      "sector": "Consumer Staples",
+      "subIndustry": "Food Retail",
+      "headquarters": "Ankeny, Iowa",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CAVA",
+      "name": "Cava Group",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Restaurants",
+      "headquarters": "Washington, D.C.",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CBSH",
+      "name": "Commerce Bancshares",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Kansas City, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CBT",
+      "name": "Cabot Corp",
+      "sector": "Materials",
+      "subIndustry": "Diversified Chemicals",
+      "headquarters": "Boston, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CCK",
+      "name": "Crown Holdings",
+      "sector": "Materials",
+      "subIndustry": "Paper & Plastic Packaging Products & Materials",
+      "headquarters": "Yardley, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CDP",
+      "name": "COPT Defense Properties",
+      "sector": "Real Estate",
+      "subIndustry": "Office REITs",
+      "headquarters": "Columbia, Maryland",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings",
+      "sector": "Consumer Staples",
+      "subIndustry": "Soft Drinks & Non-alcoholic Beverages",
+      "headquarters": "Boca Raton, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CFR",
+      "name": "Frost Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "San Antonio, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CG",
+      "name": "Carlyle Group",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "Washington, D.C.",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CGNX",
+      "name": "Cognex",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Equipment & Instruments",
+      "headquarters": "Natick, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CHDN",
+      "name": "Churchill Downs Inc.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Casinos & Gaming",
+      "headquarters": "Louisville, Kentucky",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CHE",
+      "name": "Chemed Corp.",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Services",
+      "headquarters": "Cincinnati, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CHH",
+      "name": "Choice Hotels",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Hotels, Resorts & Cruise Lines",
+      "headquarters": "Rockville, Maryland",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CHRD",
+      "name": "Chord Energy",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CHWY",
+      "name": "Chewy",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Other Specialty Retail",
+      "headquarters": "Plantation, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CLF",
+      "name": "Cleveland-Cliffs",
+      "sector": "Materials",
+      "subIndustry": "Steel",
+      "headquarters": "Cleveland, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CLH",
+      "name": "Clean Harbors",
+      "sector": "Industrials",
+      "subIndustry": "Environmental & Facilities Services",
+      "headquarters": "Norwell, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CMC",
+      "name": "Commercial Metals",
+      "sector": "Materials",
+      "subIndustry": "Steel",
+      "headquarters": "Irving, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CNH",
+      "name": "CNH Industrial",
+      "sector": "Industrials",
+      "subIndustry": "Agricultural & Farm Machinery",
+      "headquarters": "Amsterdam, Netherlands",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CNM",
+      "name": "Core & Main",
+      "sector": "Industrials",
+      "subIndustry": "Trading Companies & Distributors",
+      "headquarters": "St. Louis, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CNO",
+      "name": "CNO Financial Group",
+      "sector": "Financials",
+      "subIndustry": "Life & Health Insurance",
+      "headquarters": "Carmel, Indiana",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CNX",
+      "name": "CNX Resources",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Pittsburgh, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CNXC",
+      "name": "Concentrix",
+      "sector": "Industrials",
+      "subIndustry": "Data Processing & Outsourced Services",
+      "headquarters": "Newark, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Components",
+      "headquarters": "Saxonburg, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "COKE",
+      "name": "Coca-Cola Consolidated",
+      "sector": "Consumer Staples",
+      "subIndustry": "Soft Drinks & Non-alcoholic Beverages",
+      "headquarters": "Charlotte, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "COLB",
+      "name": "Columbia Banking System",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Tacoma, Washington",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "COLM",
+      "name": "Columbia Sportswear",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel, Accessories & Luxury Goods",
+      "headquarters": "Portland, Oregon",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "COTY",
+      "name": "Coty",
+      "sector": "Consumer Staples",
+      "subIndustry": "Personal Care Products",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CPRI",
+      "name": "Capri Holdings",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel, Accessories & Luxury Goods",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CR",
+      "name": "Crane",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Stamford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CRBG",
+      "name": "Corebridge Financial",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Footwear",
+      "headquarters": "Broomfield, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CRS",
+      "name": "Carpenter Technology",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Philadelphia, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CRUS",
+      "name": "Cirrus Logic",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Austin, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CSL",
+      "name": "Carlisle Companies",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Conglomerates",
+      "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CUBE",
+      "name": "CubeSmart",
+      "sector": "Real Estate",
+      "subIndustry": "Industrial REITs",
+      "headquarters": "Malvern, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CUZ",
+      "name": "Cousins Properties",
+      "sector": "Real Estate",
+      "subIndustry": "Office REITs",
+      "headquarters": "Atlanta, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CVLT",
+      "name": "CommVault Systems",
+      "sector": "Information Technology",
+      "subIndustry": "Systems Software",
+      "headquarters": "Tinton Falls, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CW",
+      "name": "Curtiss-Wright",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Davidson, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CXT",
+      "name": "Crane NXT",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Equipment & Instruments",
+      "headquarters": "Stamford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CYTK",
+      "name": "Cytokinetics",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "South San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DAR",
+      "name": "Darling Ingredients",
+      "sector": "Consumer Staples",
+      "subIndustry": "Agricultural Products & Services",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DBX",
+      "name": "Dropbox",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DCI",
+      "name": "Donaldson Company",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Bloomington, Minnesota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Refining & Marketing",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DKS",
+      "name": "Dick's Sporting Goods",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Specialty Stores",
+      "headquarters": "Coraopolis, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DLB",
+      "name": "Dolby",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DOCS",
+      "name": "Doximity",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Technology",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DOCU",
+      "name": "Docusign",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DT",
+      "name": "Dynatrace",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "Waltham, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DTM",
+      "name": "DT Midstream",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Storage & Transportation",
+      "headquarters": "Detroit, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Education Services",
+      "headquarters": "Pittsburgh, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DY",
+      "name": "Dycom Industries",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "Palm Beach Gardens, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EEFT",
+      "name": "Euronet Worldwide",
+      "sector": "Financials",
+      "subIndustry": "Transaction & Payment Processing Services",
+      "headquarters": "Leawood, Kansas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EGP",
+      "name": "EastGroup Properties",
+      "sector": "Real Estate",
+      "subIndustry": "Industrial REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EHC",
+      "name": "Encompass Health",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Facilities",
+      "headquarters": "Birmingham, Alabama",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ELAN",
+      "name": "Elanco",
+      "sector": "Health Care",
+      "subIndustry": "Pharmaceuticals",
+      "headquarters": "Greenfield, Indiana",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ELF",
+      "name": "e.l.f. Beauty",
+      "sector": "Consumer Staples",
+      "subIndustry": "Personal Care Products",
+      "headquarters": "Oakland, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ELS",
+      "name": "Equity Lifestyle Properties",
+      "sector": "Real Estate",
+      "subIndustry": "Single-Family Residential REITs",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ENS",
+      "name": "EnerSys",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Reading, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ENSG",
+      "name": "Ensign Group",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Facilities",
+      "headquarters": "San Juan Capistrano, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ENTG",
+      "name": "Entegris",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductor Materials & Equipment",
+      "headquarters": "Billerica, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EPR",
+      "name": "EPR Properties",
+      "sector": "Real Estate",
+      "subIndustry": "Other Specialized REITs",
+      "headquarters": "Kansas City, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EQH",
+      "name": "Equitable Holdings",
+      "sector": "Financials",
+      "subIndustry": "Diversified Financial Services",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ESAB",
+      "name": "ESAB",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "North Bethesda, Maryland",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ESNT",
+      "name": "Essent Group Ltd.",
+      "sector": "Financials",
+      "subIndustry": "Commercial & Residential Mortgage Finance",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EVR",
+      "name": "Evercore",
+      "sector": "Financials",
+      "subIndustry": "Investment Banking & Brokerage",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EWBC",
+      "name": "East West Bancorp",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Pasadena, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EXEL",
+      "name": "Exelixis",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "Alameda, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EXLS",
+      "name": "EXL Service",
+      "sector": "Industrials",
+      "subIndustry": "Data Processing & Outsourced Services",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EXP",
+      "name": "Eagle Materials",
+      "sector": "Materials",
+      "subIndustry": "Construction Materials",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "EXPO",
+      "name": "Exponent, Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Research & Consulting Services",
+      "headquarters": "Menlo Park, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FAF",
+      "name": "First American Financial Corporation",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "Santa Ana, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FBIN",
+      "name": "Fortune Brands Innovations",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Deerfield, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FCFS",
+      "name": "FirstCash",
+      "sector": "Financials",
+      "subIndustry": "Consumer Finance",
+      "headquarters": "Fort Worth, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FCN",
+      "name": "FTI Consulting",
+      "sector": "Industrials",
+      "subIndustry": "Research & Consulting Services",
+      "headquarters": "Washington, D.C.",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FFIN",
+      "name": "First Financial Bankshares",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Cincinnati, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FHI",
+      "name": "Federated Hermes",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "Pittsburgh, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FHN",
+      "name": "First Horizon",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Memphis, Tennessee",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FIVE",
+      "name": "Five Below",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Specialty Stores",
+      "headquarters": "Philadelphia, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Manufacturing Services",
+      "headquarters": "Austin, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FLG",
+      "name": "Flagstar Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Hicksville, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FLO",
+      "name": "Flowers Foods",
+      "sector": "Consumer Staples",
+      "subIndustry": "Packaged Foods & Meats",
+      "headquarters": "Thomasville, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FLR",
+      "name": "Fluor",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "Irving, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FLS",
+      "name": "Flowserve",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Irving, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Manufacturing Services",
+      "headquarters": "Santa Clara, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FNB",
+      "name": "FNB Corporation",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Pittsburgh, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FND",
+      "name": "Floor & Decor",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Home Improvement Retail",
+      "headquarters": "Smyrna, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FNF",
+      "name": "Fidelity National Financial",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "Jacksonville, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FOUR",
+      "name": "Shift4",
+      "sector": "Financials",
+      "subIndustry": "Transaction & Payment Processing Services",
+      "headquarters": "Center Valley, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FR",
+      "name": "First Industrial Realty Trust",
+      "sector": "Real Estate",
+      "subIndustry": "Industrial REITs",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "FTI",
+      "name": "TechnipFMC",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Equipment & Services",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "G",
+      "name": "Genpact",
+      "sector": "Industrials",
+      "subIndustry": "Data Processing & Outsourced Services",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GAP",
+      "name": "Gap Inc.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel Retail",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GATX",
+      "name": "GATX",
+      "sector": "Industrials",
+      "subIndustry": "Construction Machinery & Heavy Transportation Equipment",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GBCI",
+      "name": "Glacier Bancorp",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Kalispell, Montana",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GEF",
+      "name": "Greif, Inc.",
+      "sector": "Materials",
+      "subIndustry": "Metal, Glass & Plastic Containers",
+      "headquarters": "Delaware, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GGG",
+      "name": "Graco Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Minneapolis, Minnesota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GHC",
+      "name": "Graham Holdings",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Education Services",
+      "headquarters": "Arlington County, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GLPI",
+      "name": "Gaming and Leisure Properties",
+      "sector": "Real Estate",
+      "subIndustry": "Other Specialized REITs",
+      "headquarters": "Wyomissing, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GME",
+      "name": "GameStop",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Computer & Electronics Retail",
+      "headquarters": "Grapevine, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GMED",
+      "name": "Globus Medical",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Equipment",
+      "headquarters": "Audubon, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GNTX",
+      "name": "Gentex",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Parts & Equipment",
+      "headquarters": "Zeeland, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GPK",
+      "name": "Graphic Packaging",
+      "sector": "Materials",
+      "subIndustry": "Paper & Plastic Packaging Products & Materials",
+      "headquarters": "Atlanta, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GT",
+      "name": "Goodyear Tire & Rubber",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Tires & Rubber",
+      "headquarters": "Akron, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GTLS",
+      "name": "Chart Industries",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GTM",
+      "name": "ZoomInfo",
+      "sector": "Communication Services",
+      "subIndustry": "Interactive Media & Services",
+      "headquarters": "Vancouver, Washington",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GWRE",
+      "name": "Guidewire Software",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "San Mateo, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "GXO",
+      "name": "GXO Logistics",
+      "sector": "Industrials",
+      "subIndustry": "Air Freight & Logistics",
+      "headquarters": "Greenwich, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "H",
+      "name": "Hyatt",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Hotels, Resorts & Cruise Lines",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HAE",
+      "name": "Haemonetics",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Supplies",
+      "headquarters": "Boston, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HALO",
+      "name": "Halozyme",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "San Diego, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HGV",
+      "name": "Hilton Grand Vacations",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Hotels, Resorts & Cruise Lines",
+      "headquarters": "Orlando, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Services",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HL",
+      "name": "Hecla Mining",
+      "sector": "Materials",
+      "subIndustry": "Silver",
+      "headquarters": "Coeur d'Alene, Idaho",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HLI",
+      "name": "Houlihan Lokey",
+      "sector": "Financials",
+      "subIndustry": "Investment Banking & Brokerage",
+      "headquarters": "Los Angeles, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HLNE",
+      "name": "Hamilton Lane",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "Conshohocken, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HOG",
+      "name": "Harley-Davidson",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Motorcycle Manufacturers",
+      "headquarters": "Milwaukee, Wisconsin",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HOMB",
+      "name": "Home BancShares",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Conway, Arkansas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HQY",
+      "name": "HealthEquity",
+      "sector": "Health Care",
+      "subIndustry": "Managed Health Care",
+      "headquarters": "Draper, Utah",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HR",
+      "name": "Healthcare Realty Trust",
+      "sector": "Real Estate",
+      "subIndustry": "Health Care REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HRB",
+      "name": "H&R Block",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Specialized Consumer Services",
+      "headquarters": "Kansas City, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HWC",
+      "name": "Hancock Whitney",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Gulfport, Mississippi",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "HXL",
+      "name": "Hexcel",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Stamford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "IBOC",
+      "name": "Intl Bancshares Corp",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Laredo, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "IDA",
+      "name": "Idacorp",
+      "sector": "Utilities",
+      "subIndustry": "Electric Utilities",
+      "headquarters": "Boise, Idaho",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "subIndustry": "Life Sciences Tools & Services",
+      "headquarters": "San Diego, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "INGR",
+      "name": "Ingredion",
+      "sector": "Consumer Staples",
+      "subIndustry": "Agricultural Products & Services",
+      "headquarters": "Westchester, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "IPGP",
+      "name": "IPG Photonics",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Manufacturing Services",
+      "headquarters": "Oxford, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "IRT",
+      "name": "IRT Living",
+      "sector": "Real Estate",
+      "subIndustry": "Multi-Family Residential REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ITT",
+      "name": "ITT Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Stamford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "JAZZ",
+      "name": "Jazz Pharmaceuticals",
+      "sector": "Health Care",
+      "subIndustry": "Pharmaceuticals",
+      "headquarters": "Dublin, Ireland",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "JEF",
+      "name": "Jefferies",
+      "sector": "Financials",
+      "subIndustry": "Multi-Sector Holdings",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "JHG",
+      "name": "Janus Henderson",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "JLL",
+      "name": "Jones Lang LaSalle",
+      "sector": "Real Estate",
+      "subIndustry": "Real Estate Services",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KBH",
+      "name": "KB Home",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Homebuilding",
+      "headquarters": "Los Angeles, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KBR",
+      "name": "KBR, Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Diversified Support Services",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KD",
+      "name": "Kyndryl",
+      "sector": "Information Technology",
+      "subIndustry": "IT Consulting & Other Services",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KEX",
+      "name": "Kirby Corporation",
+      "sector": "Industrials",
+      "subIndustry": "Marine Transportation",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KMPR",
+      "name": "Kemper Corporation",
+      "sector": "Financials",
+      "subIndustry": "Multi-line Insurance",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KNF",
+      "name": "Knife River Corporation",
+      "sector": "Materials",
+      "subIndustry": "Construction Materials",
+      "headquarters": "Bismarck, North Dakota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KNSL",
+      "name": "Kinsale Capital Group",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KNX",
+      "name": "Knight-Swift",
+      "sector": "Industrials",
+      "subIndustry": "Cargo Ground Transportation",
+      "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KRC",
+      "name": "Kilroy Realty Corp",
+      "sector": "Real Estate",
+      "subIndustry": "Office REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KRG",
+      "name": "Kite Realty Group Trust",
+      "sector": "Real Estate",
+      "subIndustry": "Retail REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "San Diego, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LAD",
+      "name": "Lithia Motors",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Retail",
+      "headquarters": "Medford, Oregon",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LAMR",
+      "name": "Lamar Advertising Company",
+      "sector": "Real Estate",
+      "subIndustry": "Other Specialized REITs",
+      "headquarters": "Baton Rouge, Louisiana",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LEA",
+      "name": "Lear",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Parts & Equipment",
+      "headquarters": "Southfield, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LECO",
+      "name": "Lincoln Electric",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Euclid, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LFUS",
+      "name": "Littelfuse",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Components",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum Holdings",
+      "sector": "Information Technology",
+      "subIndustry": "Communications Equipment",
+      "headquarters": "San Jose, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LIVN",
+      "name": "LivaNova",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Equipment",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LNTH",
+      "name": "Lantheus Holdings",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Supplies",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LOPE",
+      "name": "Grand Canyon Education",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Education Services",
+      "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LPX",
+      "name": "Louisiana-Pacific",
+      "sector": "Materials",
+      "subIndustry": "Forest Products",
+      "headquarters": "Nashville, Tennessee",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LSCC",
+      "name": "Lattice Semiconductor",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Hillsboro, Oregon",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "LSTR",
+      "name": "Landstar System",
+      "sector": "Industrials",
+      "subIndustry": "Cargo Ground Transportation",
+      "headquarters": "Jacksonville, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "M",
+      "name": "Macy's",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Broadline Retail",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MANH",
+      "name": "Manhattan Associates",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "Atlanta, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MASI",
+      "name": "Masimo",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Equipment",
+      "headquarters": "Irvine, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MAT",
+      "name": "Mattel",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Leisure Products",
+      "headquarters": "El Segundo, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MEDP",
+      "name": "Medpace",
+      "sector": "Health Care",
+      "subIndustry": "Life Sciences Tools & Services",
+      "headquarters": "Cincinnati, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MIDD",
+      "name": "Middleby",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Elgin, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MKSI",
+      "name": "MKS Instruments",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductor Materials & Equipment",
+      "headquarters": "Andover, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MLI",
+      "name": "Mueller Industries",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Collierville, Tennessee",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MMS",
+      "name": "Maximus Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Data Processing & Outsourced Services",
+      "headquarters": "Tysons, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MORN",
+      "name": "Morningstar, Inc.",
+      "sector": "Financials",
+      "subIndustry": "Financial Exchanges & Data",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MP",
+      "name": "MP Materials",
+      "sector": "Materials",
+      "subIndustry": "Diversified Metals & Mining",
+      "headquarters": "Las Vegas, Nevada",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MSA",
+      "name": "MSA Safety",
+      "sector": "Industrials",
+      "subIndustry": "Office Services & Supplies",
+      "headquarters": "Cranberry Township, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MSM",
+      "name": "MSC Industrial Direct",
+      "sector": "Industrials",
+      "subIndustry": "Trading Companies & Distributors",
+      "headquarters": "Melville, New York Davidson, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MTDR",
+      "name": "Matador Resources",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MTG",
+      "name": "MGIC Investment Corporation",
+      "sector": "Financials",
+      "subIndustry": "Reinsurance",
+      "headquarters": "Milwaukee, Wisconsin",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MTN",
+      "name": "Vail Resorts",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Hotels, Resorts & Cruise Lines",
+      "headquarters": "Broomfield, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MTSI",
+      "name": "MACOM Technology Solutions",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Lowell, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MTZ",
+      "name": "MasTec",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "Coral Gables, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MUSA",
+      "name": "Murphy USA",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Retail",
+      "headquarters": "El Dorado, Arkansas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MZTI",
+      "name": "The Marzetti Company",
+      "sector": "Consumer Staples",
+      "subIndustry": "Packaged Foods & Meats",
+      "headquarters": "Westerville, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "San Diego, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NEU",
+      "name": "NewMarket Corporation",
+      "sector": "Materials",
+      "subIndustry": "Specialty Chemicals",
+      "headquarters": "Richmond, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NFG",
+      "name": "National Fuel Gas",
+      "sector": "Utilities",
+      "subIndustry": "Gas Utilities",
+      "headquarters": "Williamsville, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NJR",
+      "name": "New Jersey Resources",
+      "sector": "Utilities",
+      "subIndustry": "Gas Utilities",
+      "headquarters": "Wall Township, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NLY",
+      "name": "Annaly Capital Management",
+      "sector": "Financials",
+      "subIndustry": "Mortgage REITs",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN Reit",
+      "sector": "Real Estate",
+      "subIndustry": "Retail REITs",
+      "headquarters": "Orlando, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NOV",
+      "name": "NOV Inc.",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Equipment & Services",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NOVT",
+      "name": "Novanta",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Equipment & Instruments",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NSA",
+      "name": "National Storage Affiliates Trust",
+      "sector": "Real Estate",
+      "subIndustry": "Self-Storage REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NTNX",
+      "name": "Nutanix",
+      "sector": "Information Technology",
+      "subIndustry": "Systems Software",
+      "headquarters": "San Jose, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NVST",
+      "name": "Envista Holdings",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Supplies",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NVT",
+      "name": "nVent Electric plc",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NWE",
+      "name": "NorthWestern Corporation",
+      "sector": "Utilities",
+      "subIndustry": "Multi-Utilities",
+      "headquarters": "Sioux Falls, South Dakota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NXST",
+      "name": "Nexstar Media Group",
+      "sector": "Communication Services",
+      "subIndustry": "Broadcasting",
+      "headquarters": "Irving, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NXT",
+      "name": "Nextpower",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Fremont, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "NYT",
+      "name": "New York Times Company",
+      "sector": "Communication Services",
+      "subIndustry": "Publishing",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OC",
+      "name": "Owens Corning",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Toledo, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OGE",
+      "name": "OGE Energy",
+      "sector": "Utilities",
+      "subIndustry": "Multi-Utilities",
+      "headquarters": "Oklahoma City, Oklahoma",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OGS",
+      "name": "ONE Gas",
+      "sector": "Utilities",
+      "subIndustry": "Gas Utilities",
+      "headquarters": "Tulsa, Oklahoma",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OHI",
+      "name": "Omega Healthcare Investors",
+      "sector": "Real Estate",
+      "subIndustry": "Health Care REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta, Inc.",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OLED",
+      "name": "Universal Display",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Ewing, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OLLI",
+      "name": "Ollie's Bargain Outlet",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Broadline Retail",
+      "headquarters": "Harrisburg, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OLN",
+      "name": "Olin Corporation",
+      "sector": "Materials",
+      "subIndustry": "Diversified Chemicals",
+      "headquarters": "Clayton, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ONB",
+      "name": "Old National Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Evansville, Indiana",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ONTO",
+      "name": "Onto Innovation",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductor Materials & Equipment",
+      "headquarters": "Wilmington, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OPCH",
+      "name": "Option Care Health",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Facilities",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ORA",
+      "name": "Ormat Technologies",
+      "sector": "Utilities",
+      "subIndustry": "Renewable Electricity",
+      "headquarters": "Reno, Nevada",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ORI",
+      "name": "Old Republic International",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OSK",
+      "name": "Oshkosh",
+      "sector": "Industrials",
+      "subIndustry": "Construction Machinery & Heavy Transportation Equipment",
+      "headquarters": "Oshkosh, Wisconsin",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "OZK",
+      "name": "Bank OZK",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Little Rock, Arkansas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PAG",
+      "name": "Penske Automotive Group",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Retail",
+      "headquarters": "Bloomfield Hills, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath",
+      "sector": "Information Technology",
+      "subIndustry": "Systems Software",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PB",
+      "name": "Prosperity Bancshares",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PBF",
+      "name": "PBF Energy",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Refining & Marketing",
+      "headquarters": "Parsippany, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PCTY",
+      "name": "Paylocity",
+      "sector": "Industrials",
+      "subIndustry": "Human Resource & Employment Services",
+      "headquarters": "Schaumburg, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PEGA",
+      "name": "Pegasystems",
+      "sector": "Information Technology",
+      "subIndustry": "Application Software",
+      "headquarters": "Waltham, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PEN",
+      "name": "Penumbra, Inc.",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Equipment",
+      "headquarters": "Alameda, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PFGC",
+      "name": "Performance Food Group",
+      "sector": "Consumer Staples",
+      "subIndustry": "Food Distributors",
+      "headquarters": "Richmond, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PII",
+      "name": "Polaris",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Leisure Products",
+      "headquarters": "Medina, Minnesota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PINS",
+      "name": "Pinterest",
+      "sector": "Communication Services",
+      "subIndustry": "nan",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PK",
+      "name": "Park Hotels & Resorts",
+      "sector": "Real Estate",
+      "subIndustry": "Hotel & Resort REITs",
+      "headquarters": "Tysons, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PLNT",
+      "name": "Planet Fitness",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Leisure Facilities",
+      "headquarters": "Hampton, New Hampshire",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PNFP",
+      "name": "Pinnacle Financial Partners",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Nashville, Tennessee",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "POR",
+      "name": "Portland General Electric",
+      "sector": "Utilities",
+      "subIndustry": "Electric Utilities",
+      "headquarters": "Portland, Oregon",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "POST",
+      "name": "Post Holdings",
+      "sector": "Consumer Staples",
+      "subIndustry": "Packaged Foods & Meats",
+      "headquarters": "St Louis, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PPC",
+      "name": "Pilgrim's Pride",
+      "sector": "Consumer Staples",
+      "subIndustry": "Packaged Foods & Meats",
+      "headquarters": "Greeley, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PR",
+      "name": "Permian Resources",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Midland, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PRI",
+      "name": "Primerica",
+      "sector": "Financials",
+      "subIndustry": "Life & Health Insurance",
+      "headquarters": "Duluth, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PSN",
+      "name": "Parsons Corporation",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Chantilly, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PSTG",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "subIndustry": "Technology Hardware, Storage & Peripherals",
+      "headquarters": "Santa Clara, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "PVH",
+      "name": "PVH Corp.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel, Accessories & Luxury Goods",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "sector": "Information Technology",
+      "subIndustry": "Systems Software",
+      "headquarters": "Foster City, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "R",
+      "name": "Ryder",
+      "sector": "Industrials",
+      "subIndustry": "Cargo Ground Transportation",
+      "headquarters": "Miami, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RBA",
+      "name": "RB Global",
+      "sector": "Industrials",
+      "subIndustry": "Diversified Support Services",
+      "headquarters": "Westchester, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RBC",
+      "name": "RBC Bearings",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Oxford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "REXR",
+      "name": "Rexford Industrial Realty",
+      "sector": "Real Estate",
+      "subIndustry": "Industrial REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RGA",
+      "name": "Reinsurance Group of America",
+      "sector": "Financials",
+      "subIndustry": "Reinsurance",
+      "headquarters": "Chesterfield, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RGEN",
+      "name": "Repligen",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "Waltham, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RGLD",
+      "name": "Royal Gold",
+      "sector": "Materials",
+      "subIndustry": "Gold",
+      "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RH",
+      "name": "RH",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Homefurnishing Retail",
+      "headquarters": "Corte Madera, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RLI",
+      "name": "RLI Corp.",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "Peoria, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RMBS",
+      "name": "Rambus",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "San Jose, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RNR",
+      "name": "RenaissanceRe",
+      "sector": "Financials",
+      "subIndustry": "Reinsurance",
+      "headquarters": "Bermuda",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ROIV",
+      "name": "Roivant Sciences",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "London, United Kingdom",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RPM",
+      "name": "RPM International",
+      "sector": "Materials",
+      "subIndustry": "Specialty Chemicals",
+      "headquarters": "Medina, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RRC",
+      "name": "Range Resources",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Exploration & Production",
+      "headquarters": "Fort Worth, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RRX",
+      "name": "Regal Rexnord",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Beloit, Wisconsin",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RS",
+      "name": "Reliance, Inc.",
+      "sector": "Materials",
+      "subIndustry": "Steel",
+      "headquarters": "Scottsdale, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RYAN",
+      "name": "Ryan Specialty",
+      "sector": "Financials",
+      "subIndustry": "Insurance Brokers",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "RYN",
+      "name": "Rayonier",
+      "sector": "Real Estate",
+      "subIndustry": "Timber REITs",
+      "headquarters": "Wildlight, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SAIA",
+      "name": "Saia",
+      "sector": "Industrials",
+      "subIndustry": "Cargo Ground Transportation",
+      "headquarters": "Johns Creek, Georgia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SAIC",
+      "name": "Science Applications Intl Corp",
+      "sector": "Industrials",
+      "subIndustry": "Diversified Support Services",
+      "headquarters": "Reston, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SAM",
+      "name": "Boston Beer Company",
+      "sector": "Consumer Staples",
+      "subIndustry": "Brewers",
+      "headquarters": "Boston, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SARO",
+      "name": "StandardAero",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Scottsdale, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SATS",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "subIndustry": "Wireless Telecommunication Services",
+      "headquarters": "Englewood, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SBRA",
+      "name": "Sabra Health Care REIT",
+      "sector": "Real Estate",
+      "subIndustry": "Health Care REITs",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SCI",
+      "name": "Service Corp Intl",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Specialized Consumer Services",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SEIC",
+      "name": "SEI Investments Company",
+      "sector": "Financials",
+      "subIndustry": "Asset Management & Custody Banks",
+      "headquarters": "Oaks, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SF",
+      "name": "Stifel",
+      "sector": "Financials",
+      "subIndustry": "Investment Banking & Brokerage",
+      "headquarters": "St. Louis, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SFM",
+      "name": "Sprouts Farmers Market",
+      "sector": "Consumer Staples",
+      "subIndustry": "Food Retail",
+      "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SGI",
+      "name": "Somnigroup International",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Home Furnishings",
+      "headquarters": "Lexington, Kentucky",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SHC",
+      "name": "Sotera Health",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Services",
+      "headquarters": "Broadview Heights, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SIGI",
+      "name": "Selective Insurance Group",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SLAB",
+      "name": "Silicon Labs",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Austin, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SLGN",
+      "name": "Silgan Holdings",
+      "sector": "Materials",
+      "subIndustry": "Metal, Glass & Plastic Containers",
+      "headquarters": "Stamford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SLM",
+      "name": "SLM Corp",
+      "sector": "Financials",
+      "subIndustry": "Consumer Finance",
+      "headquarters": "Newark, Delaware",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SMG",
+      "name": "Scotts Miracle-Gro Company",
+      "sector": "Materials",
+      "subIndustry": "Fertilizers & Agricultural Chemicals",
+      "headquarters": "Marysville, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SNX",
+      "name": "TD Synnex",
+      "sector": "Information Technology",
+      "subIndustry": "Technology Distributors",
+      "headquarters": "Fremont, California Clearwater, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SON",
+      "name": "Sonoco",
+      "sector": "Materials",
+      "subIndustry": "Paper & Plastic Packaging Products & Materials",
+      "headquarters": "Hartsville, South Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SPXC",
+      "name": "SPX Technologies",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Charlotte, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SR",
+      "name": "Spire",
+      "sector": "Utilities",
+      "subIndustry": "Gas Utilities",
+      "headquarters": "St. Louis, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SSB",
+      "name": "South State Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Winter Haven, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SSD",
+      "name": "Simpson Manufacturing",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Pleasanton, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ST",
+      "name": "Sensata Technologies",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Attleboro, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "STAG",
+      "name": "STAG Industrial",
+      "sector": "Real Estate",
+      "subIndustry": "Industrial REITs",
+      "headquarters": "Boston, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "STRL",
+      "name": "Sterling Infrastructure",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "The Woodlands, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "STWD",
+      "name": "Starwood Property Trust",
+      "sector": "Financials",
+      "subIndustry": "Mortgage REITs",
+      "headquarters": "Greenwich, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SWX",
+      "name": "Southwest Gas Corp",
+      "sector": "Utilities",
+      "subIndustry": "Gas Utilities",
+      "headquarters": "Las Vegas, Nevada",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SYNA",
+      "name": "Synaptics",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "San Jose, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TCBI",
+      "name": "Texas Capital Bancshares",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TEX",
+      "name": "Terex",
+      "sector": "Industrials",
+      "subIndustry": "Construction Machinery & Heavy Transportation Equipment",
+      "headquarters": "Norwalk, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "THC",
+      "name": "Tenet Health",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Facilities",
+      "headquarters": "Dallas, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "THG",
+      "name": "Hanover Insurance",
+      "sector": "Financials",
+      "subIndustry": "Property & Casualty Insurance",
+      "headquarters": "Worcester, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "THO",
+      "name": "Thor Industries",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Leisure Products",
+      "headquarters": "Elkhart, Indiana",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TKR",
+      "name": "Timken",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "North Canton, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "sector": "Utilities",
+      "subIndustry": "Independent Power Producers & Energy Traders",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TMHC",
+      "name": "Taylor Morrison",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Homebuilding",
+      "headquarters": "Scottsdale, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TNL",
+      "name": "Travel + Leisure Co.",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Hotels, Resorts & Cruise Lines",
+      "headquarters": "Orlando, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TOL",
+      "name": "Toll Brothers",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Homebuilding",
+      "headquarters": "Fort Washington, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TREX",
+      "name": "Trex",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Winchester, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TRU",
+      "name": "TransUnion",
+      "sector": "Industrials",
+      "subIndustry": "Research & Consulting Services",
+      "headquarters": "Chicago, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TTC",
+      "name": "Toro",
+      "sector": "Industrials",
+      "subIndustry": "Agricultural & Farm Machinery",
+      "headquarters": "Bloomington, Minnesota",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TTEK",
+      "name": "Tetra Tech",
+      "sector": "Industrials",
+      "subIndustry": "Construction & Engineering",
+      "headquarters": "Pasadena, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TTMI",
+      "name": "TTM Technologies",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Manufacturing Services",
+      "headquarters": "Santa Ana, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "sector": "Information Technology",
+      "subIndustry": "Systems Software",
+      "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TXNM",
+      "name": "TXNM Energy",
+      "sector": "Utilities",
+      "subIndustry": "Electric Utilities",
+      "headquarters": "Albuquerque, New Mexico",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "TXRH",
+      "name": "Texas Roadhouse",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Restaurants",
+      "headquarters": "Louisville, Kentucky",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "UBSI",
+      "name": "United Bankshares",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Charleston, West Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "UFPI",
+      "name": "UFP Industries",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Grand Rapids, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "UGI",
+      "name": "UGI Corp",
+      "sector": "Utilities",
+      "subIndustry": "Gas Utilities",
+      "headquarters": "King of Prussia, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ULS",
+      "name": "UL Solutions",
+      "sector": "Industrials",
+      "subIndustry": "nan",
+      "headquarters": "Northbrook, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "UMBF",
+      "name": "UMB Financial Corp.",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Kansas City, Missouri",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "UNM",
+      "name": "Unum",
+      "sector": "Financials",
+      "subIndustry": "Life & Health Insurance",
+      "headquarters": "Chattanooga, Tennessee",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "USFD",
+      "name": "US Foods",
+      "sector": "Consumer Staples",
+      "subIndustry": "Food Distributors",
+      "headquarters": "Rosemont, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "UTHR",
+      "name": "United Therapeutics",
+      "sector": "Health Care",
+      "subIndustry": "Biotechnology",
+      "headquarters": "nan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VAL",
+      "name": "Valaris",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Drilling",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VC",
+      "name": "Visteon",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Parts & Equipment",
+      "headquarters": "Van Buren Township, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VFC",
+      "name": "VF Corporation",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Apparel, Accessories & Luxury Goods",
+      "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VLY",
+      "name": "Valley Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Morristown, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VMI",
+      "name": "Valmont Industries",
+      "sector": "Industrials",
+      "subIndustry": "Industrial Machinery & Supplies & Components",
+      "headquarters": "Omaha, Nebraska",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VNO",
+      "name": "Vornado Realty Trust",
+      "sector": "Real Estate",
+      "subIndustry": "Office REITs",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VNOM",
+      "name": "Viper Energy",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Storage & Transportation",
+      "headquarters": "Midland, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VNT",
+      "name": "Vontier",
+      "sector": "Information Technology",
+      "subIndustry": "Electronic Equipment & Instruments",
+      "headquarters": "Raleigh, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VOYA",
+      "name": "Voya Financial",
+      "sector": "Financials",
+      "subIndustry": "Multi-Sector Holdings",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VVV",
+      "name": "Valvoline",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Automotive Retail",
+      "headquarters": "Lexington, Kentucky",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WAL",
+      "name": "Western Alliance Bancorporation",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WBS",
+      "name": "Webster Bank",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Stamford, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WCC",
+      "name": "WESCO International",
+      "sector": "Industrials",
+      "subIndustry": "Trading Companies & Distributors",
+      "headquarters": "Pittsburgh, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WEX",
+      "name": "WEX Inc.",
+      "sector": "Financials",
+      "subIndustry": "Transaction & Payment Processing Services",
+      "headquarters": "South Portland, Maine",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WFRD",
+      "name": "Weatherford International",
+      "sector": "Energy",
+      "subIndustry": "Oil & Gas Equipment & Services",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WH",
+      "name": "Wyndham Hotels & Resorts",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Hotels, Resorts & Cruise Lines",
+      "headquarters": "Parsippany, New Jersey",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WHR",
+      "name": "Whirlpool Corporation",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Household Appliances",
+      "headquarters": "Benton Harbor, Michigan",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Restaurants",
+      "headquarters": "Addison, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WLK",
+      "name": "Westlake Corporation",
+      "sector": "Materials",
+      "subIndustry": "Specialty Chemicals",
+      "headquarters": "Houston, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WMG",
+      "name": "Warner Music Group",
+      "sector": "Communication Services",
+      "subIndustry": "Movies & Entertainment",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WMS",
+      "name": "Advanced Drainage Systems",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "Hilliard, Ohio",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WPC",
+      "name": "W. P. Carey",
+      "sector": "Real Estate",
+      "subIndustry": "Diversified REITs",
+      "headquarters": "New York City, New York",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WSO",
+      "name": "Watsco",
+      "sector": "Industrials",
+      "subIndustry": "Trading Companies & Distributors",
+      "headquarters": "Miami, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WTFC",
+      "name": "Wintrust Financial",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Rosemont, Illinois",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WTRG",
+      "name": "Essential Utilities",
+      "sector": "Utilities",
+      "subIndustry": "Water Utilities",
+      "headquarters": "Bryn Mawr, Pennsylvania",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WTS",
+      "name": "Watts Water Technologies",
+      "sector": "Industrials",
+      "subIndustry": "Building Products",
+      "headquarters": "North Andover, Massachusetts",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "WWD",
+      "name": "Woodward, Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Fort Collins, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "XPO",
+      "name": "XPO, Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Cargo Ground Transportation",
+      "headquarters": "Greenwich, Connecticut",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "XRAY",
+      "name": "Dentsply Sirona",
+      "sector": "Health Care",
+      "subIndustry": "Health Care Supplies",
+      "headquarters": "Charlotte, North Carolina",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "YETI",
+      "name": "Yeti Holdings",
+      "sector": "Consumer Discretionary",
+      "subIndustry": "Leisure Products",
+      "headquarters": "Austin, Texas",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "ZION",
+      "name": "Zions Bancorporation",
+      "sector": "Financials",
+      "subIndustry": "Regional Banks",
+      "headquarters": "Salt Lake City, Utah",
+      "indexFlags": [
+        "sp500"
+      ]
+    }
+  ]
+}

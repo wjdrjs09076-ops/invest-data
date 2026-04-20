@@ -1,0 +1,5102 @@
+{
+    "2019-01-06": {
+        "regime": "risk_off",
+        "stock_exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "KDP",
+                "sector": "Consumer Staples",
+                "score": 95,
+                "target_weight_pct": 3.63
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 93,
+                "target_weight_pct": 3.44
+            },
+            {
+                "ticker": "SHEN",
+                "sector": "Communication Services",
+                "score": 93,
+                "target_weight_pct": 2.84
+            },
+            {
+                "ticker": "EVTC",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 3.08
+            },
+            {
+                "ticker": "CROX",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "WDFC",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 2.78
+            },
+            {
+                "ticker": "NRG",
+                "sector": "Utilities",
+                "score": 90,
+                "target_weight_pct": 2.4
+            },
+            {
+                "ticker": "MZTI",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 2.97
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 2.4
+            },
+            {
+                "ticker": "HCI",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 3.17
+            },
+            {
+                "ticker": "TDS",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 2.62
+            },
+            {
+                "ticker": "CALX",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "MSEX",
+                "sector": "Utilities",
+                "score": 89,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "NXRT",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 2.66
+            },
+            {
+                "ticker": "QNST",
+                "sector": "Communication Services",
+                "score": 89,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 42.0
+            }
+        ]
+    },
+    "2019-01-13": {
+        "regime": "risk_off",
+        "stock_exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "CROX",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 2.22
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 3.28
+            },
+            {
+                "ticker": "SHEN",
+                "sector": "Communication Services",
+                "score": 92,
+                "target_weight_pct": 3.2
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 3.89
+            },
+            {
+                "ticker": "CIEN",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 2.23
+            },
+            {
+                "ticker": "FN",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 2.3
+            },
+            {
+                "ticker": "TDS",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 3.17
+            },
+            {
+                "ticker": "DXCM",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "WDAY",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 2.22
+            },
+            {
+                "ticker": "INVA",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 2.94
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "QNST",
+                "sector": "Communication Services",
+                "score": 89,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "KDP",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 3.58
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 2.98
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 42.0
+            }
+        ]
+    },
+    "2019-01-20": {
+        "regime": "risk_off",
+        "stock_exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "OFG",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 3.7
+            },
+            {
+                "ticker": "CROX",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "CALX",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 3.57
+            },
+            {
+                "ticker": "CIEN",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 2.61
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 2.58
+            },
+            {
+                "ticker": "WDAY",
+                "sector": "Information Technology",
+                "score": 88,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "OHI",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 3.09
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "MSEX",
+                "sector": "Utilities",
+                "score": 88,
+                "target_weight_pct": 2.57
+            },
+            {
+                "ticker": "KDP",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 3.22
+            },
+            {
+                "ticker": "ALRM",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "CHD",
+                "sector": "Consumer Staples",
+                "score": 86,
+                "target_weight_pct": 3.12
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 2.77
+            },
+            {
+                "ticker": "GNW",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 2.77
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 42.0
+            }
+        ]
+    },
+    "2019-01-27": {
+        "regime": "risk_off",
+        "stock_exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 94,
+                "target_weight_pct": 2.07
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 93,
+                "target_weight_pct": 2.97
+            },
+            {
+                "ticker": "CIEN",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 2.84
+            },
+            {
+                "ticker": "CALX",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "WDAY",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 2.49
+            },
+            {
+                "ticker": "ETSY",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "CROX",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "ALRM",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 2.46
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 3.29
+            },
+            {
+                "ticker": "OHI",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 3.89
+            },
+            {
+                "ticker": "BALL",
+                "sector": "Materials",
+                "score": 86,
+                "target_weight_pct": 3.11
+            },
+            {
+                "ticker": "SHEN",
+                "sector": "Communication Services",
+                "score": 86,
+                "target_weight_pct": 3.01
+            },
+            {
+                "ticker": "MSEX",
+                "sector": "Utilities",
+                "score": 85,
+                "target_weight_pct": 2.15
+            },
+            {
+                "ticker": "QNST",
+                "sector": "Communication Services",
+                "score": 85,
+                "target_weight_pct": 2.0
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 84,
+                "target_weight_pct": 3.71
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 42.0
+            }
+        ]
+    },
+    "2019-02-03": {
+        "regime": "mid",
+        "stock_exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 5.42
+            },
+            {
+                "ticker": "CALX",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 4.29
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 92,
+                "target_weight_pct": 4.32
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 91,
+                "target_weight_pct": 4.26
+            },
+            {
+                "ticker": "WDAY",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 4.65
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 6.09
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 8.93
+            },
+            {
+                "ticker": "ALRM",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 6.23
+            },
+            {
+                "ticker": "QNST",
+                "sector": "Communication Services",
+                "score": 89,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "ETSY",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "BALL",
+                "sector": "Materials",
+                "score": 87,
+                "target_weight_pct": 7.98
+            },
+            {
+                "ticker": "DOC",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 8.79
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.45
+            },
+            {
+                "ticker": "PCTY",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 5.85
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-02-10": {
+        "regime": "mid",
+        "stock_exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 5.54
+            },
+            {
+                "ticker": "ALRM",
+                "sector": "Financials",
+                "score": 93,
+                "target_weight_pct": 6.21
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 93,
+                "target_weight_pct": 4.28
+            },
+            {
+                "ticker": "WDAY",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.1
+            },
+            {
+                "ticker": "TWLO",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "PCTY",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 5.77
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 8.54
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "FBP",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 7.11
+            },
+            {
+                "ticker": "GTY",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 8.93
+            },
+            {
+                "ticker": "OFG",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 7.68
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 87,
+                "target_weight_pct": 4.59
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-02-17": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 7.37
+            },
+            {
+                "ticker": "PCTY",
+                "sector": "Industrials",
+                "score": 93,
+                "target_weight_pct": 7.21
+            },
+            {
+                "ticker": "ENPH",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.94
+            },
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 8.72
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 92,
+                "target_weight_pct": 5.53
+            },
+            {
+                "ticker": "GKOS",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 7.69
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.74
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GTLS",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 6.37
+            },
+            {
+                "ticker": "MEDP",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.32
+            },
+            {
+                "ticker": "ALRM",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 6.36
+            },
+            {
+                "ticker": "FBP",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 7.49
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 9.34
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 6.93
+            }
+        ]
+    },
+    "2019-02-24": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 12.84
+            },
+            {
+                "ticker": "PCTY",
+                "sector": "Industrials",
+                "score": 93,
+                "target_weight_pct": 7.8
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 92,
+                "target_weight_pct": 5.65
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.01
+            },
+            {
+                "ticker": "ENPH",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.66
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RUN",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 7.64
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 6.15
+            },
+            {
+                "ticker": "MEDP",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 5.75
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 5.9
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 7.25
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FBP",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 8.34
+            }
+        ]
+    },
+    "2019-03-03": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 10.44
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 7.32
+            },
+            {
+                "ticker": "CIEN",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 8.32
+            },
+            {
+                "ticker": "TNDM",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "AMPH",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 8.9
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.62
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "NXST",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 7.08
+            },
+            {
+                "ticker": "FBP",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 8.07
+            },
+            {
+                "ticker": "MRCY",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 5.89
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 5.36
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-03-10": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 9.07
+            },
+            {
+                "ticker": "AGYS",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 7.44
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.51
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 92,
+                "target_weight_pct": 5.12
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 8.37
+            },
+            {
+                "ticker": "NYT",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 8.14
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 7.91
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 7.77
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FBP",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 5.98
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 7.69
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-03-17": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 8.45
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 7.93
+            },
+            {
+                "ticker": "EPAM",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 8.02
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 7.59
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.73
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 7.18
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 7.18
+            },
+            {
+                "ticker": "BALL",
+                "sector": "Materials",
+                "score": 88,
+                "target_weight_pct": 6.98
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.98
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 6.98
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GTLS",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "NYT",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 6.78
+            },
+            {
+                "ticker": "FBP",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 5.18
+            }
+        ]
+    },
+    "2019-03-24": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 10.37
+            },
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 9.86
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.03
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 9.3
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TNDM",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "LNTH",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 8.79
+            },
+            {
+                "ticker": "NYT",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 7.36
+            },
+            {
+                "ticker": "IRDM",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 8.79
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.3
+            },
+            {
+                "ticker": "GTLS",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.2
+            }
+        ]
+    },
+    "2019-03-31": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.4
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 8.77
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 8.77
+            },
+            {
+                "ticker": "KEYS",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 8.53
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 8.3
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ENSG",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.52
+            },
+            {
+                "ticker": "LNTH",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 7.63
+            },
+            {
+                "ticker": "NXST",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 6.02
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 7.62
+            },
+            {
+                "ticker": "GRMN",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 7.41
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 6.04
+            }
+        ]
+    },
+    "2019-04-07": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 9.12
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 8.36
+            },
+            {
+                "ticker": "NOVT",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.3
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 8.38
+            },
+            {
+                "ticker": "ENSG",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 6.44
+            },
+            {
+                "ticker": "NEO",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 7.93
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 7.93
+            },
+            {
+                "ticker": "NXST",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 6.42
+            },
+            {
+                "ticker": "MRCY",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.42
+            },
+            {
+                "ticker": "GRMN",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 7.71
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-04-14": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.26
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 8.78
+            },
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 6.03
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 8.27
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 8.81
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 8.57
+            },
+            {
+                "ticker": "MRCY",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 6.45
+            },
+            {
+                "ticker": "CVNA",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 8.1
+            },
+            {
+                "ticker": "ALRM",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 6.24
+            },
+            {
+                "ticker": "VCTR",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 85,
+                "target_weight_pct": 7.57
+            },
+            {
+                "ticker": "NXST",
+                "sector": "Communication Services",
+                "score": 85,
+                "target_weight_pct": 5.92
+            }
+        ]
+    },
+    "2019-04-21": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.93
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.28
+            },
+            {
+                "ticker": "LRN",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 7.08
+            },
+            {
+                "ticker": "MRCY",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 7.2
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 6.28
+            },
+            {
+                "ticker": "CMG",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 8.28
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 8.28
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 8.05
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 7.83
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 5.34
+            },
+            {
+                "ticker": "NXST",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 6.18
+            },
+            {
+                "ticker": "TGNA",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 5.18
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 7.61
+            },
+            {
+                "ticker": "COKE",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 6.48
+            }
+        ]
+    },
+    "2019-04-28": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 96,
+                "target_weight_pct": 7.79
+            },
+            {
+                "ticker": "MRCY",
+                "sector": "Industrials",
+                "score": 95,
+                "target_weight_pct": 7.16
+            },
+            {
+                "ticker": "ENPH",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "COKE",
+                "sector": "Consumer Staples",
+                "score": 92,
+                "target_weight_pct": 5.79
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.53
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 8.68
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CVNA",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 7.27
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 8.44
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 7.98
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 7.13
+            },
+            {
+                "ticker": "NXST",
+                "sector": "Communication Services",
+                "score": 86,
+                "target_weight_pct": 7.22
+            },
+            {
+                "ticker": "VCTR",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-05-05": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 93,
+                "target_weight_pct": 9.16
+            },
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 6.73
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 9.04
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PCTY",
+                "sector": "Industrials",
+                "score": 92,
+                "target_weight_pct": 6.86
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CVNA",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "AAON",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 6.27
+            },
+            {
+                "ticker": "COKE",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 6.51
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 6.3
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 8.71
+            },
+            {
+                "ticker": "FOXF",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 7.18
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 8.23
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-05-12": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 7.5
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 6.29
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 9.1
+            },
+            {
+                "ticker": "COKE",
+                "sector": "Consumer Staples",
+                "score": 92,
+                "target_weight_pct": 5.98
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 8.02
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 7.07
+            },
+            {
+                "ticker": "STRA",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VRRM",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 5.25
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 9.52
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VCTR",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 5.32
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 8.16
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 7.45
+            },
+            {
+                "ticker": "FRPT",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 5.36
+            }
+        ]
+    },
+    "2019-05-19": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 93,
+                "target_weight_pct": 7.49
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 93,
+                "target_weight_pct": 5.05
+            },
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 6.35
+            },
+            {
+                "ticker": "CABO",
+                "sector": "Communication Services",
+                "score": 91,
+                "target_weight_pct": 10.53
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 6.62
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 5.95
+            },
+            {
+                "ticker": "MKTX",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 9.2
+            },
+            {
+                "ticker": "CDNS",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 6.83
+            },
+            {
+                "ticker": "COKE",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FRPT",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.22
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 7.06
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 9.69
+            }
+        ]
+    },
+    "2019-05-26": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "FRPT",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 5.49
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 8.08
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 6.86
+            },
+            {
+                "ticker": "STRA",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VCTR",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 6.97
+            },
+            {
+                "ticker": "CABO",
+                "sector": "Communication Services",
+                "score": 89,
+                "target_weight_pct": 9.09
+            },
+            {
+                "ticker": "AMT",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 9.42
+            },
+            {
+                "ticker": "AZO",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 6.68
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 7.66
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.1
+            },
+            {
+                "ticker": "CTRE",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 9.42
+            },
+            {
+                "ticker": "TGNA",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 5.23
+            }
+        ]
+    },
+    "2019-06-02": {
+        "regime": "mid",
+        "stock_exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 5.82
+            },
+            {
+                "ticker": "AMT",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 7.97
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "CABO",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 7.12
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 6.19
+            },
+            {
+                "ticker": "STRA",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 6.73
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 7.54
+            },
+            {
+                "ticker": "EEFT",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 6.06
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 6.23
+            },
+            {
+                "ticker": "FRPT",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "SBAC",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 5.07
+            },
+            {
+                "ticker": "APPF",
+                "sector": "Information Technology",
+                "score": 88,
+                "target_weight_pct": 5.02
+            },
+            {
+                "ticker": "PCTY",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "PLNT",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-06-09": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 8.76
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "MSCI",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 5.27
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 6.06
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "STRA",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 8.72
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 9.47
+            },
+            {
+                "ticker": "WING",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 6.44
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 7.42
+            },
+            {
+                "ticker": "CABO",
+                "sector": "Communication Services",
+                "score": 89,
+                "target_weight_pct": 8.92
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FRPT",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BAH",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 8.94
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-06-16": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "WING",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 6.93
+            },
+            {
+                "ticker": "STRA",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 9.82
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 6.69
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 7.3
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 7.5
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BX",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 5.73
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 8.81
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 88,
+                "target_weight_pct": 5.09
+            },
+            {
+                "ticker": "KBR",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 7.26
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 6.08
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 7.32
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 6.3
+            },
+            {
+                "ticker": "DG",
+                "sector": "Consumer Staples",
+                "score": 85,
+                "target_weight_pct": 5.18
+            }
+        ]
+    },
+    "2019-06-23": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 93,
+                "target_weight_pct": 8.9
+            },
+            {
+                "ticker": "BX",
+                "sector": "Financials",
+                "score": 91,
+                "target_weight_pct": 6.99
+            },
+            {
+                "ticker": "KBR",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 11.07
+            },
+            {
+                "ticker": "GSHD",
+                "sector": "Financials",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.04
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 8.1
+            },
+            {
+                "ticker": "SGI",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 7.79
+            },
+            {
+                "ticker": "WING",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 6.67
+            },
+            {
+                "ticker": "OSW",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 6.23
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BRKR",
+                "sector": "Health Care",
+                "score": 85,
+                "target_weight_pct": 6.71
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 84,
+                "target_weight_pct": 7.5
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 84,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-06-30": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 7.79
+            },
+            {
+                "ticker": "KBR",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 10.15
+            },
+            {
+                "ticker": "GSHD",
+                "sector": "Financials",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 6.51
+            },
+            {
+                "ticker": "HWM",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.27
+            },
+            {
+                "ticker": "BRKR",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 8.4
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SGI",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 6.35
+            },
+            {
+                "ticker": "AWI",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 8.07
+            },
+            {
+                "ticker": "UPBD",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.14
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "WING",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 6.05
+            },
+            {
+                "ticker": "PI",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BALL",
+                "sector": "Materials",
+                "score": 84,
+                "target_weight_pct": 8.26
+            }
+        ]
+    },
+    "2019-07-07": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "GSHD",
+                "sector": "Financials",
+                "score": 94,
+                "target_weight_pct": 5.46
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 8.45
+            },
+            {
+                "ticker": "BRKR",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 9.65
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 91,
+                "target_weight_pct": 7.35
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.65
+            },
+            {
+                "ticker": "KBR",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 9.65
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.57
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "INSP",
+                "sector": "Health Care",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FICO",
+                "sector": "Information Technology",
+                "score": 86,
+                "target_weight_pct": 6.72
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "NOW",
+                "sector": "Information Technology",
+                "score": 85,
+                "target_weight_pct": 5.4
+            },
+            {
+                "ticker": "SGI",
+                "sector": "Consumer Discretionary",
+                "score": 85,
+                "target_weight_pct": 7.98
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 84,
+                "target_weight_pct": 8.12
+            }
+        ]
+    },
+    "2019-07-14": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "WRLD",
+                "sector": "Financials",
+                "score": 93,
+                "target_weight_pct": 7.64
+            },
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 8.88
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 6.58
+            },
+            {
+                "ticker": "PAYC",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 5.89
+            },
+            {
+                "ticker": "BRKR",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 8.19
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.35
+            },
+            {
+                "ticker": "CRVL",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 8.0
+            },
+            {
+                "ticker": "KBR",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.18
+            },
+            {
+                "ticker": "FICO",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 6.21
+            },
+            {
+                "ticker": "NOW",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 5.98
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CABO",
+                "sector": "Communication Services",
+                "score": 86,
+                "target_weight_pct": 6.99
+            },
+            {
+                "ticker": "IIPR",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 85,
+                "target_weight_pct": 7.12
+            }
+        ]
+    },
+    "2019-07-21": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ERIE",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 8.95
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 6.72
+            },
+            {
+                "ticker": "CRVL",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 8.64
+            },
+            {
+                "ticker": "GSHD",
+                "sector": "Financials",
+                "score": 92,
+                "target_weight_pct": 5.53
+            },
+            {
+                "ticker": "VCYT",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.6
+            },
+            {
+                "ticker": "MKTX",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 6.09
+            },
+            {
+                "ticker": "KBR",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 8.01
+            },
+            {
+                "ticker": "TTEK",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 8.01
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 87,
+                "target_weight_pct": 7.34
+            },
+            {
+                "ticker": "FICO",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 6.07
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 5.26
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 86,
+                "target_weight_pct": 6.76
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CABO",
+                "sector": "Communication Services",
+                "score": 85,
+                "target_weight_pct": 6.99
+            }
+        ]
+    },
+    "2019-07-28": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 9.1
+            },
+            {
+                "ticker": "OKTA",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 7.04
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 7.67
+            },
+            {
+                "ticker": "CRVL",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 9.42
+            },
+            {
+                "ticker": "CYTK",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GSHD",
+                "sector": "Financials",
+                "score": 91,
+                "target_weight_pct": 6.58
+            },
+            {
+                "ticker": "AMD",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 5.68
+            },
+            {
+                "ticker": "ARES",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 8.91
+            },
+            {
+                "ticker": "KTOS",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.98
+            },
+            {
+                "ticker": "BX",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 5.72
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 7.72
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 5.48
+            },
+            {
+                "ticker": "TTD",
+                "sector": "Communication Services",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SAM",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 5.69
+            },
+            {
+                "ticker": "SMPL",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-08-04": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 95,
+                "target_weight_pct": 5.32
+            },
+            {
+                "ticker": "CYTK",
+                "sector": "Health Care",
+                "score": 94,
+                "target_weight_pct": 5.16
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 8.21
+            },
+            {
+                "ticker": "MTCH",
+                "sector": "Communication Services",
+                "score": 91,
+                "target_weight_pct": 6.27
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.23
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.84
+            },
+            {
+                "ticker": "SBAC",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 7.48
+            },
+            {
+                "ticker": "ARES",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 8.21
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FICO",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 6.83
+            },
+            {
+                "ticker": "CASY",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 8.41
+            },
+            {
+                "ticker": "SAM",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.68
+            },
+            {
+                "ticker": "CWST",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 5.47
+            },
+            {
+                "ticker": "SAFE",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 8.41
+            },
+            {
+                "ticker": "AGYS",
+                "sector": "Information Technology",
+                "score": 88,
+                "target_weight_pct": 6.46
+            }
+        ]
+    },
+    "2019-08-11": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CYTK",
+                "sector": "Health Care",
+                "score": 95,
+                "target_weight_pct": 5.85
+            },
+            {
+                "ticker": "ELF",
+                "sector": "Consumer Staples",
+                "score": 94,
+                "target_weight_pct": 5.88
+            },
+            {
+                "ticker": "CPRX",
+                "sector": "Health Care",
+                "score": 94,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 93,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 92,
+                "target_weight_pct": 5.62
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.68
+            },
+            {
+                "ticker": "AGYS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.41
+            },
+            {
+                "ticker": "FICO",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 6.15
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 9.27
+            },
+            {
+                "ticker": "GSHD",
+                "sector": "Financials",
+                "score": 90,
+                "target_weight_pct": 6.31
+            },
+            {
+                "ticker": "SAFE",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 10.75
+            },
+            {
+                "ticker": "SBAC",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 8.37
+            },
+            {
+                "ticker": "SAM",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.97
+            },
+            {
+                "ticker": "CWST",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.32
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 6.41
+            }
+        ]
+    },
+    "2019-08-18": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CYTK",
+                "sector": "Health Care",
+                "score": 94,
+                "target_weight_pct": 5.31
+            },
+            {
+                "ticker": "CPRX",
+                "sector": "Health Care",
+                "score": 94,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 93,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "AGYS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.65
+            },
+            {
+                "ticker": "SBAC",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 9.05
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.37
+            },
+            {
+                "ticker": "SAFE",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 9.88
+            },
+            {
+                "ticker": "ELF",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 5.18
+            },
+            {
+                "ticker": "SAM",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 5.8
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 9.34
+            },
+            {
+                "ticker": "CSGP",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 8.57
+            },
+            {
+                "ticker": "BALL",
+                "sector": "Materials",
+                "score": 87,
+                "target_weight_pct": 6.63
+            },
+            {
+                "ticker": "BAH",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 7.22
+            }
+        ]
+    },
+    "2019-08-25": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CPRX",
+                "sector": "Health Care",
+                "score": 94,
+                "target_weight_pct": 5.25
+            },
+            {
+                "ticker": "CYTK",
+                "sector": "Health Care",
+                "score": 93,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "MANH",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 6.74
+            },
+            {
+                "ticker": "ENPH",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SBAC",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 8.97
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.27
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 8.48
+            },
+            {
+                "ticker": "SBUX",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 8.48
+            },
+            {
+                "ticker": "ELF",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "FCN",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.19
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 7.23
+            },
+            {
+                "ticker": "SAM",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.73
+            },
+            {
+                "ticker": "MKTX",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 7.64
+            }
+        ]
+    },
+    "2019-09-01": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CPRX",
+                "sector": "Health Care",
+                "score": 93,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CYTK",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "AGYS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.32
+            },
+            {
+                "ticker": "PI",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.62
+            },
+            {
+                "ticker": "LSCC",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "MEDP",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 7.79
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 6.8
+            },
+            {
+                "ticker": "SAM",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 6.6
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 8.46
+            },
+            {
+                "ticker": "FCN",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.23
+            },
+            {
+                "ticker": "MTZ",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 7.29
+            },
+            {
+                "ticker": "MKTX",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 7.37
+            },
+            {
+                "ticker": "SMPL",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 8.0
+            },
+            {
+                "ticker": "WING",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 6.52
+            }
+        ]
+    },
+    "2019-09-08": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 8.08
+            },
+            {
+                "ticker": "MEDP",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 8.93
+            },
+            {
+                "ticker": "OLED",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.25
+            },
+            {
+                "ticker": "CPRX",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "TER",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 6.25
+            },
+            {
+                "ticker": "RGEN",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.91
+            },
+            {
+                "ticker": "ELF",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SHAK",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SMPL",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SBAC",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 8.83
+            },
+            {
+                "ticker": "MTZ",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.96
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 6.42
+            },
+            {
+                "ticker": "MKTX",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 6.68
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 8.24
+            },
+            {
+                "ticker": "TDG",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 8.45
+            }
+        ]
+    },
+    "2019-09-15": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "TER",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 7.45
+            },
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 7.93
+            },
+            {
+                "ticker": "ENTG",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 6.97
+            },
+            {
+                "ticker": "MEDP",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 7.06
+            },
+            {
+                "ticker": "MTZ",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.09
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 8.81
+            },
+            {
+                "ticker": "SMPL",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ACAD",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SHAK",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CPRX",
+                "sector": "Health Care",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BX",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 6.01
+            },
+            {
+                "ticker": "FCN",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 8.0
+            },
+            {
+                "ticker": "ABG",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.92
+            },
+            {
+                "ticker": "VRRM",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 8.08
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 84,
+                "target_weight_pct": 5.68
+            }
+        ]
+    },
+    "2019-09-22": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "TER",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 6.83
+            },
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.86
+            },
+            {
+                "ticker": "ENTG",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.28
+            },
+            {
+                "ticker": "JBSS",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 6.97
+            },
+            {
+                "ticker": "SMPL",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.55
+            },
+            {
+                "ticker": "BX",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 6.25
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 8.49
+            },
+            {
+                "ticker": "TGT",
+                "sector": "Consumer Staples",
+                "score": 87,
+                "target_weight_pct": 8.23
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 7.28
+            },
+            {
+                "ticker": "MEDP",
+                "sector": "Health Care",
+                "score": 86,
+                "target_weight_pct": 6.04
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 7.63
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 85,
+                "target_weight_pct": 5.56
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 5.38
+            },
+            {
+                "ticker": "MTZ",
+                "sector": "Industrials",
+                "score": 85,
+                "target_weight_pct": 5.66
+            }
+        ]
+    },
+    "2019-09-29": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 7.27
+            },
+            {
+                "ticker": "DG",
+                "sector": "Consumer Staples",
+                "score": 91,
+                "target_weight_pct": 7.48
+            },
+            {
+                "ticker": "TER",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.55
+            },
+            {
+                "ticker": "ENTG",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.22
+            },
+            {
+                "ticker": "PPC",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 6.25
+            },
+            {
+                "ticker": "JBSS",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 7.81
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 7.1
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 7.6
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 7.6
+            },
+            {
+                "ticker": "SAH",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ABG",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 5.35
+            },
+            {
+                "ticker": "CSR",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 6.97
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 85,
+                "target_weight_pct": 6.55
+            },
+            {
+                "ticker": "ETR",
+                "sector": "Utilities",
+                "score": 85,
+                "target_weight_pct": 6.77
+            },
+            {
+                "ticker": "MTZ",
+                "sector": "Industrials",
+                "score": 85,
+                "target_weight_pct": 5.47
+            }
+        ]
+    },
+    "2019-10-06": {
+        "regime": "mid",
+        "stock_exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "TER",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 5.54
+            },
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.01
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 93,
+                "target_weight_pct": 5.39
+            },
+            {
+                "ticker": "ENTG",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.75
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 92,
+                "target_weight_pct": 6.59
+            },
+            {
+                "ticker": "MHO",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 5.49
+            },
+            {
+                "ticker": "TGT",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 6.23
+            },
+            {
+                "ticker": "BLD",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 4.83
+            },
+            {
+                "ticker": "EPRT",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 4.57
+            },
+            {
+                "ticker": "JBSS",
+                "sector": "Consumer Staples",
+                "score": 90,
+                "target_weight_pct": 6.23
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 6.06
+            },
+            {
+                "ticker": "DG",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 5.46
+            },
+            {
+                "ticker": "ORA",
+                "sector": "Utilities",
+                "score": 89,
+                "target_weight_pct": 6.06
+            },
+            {
+                "ticker": "ETR",
+                "sector": "Utilities",
+                "score": 88,
+                "target_weight_pct": 5.89
+            },
+            {
+                "ticker": "CSR",
+                "sector": "Real Estate",
+                "score": 88,
+                "target_weight_pct": 5.89
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-10-13": {
+        "regime": "mid",
+        "stock_exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "TER",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 4.82
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 93,
+                "target_weight_pct": 6.06
+            },
+            {
+                "ticker": "TGT",
+                "sector": "Consumer Staples",
+                "score": 92,
+                "target_weight_pct": 6.68
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 92,
+                "target_weight_pct": 6.68
+            },
+            {
+                "ticker": "KBH",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 5.14
+            },
+            {
+                "ticker": "AWR",
+                "sector": "Utilities",
+                "score": 92,
+                "target_weight_pct": 6.68
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 6.5
+            },
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 4.25
+            },
+            {
+                "ticker": "RH",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 4.74
+            },
+            {
+                "ticker": "MANH",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 4.29
+            },
+            {
+                "ticker": "EPRT",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 4.91
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 6.05
+            },
+            {
+                "ticker": "DG",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 6.11
+            },
+            {
+                "ticker": "HSY",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 6.15
+            },
+            {
+                "ticker": "FCN",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 5.93
+            },
+            {
+                "ticker": "TAIL",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "sector": "Defensive",
+                "score": 0,
+                "target_weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-10-20": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "KBH",
+                "sector": "Consumer Discretionary",
+                "score": 94,
+                "target_weight_pct": 6.38
+            },
+            {
+                "ticker": "MTH",
+                "sector": "Consumer Discretionary",
+                "score": 94,
+                "target_weight_pct": 7.47
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 93,
+                "target_weight_pct": 5.49
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 93,
+                "target_weight_pct": 8.03
+            },
+            {
+                "ticker": "BLD",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 5.74
+            },
+            {
+                "ticker": "SAIA",
+                "sector": "Industrials",
+                "score": 91,
+                "target_weight_pct": 5.54
+            },
+            {
+                "ticker": "AWR",
+                "sector": "Utilities",
+                "score": 91,
+                "target_weight_pct": 7.61
+            },
+            {
+                "ticker": "CSR",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 7.61
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 7.13
+            },
+            {
+                "ticker": "MTZ",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 7.4
+            },
+            {
+                "ticker": "TGT",
+                "sector": "Consumer Staples",
+                "score": 89,
+                "target_weight_pct": 7.2
+            },
+            {
+                "ticker": "DG",
+                "sector": "Consumer Staples",
+                "score": 88,
+                "target_weight_pct": 7.0
+            },
+            {
+                "ticker": "ORA",
+                "sector": "Utilities",
+                "score": 88,
+                "target_weight_pct": 6.42
+            },
+            {
+                "ticker": "CASH",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 5.68
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 5.31
+            }
+        ]
+    },
+    "2019-10-27": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 93,
+                "target_weight_pct": 6.16
+            },
+            {
+                "ticker": "KBH",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 7.0
+            },
+            {
+                "ticker": "RH",
+                "sector": "Consumer Discretionary",
+                "score": 92,
+                "target_weight_pct": 6.4
+            },
+            {
+                "ticker": "SAIA",
+                "sector": "Industrials",
+                "score": 92,
+                "target_weight_pct": 6.42
+            },
+            {
+                "ticker": "PHM",
+                "sector": "Consumer Discretionary",
+                "score": 91,
+                "target_weight_pct": 7.3
+            },
+            {
+                "ticker": "IRT",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 8.64
+            },
+            {
+                "ticker": "AWR",
+                "sector": "Utilities",
+                "score": 91,
+                "target_weight_pct": 8.64
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 91,
+                "target_weight_pct": 8.61
+            },
+            {
+                "ticker": "EPRT",
+                "sector": "Real Estate",
+                "score": 90,
+                "target_weight_pct": 7.16
+            },
+            {
+                "ticker": "SEDG",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "PDFS",
+                "sector": "Information Technology",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RNG",
+                "sector": "Information Technology",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "DG",
+                "sector": "Consumer Staples",
+                "score": 86,
+                "target_weight_pct": 7.5
+            },
+            {
+                "ticker": "KNSL",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 6.18
+            }
+        ]
+    },
+    "2019-11-03": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.5
+            },
+            {
+                "ticker": "AMD",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 6.29
+            },
+            {
+                "ticker": "APO",
+                "sector": "Financials",
+                "score": 89,
+                "target_weight_pct": 8.27
+            },
+            {
+                "ticker": "KLAC",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 5.06
+            },
+            {
+                "ticker": "LRCX",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "KBH",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 9.56
+            },
+            {
+                "ticker": "IBP",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "UHT",
+                "sector": "Real Estate",
+                "score": 89,
+                "target_weight_pct": 9.25
+            },
+            {
+                "ticker": "BLD",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 7.22
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ROCK",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "WU",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 8.86
+            },
+            {
+                "ticker": "ACAD",
+                "sector": "Health Care",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "EPRT",
+                "sector": "Real Estate",
+                "score": 86,
+                "target_weight_pct": 10.0
+            }
+        ]
+    },
+    "2019-11-10": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "JBL",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 10.58
+            },
+            {
+                "ticker": "UCTT",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ICHR",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.75
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.98
+            },
+            {
+                "ticker": "WU",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 7.91
+            },
+            {
+                "ticker": "BOOT",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "WGO",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VAC",
+                "sector": "Consumer Discretionary",
+                "score": 85,
+                "target_weight_pct": 9.67
+            },
+            {
+                "ticker": "APO",
+                "sector": "Financials",
+                "score": 84,
+                "target_weight_pct": 6.73
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 84,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CG",
+                "sector": "Financials",
+                "score": 84,
+                "target_weight_pct": 8.55
+            },
+            {
+                "ticker": "TGT",
+                "sector": "Consumer Staples",
+                "score": 82,
+                "target_weight_pct": 8.84
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 82,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-11-17": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "UCTT",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ICHR",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "JBL",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 10.55
+            },
+            {
+                "ticker": "SAH",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ACAD",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BOOT",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VAC",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 10.89
+            },
+            {
+                "ticker": "APO",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 7.83
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.64
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.23
+            },
+            {
+                "ticker": "CG",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 10.29
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 5.27
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 86,
+                "target_weight_pct": 8.3
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 85,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-11-24": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ACAD",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "UCTT",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "JBL",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 9.12
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 5.88
+            },
+            {
+                "ticker": "AMD",
+                "sector": "Information Technology",
+                "score": 88,
+                "target_weight_pct": 5.15
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CG",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 9.13
+            },
+            {
+                "ticker": "RH",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "AMWD",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 9.13
+            },
+            {
+                "ticker": "ROCK",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.82
+            },
+            {
+                "ticker": "LAD",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 8.87
+            },
+            {
+                "ticker": "GPI",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 8.18
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 7.73
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 85,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-12-01": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "UCTT",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 6.52
+            },
+            {
+                "ticker": "LITE",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 8.46
+            },
+            {
+                "ticker": "ACAD",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CNXN",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.02
+            },
+            {
+                "ticker": "RH",
+                "sector": "Consumer Discretionary",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.27
+            },
+            {
+                "ticker": "GPI",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 8.71
+            },
+            {
+                "ticker": "CG",
+                "sector": "Financials",
+                "score": 88,
+                "target_weight_pct": 10.0
+            },
+            {
+                "ticker": "MUSA",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 6.45
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 5.01
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 5.67
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 84,
+                "target_weight_pct": 8.9
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 84,
+                "target_weight_pct": 5.0
+            }
+        ]
+    },
+    "2019-12-08": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DXCM",
+                "sector": "Health Care",
+                "score": 94,
+                "target_weight_pct": 6.62
+            },
+            {
+                "ticker": "QRVO",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 8.34
+            },
+            {
+                "ticker": "PODD",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 6.92
+            },
+            {
+                "ticker": "CRUS",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 6.94
+            },
+            {
+                "ticker": "ACAD",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 7.3
+            },
+            {
+                "ticker": "DOCU",
+                "sector": "Information Technology",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GPI",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 5.86
+            },
+            {
+                "ticker": "MHO",
+                "sector": "Consumer Discretionary",
+                "score": 89,
+                "target_weight_pct": 7.96
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 6.93
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 88,
+                "target_weight_pct": 5.84
+            },
+            {
+                "ticker": "MUSA",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 7.68
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 7.41
+            },
+            {
+                "ticker": "RS",
+                "sector": "Materials",
+                "score": 84,
+                "target_weight_pct": 7.19
+            }
+        ]
+    },
+    "2019-12-15": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "QRVO",
+                "sector": "Information Technology",
+                "score": 94,
+                "target_weight_pct": 8.08
+            },
+            {
+                "ticker": "CRUS",
+                "sector": "Information Technology",
+                "score": 93,
+                "target_weight_pct": 8.42
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SWKS",
+                "sector": "Information Technology",
+                "score": 90,
+                "target_weight_pct": 6.28
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 90,
+                "target_weight_pct": 8.0
+            },
+            {
+                "ticker": "THC",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.17
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 6.55
+            },
+            {
+                "ticker": "CNS",
+                "sector": "Financials",
+                "score": 87,
+                "target_weight_pct": 8.29
+            },
+            {
+                "ticker": "GPI",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "BLDR",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 7.16
+            },
+            {
+                "ticker": "MHO",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 6.17
+            },
+            {
+                "ticker": "MUSA",
+                "sector": "Consumer Discretionary",
+                "score": 85,
+                "target_weight_pct": 7.57
+            },
+            {
+                "ticker": "CG",
+                "sector": "Financials",
+                "score": 83,
+                "target_weight_pct": 6.15
+            },
+            {
+                "ticker": "RS",
+                "sector": "Materials",
+                "score": 82,
+                "target_weight_pct": 7.15
+            }
+        ]
+    },
+    "2019-12-22": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CRUS",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 10.5
+            },
+            {
+                "ticker": "LRCX",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.75
+            },
+            {
+                "ticker": "THC",
+                "sector": "Health Care",
+                "score": 92,
+                "target_weight_pct": 6.72
+            },
+            {
+                "ticker": "FORM",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 7.01
+            },
+            {
+                "ticker": "ARWR",
+                "sector": "Health Care",
+                "score": 90,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 89,
+                "target_weight_pct": 8.78
+            },
+            {
+                "ticker": "TGTX",
+                "sector": "Health Care",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 7.3
+            },
+            {
+                "ticker": "CVNA",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "RH",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "WGO",
+                "sector": "Consumer Discretionary",
+                "score": 86,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "APO",
+                "sector": "Financials",
+                "score": 85,
+                "target_weight_pct": 6.36
+            },
+            {
+                "ticker": "URI",
+                "sector": "Industrials",
+                "score": 85,
+                "target_weight_pct": 6.38
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 84,
+                "target_weight_pct": 6.14
+            },
+            {
+                "ticker": "RS",
+                "sector": "Materials",
+                "score": 82,
+                "target_weight_pct": 8.06
+            }
+        ]
+    },
+    "2019-12-29": {
+        "regime": "risk_on",
+        "stock_exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CRUS",
+                "sector": "Information Technology",
+                "score": 95,
+                "target_weight_pct": 10.11
+            },
+            {
+                "ticker": "THC",
+                "sector": "Health Care",
+                "score": 93,
+                "target_weight_pct": 7.09
+            },
+            {
+                "ticker": "LRCX",
+                "sector": "Information Technology",
+                "score": 92,
+                "target_weight_pct": 7.17
+            },
+            {
+                "ticker": "FORM",
+                "sector": "Information Technology",
+                "score": 91,
+                "target_weight_pct": 6.64
+            },
+            {
+                "ticker": "NEO",
+                "sector": "Health Care",
+                "score": 91,
+                "target_weight_pct": 5.01
+            },
+            {
+                "ticker": "KRYS",
+                "sector": "Health Care",
+                "score": 89,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "VAC",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 8.64
+            },
+            {
+                "ticker": "WGO",
+                "sector": "Consumer Discretionary",
+                "score": 88,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "CVNA",
+                "sector": "Consumer Discretionary",
+                "score": 87,
+                "target_weight_pct": 5.0
+            },
+            {
+                "ticker": "SPXC",
+                "sector": "Industrials",
+                "score": 87,
+                "target_weight_pct": 8.4
+            },
+            {
+                "ticker": "GNRC",
+                "sector": "Industrials",
+                "score": 86,
+                "target_weight_pct": 7.69
+            },
+            {
+                "ticker": "KOP",
+                "sector": "Materials",
+                "score": 85,
+                "target_weight_pct": 5.8
+            },
+            {
+                "ticker": "ARES",
+                "sector": "Financials",
+                "score": 84,
+                "target_weight_pct": 7.69
+            },
+            {
+                "ticker": "APO",
+                "sector": "Financials",
+                "score": 83,
+                "target_weight_pct": 5.3
+            },
+            {
+                "ticker": "URI",
+                "sector": "Industrials",
+                "score": 83,
+                "target_weight_pct": 5.45
+            }
+        ]
+    }
+}

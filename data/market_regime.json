@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-03-11T15:05:18.338294+00:00",
+  "benchmark": "SPY",
+  "ma_window": 200,
+  "last_close": 677.6199951171875,
+  "last_ma": 655.5750784301758,
+  "regime": "RISK_ON",
+  "suggested_exposure": 1.0
+}

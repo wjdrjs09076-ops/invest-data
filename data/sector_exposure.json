@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-11T13:50:21.620425+00:00",
+  "top_n": 10,
+  "rebalance": "monthly",
+  "avg_sector_exposure": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.5777777777777778
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.4857142857142857
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.43
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.4125
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.3833333333333333
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.3625
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.3333333333333333
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.3
+    },
+    {
+      "sector": "Communication Services",
+      "weight": 0.2857142857142857
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.25
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.2
+    }
+  ]
+}

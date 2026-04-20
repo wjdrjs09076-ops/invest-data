@@ -1,0 +1,2744 @@
+{
+    "2015-01-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CYTK",
+                "weight_pct": 25.26
+            },
+            {
+                "ticker": "ANIP",
+                "weight_pct": 32.82
+            },
+            {
+                "ticker": "PGT",
+                "weight_pct": 41.92
+            }
+        ]
+    },
+    "2015-02-27": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "EGRX",
+                "weight_pct": 21.02
+            },
+            {
+                "ticker": "SM",
+                "weight_pct": 35.69
+            },
+            {
+                "ticker": "CYTK",
+                "weight_pct": 43.29
+            }
+        ]
+    },
+    "2015-03-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "CORT",
+                "weight_pct": 38.16
+            },
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.66
+            },
+            {
+                "ticker": "EGRX",
+                "weight_pct": 46.19
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2015-04-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.27
+            },
+            {
+                "ticker": "CORT",
+                "weight_pct": 47.91
+            },
+            {
+                "ticker": "AAOI",
+                "weight_pct": 51.82
+            }
+        ]
+    },
+    "2015-05-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ZEUS",
+                "weight_pct": 44.04
+            },
+            {
+                "ticker": "VVC",
+                "weight_pct": 14.69
+            },
+            {
+                "ticker": "QLYS",
+                "weight_pct": 41.26
+            }
+        ]
+    },
+    "2015-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.55
+            },
+            {
+                "ticker": "EGRX",
+                "weight_pct": 40.77
+            },
+            {
+                "ticker": "GBX",
+                "weight_pct": 58.67
+            }
+        ]
+    },
+    "2015-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 35.28
+            },
+            {
+                "ticker": "PGT",
+                "weight_pct": 0.0
+            },
+            {
+                "ticker": "GEOS",
+                "weight_pct": 64.72
+            }
+        ]
+    },
+    "2015-08-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "LXU",
+                "weight_pct": 12.82
+            },
+            {
+                "ticker": "WRLD",
+                "weight_pct": 13.25
+            },
+            {
+                "ticker": "SSTK",
+                "weight_pct": 13.93
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2015-09-30": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "ZUMZ",
+                "weight_pct": 8.99
+            },
+            {
+                "ticker": "XNCR",
+                "weight_pct": 10.1
+            },
+            {
+                "ticker": "RES",
+                "weight_pct": 20.91
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2015-10-30": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "AX",
+                "weight_pct": 26.07
+            },
+            {
+                "ticker": "CYH",
+                "weight_pct": 29.56
+            },
+            {
+                "ticker": "SL",
+                "weight_pct": 29.36
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2015-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "UVE",
+                "weight_pct": 28.88
+            },
+            {
+                "ticker": "TWI",
+                "weight_pct": 35.85
+            },
+            {
+                "ticker": "BOOT",
+                "weight_pct": 35.27
+            }
+        ]
+    },
+    "2015-12-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "MATW",
+                "weight_pct": 31.94
+            },
+            {
+                "ticker": "IIIN",
+                "weight_pct": 21.8
+            },
+            {
+                "ticker": "LII",
+                "weight_pct": 31.26
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2016-01-29": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "OSIS",
+                "weight_pct": 15.65
+            },
+            {
+                "ticker": "WMB",
+                "weight_pct": 9.58
+            },
+            {
+                "ticker": "FCX",
+                "weight_pct": 14.78
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2016-02-29": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "FOSL",
+                "weight_pct": 16.24
+            },
+            {
+                "ticker": "TWI",
+                "weight_pct": 12.35
+            },
+            {
+                "ticker": "NVRI",
+                "weight_pct": 11.41
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2016-03-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "SCOR",
+                "weight_pct": 21.93
+            },
+            {
+                "ticker": "LXU",
+                "weight_pct": 27.37
+            },
+            {
+                "ticker": "CENX",
+                "weight_pct": 35.7
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2016-04-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SM",
+                "weight_pct": 36.85
+            },
+            {
+                "ticker": "CLF",
+                "weight_pct": 29.81
+            },
+            {
+                "ticker": "HSN",
+                "weight_pct": 33.34
+            }
+        ]
+    },
+    "2016-05-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.29
+            },
+            {
+                "ticker": "CLF",
+                "weight_pct": 21.25
+            },
+            {
+                "ticker": "MUR",
+                "weight_pct": 78.46
+            }
+        ]
+    },
+    "2016-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LNTH",
+                "weight_pct": 22.22
+            },
+            {
+                "ticker": "SM",
+                "weight_pct": 31.65
+            },
+            {
+                "ticker": "REI",
+                "weight_pct": 46.13
+            }
+        ]
+    },
+    "2016-07-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DHR",
+                "weight_pct": 19.98
+            },
+            {
+                "ticker": "EHTH",
+                "weight_pct": 36.55
+            },
+            {
+                "ticker": "UIS",
+                "weight_pct": 43.47
+            }
+        ]
+    },
+    "2016-08-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CXW",
+                "weight_pct": 36.99
+            },
+            {
+                "ticker": "MYGN",
+                "weight_pct": 40.12
+            },
+            {
+                "ticker": "DXPE",
+                "weight_pct": 22.89
+            }
+        ]
+    },
+    "2016-09-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LNTH",
+                "weight_pct": 24.39
+            },
+            {
+                "ticker": "DXPE",
+                "weight_pct": 54.79
+            },
+            {
+                "ticker": "HLIT",
+                "weight_pct": 20.82
+            }
+        ]
+    },
+    "2016-10-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "AAOI",
+                "weight_pct": 29.63
+            },
+            {
+                "ticker": "EHTH",
+                "weight_pct": 12.94
+            },
+            {
+                "ticker": "HLIT",
+                "weight_pct": 42.42
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2016-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.13
+            },
+            {
+                "ticker": "CXW",
+                "weight_pct": 44.98
+            },
+            {
+                "ticker": "ECPG",
+                "weight_pct": 54.89
+            }
+        ]
+    },
+    "2016-12-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SL",
+                "weight_pct": 81.99
+            },
+            {
+                "ticker": "ASTH",
+                "weight_pct": 17.95
+            },
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.06
+            }
+        ]
+    },
+    "2017-01-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "XRX",
+                "weight_pct": 19.54
+            },
+            {
+                "ticker": "ASTH",
+                "weight_pct": 14.92
+            },
+            {
+                "ticker": "AMD",
+                "weight_pct": 65.54
+            }
+        ]
+    },
+    "2017-02-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ASTH",
+                "weight_pct": 33.34
+            },
+            {
+                "ticker": "LNTH",
+                "weight_pct": 35.41
+            },
+            {
+                "ticker": "CYH",
+                "weight_pct": 31.25
+            }
+        ]
+    },
+    "2017-03-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CENX",
+                "weight_pct": 58.13
+            },
+            {
+                "ticker": "VVC",
+                "weight_pct": 4.44
+            },
+            {
+                "ticker": "CYH",
+                "weight_pct": 37.42
+            }
+        ]
+    },
+    "2017-04-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "AAOI",
+                "weight_pct": 30.22
+            },
+            {
+                "ticker": "CORT",
+                "weight_pct": 47.86
+            },
+            {
+                "ticker": "MTRX",
+                "weight_pct": 21.92
+            }
+        ]
+    },
+    "2017-05-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "PETS",
+                "weight_pct": 25.52
+            },
+            {
+                "ticker": "WRLD",
+                "weight_pct": 16.39
+            },
+            {
+                "ticker": "FIZZ",
+                "weight_pct": 58.09
+            }
+        ]
+    },
+    "2017-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.09
+            },
+            {
+                "ticker": "AZTA",
+                "weight_pct": 69.93
+            },
+            {
+                "ticker": "COL",
+                "weight_pct": 29.98
+            }
+        ]
+    },
+    "2017-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "TISI",
+                "weight_pct": 30.64
+            },
+            {
+                "ticker": "LXU",
+                "weight_pct": 33.59
+            },
+            {
+                "ticker": "NRG",
+                "weight_pct": 35.77
+            }
+        ]
+    },
+    "2017-08-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "AAOI",
+                "weight_pct": 31.33
+            },
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.07
+            },
+            {
+                "ticker": "BOOT",
+                "weight_pct": 68.6
+            }
+        ]
+    },
+    "2017-09-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "RH",
+                "weight_pct": 25.33
+            },
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.07
+            },
+            {
+                "ticker": "UNIT",
+                "weight_pct": 74.59
+            }
+        ]
+    },
+    "2017-10-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "RGNX",
+                "weight_pct": 66.14
+            },
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.08
+            },
+            {
+                "ticker": "BBBY",
+                "weight_pct": 33.78
+            }
+        ]
+    },
+    "2017-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "THS",
+                "weight_pct": 34.34
+            },
+            {
+                "ticker": "CYTK",
+                "weight_pct": 36.42
+            },
+            {
+                "ticker": "BBBY",
+                "weight_pct": 29.24
+            }
+        ]
+    },
+    "2017-12-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "OSIS",
+                "weight_pct": 67.3
+            },
+            {
+                "ticker": "ASTH",
+                "weight_pct": 32.2
+            },
+            {
+                "ticker": "ATN",
+                "weight_pct": 0.5
+            }
+        ]
+    },
+    "2018-01-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ASTH",
+                "weight_pct": 21.22
+            },
+            {
+                "ticker": "VRA",
+                "weight_pct": 61.2
+            },
+            {
+                "ticker": "IIPR",
+                "weight_pct": 17.58
+            }
+        ]
+    },
+    "2018-02-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LQDT",
+                "weight_pct": 42.38
+            },
+            {
+                "ticker": "VICR",
+                "weight_pct": 40.6
+            },
+            {
+                "ticker": "FOSL",
+                "weight_pct": 17.02
+            }
+        ]
+    },
+    "2018-03-29": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "DIN",
+                "weight_pct": 53.14
+            },
+            {
+                "ticker": "MED",
+                "weight_pct": 15.75
+            },
+            {
+                "ticker": "QCP",
+                "weight_pct": 16.11
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2018-04-30": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "CLW",
+                "weight_pct": 24.95
+            },
+            {
+                "ticker": "QNST",
+                "weight_pct": 29.92
+            },
+            {
+                "ticker": "VICR",
+                "weight_pct": 30.13
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2018-05-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "UEIC",
+                "weight_pct": 30.24
+            },
+            {
+                "ticker": "UVV",
+                "weight_pct": 37.85
+            },
+            {
+                "ticker": "GEN",
+                "weight_pct": 31.91
+            }
+        ]
+    },
+    "2018-06-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "NKTR",
+                "weight_pct": 9.38
+            },
+            {
+                "ticker": "DINO",
+                "weight_pct": 44.59
+            },
+            {
+                "ticker": "PBF",
+                "weight_pct": 46.03
+            }
+        ]
+    },
+    "2018-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "MEDP",
+                "weight_pct": 18.09
+            },
+            {
+                "ticker": "W",
+                "weight_pct": 48.29
+            },
+            {
+                "ticker": "RGNX",
+                "weight_pct": 33.62
+            }
+        ]
+    },
+    "2018-08-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DDD",
+                "weight_pct": 33.64
+            },
+            {
+                "ticker": "GKOS",
+                "weight_pct": 30.04
+            },
+            {
+                "ticker": "EXTR",
+                "weight_pct": 36.32
+            }
+        ]
+    },
+    "2018-09-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ATN",
+                "weight_pct": 22.18
+            },
+            {
+                "ticker": "DDD",
+                "weight_pct": 42.31
+            },
+            {
+                "ticker": "GKOS",
+                "weight_pct": 35.51
+            }
+        ]
+    },
+    "2018-10-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "DDD",
+                "weight_pct": 7.59
+            },
+            {
+                "ticker": "NCLH",
+                "weight_pct": 24.63
+            },
+            {
+                "ticker": "CNXN",
+                "weight_pct": 7.78
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2018-11-30": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "ADM",
+                "weight_pct": 40.75
+            },
+            {
+                "ticker": "RC",
+                "weight_pct": 40.67
+            },
+            {
+                "ticker": "PCG",
+                "weight_pct": 3.58
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2018-12-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "BNED",
+                "weight_pct": 7.4
+            },
+            {
+                "ticker": "PRGO",
+                "weight_pct": 7.9
+            },
+            {
+                "ticker": "RDNT",
+                "weight_pct": 24.71
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2019-01-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "TCMD",
+                "weight_pct": 29.65
+            },
+            {
+                "ticker": "AMD",
+                "weight_pct": 26.51
+            },
+            {
+                "ticker": "SIG",
+                "weight_pct": 28.84
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-02-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "UNIT",
+                "weight_pct": 26.26
+            },
+            {
+                "ticker": "W",
+                "weight_pct": 41.02
+            },
+            {
+                "ticker": "COTY",
+                "weight_pct": 32.71
+            }
+        ]
+    },
+    "2019-03-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CYH",
+                "weight_pct": 35.91
+            },
+            {
+                "ticker": "BNED",
+                "weight_pct": 13.29
+            },
+            {
+                "ticker": "BDC",
+                "weight_pct": 50.79
+            }
+        ]
+    },
+    "2019-04-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DHR",
+                "weight_pct": 45.69
+            },
+            {
+                "ticker": "QCOM",
+                "weight_pct": 8.8
+            },
+            {
+                "ticker": "BKH",
+                "weight_pct": 45.51
+            }
+        ]
+    },
+    "2019-05-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "RYAM",
+                "weight_pct": 12.4
+            },
+            {
+                "ticker": "QCOM",
+                "weight_pct": 30.19
+            },
+            {
+                "ticker": "MU",
+                "weight_pct": 42.41
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2019-06-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "GME",
+                "weight_pct": 26.03
+            },
+            {
+                "ticker": "BBBY",
+                "weight_pct": 30.75
+            },
+            {
+                "ticker": "IIPR",
+                "weight_pct": 43.23
+            }
+        ]
+    },
+    "2019-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "PFE",
+                "weight_pct": 62.64
+            },
+            {
+                "ticker": "EHTH",
+                "weight_pct": 18.37
+            },
+            {
+                "ticker": "HLIT",
+                "weight_pct": 18.99
+            }
+        ]
+    },
+    "2019-08-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "QNST",
+                "weight_pct": 33.72
+            },
+            {
+                "ticker": "PAHC",
+                "weight_pct": 33.88
+            },
+            {
+                "ticker": "ICUI",
+                "weight_pct": 32.4
+            }
+        ]
+    },
+    "2019-09-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LPSN",
+                "weight_pct": 46.75
+            },
+            {
+                "ticker": "ULTA",
+                "weight_pct": 44.04
+            },
+            {
+                "ticker": "BBBY",
+                "weight_pct": 9.21
+            }
+        ]
+    },
+    "2019-10-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "REZI",
+                "weight_pct": 25.16
+            },
+            {
+                "ticker": "GVA",
+                "weight_pct": 30.64
+            },
+            {
+                "ticker": "CYH",
+                "weight_pct": 44.19
+            }
+        ]
+    },
+    "2019-11-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "NSP",
+                "weight_pct": 18.25
+            },
+            {
+                "ticker": "MED",
+                "weight_pct": 19.45
+            },
+            {
+                "ticker": "UFI",
+                "weight_pct": 62.3
+            }
+        ]
+    },
+    "2019-12-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ARWR",
+                "weight_pct": 33.05
+            },
+            {
+                "ticker": "BNED",
+                "weight_pct": 18.72
+            },
+            {
+                "ticker": "LITE",
+                "weight_pct": 48.23
+            }
+        ]
+    },
+    "2020-01-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.34
+            },
+            {
+                "ticker": "SYNA",
+                "weight_pct": 72.52
+            },
+            {
+                "ticker": "EHTH",
+                "weight_pct": 27.14
+            }
+        ]
+    },
+    "2020-02-28": {
+        "regime": "risk_off (VIX CRASH)",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "DEA",
+                "weight_pct": 13.36
+            },
+            {
+                "ticker": "RWT",
+                "weight_pct": 13.33
+            },
+            {
+                "ticker": "AEE",
+                "weight_pct": 13.31
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2020-03-31": {
+        "regime": "risk_off (VIX CRASH)",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "UCTT",
+                "weight_pct": 15.05
+            },
+            {
+                "ticker": "BLD",
+                "weight_pct": 13.56
+            },
+            {
+                "ticker": "CASH",
+                "weight_pct": 11.39
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2020-04-30": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "CNX",
+                "weight_pct": 20.63
+            },
+            {
+                "ticker": "BBBY",
+                "weight_pct": 19.03
+            },
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.34
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2020-05-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "VREX",
+                "weight_pct": 31.07
+            },
+            {
+                "ticker": "BBT",
+                "weight_pct": 35.58
+            },
+            {
+                "ticker": "HAFC",
+                "weight_pct": 33.35
+            }
+        ]
+    },
+    "2020-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ENPH",
+                "weight_pct": 24.6
+            },
+            {
+                "ticker": "UNFI",
+                "weight_pct": 26.58
+            },
+            {
+                "ticker": "SEDG",
+                "weight_pct": 48.82
+            }
+        ]
+    },
+    "2020-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CZR",
+                "weight_pct": 43.01
+            },
+            {
+                "ticker": "EHTH",
+                "weight_pct": 29.91
+            },
+            {
+                "ticker": "BBWI",
+                "weight_pct": 27.08
+            }
+        ]
+    },
+    "2020-08-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "OSPN",
+                "weight_pct": 29.31
+            },
+            {
+                "ticker": "OSUR",
+                "weight_pct": 28.73
+            },
+            {
+                "ticker": "FOSL",
+                "weight_pct": 41.96
+            }
+        ]
+    },
+    "2020-09-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "BBBY",
+                "weight_pct": 55.23
+            },
+            {
+                "ticker": "GME",
+                "weight_pct": 44.03
+            },
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.73
+            }
+        ]
+    },
+    "2020-10-30": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "PENN",
+                "weight_pct": 30.11
+            },
+            {
+                "ticker": "CZR",
+                "weight_pct": 28.26
+            },
+            {
+                "ticker": "TRUP",
+                "weight_pct": 26.62
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2020-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "GCO",
+                "weight_pct": 33.51
+            },
+            {
+                "ticker": "KSS",
+                "weight_pct": 32.47
+            },
+            {
+                "ticker": "GIII",
+                "weight_pct": 34.02
+            }
+        ]
+    },
+    "2020-12-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LQDT",
+                "weight_pct": 22.95
+            },
+            {
+                "ticker": "EGHT",
+                "weight_pct": 29.47
+            },
+            {
+                "ticker": "RYAM",
+                "weight_pct": 47.58
+            }
+        ]
+    },
+    "2021-01-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "FIZZ",
+                "weight_pct": 23.56
+            },
+            {
+                "ticker": "AMCX",
+                "weight_pct": 38.2
+            },
+            {
+                "ticker": "UNFI",
+                "weight_pct": 38.24
+            }
+        ]
+    },
+    "2021-02-26": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "GME",
+                "weight_pct": 11.41
+            },
+            {
+                "ticker": "AMC",
+                "weight_pct": 21.59
+            },
+            {
+                "ticker": "LQDT",
+                "weight_pct": 67.0
+            }
+        ]
+    },
+    "2021-03-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "PSKY",
+                "weight_pct": 21.85
+            },
+            {
+                "ticker": "AMCX",
+                "weight_pct": 47.26
+            },
+            {
+                "ticker": "FOSL",
+                "weight_pct": 30.89
+            }
+        ]
+    },
+    "2021-04-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CENX",
+                "weight_pct": 34.13
+            },
+            {
+                "ticker": "HAE",
+                "weight_pct": 18.89
+            },
+            {
+                "ticker": "TRIP",
+                "weight_pct": 46.98
+            }
+        ]
+    },
+    "2021-05-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "AMC",
+                "weight_pct": 20.33
+            },
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.41
+            },
+            {
+                "ticker": "LGIH",
+                "weight_pct": 79.25
+            }
+        ]
+    },
+    "2021-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "MED",
+                "weight_pct": 67.97
+            },
+            {
+                "ticker": "MSTR",
+                "weight_pct": 18.87
+            },
+            {
+                "ticker": "AMC",
+                "weight_pct": 13.16
+            }
+        ]
+    },
+    "2021-07-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "AMC",
+                "weight_pct": 25.95
+            },
+            {
+                "ticker": "ASTH",
+                "weight_pct": 23.81
+            },
+            {
+                "ticker": "DDD",
+                "weight_pct": 50.24
+            }
+        ]
+    },
+    "2021-08-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ASTH",
+                "weight_pct": 69.27
+            },
+            {
+                "ticker": "SLQT",
+                "weight_pct": 30.1
+            },
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.62
+            }
+        ]
+    },
+    "2021-09-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.46
+            },
+            {
+                "ticker": "MRNA",
+                "weight_pct": 65.02
+            },
+            {
+                "ticker": "RGNX",
+                "weight_pct": 34.52
+            }
+        ]
+    },
+    "2021-10-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.42
+            },
+            {
+                "ticker": "ENPH",
+                "weight_pct": 37.42
+            },
+            {
+                "ticker": "RRC",
+                "weight_pct": 62.17
+            }
+        ]
+    },
+    "2021-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "SM",
+                "weight_pct": 83.04
+            },
+            {
+                "ticker": "CAR",
+                "weight_pct": 16.22
+            },
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.74
+            }
+        ]
+    },
+    "2021-12-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CAR",
+                "weight_pct": 69.1
+            },
+            {
+                "ticker": "PLAB",
+                "weight_pct": 30.54
+            },
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.35
+            }
+        ]
+    },
+    "2022-01-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.19
+            },
+            {
+                "ticker": "TROW",
+                "weight_pct": 45.67
+            },
+            {
+                "ticker": "EXTR",
+                "weight_pct": 39.15
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2022-02-28": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "EPAM",
+                "weight_pct": 10.58
+            },
+            {
+                "ticker": "LNTH",
+                "weight_pct": 12.66
+            },
+            {
+                "ticker": "ENPH",
+                "weight_pct": 16.76
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-03-31": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "TALO",
+                "weight_pct": 43.64
+            },
+            {
+                "ticker": "FOSL",
+                "weight_pct": 16.12
+            },
+            {
+                "ticker": "CAR",
+                "weight_pct": 25.23
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2022-04-29": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "CLF",
+                "weight_pct": 18.33
+            },
+            {
+                "ticker": "NFLX",
+                "weight_pct": 6.42
+            },
+            {
+                "ticker": "ZEUS",
+                "weight_pct": 15.25
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-05-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "ANF",
+                "weight_pct": 12.67
+            },
+            {
+                "ticker": "UA",
+                "weight_pct": 13.12
+            },
+            {
+                "ticker": "UAA",
+                "weight_pct": 14.21
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-06-30": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.17
+            },
+            {
+                "ticker": "PRG",
+                "weight_pct": 12.34
+            },
+            {
+                "ticker": "GFF",
+                "weight_pct": 27.49
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-07-29": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.26
+            },
+            {
+                "ticker": "CYH",
+                "weight_pct": 12.49
+            },
+            {
+                "ticker": "ENPH",
+                "weight_pct": 27.24
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-08-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "SITM",
+                "weight_pct": 10.54
+            },
+            {
+                "ticker": "LQDT",
+                "weight_pct": 16.71
+            },
+            {
+                "ticker": "QURE",
+                "weight_pct": 12.76
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-09-30": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "SVB",
+                "weight_pct": 0.15
+            },
+            {
+                "ticker": "CLFD",
+                "weight_pct": 29.66
+            },
+            {
+                "ticker": "SHC",
+                "weight_pct": 10.19
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-10-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "WRLD",
+                "weight_pct": 14.06
+            },
+            {
+                "ticker": "LRN",
+                "weight_pct": 14.43
+            },
+            {
+                "ticker": "MEDP",
+                "weight_pct": 11.51
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2022-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "GTLS",
+                "weight_pct": 31.84
+            },
+            {
+                "ticker": "GTM",
+                "weight_pct": 32.73
+            },
+            {
+                "ticker": "REZI",
+                "weight_pct": 35.43
+            }
+        ]
+    },
+    "2022-12-30": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "GAP",
+                "weight_pct": 32.15
+            },
+            {
+                "ticker": "VNDA",
+                "weight_pct": 10.76
+            },
+            {
+                "ticker": "ADEA",
+                "weight_pct": 42.09
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2023-01-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "RYAM",
+                "weight_pct": 38.67
+            },
+            {
+                "ticker": "WRLD",
+                "weight_pct": 44.47
+            },
+            {
+                "ticker": "SHC",
+                "weight_pct": 16.87
+            }
+        ]
+    },
+    "2023-02-28": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "INGN",
+                "weight_pct": 27.99
+            },
+            {
+                "ticker": "VICR",
+                "weight_pct": 30.15
+            },
+            {
+                "ticker": "UEIC",
+                "weight_pct": 26.86
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2023-03-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CMA",
+                "weight_pct": 31.77
+            },
+            {
+                "ticker": "KEY",
+                "weight_pct": 33.08
+            },
+            {
+                "ticker": "UNFI",
+                "weight_pct": 35.15
+            }
+        ]
+    },
+    "2023-04-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "UVE",
+                "weight_pct": 37.81
+            },
+            {
+                "ticker": "SAFE",
+                "weight_pct": 18.88
+            },
+            {
+                "ticker": "NEO",
+                "weight_pct": 43.31
+            }
+        ]
+    },
+    "2023-05-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "PRAA",
+                "weight_pct": 31.85
+            },
+            {
+                "ticker": "FHN",
+                "weight_pct": 31.91
+            },
+            {
+                "ticker": "PSKY",
+                "weight_pct": 36.24
+            }
+        ]
+    },
+    "2023-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "QURE",
+                "weight_pct": 26.97
+            },
+            {
+                "ticker": "PLAY",
+                "weight_pct": 38.13
+            },
+            {
+                "ticker": "GBX",
+                "weight_pct": 34.9
+            }
+        ]
+    },
+    "2023-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "VIR",
+                "weight_pct": 32.24
+            },
+            {
+                "ticker": "LESL",
+                "weight_pct": 41.13
+            },
+            {
+                "ticker": "VICR",
+                "weight_pct": 26.63
+            }
+        ]
+    },
+    "2023-08-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "HE",
+                "weight_pct": 9.35
+            },
+            {
+                "ticker": "CUBI",
+                "weight_pct": 78.73
+            },
+            {
+                "ticker": "CPRI",
+                "weight_pct": 11.91
+            }
+        ]
+    },
+    "2023-09-29": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "TDS",
+                "weight_pct": 30.65
+            },
+            {
+                "ticker": "HPP",
+                "weight_pct": 31.9
+            },
+            {
+                "ticker": "SABR",
+                "weight_pct": 22.45
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2023-10-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "SEIC",
+                "weight_pct": 13.37
+            },
+            {
+                "ticker": "CSCO",
+                "weight_pct": 13.31
+            },
+            {
+                "ticker": "BRK-B",
+                "weight_pct": 13.31
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2023-11-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "RILY",
+                "weight_pct": 28.65
+            },
+            {
+                "ticker": "JRVR",
+                "weight_pct": 33.31
+            },
+            {
+                "ticker": "GAP",
+                "weight_pct": 38.03
+            }
+        ]
+    },
+    "2023-12-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DBI",
+                "weight_pct": 25.43
+            },
+            {
+                "ticker": "CYTK",
+                "weight_pct": 11.09
+            },
+            {
+                "ticker": "LPG",
+                "weight_pct": 63.48
+            }
+        ]
+    },
+    "2024-01-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CTKB",
+                "weight_pct": 26.86
+            },
+            {
+                "ticker": "FLG",
+                "weight_pct": 14.19
+            },
+            {
+                "ticker": "WD",
+                "weight_pct": 58.95
+            }
+        ]
+    },
+    "2024-02-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "IRWD",
+                "weight_pct": 32.36
+            },
+            {
+                "ticker": "FLG",
+                "weight_pct": 33.67
+            },
+            {
+                "ticker": "QDEL",
+                "weight_pct": 33.97
+            }
+        ]
+    },
+    "2024-03-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "VSCO",
+                "weight_pct": 36.49
+            },
+            {
+                "ticker": "FLG",
+                "weight_pct": 26.95
+            },
+            {
+                "ticker": "MEI",
+                "weight_pct": 36.56
+            }
+        ]
+    },
+    "2024-04-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "RGNX",
+                "weight_pct": 67.31
+            },
+            {
+                "ticker": "SMCI",
+                "weight_pct": 21.84
+            },
+            {
+                "ticker": "GL",
+                "weight_pct": 10.86
+            }
+        ]
+    },
+    "2024-05-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "RILY",
+                "weight_pct": 41.12
+            },
+            {
+                "ticker": "DV",
+                "weight_pct": 25.85
+            },
+            {
+                "ticker": "GAP",
+                "weight_pct": 33.03
+            }
+        ]
+    },
+    "2024-06-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "AMCX",
+                "weight_pct": 19.96
+            },
+            {
+                "ticker": "SPWR",
+                "weight_pct": 30.78
+            },
+            {
+                "ticker": "FSLR",
+                "weight_pct": 49.26
+            }
+        ]
+    },
+    "2024-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "EW",
+                "weight_pct": 39.97
+            },
+            {
+                "ticker": "MXL",
+                "weight_pct": 29.49
+            },
+            {
+                "ticker": "DXCM",
+                "weight_pct": 30.54
+            }
+        ]
+    },
+    "2024-08-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DG",
+                "weight_pct": 40.38
+            },
+            {
+                "ticker": "PCRX",
+                "weight_pct": 25.69
+            },
+            {
+                "ticker": "IRWD",
+                "weight_pct": 33.94
+            }
+        ]
+    },
+    "2024-09-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "PGNY",
+                "weight_pct": 15.96
+            },
+            {
+                "ticker": "TRUP",
+                "weight_pct": 38.88
+            },
+            {
+                "ticker": "FWRD",
+                "weight_pct": 45.16
+            }
+        ]
+    },
+    "2024-10-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CPRI",
+                "weight_pct": 20.99
+            },
+            {
+                "ticker": "SMCI",
+                "weight_pct": 25.58
+            },
+            {
+                "ticker": "ADMA",
+                "weight_pct": 53.43
+            }
+        ]
+    },
+    "2024-11-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CXW",
+                "weight_pct": 33.49
+            },
+            {
+                "ticker": "GEO",
+                "weight_pct": 29.57
+            },
+            {
+                "ticker": "WWW",
+                "weight_pct": 36.94
+            }
+        ]
+    },
+    "2024-12-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "AVGO",
+                "weight_pct": 15.42
+            },
+            {
+                "ticker": "HAFC",
+                "weight_pct": 47.68
+            },
+            {
+                "ticker": "GEO",
+                "weight_pct": 36.9
+            }
+        ]
+    },
+    "2025-01-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "VIR",
+                "weight_pct": 10.48
+            },
+            {
+                "ticker": "PLTR",
+                "weight_pct": 38.27
+            },
+            {
+                "ticker": "LQDT",
+                "weight_pct": 51.25
+            }
+        ]
+    },
+    "2025-02-28": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "SMTC",
+                "weight_pct": 29.0
+            },
+            {
+                "ticker": "BILL",
+                "weight_pct": 29.47
+            },
+            {
+                "ticker": "WST",
+                "weight_pct": 26.54
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2025-03-31": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "CRSR",
+                "weight_pct": 22.94
+            },
+            {
+                "ticker": "SRPT",
+                "weight_pct": 10.22
+            },
+            {
+                "ticker": "PRA",
+                "weight_pct": 6.84
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2025-04-30": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "NEO",
+                "weight_pct": 13.07
+            },
+            {
+                "ticker": "PUMP",
+                "weight_pct": 13.6
+            },
+            {
+                "ticker": "PTEN",
+                "weight_pct": 13.33
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    },
+    "2025-05-30": {
+        "regime": "mid",
+        "exposure_pct": 85.0,
+        "holdings": [
+            {
+                "ticker": "VSTS",
+                "weight_pct": 27.11
+            },
+            {
+                "ticker": "CABO",
+                "weight_pct": 23.94
+            },
+            {
+                "ticker": "PRAA",
+                "weight_pct": 33.95
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 4.5
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 10.5
+            }
+        ]
+    },
+    "2025-06-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "MP",
+                "weight_pct": 27.26
+            },
+            {
+                "ticker": "SRPT",
+                "weight_pct": 17.49
+            },
+            {
+                "ticker": "TMDX",
+                "weight_pct": 55.26
+            }
+        ]
+    },
+    "2025-07-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "ALGN",
+                "weight_pct": 16.87
+            },
+            {
+                "ticker": "TRUP",
+                "weight_pct": 71.59
+            },
+            {
+                "ticker": "MP",
+                "weight_pct": 11.54
+            }
+        ]
+    },
+    "2025-08-29": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "TTD",
+                "weight_pct": 33.45
+            },
+            {
+                "ticker": "SABR",
+                "weight_pct": 36.9
+            },
+            {
+                "ticker": "STAA",
+                "weight_pct": 29.64
+            }
+        ]
+    },
+    "2025-09-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "WWW",
+                "weight_pct": 68.49
+            },
+            {
+                "ticker": "WBD",
+                "weight_pct": 11.33
+            },
+            {
+                "ticker": "VSAT",
+                "weight_pct": 20.18
+            }
+        ]
+    },
+    "2025-10-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LRN",
+                "weight_pct": 22.86
+            },
+            {
+                "ticker": "ATGE",
+                "weight_pct": 38.93
+            },
+            {
+                "ticker": "ITGR",
+                "weight_pct": 38.21
+            }
+        ]
+    },
+    "2025-11-28": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "LUMN",
+                "weight_pct": 38.55
+            },
+            {
+                "ticker": "ATGE",
+                "weight_pct": 30.71
+            },
+            {
+                "ticker": "ASTH",
+                "weight_pct": 30.75
+            }
+        ]
+    },
+    "2025-12-31": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "DVAX",
+                "weight_pct": 13.41
+            },
+            {
+                "ticker": "RCUS",
+                "weight_pct": 30.05
+            },
+            {
+                "ticker": "MD",
+                "weight_pct": 56.53
+            }
+        ]
+    },
+    "2026-01-30": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "CVLT",
+                "weight_pct": 15.88
+            },
+            {
+                "ticker": "ANF",
+                "weight_pct": 24.5
+            },
+            {
+                "ticker": "HAE",
+                "weight_pct": 59.61
+            }
+        ]
+    },
+    "2026-02-27": {
+        "regime": "risk_on",
+        "exposure_pct": 100.0,
+        "holdings": [
+            {
+                "ticker": "IPGP",
+                "weight_pct": 22.28
+            },
+            {
+                "ticker": "STX",
+                "weight_pct": 46.27
+            },
+            {
+                "ticker": "HL",
+                "weight_pct": 31.45
+            }
+        ]
+    },
+    "2026-03-20": {
+        "regime": "risk_off",
+        "exposure_pct": 40.0,
+        "holdings": [
+            {
+                "ticker": "UA",
+                "weight_pct": 14.2
+            },
+            {
+                "ticker": "UAA",
+                "weight_pct": 13.12
+            },
+            {
+                "ticker": "CGNX",
+                "weight_pct": 12.68
+            },
+            {
+                "ticker": "TAIL",
+                "weight_pct": 18.0
+            },
+            {
+                "ticker": "DBMF",
+                "weight_pct": 42.0
+            }
+        ]
+    }
+}

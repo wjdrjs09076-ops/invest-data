@@ -1,0 +1,110 @@
+{
+  "strategy": {
+    "rebalance": "monthly",
+    "selection": "TOP",
+    "top_n": 15,
+    "hold_buffer_n": 25,
+    "transaction_cost": 0.0015,
+    "period_years": 10,
+    "execution_lag_days": 1,
+    "universe_method": "point_in_time_sp1500_membership_from_wikipedia_events",
+    "portfolio_construction": {
+      "method": "score_x_inverse_vol",
+      "score_alpha": 2.5,
+      "min_weight": 0.05,
+      "max_weight": 0.2,
+      "vol_fallback": 0.35,
+      "vol_floor": 0.18,
+      "dynamic_vol_targeting": true,
+      "absolute_momentum_63d_min": 0,
+      "absolute_momentum_252d_min": 0,
+      "sector_max_names": 3,
+      "formula": "weight_i ∝ (score_i ^ alpha) / max(vol20_i, max(vol_floor, spy_vol20))"
+    },
+    "regime_filter": {
+      "benchmark": "SPY",
+      "ma_window": 200,
+      "momentum_window": 63,
+      "buffer": 0.005,
+      "confirm_days": 2,
+      "stock_rebalance": "monthly",
+      "exposure_rebalance": "daily",
+      "risk_on_exposure": 1.0,
+      "mid_exposure": 0.85,
+      "risk_off_exposure": 0.4,
+      "defensive_tickers": [
+        "TAIL",
+        "DBMF"
+      ],
+      "summary": "Exposure is updated on a daily basis using a buffered 3-state regime model with 200DMA, 63D momentum, 0.50% hysteresis band, and 2-day confirmation. Risk-off sleeve is TAIL, DBMF.",
+      "vix_crash_filter": "Active ONLY if Price < MA200 AND VIX > 40.0"
+    }
+  },
+  "metrics": {
+    "total_return": 5.190416119965164,
+    "cagr": 0.1831187336285678,
+    "volatility": 0.2065276509817655,
+    "sharpe": 0.886654802676933,
+    "max_drawdown": -0.3665610563185775
+  },
+  "subperiods": [
+    {
+      "label": "3y",
+      "metrics": {
+        "total_return": 0.9320784650243088,
+        "cagr": 0.24549384773174987,
+        "volatility": 0.21862792834337005,
+        "sharpe": 1.1228842060204909,
+        "max_drawdown": -0.20900724600443077
+      }
+    },
+    {
+      "label": "5y",
+      "metrics": {
+        "total_return": 1.2425312135878217,
+        "cagr": 0.17529719413286404,
+        "volatility": 0.21118257761703751,
+        "sharpe": 0.8300741287984054,
+        "max_drawdown": -0.20900724600443077
+      }
+    },
+    {
+      "label": "10y",
+      "metrics": {
+        "total_return": 5.167687490539344,
+        "cagr": 0.19953309894943283,
+        "volatility": 0.21038298816174722,
+        "sharpe": 0.948427915645096,
+        "max_drawdown": -0.3665610563185775
+      }
+    }
+  ],
+  "benchmark": {
+    "ticker": "SPY",
+    "metrics": {
+      "total_return": 3.0948788999125503,
+      "cagr": 0.138867467792398,
+      "volatility": 0.17895927276685472,
+      "sharpe": 0.7759724637086133,
+      "max_drawdown": -0.3371725162360093
+    }
+  },
+  "notes": [
+    "Universe is reconstructed point-in-time using current S&P1500 membership plus Wikipedia change events.",
+    "Current universe combines S&P500, S&P400, and S&P600.",
+    "Ranking uses historical slice through rebalance date close.",
+    "Buffer Ranking Applied: Buy top 15, Hold existing if ranked <= 25.",
+    "Geometric multiplicative scoring and RS (Relative Strength) vs SPY are applied to stock selection.",
+    "Dynamic Volatility Targeting is applied: minimum weight denominator floors at recent SPY 20D Volatility.",
+    "Asymmetric Systemic Crash Filter: Triggers Risk-Off if Price < MA200 AND VIX > 40.0. Ignored in uptrends.",
+    "Selected stock portfolio is applied with a 1-day execution lag.",
+    "Exposure signal is applied with a 1-day execution lag.",
+    "Transaction cost is applied when total portfolio weights change on execution day.",
+    "Stock selection is monthly, while exposure adjustment is daily.",
+    "Absolute momentum filter requires 63D return > 0 and 252D return > 0.",
+    "Sector cap limits selected names to reduce concentration risk.",
+    "Regime filter uses a 0.50% buffer around the moving average and 2-day confirmation to reduce whipsaw.",
+    "Risk-off sleeve uses TAIL, DBMF only.",
+    "Quality is not yet applied in backtest to avoid look-ahead bias."
+  ]
+}

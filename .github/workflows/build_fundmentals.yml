@@ -1,0 +1,35 @@
+name: build fundamentals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 */6 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install packages
+        run: |
+          pip install yfinance pandas
+
+      - name: Build fundamentals
+        run: |
+          python scripts/build_fundamentals.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/fundamentals.json
+          git commit -m "update fundamentals" || echo "no changes"
+          git push
