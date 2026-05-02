@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-01T13:58:49Z",
+  "generated_at_utc": "2026-05-02T03:50:44Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -8,19 +8,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "ABT",
+              "ticker": "LMT",
+              "label": "HOLD • score 68",
+              "reason": "RSI 23, 5D -0.1%, 20D -17.7%"
+            },
+            {
+              "ticker": "NOC",
+              "label": "HOLD • score 66",
+              "reason": "RSI 21, 5D -1.2%, 20D -19.1%"
+            },
+            {
+              "ticker": "LHX",
               "label": "HOLD • score 65",
               "reason": "RSI 29, 5D -1.3%, 20D -12.0%"
-            },
-            {
-              "ticker": "DHR",
-              "label": "HOLD • score 63",
-              "reason": "RSI 35, 5D 0.4%, 20D -6.9%"
-            },
-            {
-              "ticker": "COO",
-              "label": "HOLD • score 61",
-              "reason": "RSI 27, 5D -3.3%, 20D -11.2%"
             }
           ]
         },
@@ -28,13 +28,43 @@
           "title": "Momentum TOP",
           "items": [
             {
+              "ticker": "INTC",
+              "label": "20D 97.7%",
+              "reason": ""
+            },
+            {
+              "ticker": "STX",
+              "label": "20D 69.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "SNDK",
+              "label": "20D 69.2%",
+              "reason": ""
+            },
+            {
               "ticker": "AMD",
-              "label": "20D 63.0%",
+              "label": "20D 65.8%",
+              "reason": ""
+            },
+            {
+              "ticker": "ON",
+              "label": "20D 65.7%",
               "reason": ""
             },
             {
               "ticker": "CNC",
-              "label": "20D 53.4%",
+              "label": "20D 51.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "NXPI",
+              "label": "20D 51.8%",
+              "reason": ""
+            },
+            {
+              "ticker": "MU",
+              "label": "20D 48.0%",
               "reason": ""
             },
             {
@@ -46,36 +76,6 @@
               "ticker": "TXN",
               "label": "20D 44.2%",
               "reason": ""
-            },
-            {
-              "ticker": "ANET",
-              "label": "20D 39.2%",
-              "reason": ""
-            },
-            {
-              "ticker": "AVGO",
-              "label": "20D 33.7%",
-              "reason": ""
-            },
-            {
-              "ticker": "UNH",
-              "label": "20D 33.0%",
-              "reason": ""
-            },
-            {
-              "ticker": "FIX",
-              "label": "20D 30.5%",
-              "reason": ""
-            },
-            {
-              "ticker": "GOOGL",
-              "label": "20D 29.7%",
-              "reason": ""
-            },
-            {
-              "ticker": "URI",
-              "label": "20D 29.7%",
-              "reason": ""
             }
           ]
         },
@@ -83,8 +83,13 @@
           "title": "Oversold Reversal",
           "items": [
             {
-              "ticker": "DHR",
-              "label": "RSI 35, 5D 0.4%",
+              "ticker": "HII",
+              "label": "RSI 34, 5D 0.4%",
+              "reason": ""
+            },
+            {
+              "ticker": "HCA",
+              "label": "RSI 31, 5D 0.1%",
               "reason": ""
             }
           ]
@@ -103,7 +108,32 @@
               "reason": ""
             },
             {
+              "ticker": "INTC",
+              "label": "Vol 99%",
+              "reason": ""
+            },
+            {
+              "ticker": "NXPI",
+              "label": "Vol 94%",
+              "reason": ""
+            },
+            {
+              "ticker": "NOW",
+              "label": "Vol 92%",
+              "reason": ""
+            },
+            {
+              "ticker": "SNDK",
+              "label": "Vol 87%",
+              "reason": ""
+            },
+            {
               "ticker": "URI",
+              "label": "Vol 83%",
+              "reason": ""
+            },
+            {
+              "ticker": "HOOD",
               "label": "Vol 83%",
               "reason": ""
             },
@@ -115,31 +145,6 @@
             {
               "ticker": "AKAM",
               "label": "Vol 79%",
-              "reason": ""
-            },
-            {
-              "ticker": "TXN",
-              "label": "Vol 73%",
-              "reason": ""
-            },
-            {
-              "ticker": "FICO",
-              "label": "Vol 69%",
-              "reason": ""
-            },
-            {
-              "ticker": "SMCI",
-              "label": "Vol 69%",
-              "reason": ""
-            },
-            {
-              "ticker": "TPL",
-              "label": "Vol 68%",
-              "reason": ""
-            },
-            {
-              "ticker": "CIEN",
-              "label": "Vol 68%",
               "reason": ""
             }
           ]
