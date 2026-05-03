@@ -1,7 +1,7 @@
 {
   "ticker": "SOLV",
-  "generated_at_utc": "2026-05-03T16:27:10Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-03T19:37:41Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
