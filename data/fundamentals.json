@@ -24,10 +24,10 @@
     "source": "yfinance",
     "name": "Apple Inc.",
     "sector": "Technology",
-    "market_cap": 4109006274560.0,
+    "market_cap": 4110619508736.0,
     "multiples": {
-      "pe": 33.915257,
-      "ps": 9.101958
+      "pe": 33.92857,
+      "ps": 9.105532
     },
     "annual_latest": {
       "revenue": 416161000000.0,
@@ -312,7 +312,7 @@
     "market_cap": 41976532992.0,
     "multiples": {
       "pe": 13.867957,
-      "ps": 1.5853362
+      "ps": 1.5720959
     },
     "annual_latest": {
       "revenue": 26774000000.0,
@@ -594,10 +594,10 @@
     "source": "yfinance",
     "name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 2884935614464.0,
+    "market_cap": 2886656327680.0,
     "multiples": {
-      "pe": 32.050182,
-      "ps": 3.8839915
+      "pe": 32.069298,
+      "ps": 3.8863082
     },
     "annual_latest": {
       "revenue": 716924000000.0,
@@ -1167,7 +1167,7 @@
     "market_cap": 91823783936.0,
     "multiples": {
       "pe": 16.618633,
-      "ps": 4.4475336
+      "ps": 4.42439
     },
     "annual_latest": {
       "revenue": 19759000000.0,
@@ -1509,7 +1509,7 @@
     "market_cap": 34246533120.0,
     "multiples": {
       "pe": 27.921434,
-      "ps": 7.2645483
+      "ps": 7.1466055
     },
     "annual_latest": {
       "revenue": 4714200000.0,
@@ -1829,10 +1829,10 @@
     "source": "yfinance",
     "name": "Comcast Corporation",
     "sector": "Communication Services",
-    "market_cap": 97128898560.0,
+    "market_cap": 97039589376.0,
     "multiples": {
-      "pe": 5.3313727,
-      "ps": 0.7753131
+      "pe": 5.326471,
+      "ps": 0.77460015
     },
     "annual_latest": {
       "revenue": 123707000000.0,
@@ -2266,10 +2266,10 @@
     "source": "yfinance",
     "name": "CSX Corporation",
     "sector": "Industrials",
-    "market_cap": 83783483392.0,
+    "market_cap": 83792773120.0,
     "multiples": {
-      "pe": 27.662577,
-      "ps": 5.9206758
+      "pe": 27.665646,
+      "ps": 5.9213324
     },
     "annual_latest": {
       "revenue": 14092000000.0,
@@ -2456,10 +2456,10 @@
     "source": "yfinance",
     "name": "DoorDash, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 76621643776.0,
+    "market_cap": 76634718208.0,
     "multiples": {
-      "pe": 82.553986,
-      "ps": 5.5858893
+      "pe": 82.56807,
+      "ps": 5.5868425
     },
     "annual_latest": {
       "revenue": 13717000000.0,
@@ -2863,9 +2863,9 @@
     "annual_latest": {
       "revenue": 17188000000.0,
       "op_income": 3856000000.0,
-      "fcf": null,
+      "fcf": 2797000000.0,
       "cfo": 6711000000.0,
-      "capex": null
+      "capex": -3914000000.0
     }
   },
   "DXCM": {
@@ -3140,10 +3140,10 @@
     "source": "yfinance",
     "name": "Equinix, Inc.",
     "sector": "Real Estate",
-    "market_cap": 107010269184.0,
+    "market_cap": 107076337664.0,
     "multiples": {
-      "pe": 75.19266,
-      "ps": 11.233495
+      "pe": 75.23908,
+      "ps": 11.240431
     },
     "annual_latest": {
       "revenue": 9217000000.0,
@@ -3634,10 +3634,10 @@
     "source": "yfinance",
     "name": "Fifth Third Bancorp",
     "sector": "Financial Services",
-    "market_cap": 45680652288.0,
+    "market_cap": 45689708544.0,
     "multiples": {
-      "pe": 16.979797,
-      "ps": 5.0756283
+      "pe": 16.983164,
+      "ps": 5.0766344
     },
     "annual_latest": {
       "revenue": 8821000000.0,
@@ -3713,7 +3713,7 @@
     "market_cap": 10023317504.0,
     "multiples": {
       "pe": 24.641026,
-      "ps": 7.634923
+      "ps": 7.635016
     },
     "annual_latest": {
       "revenue": 1278975000.0,
@@ -3862,10 +3862,10 @@
     "source": "yfinance",
     "name": "Gen Digital Inc.",
     "sector": "Technology",
-    "market_cap": 11731706880.0,
+    "market_cap": 11737762816.0,
     "multiples": {
-      "pe": 19.969072,
-      "ps": 2.4818504
+      "pe": 19.97938,
+      "ps": 2.4831314
     },
     "annual_latest": {
       "revenue": 3935000000.0,
@@ -4185,10 +4185,10 @@
     "source": "yfinance",
     "name": "Huntington Bancshares Incorporated",
     "sector": "Financial Services",
-    "market_cap": 33711179776.0,
+    "market_cap": 33680775168.0,
     "multiples": {
-      "pe": 12.792308,
-      "ps": 4.0625668
+      "pe": 12.780769,
+      "ps": 4.0589027
     },
     "annual_latest": {
       "revenue": 8131000000.0,
@@ -4660,10 +4660,10 @@
     "source": "yfinance",
     "name": "Intel Corporation",
     "sector": "Technology",
-    "market_cap": 500690124800.0,
+    "market_cap": 500639858688.0,
     "multiples": {
       "pe": null,
-      "ps": 9.312913
+      "ps": 9.311978
     },
     "annual_latest": {
       "revenue": 52853000000.0,
@@ -4679,10 +4679,10 @@
     "source": "yfinance",
     "name": "Intuit Inc.",
     "sector": "Technology",
-    "market_cap": 111042494464.0,
+    "market_cap": 111038316544.0,
     "multiples": {
-      "pe": 25.979168,
-      "ps": 5.5187364
+      "pe": 25.97819,
+      "ps": 5.518529
     },
     "annual_latest": {
       "revenue": 18831000000.0,
@@ -5439,10 +5439,10 @@
     "source": "yfinance",
     "name": "Lam Research Corporation",
     "sector": "Technology",
-    "market_cap": 321046577152.0,
+    "market_cap": 320946569216.0,
     "multiples": {
-      "pe": 48.5293,
-      "ps": 14.807162
+      "pe": 48.51418,
+      "ps": 14.802549
     },
     "annual_latest": {
       "revenue": 18435591000.0,
@@ -6085,10 +6085,10 @@
     "source": "yfinance",
     "name": "Microsoft Corporation",
     "sector": "Technology",
-    "market_cap": 3078640631808.0,
+    "market_cap": 3076820566016.0,
     "multiples": {
-      "pe": 24.69845,
-      "ps": 9.6729555
+      "pe": 24.68385,
+      "ps": 9.667237
     },
     "annual_latest": {
       "revenue": 281724000000.0,
@@ -6142,10 +6142,10 @@
     "source": "yfinance",
     "name": "Match Group, Inc.",
     "sector": "Communication Services",
-    "market_cap": 9128834048.0,
+    "market_cap": null,
     "multiples": {
       "pe": 16.247898,
-      "ps": 2.6178143
+      "ps": null
     },
     "annual_latest": {
       "revenue": 3487197000.0,
@@ -6693,10 +6693,10 @@
     "source": "yfinance",
     "name": "O'Reilly Automotive, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 80457736192.0,
+    "market_cap": 80441098240.0,
     "multiples": {
-      "pe": 31.591503,
-      "ps": 4.419393
+      "pe": 31.584969,
+      "ps": 4.418479
     },
     "annual_latest": {
       "revenue": 17781992000.0,
@@ -6750,10 +6750,10 @@
     "source": "yfinance",
     "name": "Palo Alto Networks, Inc.",
     "sector": "Technology",
-    "market_cap": 146855886848.0,
+    "market_cap": 146863980544.0,
     "multiples": {
-      "pe": 101.16202,
-      "ps": 14.843674
+      "pe": 101.167595,
+      "ps": 14.844492
     },
     "annual_latest": {
       "revenue": 9221500000.0,
@@ -6807,17 +6807,17 @@
     "source": "yfinance",
     "name": "PACCAR Inc",
     "sector": "Industrials",
-    "market_cap": 61091307520.0,
+    "market_cap": 61070254080.0,
     "multiples": {
-      "pe": 24.697874,
-      "ps": 2.1991427
+      "pe": 24.689363,
+      "ps": 2.198385
     },
     "annual_latest": {
       "revenue": 28444800000.0,
       "op_income": 2961700000.0,
-      "fcf": null,
+      "fcf": 3029200000.0,
       "cfo": 4415800000.0,
-      "capex": null
+      "capex": -1386600000.0
     }
   },
   "PCG": {
@@ -7358,10 +7358,10 @@
     "source": "yfinance",
     "name": "QUALCOMM Incorporated",
     "sector": "Technology",
-    "market_cap": 186568540160.0,
+    "market_cap": 186594902016.0,
     "multiples": {
-      "pe": 19.053822,
-      "ps": 4.193871
+      "pe": 19.056513,
+      "ps": 4.1944633
     },
     "annual_latest": {
       "revenue": 44284000000.0,
@@ -7494,7 +7494,7 @@
     "market_cap": 29866985472.0,
     "multiples": {
       "pe": 19.770493,
-      "ps": 5.5328507
+      "ps": 5.3933053
     },
     "annual_latest": {
       "revenue": 5146327000.0,
@@ -8574,10 +8574,10 @@
     "source": "yfinance",
     "name": "The Trade Desk, Inc.",
     "sector": "Communication Services",
-    "market_cap": 11537683456.0,
+    "market_cap": 11532923904.0,
     "multiples": {
-      "pe": 26.933334,
-      "ps": 3.983616
+      "pe": 26.922222,
+      "ps": 3.981973
     },
     "annual_latest": {
       "revenue": 2896284000.0,
@@ -8612,10 +8612,10 @@
     "source": "yfinance",
     "name": "Texas Instruments Incorporated",
     "sector": "Technology",
-    "market_cap": 255754272768.0,
+    "market_cap": 255690588160.0,
     "multiples": {
-      "pe": 48.037605,
-      "ps": 13.871041
+      "pe": 48.025642,
+      "ps": 13.867587
     },
     "annual_latest": {
       "revenue": 17682000000.0,
@@ -8669,10 +8669,10 @@
     "source": "yfinance",
     "name": "United Airlines Holdings, Inc.",
     "sector": "Industrials",
-    "market_cap": 30029191168.0,
+    "market_cap": 30038929408.0,
     "multiples": {
-      "pe": 8.275492,
-      "ps": 0.49663758
+      "pe": 8.278175,
+      "ps": 0.49679863
     },
     "annual_latest": {
       "revenue": 59070000000.0,
@@ -8900,7 +8900,7 @@
     "market_cap": 73820602368.0,
     "multiples": {
       "pe": 18.019709,
-      "ps": 0.62526983
+      "ps": 0.62644243
     },
     "annual_latest": {
       "revenue": 122687000000.0,
@@ -9432,7 +9432,7 @@
     "market_cap": 634914471936.0,
     "multiples": {
       "pe": 25.715488,
-      "ps": 1.9601873
+      "ps": 1.9475425
     },
     "annual_latest": {
       "revenue": 323905000000.0,
