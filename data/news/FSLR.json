@@ -1,7 +1,7 @@
 {
   "ticker": "FSLR",
-  "generated_at_utc": "2026-05-04T20:05:00Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-05-04T22:35:34Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
