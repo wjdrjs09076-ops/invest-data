@@ -1,7 +1,7 @@
 {
   "source": "Wikipedia - List of S&P 500 companies",
   "current_count": 400,
-  "event_count": 514,
+  "event_count": 521,
   "current_tickers": [
     "AA",
     "AAL",
@@ -31,7 +31,6 @@
     "ARW",
     "ARWR",
     "ASB",
-    "ASGN",
     "ASH",
     "ATI",
     "ATR",
@@ -66,7 +65,6 @@
     "CACI",
     "CAR",
     "CART",
-    "CASY",
     "CAVA",
     "CBSH",
     "CBT",
@@ -89,7 +87,6 @@
     "CNO",
     "CNX",
     "CNXC",
-    "COHR",
     "COKE",
     "COLB",
     "COLM",
@@ -101,6 +98,7 @@
     "CRS",
     "CRUS",
     "CSL",
+    "CTRE",
     "CUBE",
     "CUZ",
     "CVLT",
@@ -113,6 +111,7 @@
     "DINO",
     "DKS",
     "DLB",
+    "DOCN",
     "DOCS",
     "DOCU",
     "DT",
@@ -172,7 +171,6 @@
     "GPK",
     "GT",
     "GTLS",
-    "GTM",
     "GWRE",
     "GXO",
     "H",
@@ -192,6 +190,7 @@
     "HXL",
     "IBOC",
     "IDA",
+    "IDCC",
     "ILMN",
     "INGR",
     "IPGP",
@@ -205,7 +204,6 @@
     "KBR",
     "KD",
     "KEX",
-    "KMPR",
     "KNF",
     "KNSL",
     "KNX",
@@ -217,7 +215,6 @@
     "LEA",
     "LECO",
     "LFUS",
-    "LITE",
     "LIVN",
     "LNTH",
     "LOPE",
@@ -233,6 +230,7 @@
     "MKSI",
     "MLI",
     "MMS",
+    "MOG-A",
     "MORN",
     "MP",
     "MSA",
@@ -321,7 +319,6 @@
     "SAIC",
     "SAM",
     "SARO",
-    "SATS",
     "SBRA",
     "SCI",
     "SEIC",
@@ -330,11 +327,13 @@
     "SGI",
     "SHC",
     "SIGI",
+    "SITM",
     "SLAB",
     "SLGN",
     "SLM",
     "SMG",
     "SNX",
+    "SOLS",
     "SON",
     "SPXC",
     "SR",
@@ -375,6 +374,7 @@
     "VAL",
     "VC",
     "VFC",
+    "VICR",
     "VLY",
     "VMI",
     "VNO",
@@ -5079,6 +5079,70 @@
       ],
       "removed": [
         "CIEN"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "SOLS"
+      ],
+      "removed": [
+        "LITE"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "SITM"
+      ],
+      "removed": [
+        "COHR"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "MOG-A"
+      ],
+      "removed": [
+        "SATS"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "IDCC"
+      ],
+      "removed": [
+        "GTM"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "VICR"
+      ],
+      "removed": [
+        "ASGN"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "CTRE",
+        "REIT"
+      ],
+      "removed": [
+        "KMPR"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "added": [
+        "DOCN"
+      ],
+      "removed": [
+        "CASY"
       ]
     }
   ],

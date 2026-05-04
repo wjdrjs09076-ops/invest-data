@@ -19,6 +19,8 @@ PUBLIC_DATA_DIR = ROOT.parent / "public" / "data"
 
 UNIVERSE_FILE = DATA_DIR / "universe.json"
 SP500_FILE = DATA_DIR / "sp500_tickers.json"
+SP400_FILE = DATA_DIR / "sp400_current_wiki.json"
+SP600_FILE = DATA_DIR / "sp600_current_wiki.json"
 QUALITY_FILE = DATA_DIR / "quality_snapshot.json"
 OUT_FILE = DATA_DIR / "score_snapshot.json"
 
@@ -657,6 +659,22 @@ def parse_universe() -> tuple[dict[str, dict[str, Any]], dict[str, list[str]]]:
         ensure_meta(t2)
         _add_group_flag(by_ticker[t2], "sp500")
         groups["sp500"].append(t2)
+
+    for grp_key, wiki_file in [("sp400", SP400_FILE), ("sp600", SP600_FILE)]:
+        wiki_data = load_json(wiki_file, default=[])
+        if isinstance(wiki_data, list):
+            tickers_from_wiki = wiki_data
+        elif isinstance(wiki_data, dict):
+            tickers_from_wiki = wiki_data.get("tickers", wiki_data.get("items", []))
+        else:
+            tickers_from_wiki = []
+        for t in tickers_from_wiki:
+            t2 = normalize_ticker(t if isinstance(t, str) else t.get("ticker", ""))
+            if not t2:
+                continue
+            ensure_meta(t2)
+            _add_group_flag(by_ticker[t2], grp_key)
+            groups[grp_key].append(t2)
 
     for g in groups:
         groups[g] = sorted(set(groups[g]))

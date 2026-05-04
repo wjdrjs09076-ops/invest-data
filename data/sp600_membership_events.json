@@ -1,7 +1,7 @@
 {
   "source": "Wikipedia - List of S&P 500 companies",
   "current_count": 603,
-  "event_count": 426,
+  "event_count": 447,
   "current_tickers": [
     "AAMI",
     "AAP",
@@ -26,14 +26,12 @@
     "AEO",
     "AESI",
     "AGO",
+    "AGX",
     "AGYS",
     "AHCO",
-    "AHH",
     "AIN",
     "AIR",
     "AKR",
-    "AL",
-    "ALEX",
     "ALG",
     "ALGT",
     "ALKS",
@@ -46,7 +44,6 @@
     "AMTM",
     "AMWD",
     "ANDE",
-    "ANGI",
     "ANIP",
     "AORT",
     "AOSL",
@@ -59,18 +56,18 @@
     "ARLO",
     "AROC",
     "ARR",
+    "ASGN",
     "ASO",
     "ASTE",
     "ASTH",
     "ATEN",
-    "ATGE",
+    "ATMU",
     "AUB",
     "AVA",
     "AVNS",
     "AWI",
     "AWR",
     "AX",
-    "AXL",
     "AZTA",
     "AZZ",
     "BANC",
@@ -88,8 +85,8 @@
     "BKU",
     "BL",
     "BLFS",
-    "BLMN",
     "BMI",
+    "BNL",
     "BOH",
     "BOOT",
     "BOX",
@@ -101,8 +98,8 @@
     "CAKE",
     "CALM",
     "CALX",
+    "CALY",
     "CARG",
-    "CARS",
     "CASH",
     "CATY",
     "CBRL",
@@ -125,6 +122,7 @@
     "CNR",
     "CNS",
     "CNXN",
+    "COCO",
     "COHU",
     "COLL",
     "CON",
@@ -142,13 +140,13 @@
     "CSR",
     "CSW",
     "CTKB",
-    "CTRE",
     "CTS",
     "CUBI",
     "CURB",
     "CVBF",
     "CVCO",
     "CVI",
+    "CVSA",
     "CWEN",
     "CWEN-A",
     "CWK",
@@ -158,6 +156,8 @@
     "CXW",
     "CZR",
     "DAN",
+    "DBD",
+    "DCH",
     "DCOM",
     "DEA",
     "DEI",
@@ -167,7 +167,6 @@
     "DIOD",
     "DLX",
     "DNOW",
-    "DOCN",
     "DORM",
     "DRH",
     "DV",
@@ -236,6 +235,7 @@
     "GRBK",
     "GSHD",
     "GTES",
+    "GTM",
     "GTY",
     "GVA",
     "HAFC",
@@ -267,12 +267,10 @@
     "IBP",
     "ICHR",
     "ICUI",
-    "IDCC",
     "IIIN",
     "IIPR",
     "INDB",
     "INDV",
-    "INN",
     "INSP",
     "INSW",
     "INVA",
@@ -294,22 +292,24 @@
     "KFY",
     "KGS",
     "KLIC",
+    "KMPR",
     "KMT",
     "KMX",
     "KN",
     "KNTK",
     "KOP",
-    "KREF",
     "KRYS",
     "KSS",
     "KTB",
     "KW",
     "KWR",
+    "LAUR",
     "LBRT",
     "LCII",
     "LEG",
     "LGIH",
     "LGND",
+    "LIF",
     "LKFN",
     "LKQ",
     "LMAT",
@@ -319,8 +319,11 @@
     "LQDT",
     "LRN",
     "LTC",
+    "LTH",
     "LUMN",
+    "LW",
     "LXP",
+    "LYFT",
     "LZ",
     "LZB",
     "MAC",
@@ -346,21 +349,20 @@
     "MMI",
     "MMSI",
     "MNRO",
-    "MODG",
-    "MOG-A",
+    "MOH",
     "MPT",
     "MRCY",
     "MRP",
     "MRTN",
     "MSEX",
     "MSGS",
+    "MTCH",
     "MTH",
     "MTRN",
     "MTUS",
     "MTX",
     "MWA",
     "MXL",
-    "MYGN",
     "MYRG",
     "NABL",
     "NATL",
@@ -378,6 +380,7 @@
     "NPO",
     "NSIT",
     "NSP",
+    "NSSC",
     "NTCT",
     "NVRI",
     "NWBI",
@@ -399,6 +402,7 @@
     "PAHC",
     "PARR",
     "PATK",
+    "PAYC",
     "PAYO",
     "PBH",
     "PBI",
@@ -416,7 +420,6 @@
     "PIPR",
     "PJT",
     "PLAB",
-    "PLAY",
     "PLMR",
     "PLUS",
     "PLXS",
@@ -455,6 +458,7 @@
     "REZI",
     "RHI",
     "RHP",
+    "RITM",
     "RNG",
     "RNST",
     "ROCK",
@@ -477,7 +481,6 @@
     "SCSC",
     "SDGR",
     "SEDG",
-    "SEE",
     "SEM",
     "SEZL",
     "SFBS",
@@ -487,7 +490,6 @@
     "SHO",
     "SHOO",
     "SIG",
-    "SITM",
     "SKT",
     "SKY",
     "SKYW",
@@ -500,8 +502,8 @@
     "SNCY",
     "SNDR",
     "SNEX",
-    "SOLS",
     "SONO",
+    "SPHR",
     "SPNT",
     "SPSC",
     "SRPT",
@@ -513,7 +515,6 @@
     "STEP",
     "STRA",
     "SUPN",
-    "SXC",
     "SXI",
     "SXT",
     "TALO",
@@ -523,7 +524,6 @@
     "TDW",
     "TFIN",
     "TFX",
-    "TGNA",
     "TGTX",
     "THRM",
     "TILE",
@@ -539,7 +539,6 @@
     "TRNO",
     "TRST",
     "TRUP",
-    "TWI",
     "TWO",
     "UA",
     "UAA",
@@ -563,8 +562,8 @@
     "VCTR",
     "VCYT",
     "VECO",
+    "VGNT",
     "VIAV",
-    "VICR",
     "VIR",
     "VIRT",
     "VITL",
@@ -573,6 +572,7 @@
     "VRTS",
     "VSAT",
     "VSCO",
+    "VSEC",
     "VSH",
     "VSNT",
     "VSTS",
@@ -4505,6 +4505,199 @@
       ],
       "removed": [
         "HI"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "added": [
+        "NSSC"
+      ],
+      "removed": [
+        "ALEX"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "MTCH"
+      ],
+      "removed": [
+        "SOLS"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "MOH"
+      ],
+      "removed": [
+        "SITM"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "LW"
+      ],
+      "removed": [
+        "MOG-A"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "PAYC"
+      ],
+      "removed": [
+        "IDCC"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "VSEC",
+        "VSE"
+      ],
+      "removed": [
+        "VICR"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "AGX"
+      ],
+      "removed": [
+        "CTRE",
+        "REIT"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "RITM"
+      ],
+      "removed": [
+        "PLAY"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "LYFT"
+      ],
+      "removed": [
+        "SXC"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "LAUR"
+      ],
+      "removed": [
+        "AHRT",
+        "AH"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "LTH"
+      ],
+      "removed": [
+        "INN"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "LIF"
+      ],
+      "removed": [
+        "KREF",
+        "KKR"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "SPHR"
+      ],
+      "removed": [
+        "BLMN"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "GTM"
+      ],
+      "removed": [
+        "MYGN"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "ASGN"
+      ],
+      "removed": [
+        "CARS"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "added": [
+        "KMPR"
+      ],
+      "removed": [
+        "ANGI"
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "added": [
+        "COCO"
+      ],
+      "removed": [
+        "TGNA"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "added": [
+        "VGNT"
+      ],
+      "removed": [
+        "TWI"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "added": [
+        "BNL"
+      ],
+      "removed": [
+        "DOCN"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "added": [
+        "ATMU"
+      ],
+      "removed": [
+        "AL"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "added": [
+        "DBD"
+      ],
+      "removed": [
+        "SEE"
       ]
     }
   ],

@@ -283,16 +283,6 @@
       ]
     },
     {
-      "ticker": "ASGN",
-      "name": "ASGN Inc.",
-      "sector": "Information Technology",
-      "subIndustry": "IT Consulting & Other Services",
-      "headquarters": "Glen Allen, Virginia",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
       "ticker": "ASH",
       "name": "Ashland Global",
       "sector": "Materials",
@@ -633,16 +623,6 @@
       ]
     },
     {
-      "ticker": "CASY",
-      "name": "Casey's General Stores",
-      "sector": "Consumer Staples",
-      "subIndustry": "Food Retail",
-      "headquarters": "Ankeny, Iowa",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
       "ticker": "CAVA",
       "name": "Cava Group",
       "sector": "Consumer Discretionary",
@@ -863,16 +843,6 @@
       ]
     },
     {
-      "ticker": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "subIndustry": "Electronic Components",
-      "headquarters": "Saxonburg, Pennsylvania",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
       "ticker": "COKE",
       "name": "Coca-Cola Consolidated",
       "sector": "Consumer Staples",
@@ -978,6 +948,16 @@
       "sector": "Industrials",
       "subIndustry": "Industrial Conglomerates",
       "headquarters": "Phoenix, Arizona",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "CTRE",
+      "name": "CareTrust REIT",
+      "sector": "Real Estate",
+      "subIndustry": "Health Care REITs",
+      "headquarters": "Dana Point, California",
       "indexFlags": [
         "sp500"
       ]
@@ -1098,6 +1078,16 @@
       "sector": "Information Technology",
       "subIndustry": "Application Software",
       "headquarters": "San Francisco, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "DOCN",
+      "name": "DigitalOcean",
+      "sector": "Information Technology",
+      "subIndustry": "Internet Services & Infrastructure",
+      "headquarters": "Broomfield, Colorado",
       "indexFlags": [
         "sp500"
       ]
@@ -1693,16 +1683,6 @@
       ]
     },
     {
-      "ticker": "GTM",
-      "name": "ZoomInfo",
-      "sector": "Communication Services",
-      "subIndustry": "Interactive Media & Services",
-      "headquarters": "Vancouver, Washington",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
       "ticker": "GWRE",
       "name": "Guidewire Software",
       "sector": "Information Technology",
@@ -1893,6 +1873,16 @@
       ]
     },
     {
+      "ticker": "IDCC",
+      "name": "InterDigital",
+      "sector": "Information Technology",
+      "subIndustry": "Communications Equipment",
+      "headquarters": "Wilmington, Delaware",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
       "ticker": "ILMN",
       "name": "Illumina, Inc.",
       "sector": "Health Care",
@@ -2023,16 +2013,6 @@
       ]
     },
     {
-      "ticker": "KMPR",
-      "name": "Kemper Corporation",
-      "sector": "Financials",
-      "subIndustry": "Multi-line Insurance",
-      "headquarters": "Chicago, Illinois",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
       "ticker": "KNF",
       "name": "Knife River Corporation",
       "sector": "Materials",
@@ -2138,16 +2118,6 @@
       "sector": "Information Technology",
       "subIndustry": "Electronic Components",
       "headquarters": "Chicago, Illinois",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
-      "ticker": "LITE",
-      "name": "Lumentum Holdings",
-      "sector": "Information Technology",
-      "subIndustry": "Communications Equipment",
-      "headquarters": "San Jose, California",
       "indexFlags": [
         "sp500"
       ]
@@ -2298,6 +2268,16 @@
       "sector": "Industrials",
       "subIndustry": "Data Processing & Outsourced Services",
       "headquarters": "Tysons, Virginia",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "MOG-A",
+      "name": "Moog Inc.",
+      "sector": "Industrials",
+      "subIndustry": "Aerospace & Defense",
+      "headquarters": "Elma, New York",
       "indexFlags": [
         "sp500"
       ]
@@ -2544,7 +2524,7 @@
     },
     {
       "ticker": "NWE",
-      "name": "NorthWestern Corporation",
+      "name": "NorthWestern Energy",
       "sector": "Utilities",
       "subIndustry": "Multi-Utilities",
       "headquarters": "Sioux Falls, South Dakota",
@@ -2604,7 +2584,7 @@
     },
     {
       "ticker": "OGS",
-      "name": "ONE Gas",
+      "name": "One Gas",
       "sector": "Utilities",
       "subIndustry": "Gas Utilities",
       "headquarters": "Tulsa, Oklahoma",
@@ -3183,16 +3163,6 @@
       ]
     },
     {
-      "ticker": "SATS",
-      "name": "EchoStar",
-      "sector": "Communication Services",
-      "subIndustry": "Wireless Telecommunication Services",
-      "headquarters": "Englewood, Colorado",
-      "indexFlags": [
-        "sp500"
-      ]
-    },
-    {
       "ticker": "SBRA",
       "name": "Sabra Health Care REIT",
       "sector": "Real Estate",
@@ -3273,6 +3243,16 @@
       ]
     },
     {
+      "ticker": "SITM",
+      "name": "SiTime",
+      "sector": "Information Technology",
+      "subIndustry": "Semiconductors",
+      "headquarters": "Santa Clara, California",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
       "ticker": "SLAB",
       "name": "Silicon Labs",
       "sector": "Information Technology",
@@ -3318,6 +3298,16 @@
       "sector": "Information Technology",
       "subIndustry": "Technology Distributors",
       "headquarters": "Fremont, California Clearwater, Florida",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "SOLS",
+      "name": "Solstice Advanced Materials",
+      "sector": "Materials",
+      "subIndustry": "Specialty Chemicals",
+      "headquarters": "Morris Plains, New Jersey",
       "indexFlags": [
         "sp500"
       ]
@@ -3718,6 +3708,16 @@
       "sector": "Consumer Discretionary",
       "subIndustry": "Apparel, Accessories & Luxury Goods",
       "headquarters": "Denver, Colorado",
+      "indexFlags": [
+        "sp500"
+      ]
+    },
+    {
+      "ticker": "VICR",
+      "name": "Vicor Corporation",
+      "sector": "Industrials",
+      "subIndustry": "Electrical Components & Equipment",
+      "headquarters": "Andover, Massachusetts",
       "indexFlags": [
         "sp500"
       ]
