@@ -2863,9 +2863,9 @@
     "annual_latest": {
       "revenue": 17188000000.0,
       "op_income": 3856000000.0,
-      "fcf": 2797000000.0,
+      "fcf": null,
       "cfo": 6711000000.0,
-      "capex": -3914000000.0
+      "capex": null
     }
   },
   "DXCM": {
@@ -6142,10 +6142,10 @@
     "source": "yfinance",
     "name": "Match Group, Inc.",
     "sector": "Communication Services",
-    "market_cap": null,
+    "market_cap": 9128834048.0,
     "multiples": {
       "pe": 16.247898,
-      "ps": null
+      "ps": 2.6178143
     },
     "annual_latest": {
       "revenue": 3487197000.0,
@@ -6815,9 +6815,9 @@
     "annual_latest": {
       "revenue": 28444800000.0,
       "op_income": 2961700000.0,
-      "fcf": 3029200000.0,
+      "fcf": null,
       "cfo": 4415800000.0,
-      "capex": -1386600000.0
+      "capex": null
     }
   },
   "PCG": {
