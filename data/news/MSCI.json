@@ -1,6 +1,6 @@
 {
   "ticker": "MSCI",
-  "generated_at_utc": "2026-05-06T17:07:19Z",
+  "generated_at_utc": "2026-05-06T20:10:56Z",
   "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
