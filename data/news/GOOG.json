@@ -1,7 +1,7 @@
 {
   "ticker": "GOOG",
-  "generated_at_utc": "2026-05-05T22:33:37Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-06T04:24:01Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
