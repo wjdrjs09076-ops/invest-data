@@ -1,7 +1,7 @@
 {
   "ticker": "CF",
-  "generated_at_utc": "2026-05-06T09:11:40Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-06T11:27:00Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
