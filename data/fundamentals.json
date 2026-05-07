@@ -26,7 +26,7 @@
     "sector": "Technology",
     "market_cap": 4222761828352.0,
     "multiples": {
-      "pe": 34.765415,
+      "pe": 34.849697,
       "ps": 9.353941
     },
     "annual_latest": {
@@ -45,7 +45,7 @@
     "sector": "Healthcare",
     "market_cap": 362649354240.0,
     "multiples": {
-      "pe": 100.504906,
+      "pe": 101.0,
       "ps": 5.7729244
     },
     "annual_latest": {
@@ -159,7 +159,7 @@
     "sector": "Technology",
     "market_cap": 202912301056.0,
     "multiples": {
-      "pe": 76.12271,
+      "pe": 75.70674,
       "ps": 17.25915
     },
     "annual_latest": {
@@ -216,7 +216,7 @@
     "sector": "Technology",
     "market_cap": 51289878528.0,
     "multiples": {
-      "pe": 46.389317,
+      "pe": 46.478012,
       "ps": 7.117663
     },
     "annual_latest": {
@@ -236,7 +236,7 @@
     "market_cap": 30318424064.0,
     "multiples": {
       "pe": 19.710432,
-      "ps": 3.5795069
+      "ps": 3.5464292
     },
     "annual_latest": {
       "revenue": 8799000000.0,
@@ -254,8 +254,8 @@
     "sector": "Utilities",
     "market_cap": 72126554112.0,
     "multiples": {
-      "pe": 19.903904,
-      "ps": 3.297063
+      "pe": 19.609467,
+      "ps": 3.2151988
     },
     "annual_latest": {
       "revenue": 21876000000.0,
@@ -273,8 +273,8 @@
     "sector": "Utilities",
     "market_cap": 10226681856.0,
     "multiples": {
-      "pe": 10.946566,
-      "ps": 0.8359913
+      "pe": 7.4687505,
+      "ps": 0.8189863
     },
     "annual_latest": {
       "revenue": 12233000000.0,
@@ -292,7 +292,7 @@
     "sector": "Financial Services",
     "market_cap": 57894100992.0,
     "multiples": {
-      "pe": 12.974829,
+      "pe": 12.96,
       "ps": 3.19645
     },
     "annual_latest": {
@@ -331,7 +331,7 @@
     "market_cap": 11780101120.0,
     "multiples": {
       "pe": 12.121413,
-      "ps": 0.91929334
+      "ps": 0.8951173
     },
     "annual_latest": {
       "revenue": 12814300000.0,
@@ -349,7 +349,7 @@
     "sector": "Financial Services",
     "market_cap": 50594451456.0,
     "multiples": {
-      "pe": 31.9141,
+      "pe": 31.862461,
       "ps": 3.5634916
     },
     "annual_latest": {
@@ -406,7 +406,7 @@
     "sector": "Healthcare",
     "market_cap": 12457108480.0,
     "multiples": {
-      "pe": 29.184565,
+      "pe": 29.233614,
       "ps": 3.0414429
     },
     "annual_latest": {
@@ -425,7 +425,7 @@
     "sector": "Financial Services",
     "market_cap": 56097169408.0,
     "multiples": {
-      "pe": 4.820173,
+      "pe": 4.821239,
       "ps": 0.82285285
     },
     "annual_latest": {
@@ -482,8 +482,8 @@
     "sector": "Consumer Cyclical",
     "market_cap": 18578857984.0,
     "multiples": {
-      "pe": 30.233082,
-      "ps": 0.94746584
+      "pe": 32.168,
+      "ps": 0.83726263
     },
     "annual_latest": {
       "revenue": 15009000000.0,
@@ -501,8 +501,8 @@
     "sector": "Technology",
     "market_cap": 687118811136.0,
     "multiples": {
-      "pe": 162.69885,
-      "ps": 19.836567
+      "pe": 140.93312,
+      "ps": 18.345673
     },
     "annual_latest": {
       "revenue": 34639000000.0,
@@ -596,7 +596,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 2958097383424.0,
     "multiples": {
-      "pe": 32.85424,
+      "pe": 32.89354,
       "ps": 3.9824893
     },
     "annual_latest": {
@@ -616,7 +616,7 @@
     "market_cap": 185173442560.0,
     "multiples": {
       "pe": 50.53608,
-      "ps": 20.561804
+      "ps": 19.070581
     },
     "annual_latest": {
       "revenue": 9005700000.0,
@@ -634,7 +634,7 @@
     "sector": "Financial Services",
     "market_cap": 65839362048.0,
     "multiples": {
-      "pe": 16.928612,
+      "pe": 16.91932,
       "ps": 3.7652614
     },
     "annual_latest": {
@@ -729,8 +729,8 @@
     "sector": "Financial Services",
     "market_cap": 74676510720.0,
     "multiples": {
-      "pe": 23.380867,
-      "ps": 2.348835
+      "pe": 81.46541,
+      "ps": 2.3868225
     },
     "annual_latest": {
       "revenue": 32049000000.0,
@@ -824,7 +824,7 @@
     "sector": "Utilities",
     "market_cap": 30566498304.0,
     "multiples": {
-      "pe": 24.057291,
+      "pe": 22.781752,
       "ps": 6.2773376
     },
     "annual_latest": {
@@ -862,7 +862,7 @@
     "sector": "Technology",
     "market_cap": 2014317248512.0,
     "multiples": {
-      "pe": 82.93177,
+      "pe": 82.60971,
       "ps": 29.499975
     },
     "annual_latest": {
@@ -900,7 +900,7 @@
     "sector": "Utilities",
     "market_cap": 24542857216.0,
     "multiples": {
-      "pe": 22.323267,
+      "pe": 22.283688,
       "ps": 4.715246
     },
     "annual_latest": {
@@ -919,7 +919,7 @@
     "sector": "Industrials",
     "market_cap": 31089588224.0,
     "multiples": {
-      "pe": 253.85526,
+      "pe": 156.21861,
       "ps": 11.185172
     },
     "annual_latest": {
@@ -938,7 +938,7 @@
     "sector": "Financial Services",
     "market_cap": 219640889344.0,
     "multiples": {
-      "pe": 20.093632,
+      "pe": 20.081097,
       "ps": 3.191898
     },
     "annual_latest": {
@@ -957,7 +957,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 58679746560.0,
     "multiples": {
-      "pe": 24.819832,
+      "pe": 24.814615,
       "ps": 2.9923697
     },
     "annual_latest": {
@@ -976,7 +976,7 @@
     "sector": "Industrials",
     "market_cap": 181254356992.0,
     "multiples": {
-      "pe": 90.52362,
+      "pe": 90.881424,
       "ps": 1.9662236
     },
     "annual_latest": {
@@ -1071,7 +1071,7 @@
     "sector": "Healthcare",
     "market_cap": 41179389952.0,
     "multiples": {
-      "pe": 23.692307,
+      "pe": 23.653595,
       "ps": 1.8782791
     },
     "annual_latest": {
@@ -1280,7 +1280,7 @@
     "sector": "Technology",
     "market_cap": 17676056576.0,
     "multiples": {
-      "pe": 16.327991,
+      "pe": 16.345453,
       "ps": 2.4140034
     },
     "annual_latest": {
@@ -1432,7 +1432,7 @@
     "sector": "Healthcare",
     "market_cap": 44848078848.0,
     "multiples": {
-      "pe": 29.279818,
+      "pe": 29.235115,
       "ps": 0.17886645
     },
     "annual_latest": {
@@ -1470,7 +1470,7 @@
     "sector": "Industrials",
     "market_cap": 426936500224.0,
     "multiples": {
-      "pe": 46.161854,
+      "pe": 46.092987,
       "ps": 6.034012
     },
     "annual_latest": {
@@ -1584,7 +1584,7 @@
     "sector": "Technology",
     "market_cap": 97887092736.0,
     "multiples": {
-      "pe": 82.920555,
+      "pe": 82.72727,
       "ps": 17.705544
     },
     "annual_latest": {
@@ -1603,8 +1603,8 @@
     "sector": "Technology",
     "market_cap": 14060300288.0,
     "multiples": {
-      "pe": 13.490099,
-      "ps": 0.6270174
+      "pe": 13.276492,
+      "ps": 0.6138583
     },
     "annual_latest": {
       "revenue": 22424100000.0,
@@ -1622,7 +1622,7 @@
     "sector": "Utilities",
     "market_cap": 116941471744.0,
     "multiples": {
-      "pe": 43.61892,
+      "pe": 43.677944,
       "ps": 4.5800133
     },
     "annual_latest": {
@@ -1641,7 +1641,7 @@
     "sector": "Basic Materials",
     "market_cap": 18397104128.0,
     "multiples": {
-      "pe": 13.336304,
+      "pe": 13.351171,
       "ps": 2.5969937
     },
     "annual_latest": {
@@ -1717,7 +1717,7 @@
     "sector": "Communication Services",
     "market_cap": 22097238016.0,
     "multiples": {
-      "pe": 4.2348485,
+      "pe": 4.235995,
       "ps": 0.40444466
     },
     "annual_latest": {
@@ -1736,7 +1736,7 @@
     "sector": "Healthcare",
     "market_cap": 74592845824.0,
     "multiples": {
-      "pe": 12.117748,
+      "pe": 11.8479,
       "ps": 0.26842386
     },
     "annual_latest": {
@@ -1755,7 +1755,7 @@
     "sector": "Technology",
     "market_cap": 81557200896.0,
     "multiples": {
-      "pe": 365.05695,
+      "pe": 369.73718,
       "ps": 15.915808
     },
     "annual_latest": {
@@ -1774,7 +1774,7 @@
     "sector": "Financial Services",
     "market_cap": 24816392192.0,
     "multiples": {
-      "pe": 9.172669,
+      "pe": 9.167428,
       "ps": 1.9195848
     },
     "annual_latest": {
@@ -1850,7 +1850,7 @@
     "sector": "Financial Services",
     "market_cap": 104482693120.0,
     "multiples": {
-      "pe": 24.581415,
+      "pe": 24.623398,
       "ps": 15.4936075
     },
     "annual_latest": {
@@ -1964,7 +1964,7 @@
     "sector": "Financial Services",
     "market_cap": 122653483008.0,
     "multiples": {
-      "pe": 59.691357,
+      "pe": 59.50769,
       "ps": 3.3778603
     },
     "annual_latest": {
@@ -2021,7 +2021,7 @@
     "sector": "Energy",
     "market_cap": 144855154688.0,
     "multiples": {
-      "pe": 20.186758,
+      "pe": 20.152542,
       "ps": 2.4395425
     },
     "annual_latest": {
@@ -2059,7 +2059,7 @@
     "sector": "Consumer Defensive",
     "market_cap": 441767034880.0,
     "multiples": {
-      "pe": 51.834984,
+      "pe": 51.808014,
       "ps": 1.54321
     },
     "annual_latest": {
@@ -2192,7 +2192,7 @@
     "sector": "Technology",
     "market_cap": 148223164416.0,
     "multiples": {
-      "pe": 23.229486,
+      "pe": 23.259308,
       "ps": 3.5694923
     },
     "annual_latest": {
@@ -2306,7 +2306,7 @@
     "sector": "Energy",
     "market_cap": 24724652032.0,
     "multiples": {
-      "pe": 14.535715,
+      "pe": 15.004608,
       "ps": 3.5366402
     },
     "annual_latest": {
@@ -2345,7 +2345,7 @@
     "market_cap": 54789496832.0,
     "multiples": {
       "pe": 44.199997,
-      "ps": 3.1486406
+      "ps": 3.062748
     },
     "annual_latest": {
       "revenue": 17401000000.0,
@@ -2382,8 +2382,8 @@
     "sector": "Healthcare",
     "market_cap": 110827044864.0,
     "multiples": {
-      "pe": 62.48921,
-      "ps": 0.27718264
+      "pe": 38.096493,
+      "ps": 0.27319372
     },
     "annual_latest": {
       "revenue": 402067000000.0,
@@ -2496,7 +2496,7 @@
     "sector": "Technology",
     "market_cap": 51152457728.0,
     "multiples": {
-      "pe": 463.58066,
+      "pe": 449.09378,
       "ps": 14.92562
     },
     "annual_latest": {
@@ -2515,7 +2515,7 @@
     "sector": "Industrials",
     "market_cap": 159806291968.0,
     "multiples": {
-      "pe": 33.36943,
+      "pe": 33.331833,
       "ps": 3.419706
     },
     "annual_latest": {
@@ -2591,7 +2591,7 @@
     "sector": "Healthcare",
     "market_cap": 20936015872.0,
     "multiples": {
-      "pe": 20.898342,
+      "pe": 20.875275,
       "ps": 1.8563589
     },
     "annual_latest": {
@@ -2648,8 +2648,8 @@
     "sector": "Communication Services",
     "market_cap": 187647426560.0,
     "multiples": {
-      "pe": 15.91458,
-      "ps": 1.9604604
+      "pe": 17.2896,
+      "ps": 1.9292786
     },
     "annual_latest": {
       "revenue": 94425000000.0,
@@ -2705,8 +2705,8 @@
     "sector": "Real Estate",
     "market_cap": 13557632000.0,
     "multiples": {
-      "pe": 195.0,
-      "ps": 4.803392
+      "pe": 60.9375,
+      "ps": 4.719679
     },
     "annual_latest": {
       "revenue": 2822512000.0,
@@ -2762,7 +2762,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 10798798848.0,
     "multiples": {
-      "pe": 18.680094,
+      "pe": 18.690845,
       "ps": 2.1690729
     },
     "annual_latest": {
@@ -2819,7 +2819,7 @@
     "sector": "Utilities",
     "market_cap": 97870512128.0,
     "multiples": {
-      "pe": 19.284178,
+      "pe": 19.313847,
       "ps": 2.991244
     },
     "annual_latest": {
@@ -2838,8 +2838,8 @@
     "sector": "Healthcare",
     "market_cap": 12444187648.0,
     "multiples": {
-      "pe": 18.678228,
-      "ps": 0.91212523
+      "pe": 18.69624,
+      "ps": 0.89946574
     },
     "annual_latest": {
       "revenue": 13643069000.0,
@@ -2858,7 +2858,7 @@
     "market_cap": 28959117312.0,
     "multiples": {
       "pe": 11.175059,
-      "ps": 1.8056564
+      "ps": 1.8096055
     },
     "annual_latest": {
       "revenue": 17188000000.0,
@@ -2896,7 +2896,7 @@
     "market_cap": 50248441856.0,
     "multiples": {
       "pe": 57.205128,
-      "ps": 6.8776956
+      "ps": 6.672214
     },
     "annual_latest": {
       "revenue": null,
@@ -2933,7 +2933,7 @@
     "sector": "Basic Materials",
     "market_cap": 74396073984.0,
     "multiples": {
-      "pe": 35.64547,
+      "pe": 35.597298,
       "ps": 4.5219254
     },
     "annual_latest": {
@@ -2990,7 +2990,7 @@
     "sector": "Financial Services",
     "market_cap": 13925245952.0,
     "multiples": {
-      "pe": 7.167006,
+      "pe": 7.1626296,
       "ps": 0.803256
     },
     "annual_latest": {
@@ -3047,7 +3047,7 @@
     "sector": "Healthcare",
     "market_cap": 81372913664.0,
     "multiples": {
-      "pe": 15.891009,
+      "pe": 15.870816,
       "ps": 0.40602005
     },
     "annual_latest": {
@@ -3066,7 +3066,7 @@
     "sector": "Industrials",
     "market_cap": 42027610112.0,
     "multiples": {
-      "pe": 31.701376,
+      "pe": 31.74403,
       "ps": 2.368115
     },
     "annual_latest": {
@@ -3086,7 +3086,7 @@
     "market_cap": 82889195520.0,
     "multiples": {
       "pe": 34.256943,
-      "ps": 4.5576067
+      "ps": 4.525508
     },
     "annual_latest": {
       "revenue": 18016000000.0,
@@ -3104,8 +3104,8 @@
     "sector": "Energy",
     "market_cap": 71739736064.0,
     "multiples": {
-      "pe": 14.752464,
-      "ps": 3.166758
+      "pe": 13.2438545,
+      "ps": 3.0436885
     },
     "annual_latest": {
       "revenue": 22582000000.0,
@@ -3142,7 +3142,7 @@
     "sector": "Real Estate",
     "market_cap": 107299233792.0,
     "multiples": {
-      "pe": 75.29135,
+      "pe": 75.18728,
       "ps": 11.263829
     },
     "annual_latest": {
@@ -3199,7 +3199,7 @@
     "sector": "Financial Services",
     "market_cap": 11167024128.0,
     "multiples": {
-      "pe": 19.538883,
+      "pe": 19.556776,
       "ps": 2.7304773
     },
     "annual_latest": {
@@ -3237,7 +3237,7 @@
     "sector": "Real Estate",
     "market_cap": 18421215232.0,
     "multiples": {
-      "pe": 30.096848,
+      "pe": 30.029217,
       "ps": 9.369791
     },
     "annual_latest": {
@@ -3333,7 +3333,7 @@
     "market_cap": 46063345664.0,
     "multiples": {
       "pe": 16.490843,
-      "ps": 1.8988929
+      "ps": 1.8584421
     },
     "annual_latest": {
       "revenue": 24258000000.0,
@@ -3370,7 +3370,7 @@
     "sector": "Industrials",
     "market_cap": 19967309824.0,
     "multiples": {
-      "pe": 24.472494,
+      "pe": 24.432957,
       "ps": 1.7850982
     },
     "annual_latest": {
@@ -3446,7 +3446,7 @@
     "sector": "Energy",
     "market_cap": 54878294016.0,
     "multiples": {
-      "pe": 197.0505,
+      "pe": 199.06122,
       "ps": 3.7915084
     },
     "annual_latest": {
@@ -3503,7 +3503,7 @@
     "sector": "Financial Services",
     "market_cap": 7715748352.0,
     "multiples": {
-      "pe": 13.637476,
+      "pe": 13.619935,
       "ps": 3.2134743
     },
     "annual_latest": {
@@ -3579,7 +3579,7 @@
     "sector": "Technology",
     "market_cap": 24744695808.0,
     "multiples": {
-      "pe": 33.80862,
+      "pe": 33.78721,
       "ps": 10.969356
     },
     "annual_latest": {
@@ -3655,7 +3655,7 @@
     "sector": "Industrials",
     "market_cap": 70809321472.0,
     "multiples": {
-      "pe": 58.101967,
+      "pe": 58.13555,
       "ps": 6.9861393
     },
     "annual_latest": {
@@ -3788,7 +3788,7 @@
     "sector": "Industrials",
     "market_cap": 93912285184.0,
     "multiples": {
-      "pe": 21.854624,
+      "pe": 21.84088,
       "ps": 1.745322
     },
     "annual_latest": {
@@ -3883,7 +3883,7 @@
     "sector": "Industrials",
     "market_cap": 300686934016.0,
     "multiples": {
-      "pe": 32.746853,
+      "pe": 32.679905,
       "ps": 7.6364937
     },
     "annual_latest": {
@@ -3902,7 +3902,7 @@
     "sector": "Healthcare",
     "market_cap": 169176072192.0,
     "multiples": {
-      "pe": 20.103245,
+      "pe": 20.13294,
       "ps": 5.7458844
     },
     "annual_latest": {
@@ -3940,7 +3940,7 @@
     "sector": "Financial Services",
     "market_cap": 12111053824.0,
     "multiples": {
-      "pe": 10.691829,
+      "pe": 10.684429,
       "ps": 1.9940765
     },
     "annual_latest": {
@@ -3997,7 +3997,7 @@
     "sector": "Industrials",
     "market_cap": 15742663680.0,
     "multiples": {
-      "pe": 83.83073,
+      "pe": 83.30841,
       "ps": 3.6387522
     },
     "annual_latest": {
@@ -4016,7 +4016,7 @@
     "sector": "Communication Services",
     "market_cap": 4787296796672.0,
     "multiples": {
-      "pe": 30.163359,
+      "pe": 30.11738,
       "ps": 11.330934
     },
     "annual_latest": {
@@ -4035,7 +4035,7 @@
     "sector": "Communication Services",
     "market_cap": 4822431432704.0,
     "multiples": {
-      "pe": 30.31531,
+      "pe": 30.384733,
       "ps": 11.414093
     },
     "annual_latest": {
@@ -4073,8 +4073,8 @@
     "sector": "Industrials",
     "market_cap": 19036620800.0,
     "multiples": {
-      "pe": 15.717833,
-      "ps": 2.4704025
+      "pe": 28.892115,
+      "ps": 2.1497574
     },
     "annual_latest": {
       "revenue": 7705878000.0,
@@ -4111,7 +4111,7 @@
     "sector": "Financial Services",
     "market_cap": 276525187072.0,
     "multiples": {
-      "pe": 17.114296,
+      "pe": 17.123674,
       "ps": 4.493933
     },
     "annual_latest": {
@@ -4130,7 +4130,7 @@
     "sector": "Industrials",
     "market_cap": 55369453568.0,
     "multiples": {
-      "pe": 33.03756,
+      "pe": 33.000282,
       "ps": 3.0860248
     },
     "annual_latest": {
@@ -4225,7 +4225,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 321766719488.0,
     "multiples": {
-      "pe": 22.702038,
+      "pe": 22.73399,
       "ps": 1.953855
     },
     "annual_latest": {
@@ -4244,7 +4244,7 @@
     "sector": "Financial Services",
     "market_cap": 36593725440.0,
     "multiples": {
-      "pe": 9.394089,
+      "pe": 9.400704,
       "ps": 1.2710127
     },
     "annual_latest": {
@@ -4282,7 +4282,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 73191227392.0,
     "multiples": {
-      "pe": 49.160553,
+      "pe": 49.010674,
       "ps": 14.433292
     },
     "annual_latest": {
@@ -4320,7 +4320,7 @@
     "sector": "Industrials",
     "market_cap": 137414017024.0,
     "multiples": {
-      "pe": 34.6976,
+      "pe": 34.58692,
       "ps": 3.6488056
     },
     "annual_latest": {
@@ -4416,7 +4416,7 @@
     "market_cap": 8252130304.0,
     "multiples": {
       "pe": 21.885197,
-      "ps": 0.62592006
+      "ps": 0.61656684
     },
     "annual_latest": {
       "revenue": 13184000000.0,
@@ -4453,7 +4453,7 @@
     "sector": "Consumer Defensive",
     "market_cap": 37812035584.0,
     "multiples": {
-      "pe": 34.777985,
+      "pe": 34.713223,
       "ps": 3.1532829
     },
     "annual_latest": {
@@ -4491,7 +4491,7 @@
     "sector": "Healthcare",
     "market_cap": 29574750208.0,
     "multiples": {
-      "pe": 26.28922,
+      "pe": 26.317308,
       "ps": 0.21555941
     },
     "annual_latest": {
@@ -4510,7 +4510,7 @@
     "sector": "Industrials",
     "market_cap": 102813057024.0,
     "multiples": {
-      "pe": 69.1186,
+      "pe": 68.93279,
       "ps": 12.4591675
     },
     "annual_latest": {
@@ -4586,7 +4586,7 @@
     "sector": "Healthcare",
     "market_cap": 45691400192.0,
     "multiples": {
-      "pe": 42.684597,
+      "pe": 42.559147,
       "ps": 10.276749
     },
     "annual_latest": {
@@ -4605,7 +4605,7 @@
     "sector": "Industrials",
     "market_cap": 16149345280.0,
     "multiples": {
-      "pe": 32.324444,
+      "pe": 32.276627,
       "ps": 4.5747557
     },
     "annual_latest": {
@@ -4624,8 +4624,8 @@
     "sector": "Basic Materials",
     "market_cap": 21172316160.0,
     "multiples": {
-      "pe": null,
-      "ps": 1.9441979
+      "pe": 25.674923,
+      "ps": 1.9625803
     },
     "annual_latest": {
       "revenue": 10890000000.0,
@@ -4681,7 +4681,7 @@
     "sector": "Technology",
     "market_cap": 108123389952.0,
     "multiples": {
-      "pe": 25.263329,
+      "pe": 25.246912,
       "ps": 5.3736587
     },
     "annual_latest": {
@@ -4739,7 +4739,7 @@
     "market_cap": 29452843008.0,
     "multiples": {
       "pe": 21.92174,
-      "ps": 1.8058151
+      "ps": 1.7708539
     },
     "annual_latest": {
       "revenue": 16310000000.0,
@@ -4833,7 +4833,7 @@
     "sector": "Industrials",
     "market_cap": 75081859072.0,
     "multiples": {
-      "pe": 24.189413,
+      "pe": 24.211895,
       "ps": 4.6286826
     },
     "annual_latest": {
@@ -4872,7 +4872,7 @@
     "market_cap": 14951401472.0,
     "multiples": {
       "pe": 37.351032,
-      "ps": 1.2067208
+      "ps": 1.1348679
     },
     "annual_latest": {
       "revenue": 12029783000.0,
@@ -4890,7 +4890,7 @@
     "sector": "Industrials",
     "market_cap": 23202318336.0,
     "multiples": {
-      "pe": 38.20652,
+      "pe": 38.14729,
       "ps": 1.9121431
     },
     "annual_latest": {
@@ -4929,7 +4929,7 @@
     "market_cap": 87611154432.0,
     "multiples": {
       "pe": 43.907974,
-      "ps": 3.6554909
+      "ps": 3.5857713
     },
     "annual_latest": {
       "revenue": 23596000000.0,
@@ -4948,7 +4948,7 @@
     "market_cap": 10341245952.0,
     "multiples": {
       "pe": 20.499285,
-      "ps": 4.196032
+      "ps": 4.110703
     },
     "annual_latest": {
       "revenue": 2375288000.0,
@@ -4966,7 +4966,7 @@
     "sector": "Healthcare",
     "market_cap": 540709060608.0,
     "multiples": {
-      "pe": 25.997684,
+      "pe": 26.02781,
       "ps": 5.611227
     },
     "annual_latest": {
@@ -5024,7 +5024,7 @@
     "market_cap": 24102336512.0,
     "multiples": {
       "pe": 13.638037,
-      "ps": 3.3475468
+      "ps": 3.347082
     },
     "annual_latest": {
       "revenue": 7285000000.0,
@@ -5042,7 +5042,7 @@
     "sector": "Technology",
     "market_cap": 62886535168.0,
     "multiples": {
-      "pe": 64.44288,
+      "pe": 64.556335,
       "ps": 11.077423
     },
     "annual_latest": {
@@ -5062,7 +5062,7 @@
     "market_cap": 27355535360.0,
     "multiples": {
       "pe": null,
-      "ps": 1.0967659
+      "ps": 1.0946593
     },
     "annual_latest": {
       "revenue": 24942000000.0,
@@ -5118,7 +5118,7 @@
     "sector": "Technology",
     "market_cap": 237257457664.0,
     "multiples": {
-      "pe": 51.380203,
+      "pe": 51.540577,
       "ps": 18.115873
     },
     "annual_latest": {
@@ -5289,7 +5289,7 @@
     "sector": "Healthcare",
     "market_cap": 21069080576.0,
     "multiples": {
-      "pe": 22.758194,
+      "pe": 22.77837,
       "ps": 1.4895916
     },
     "annual_latest": {
@@ -5308,7 +5308,7 @@
     "sector": "Industrials",
     "market_cap": 56298336256.0,
     "multiples": {
-      "pe": 32.847828,
+      "pe": 32.776573,
       "ps": 4.3791485
     },
     "annual_latest": {
@@ -5327,7 +5327,7 @@
     "sector": "Industrials",
     "market_cap": 18839658496.0,
     "multiples": {
-      "pe": 24.0502,
+      "pe": 24.03952,
       "ps": 3.5831826
     },
     "annual_latest": {
@@ -5365,7 +5365,7 @@
     "sector": "Healthcare",
     "market_cap": 880193306624.0,
     "multiples": {
-      "pe": 35.026615,
+      "pe": 35.088875,
       "ps": 12.182775
     },
     "annual_latest": {
@@ -5441,7 +5441,7 @@
     "sector": "Technology",
     "market_cap": 371632209920.0,
     "multiples": {
-      "pe": 56.069813,
+      "pe": 56.175808,
       "ps": 17.14025
     },
     "annual_latest": {
@@ -5556,7 +5556,7 @@
     "market_cap": 39053864960.0,
     "multiples": {
       "pe": null,
-      "ps": 1.5496701
+      "ps": 1.5248078
     },
     "annual_latest": {
       "revenue": 25201406000.0,
@@ -5574,7 +5574,7 @@
     "sector": "Financial Services",
     "market_cap": 434626068480.0,
     "multiples": {
-      "pe": 28.432951,
+      "pe": 28.48234,
       "ps": 12.806095
     },
     "annual_latest": {
@@ -5593,7 +5593,7 @@
     "sector": "Real Estate",
     "market_cap": 15548261376.0,
     "multiples": {
-      "pe": 39.36556,
+      "pe": 39.48485,
       "ps": 7.0241103
     },
     "annual_latest": {
@@ -5612,8 +5612,8 @@
     "sector": "Consumer Cyclical",
     "market_cap": 95145353216.0,
     "multiples": {
-      "pe": 37.795788,
-      "ps": 13.627234
+      "pe": 37.597904,
+      "ps": 12.904564
     },
     "annual_latest": {
       "revenue": 26186000000.0,
@@ -5650,7 +5650,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 201946136576.0,
     "multiples": {
-      "pe": 23.77406,
+      "pe": 23.75418,
       "ps": 7.5114803
     },
     "annual_latest": {
@@ -5688,7 +5688,7 @@
     "sector": "Healthcare",
     "market_cap": 91090247680.0,
     "multiples": {
-      "pe": 21.443771,
+      "pe": 21.456144,
       "ps": 0.22889413
     },
     "annual_latest": {
@@ -5764,7 +5764,7 @@
     "sector": "Financial Services",
     "market_cap": 51718037504.0,
     "multiples": {
-      "pe": 17.01911,
+      "pe": 15.504836,
       "ps": 0.6709744
     },
     "annual_latest": {
@@ -5783,7 +5783,7 @@
     "sector": "Communication Services",
     "market_cap": 1555748880384.0,
     "multiples": {
-      "pe": 22.262259,
+      "pe": 22.27035,
       "ps": 7.237287
     },
     "annual_latest": {
@@ -5955,7 +5955,7 @@
     "market_cap": 71752187904.0,
     "multiples": {
       "pe": 16.180382,
-      "ps": 0.52800894
+      "ps": 0.5277992
     },
     "annual_latest": {
       "revenue": 132699000000.0,
@@ -5973,7 +5973,7 @@
     "sector": "Technology",
     "market_cap": 81179951104.0,
     "multiples": {
-      "pe": 118.19385,
+      "pe": 117.68874,
       "ps": 27.452648
     },
     "annual_latest": {
@@ -6049,7 +6049,7 @@
     "sector": "Financial Services",
     "market_cap": 304968040448.0,
     "multiples": {
-      "pe": 17.529467,
+      "pe": 17.513588,
       "ps": 4.1677103
     },
     "annual_latest": {
@@ -6068,7 +6068,7 @@
     "sector": "Financial Services",
     "market_cap": 42337640448.0,
     "multiples": {
-      "pe": 33.303204,
+      "pe": 33.22717,
       "ps": 13.069355
     },
     "annual_latest": {
@@ -6087,7 +6087,7 @@
     "sector": "Technology",
     "market_cap": 3075074949120.0,
     "multiples": {
-      "pe": 24.669844,
+      "pe": 24.625818,
       "ps": 9.661753
     },
     "annual_latest": {
@@ -6144,8 +6144,8 @@
     "sector": "Communication Services",
     "market_cap": 8864128000.0,
     "multiples": {
-      "pe": 15.966386,
-      "ps": 2.5419064
+      "pe": 14.503818,
+      "ps": 2.518252
     },
     "annual_latest": {
       "revenue": 3487197000.0,
@@ -6315,8 +6315,8 @@
     "sector": "Utilities",
     "market_cap": 22774288384.0,
     "multiples": {
-      "pe": 24.364101,
-      "ps": 3.4287267
+      "pe": 23.636816,
+      "ps": 3.3383105
     },
     "annual_latest": {
       "revenue": 6642200000.0,
@@ -6391,7 +6391,7 @@
     "sector": "Utilities",
     "market_cap": 32050599936.0,
     "multiples": {
-      "pe": 37.566082,
+      "pe": 167.37778,
       "ps": 1.0435516
     },
     "annual_latest": {
@@ -6410,7 +6410,7 @@
     "sector": "Industrials",
     "market_cap": 71252443136.0,
     "multiples": {
-      "pe": 26.704546,
+      "pe": 26.727043,
       "ps": 5.8475537
     },
     "annual_latest": {
@@ -6676,7 +6676,7 @@
     "sector": "Technology",
     "market_cap": 558039236608.0,
     "multiples": {
-      "pe": 34.7724,
+      "pe": 34.834827,
       "ps": 8.709021
     },
     "annual_latest": {
@@ -6734,7 +6734,7 @@
     "market_cap": 54824263680.0,
     "multiples": {
       "pe": 74.48648,
-      "ps": 2.538983
+      "ps": 2.5959687
     },
     "annual_latest": {
       "revenue": 21593000000.0,
@@ -6771,7 +6771,7 @@
     "sector": "Technology",
     "market_cap": 6858201088.0,
     "multiples": {
-      "pe": 15.619283,
+      "pe": 15.657993,
       "ps": 3.342692
     },
     "annual_latest": {
@@ -6848,7 +6848,7 @@
     "market_cap": 39541800960.0,
     "multiples": {
       "pe": 17.55531,
-      "ps": 3.249655
+      "ps": 3.0906518
     },
     "annual_latest": {
       "revenue": 12168000000.0,
@@ -6890,7 +6890,7 @@
     },
     "annual_latest": {
       "revenue": 62579000000.0,
-      "op_income": 17407000000.0,
+      "op_income": 15794000000.0,
       "fcf": 9075000000.0,
       "cfo": 11704000000.0,
       "capex": -2629000000.0
@@ -6980,7 +6980,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 22877411328.0,
     "multiples": {
-      "pe": 11.626331,
+      "pe": 11.615087,
       "ps": 1.3594949
     },
     "annual_latest": {
@@ -6999,7 +6999,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 20235382784.0,
     "multiples": {
-      "pe": 27.526701,
+      "pe": 27.560148,
       "ps": 2.1956556
     },
     "annual_latest": {
@@ -7037,7 +7037,7 @@
     "sector": "Technology",
     "market_cap": 320736362496.0,
     "multiples": {
-      "pe": 152.03409,
+      "pe": 148.65555,
       "ps": 61.394653
     },
     "annual_latest": {
@@ -7132,8 +7132,8 @@
     "sector": "Healthcare",
     "market_cap": 10478214144.0,
     "multiples": {
-      "pe": 43.471264,
-      "ps": 3.8692124
+      "pe": 35.34579,
+      "ps": 3.6121807
     },
     "annual_latest": {
       "revenue": 2708100000.0,
@@ -7209,7 +7209,7 @@
     "market_cap": 34785570816.0,
     "multiples": {
       "pe": 10.31514,
-      "ps": 0.5680854
+      "ps": 0.5553607
     },
     "annual_latest": {
       "revenue": 60967000000.0,
@@ -7303,7 +7303,7 @@
     "sector": "Industrials",
     "market_cap": 117833228288.0,
     "multiples": {
-      "pe": 108.30897,
+      "pe": 107.567116,
       "ps": 3.9119763
     },
     "annual_latest": {
@@ -7323,7 +7323,7 @@
     "market_cap": 40815022080.0,
     "multiples": {
       "pe": 8.681051,
-      "ps": 1.2304058
+      "ps": 1.2099075
     },
     "annual_latest": {
       "revenue": 33172000000.0,
@@ -7360,7 +7360,7 @@
     "sector": "Technology",
     "market_cap": 202968793088.0,
     "multiples": {
-      "pe": 20.68421,
+      "pe": 20.706451,
       "ps": 4.562532
     },
     "annual_latest": {
@@ -7474,7 +7474,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 22567421952.0,
     "multiples": {
-      "pe": 25.33356,
+      "pe": 25.316326,
       "ps": 2.8810334
     },
     "annual_latest": {
@@ -7493,7 +7493,7 @@
     "sector": "Healthcare",
     "market_cap": 30409619456.0,
     "multiples": {
-      "pe": 20.216007,
+      "pe": 20.196531,
       "ps": 5.4912925
     },
     "annual_latest": {
@@ -7569,7 +7569,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 74039779328.0,
     "multiples": {
-      "pe": 34.578552,
+      "pe": 34.630863,
       "ps": 3.254416
     },
     "annual_latest": {
@@ -7702,7 +7702,7 @@
     "sector": "Basic Materials",
     "market_cap": 79818686464.0,
     "multiples": {
-      "pe": 31.11827,
+      "pe": 31.058542,
       "ps": 3.3347406
     },
     "annual_latest": {
@@ -7760,7 +7760,7 @@
     "market_cap": 20812703744.0,
     "multiples": {
       "pe": 18.242105,
-      "ps": 0.741798
+      "ps": 0.6175839
     },
     "annual_latest": {
       "revenue": 21972042000.0,
@@ -7778,7 +7778,7 @@
     "sector": "Industrials",
     "market_cap": 20012115968.0,
     "multiples": {
-      "pe": 19.954546,
+      "pe": 19.964857,
       "ps": 3.8328576
     },
     "annual_latest": {
@@ -7797,7 +7797,7 @@
     "sector": "Technology",
     "market_cap": 208803594240.0,
     "multiples": {
-      "pe": 48.204445,
+      "pe": 48.072964,
       "ps": 15.837651
     },
     "annual_latest": {
@@ -7816,7 +7816,7 @@
     "sector": "Technology",
     "market_cap": 96627720192.0,
     "multiples": {
-      "pe": 77.24655,
+      "pe": 77.48387,
       "ps": 12.06691
     },
     "annual_latest": {
@@ -7855,7 +7855,7 @@
     "market_cap": 12293672960.0,
     "multiples": {
       "pe": 8.689106,
-      "ps": 1.4767175
+      "ps": 1.4879779
     },
     "annual_latest": {
       "revenue": 8325000000.0,
@@ -7892,7 +7892,7 @@
     "sector": "Financial Services",
     "market_cap": 125376724992.0,
     "multiples": {
-      "pe": 26.791271,
+      "pe": 26.808228,
       "ps": 7.970548
     },
     "annual_latest": {
@@ -7968,7 +7968,7 @@
     "sector": "Financial Services",
     "market_cap": 41858248704.0,
     "multiples": {
-      "pe": 15.369919,
+      "pe": 15.354315,
       "ps": 2.9082365
     },
     "annual_latest": {
@@ -7987,7 +7987,7 @@
     "sector": "Technology",
     "market_cap": 176338157568.0,
     "multiples": {
-      "pe": 74.47159,
+      "pe": 74.6129,
       "ps": 16.016182
     },
     "annual_latest": {
@@ -8006,7 +8006,7 @@
     "sector": "Consumer Defensive",
     "market_cap": 26228094976.0,
     "multiples": {
-      "pe": 15.830561,
+      "pe": 15.847034,
       "ps": 2.8699086
     },
     "annual_latest": {
@@ -8064,7 +8064,7 @@
     "market_cap": 9771122688.0,
     "multiples": {
       "pe": 24.890804,
-      "ps": 2.4103613
+      "ps": 2.4160233
     },
     "annual_latest": {
       "revenue": 4086900000.0,
@@ -8216,7 +8216,7 @@
     "market_cap": 7416668160.0,
     "multiples": {
       "pe": 67.72143,
-      "ps": 6.1013513
+      "ps": 6.1253724
     },
     "annual_latest": {
       "revenue": 1219635000.0,
@@ -8291,7 +8291,7 @@
     "sector": "Consumer Defensive",
     "market_cap": 59129208832.0,
     "multiples": {
-      "pe": 16.01353,
+      "pe": 16.03325,
       "ps": 0.5643177
     },
     "annual_latest": {
@@ -8329,7 +8329,7 @@
     "sector": "Communication Services",
     "market_cap": 14279092224.0,
     "multiples": {
-      "pe": 84.27876,
+      "pe": 70.806694,
       "ps": 3.0155516
     },
     "annual_latest": {
@@ -8348,7 +8348,7 @@
     "sector": "Healthcare",
     "market_cap": 175758376960.0,
     "multiples": {
-      "pe": 25.986263,
+      "pe": 25.971996,
       "ps": 3.8887177
     },
     "annual_latest": {
@@ -8424,7 +8424,7 @@
     "sector": "Energy",
     "market_cap": 53630472192.0,
     "multiples": {
-      "pe": 29.387516,
+      "pe": 29.42217,
       "ps": 3.1494908
     },
     "annual_latest": {
@@ -8444,7 +8444,7 @@
     "market_cap": 14903699456.0,
     "multiples": {
       "pe": 33.20419,
-      "ps": 4.154573
+      "ps": 4.042668
     },
     "annual_latest": {
       "revenue": 3587300000.0,
@@ -8519,7 +8519,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 1497519751168.0,
     "multiples": {
-      "pe": 365.80734,
+      "pe": 369.19443,
       "ps": 15.299705
     },
     "annual_latest": {
@@ -8691,7 +8691,7 @@
     "market_cap": 162941042688.0,
     "multiples": {
       "pe": 16.737843,
-      "ps": 3.1324575
+      "ps": 3.0350184
     },
     "annual_latest": {
       "revenue": 52017000000.0,
@@ -8728,7 +8728,7 @@
     "sector": "Healthcare",
     "market_cap": 10282899456.0,
     "multiples": {
-      "pe": 7.0350733,
+      "pe": 7.0380116,
       "ps": 0.5789826
     },
     "annual_latest": {
@@ -8747,7 +8747,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 23403470848.0,
     "multiples": {
-      "pe": 20.89418,
+      "pe": 20.877876,
       "ps": 1.8884702
     },
     "annual_latest": {
@@ -8785,7 +8785,7 @@
     "sector": "Industrials",
     "market_cap": 159251709952.0,
     "multiples": {
-      "pe": 22.094728,
+      "pe": 22.076546,
       "ps": 6.447438
     },
     "annual_latest": {
@@ -8823,7 +8823,7 @@
     "sector": "Industrials",
     "market_cap": 60422602752.0,
     "multiples": {
-      "pe": 24.648607,
+      "pe": 24.629725,
       "ps": 3.6921847
     },
     "annual_latest": {
@@ -8861,7 +8861,7 @@
     "sector": "Financial Services",
     "market_cap": 606275895296.0,
     "multiples": {
-      "pe": 27.818499,
+      "pe": 27.770035,
       "ps": 14.090591
     },
     "annual_latest": {
@@ -8899,7 +8899,7 @@
     "sector": "Energy",
     "market_cap": 70281019392.0,
     "multiples": {
-      "pe": 17.289263,
+      "pe": 17.3019,
       "ps": 0.5964055
     },
     "annual_latest": {
@@ -8975,7 +8975,7 @@
     "sector": "Technology",
     "market_cap": 25094160384.0,
     "multiples": {
-      "pe": 30.470718,
+      "pe": 30.504425,
       "ps": 14.908603
     },
     "annual_latest": {
@@ -9108,7 +9108,7 @@
     "sector": "Healthcare",
     "market_cap": 34311782400.0,
     "multiples": {
-      "pe": 44.526115,
+      "pe": 44.469463,
       "ps": 9.100578
     },
     "annual_latest": {
@@ -9127,7 +9127,7 @@
     "sector": "Communication Services",
     "market_cap": 68181680128.0,
     "multiples": {
-      "pe": 93.793106,
+      "pe": null,
       "ps": 1.8281231
     },
     "annual_latest": {
@@ -9165,7 +9165,7 @@
     "sector": "Technology",
     "market_cap": 166533169152.0,
     "multiples": {
-      "pe": 28.931135,
+      "pe": 28.896532,
       "ps": 14.140542
     },
     "annual_latest": {
@@ -9241,7 +9241,7 @@
     "sector": "Industrials",
     "market_cap": 88555487232.0,
     "multiples": {
-      "pe": 31.91317,
+      "pe": 31.959421,
       "ps": 3.4846532
     },
     "annual_latest": {
@@ -9261,7 +9261,7 @@
     "market_cap": 90208354304.0,
     "multiples": {
       "pe": 32.35088,
-      "ps": 7.6370096
+      "ps": 7.449695
     },
     "annual_latest": {
       "revenue": 11950000000.0,
@@ -9355,7 +9355,7 @@
     "sector": "Financial Services",
     "market_cap": 23839614976.0,
     "multiples": {
-      "pe": 14.830199,
+      "pe": 14.812793,
       "ps": 2.4087718
     },
     "annual_latest": {
@@ -9431,7 +9431,7 @@
     "sector": "Energy",
     "market_cap": 616312209408.0,
     "multiples": {
-      "pe": 24.989918,
+      "pe": 25.0742,
       "ps": 1.8904818
     },
     "annual_latest": {
@@ -9488,7 +9488,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 43002425344.0,
     "multiples": {
-      "pe": 25.164518,
+      "pe": 25.20517,
       "ps": 5.0674553
     },
     "annual_latest": {
