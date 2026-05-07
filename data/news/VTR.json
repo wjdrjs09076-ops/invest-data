@@ -1,7 +1,7 @@
 {
   "ticker": "VTR",
-  "generated_at_utc": "2026-05-06T22:27:30Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-07T04:24:05Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
