@@ -5,10 +5,10 @@
     "source": "yfinance",
     "name": "Agilent Technologies, Inc.",
     "sector": "Healthcare",
-    "market_cap": 33258051584.0,
+    "market_cap": 33259466752.0,
     "multiples": {
-      "pe": 26.036505,
-      "ps": 4.7074385
+      "pe": 25.980131,
+      "ps": 4.7076387
     },
     "annual_latest": {
       "revenue": 6948000000.0,
@@ -24,10 +24,10 @@
     "source": "yfinance",
     "name": "Apple Inc.",
     "sector": "Technology",
-    "market_cap": 4222071603200.0,
+    "market_cap": 4222761828352.0,
     "multiples": {
-      "pe": 34.759735,
-      "ps": 9.352411
+      "pe": 34.765415,
+      "ps": 9.353941
     },
     "annual_latest": {
       "revenue": 416161000000.0,
@@ -43,10 +43,10 @@
     "source": "yfinance",
     "name": "AbbVie Inc.",
     "sector": "Healthcare",
-    "market_cap": 362560913408.0,
+    "market_cap": 362649354240.0,
     "multiples": {
-      "pe": 100.48039,
-      "ps": 5.771517
+      "pe": 100.504906,
+      "ps": 5.7729244
     },
     "annual_latest": {
       "revenue": 61160000000.0,
@@ -64,7 +64,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 83162193920.0,
     "multiples": {
-      "pe": 34.79602,
+      "pe": 34.70968,
       "ps": 6.7937417
     },
     "annual_latest": {
@@ -81,10 +81,10 @@
     "source": "yfinance",
     "name": "Abbott Laboratories",
     "sector": "Healthcare",
-    "market_cap": 150231384064.0,
+    "market_cap": 150318481408.0,
     "multiples": {
-      "pe": 24.159664,
-      "ps": 3.3285635
+      "pe": 24.173672,
+      "ps": 3.3304932
     },
     "annual_latest": {
       "revenue": 44328000000.0,
@@ -100,10 +100,10 @@
     "source": "yfinance",
     "name": "Arch Capital Group Ltd.",
     "sector": "Financial Services",
-    "market_cap": 33448392704.0,
+    "market_cap": 33087193088.0,
     "multiples": {
-      "pe": 7.284692,
-      "ps": 1.6912774
+      "pe": 7.284615,
+      "ps": 1.6730138
     },
     "annual_latest": {
       "revenue": 19294000000.0,
@@ -119,10 +119,10 @@
     "source": "yfinance",
     "name": "Accenture plc",
     "sector": "Technology",
-    "market_cap": 107411890176.0,
+    "market_cap": 107436515328.0,
     "multiples": {
-      "pe": 14.294022,
-      "ps": 1.4895494
+      "pe": 14.309017,
+      "ps": 1.4898908
     },
     "annual_latest": {
       "revenue": 69672977000.0,
@@ -140,7 +140,7 @@
     "sector": "Technology",
     "market_cap": 101118713856.0,
     "multiples": {
-      "pe": 14.5871725,
+      "pe": 14.578671,
       "ps": 4.1352277
     },
     "annual_latest": {
@@ -157,10 +157,10 @@
     "source": "yfinance",
     "name": "Analog Devices, Inc.",
     "sector": "Technology",
-    "market_cap": 202926948352.0,
+    "market_cap": 202912301056.0,
     "multiples": {
-      "pe": 76.128204,
-      "ps": 17.260395
+      "pe": 76.12271,
+      "ps": 17.25915
     },
     "annual_latest": {
       "revenue": 11019707000.0,
@@ -176,10 +176,10 @@
     "source": "yfinance",
     "name": "Archer-Daniels-Midland Company",
     "sector": "Consumer Defensive",
-    "market_cap": 37587816448.0,
+    "market_cap": 37602246656.0,
     "multiples": {
-      "pe": 34.82143,
-      "ps": 0.46644267
+      "pe": 34.830357,
+      "ps": 0.46662176
     },
     "annual_latest": {
       "revenue": 80269000000.0,
@@ -197,7 +197,7 @@
     "sector": "Technology",
     "market_cap": 82824937472.0,
     "multiples": {
-      "pe": 19.328358,
+      "pe": 19.346405,
       "ps": 3.8344169
     },
     "annual_latest": {
@@ -214,10 +214,10 @@
     "source": "yfinance",
     "name": "Autodesk, Inc.",
     "sector": "Technology",
-    "market_cap": 51293679616.0,
+    "market_cap": 51289878528.0,
     "multiples": {
-      "pe": 46.39275,
-      "ps": 7.1181903
+      "pe": 46.389317,
+      "ps": 7.117663
     },
     "annual_latest": {
       "revenue": 7206000000.0,
@@ -233,10 +233,10 @@
     "source": "yfinance",
     "name": "Ameren Corporation",
     "sector": "Utilities",
-    "market_cap": 30293526528.0,
+    "market_cap": 30318424064.0,
     "multiples": {
-      "pe": 20.46729,
-      "ps": 3.5765674
+      "pe": 19.710432,
+      "ps": 3.5795069
     },
     "annual_latest": {
       "revenue": 8799000000.0,
@@ -252,10 +252,10 @@
     "source": "yfinance",
     "name": "American Electric Power Company, Inc.",
     "sector": "Utilities",
-    "market_cap": 72038465536.0,
+    "market_cap": 72126554112.0,
     "multiples": {
-      "pe": 19.899399,
-      "ps": 3.2930362
+      "pe": 19.903904,
+      "ps": 3.297063
     },
     "annual_latest": {
       "revenue": 21876000000.0,
@@ -271,10 +271,10 @@
     "source": "yfinance",
     "name": "The AES Corporation",
     "sector": "Utilities",
-    "market_cap": 10196924416.0,
+    "market_cap": 10226681856.0,
     "multiples": {
-      "pe": 10.916031,
-      "ps": 0.8335588
+      "pe": 10.946566,
+      "ps": 0.8359913
     },
     "annual_latest": {
       "revenue": 12233000000.0,
@@ -309,10 +309,10 @@
     "source": "yfinance",
     "name": "American International Group, Inc.",
     "sector": "Financial Services",
-    "market_cap": 41183768576.0,
+    "market_cap": 41191723008.0,
     "multiples": {
-      "pe": 13.675177,
-      "ps": 1.5424055
+      "pe": 13.677817,
+      "ps": 1.5427034
     },
     "annual_latest": {
       "revenue": 26774000000.0,
@@ -328,10 +328,10 @@
     "source": "yfinance",
     "name": "Assurant, Inc.",
     "sector": "Financial Services",
-    "market_cap": 11791054848.0,
+    "market_cap": 11780101120.0,
     "multiples": {
-      "pe": 12.132685,
-      "ps": 0.9201482
+      "pe": 12.121413,
+      "ps": 0.91929334
     },
     "annual_latest": {
       "revenue": 12814300000.0,
@@ -347,10 +347,10 @@
     "source": "yfinance",
     "name": "Arthur J. Gallagher & Co.",
     "sector": "Financial Services",
-    "market_cap": 50579034112.0,
+    "market_cap": 50594451456.0,
     "multiples": {
-      "pe": 31.904377,
-      "ps": 3.5624056
+      "pe": 31.9141,
+      "ps": 3.5634916
     },
     "annual_latest": {
       "revenue": 13942000000.0,
@@ -385,10 +385,10 @@
     "source": "yfinance",
     "name": "Albemarle Corporation",
     "sector": "Basic Materials",
-    "market_cap": 22709729280.0,
+    "market_cap": 22706194432.0,
     "multiples": {
       "pe": null,
-      "ps": 4.4158874
+      "ps": 4.4152
     },
     "annual_latest": {
       "revenue": 5142733000.0,
@@ -404,10 +404,10 @@
     "source": "yfinance",
     "name": "Align Technology, Inc.",
     "sector": "Healthcare",
-    "market_cap": 12461405184.0,
+    "market_cap": 12457108480.0,
     "multiples": {
-      "pe": 29.194632,
-      "ps": 3.042492
+      "pe": 29.184565,
+      "ps": 3.0414429
     },
     "annual_latest": {
       "revenue": 4034964000.0,
@@ -423,10 +423,10 @@
     "source": "yfinance",
     "name": "The Allstate Corporation",
     "sector": "Financial Services",
-    "market_cap": 56081723392.0,
+    "market_cap": 56097169408.0,
     "multiples": {
-      "pe": 4.8188453,
-      "ps": 0.8226263
+      "pe": 4.820173,
+      "ps": 0.82285285
     },
     "annual_latest": {
       "revenue": 67069000000.0,
@@ -442,10 +442,10 @@
     "source": "yfinance",
     "name": "Allegion plc",
     "sector": "Industrials",
-    "market_cap": 11632278528.0,
+    "market_cap": 11629701120.0,
     "multiples": {
-      "pe": 18.491802,
-      "ps": 2.7968931
+      "pe": 18.487705,
+      "ps": 2.7962735
     },
     "annual_latest": {
       "revenue": 4067300000.0,
@@ -463,7 +463,7 @@
     "sector": "Technology",
     "market_cap": 340157038592.0,
     "multiples": {
-      "pe": 44.00616,
+      "pe": 44.051388,
       "ps": 12.056321
     },
     "annual_latest": {
@@ -480,10 +480,10 @@
     "source": "yfinance",
     "name": "Amcor plc",
     "sector": "Consumer Cyclical",
-    "market_cap": 18564997120.0,
+    "market_cap": 18578857984.0,
     "multiples": {
-      "pe": 30.210526,
-      "ps": 0.946759
+      "pe": 30.233082,
+      "ps": 0.94746584
     },
     "annual_latest": {
       "revenue": 15009000000.0,
@@ -499,10 +499,10 @@
     "source": "yfinance",
     "name": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
-    "market_cap": 687162785792.0,
+    "market_cap": 687118811136.0,
     "multiples": {
-      "pe": 162.7282,
-      "ps": 19.837835
+      "pe": 162.69885,
+      "ps": 19.836567
     },
     "annual_latest": {
       "revenue": 34639000000.0,
@@ -518,10 +518,10 @@
     "source": "yfinance",
     "name": "AMETEK, Inc.",
     "sector": "Industrials",
-    "market_cap": 55308976128.0,
+    "market_cap": 55325024256.0,
     "multiples": {
-      "pe": 36.506805,
-      "ps": 7.2798133
+      "pe": 36.5174,
+      "ps": 7.281925
     },
     "annual_latest": {
       "revenue": 7401116000.0,
@@ -594,10 +594,10 @@
     "source": "yfinance",
     "name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 2957699710976.0,
+    "market_cap": 2958097383424.0,
     "multiples": {
-      "pe": 32.849823,
-      "ps": 3.9819539
+      "pe": 32.85424,
+      "ps": 3.9824893
     },
     "annual_latest": {
       "revenue": 716924000000.0,
@@ -613,10 +613,10 @@
     "source": "yfinance",
     "name": "Arista Networks, Inc.",
     "sector": "Technology",
-    "market_cap": 185111756800.0,
+    "market_cap": 185173442560.0,
     "multiples": {
-      "pe": 50.51924,
-      "ps": 20.554955
+      "pe": 50.53608,
+      "ps": 20.561804
     },
     "annual_latest": {
       "revenue": 9005700000.0,
@@ -632,10 +632,10 @@
     "source": "yfinance",
     "name": "Aon plc",
     "sector": "Financial Services",
-    "market_cap": 65828687872.0,
+    "market_cap": 65839362048.0,
     "multiples": {
-      "pe": 16.925865,
-      "ps": 3.764651
+      "pe": 16.928612,
+      "ps": 3.7652614
     },
     "annual_latest": {
       "revenue": 17181000000.0,
@@ -651,10 +651,10 @@
     "source": "yfinance",
     "name": "A. O. Smith Corporation",
     "sector": "Industrials",
-    "market_cap": 8414437376.0,
+    "market_cap": 8415816192.0,
     "multiples": {
-      "pe": 16.28,
-      "ps": 2.207413
+      "pe": 16.282667,
+      "ps": 2.2077746
     },
     "annual_latest": {
       "revenue": 3830200000.0,
@@ -689,10 +689,10 @@
     "source": "yfinance",
     "name": "Air Products and Chemicals, Inc.",
     "sector": "Basic Materials",
-    "market_cap": 66836492288.0,
+    "market_cap": 66850967552.0,
     "multiples": {
-      "pe": 31.660866,
-      "ps": 5.3624063
+      "pe": 31.667723,
+      "ps": 5.3635674
     },
     "annual_latest": {
       "revenue": 12037300000.0,
@@ -708,10 +708,10 @@
     "source": "yfinance",
     "name": "Amphenol Corporation",
     "sector": "Technology",
-    "market_cap": 170202382336.0,
+    "market_cap": 170239262720.0,
     "multiples": {
-      "pe": 39.66762,
-      "ps": 6.5705566
+      "pe": 39.79023,
+      "ps": 6.57198
     },
     "annual_latest": {
       "revenue": 23094700000.0,
@@ -727,10 +727,10 @@
     "source": "yfinance",
     "name": "Apollo Global Management, Inc.",
     "sector": "Financial Services",
-    "market_cap": 74679394304.0,
+    "market_cap": 74676510720.0,
     "multiples": {
-      "pe": 23.38177,
-      "ps": 2.3489256
+      "pe": 23.380867,
+      "ps": 2.348835
     },
     "annual_latest": {
       "revenue": 32049000000.0,
@@ -748,7 +748,7 @@
     "sector": "Communication Services",
     "market_cap": 157649207296.0,
     "multiples": {
-      "pe": 46.696213,
+      "pe": 40.803307,
       "ps": 28.764341
     },
     "annual_latest": {
@@ -765,10 +765,10 @@
     "source": "yfinance",
     "name": "Aptiv PLC",
     "sector": "Consumer Cyclical",
-    "market_cap": 14267609088.0,
+    "market_cap": 12020045824.0,
     "multiples": {
-      "pe": 33.81548,
-      "ps": 0.6906244
+      "pe": 33.809525,
+      "ps": 0.581831
     },
     "annual_latest": {
       "revenue": 20398000000.0,
@@ -784,10 +784,10 @@
     "source": "yfinance",
     "name": "Alexandria Real Estate Equities, Inc.",
     "sector": "Real Estate",
-    "market_cap": 7987641344.0,
+    "market_cap": 7986770432.0,
     "multiples": {
       "pe": null,
-      "ps": 2.7260187
+      "ps": 2.7257216
     },
     "annual_latest": {
       "revenue": 2945175000.0,
@@ -803,10 +803,10 @@
     "source": "yfinance",
     "name": "Ares Management Corporation",
     "sector": "Financial Services",
-    "market_cap": 40917454848.0,
+    "market_cap": 40947208192.0,
     "multiples": {
-      "pe": 72.38011,
-      "ps": 6.9244666
+      "pe": 72.43275,
+      "ps": 6.929502
     },
     "annual_latest": {
       "revenue": 5601482000.0,
@@ -822,10 +822,10 @@
     "source": "yfinance",
     "name": "Atmos Energy Corporation",
     "sector": "Utilities",
-    "market_cap": 30584696832.0,
+    "market_cap": 30566498304.0,
     "multiples": {
-      "pe": 24.071615,
-      "ps": 6.281075
+      "pe": 24.057291,
+      "ps": 6.2773376
     },
     "annual_latest": {
       "revenue": 4702755000.0,
@@ -841,10 +841,10 @@
     "source": "yfinance",
     "name": "AvalonBay Communities, Inc.",
     "sector": "Real Estate",
-    "market_cap": 25923534848.0,
+    "market_cap": 25936054272.0,
     "multiples": {
-      "pe": 23.06312,
-      "ps": 8.45754
+      "pe": 23.102852,
+      "ps": 8.461624
     },
     "annual_latest": {
       "revenue": 3040725000.0,
@@ -879,10 +879,10 @@
     "source": "yfinance",
     "name": "Avery Dennison Corporation",
     "sector": "Consumer Cyclical",
-    "market_cap": 12751712256.0,
+    "market_cap": 12749416448.0,
     "multiples": {
-      "pe": 18.77365,
-      "ps": 1.4159601
+      "pe": 18.77027,
+      "ps": 1.4157052
     },
     "annual_latest": {
       "revenue": 8855500000.0,
@@ -898,10 +898,10 @@
     "source": "yfinance",
     "name": "American Water Works Company, Inc.",
     "sector": "Utilities",
-    "market_cap": 24543246336.0,
+    "market_cap": 24542857216.0,
     "multiples": {
-      "pe": 22.323624,
-      "ps": 4.715321
+      "pe": 22.323267,
+      "ps": 4.715246
     },
     "annual_latest": {
       "revenue": 5140000000.0,
@@ -936,10 +936,10 @@
     "source": "yfinance",
     "name": "American Express Company",
     "sector": "Financial Services",
-    "market_cap": 219681816576.0,
+    "market_cap": 219640889344.0,
     "multiples": {
-      "pe": 20.097378,
-      "ps": 3.192493
+      "pe": 20.093632,
+      "ps": 3.191898
     },
     "annual_latest": {
       "revenue": 72230000000.0,
@@ -955,10 +955,10 @@
     "source": "yfinance",
     "name": "AutoZone, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 58710478848.0,
+    "market_cap": 58679746560.0,
     "multiples": {
-      "pe": 24.832832,
-      "ps": 2.9939368
+      "pe": 24.819832,
+      "ps": 2.9923697
     },
     "annual_latest": {
       "revenue": 18938717000.0,
@@ -974,10 +974,10 @@
     "source": "yfinance",
     "name": "The Boeing Company",
     "sector": "Industrials",
-    "market_cap": 181246476288.0,
+    "market_cap": 181254356992.0,
     "multiples": {
-      "pe": 90.519684,
-      "ps": 1.966138
+      "pe": 90.52362,
+      "ps": 1.9662236
     },
     "annual_latest": {
       "revenue": 89463000000.0,
@@ -993,10 +993,10 @@
     "source": "yfinance",
     "name": "Bank of America Corporation",
     "sector": "Financial Services",
-    "market_cap": 380128886784.0,
+    "market_cap": 380377268224.0,
     "multiples": {
-      "pe": 13.291562,
-      "ps": 3.4686456
+      "pe": 13.300247,
+      "ps": 3.470912
     },
     "annual_latest": {
       "revenue": 113097000000.0,
@@ -1012,10 +1012,10 @@
     "source": "yfinance",
     "name": "Ball Corporation",
     "sector": "Consumer Cyclical",
-    "market_cap": 15705691136.0,
+    "market_cap": 15708544000.0,
     "multiples": {
-      "pe": 17.20408,
-      "ps": 1.1491688
+      "pe": 17.201166,
+      "ps": 1.1493776
     },
     "annual_latest": {
       "revenue": 13161000000.0,
@@ -1031,10 +1031,10 @@
     "source": "yfinance",
     "name": "Baxter International Inc.",
     "sector": "Healthcare",
-    "market_cap": 8764478464.0,
+    "market_cap": 8769643520.0,
     "multiples": {
       "pe": null,
-      "ps": 0.77424717
+      "ps": 0.77470344
     },
     "annual_latest": {
       "revenue": 11244000000.0,
@@ -1050,10 +1050,10 @@
     "source": "yfinance",
     "name": "Best Buy Co., Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 12364647424.0,
+    "market_cap": 12365700096.0,
     "multiples": {
-      "pe": 11.643849,
-      "ps": 0.29657832
+      "pe": 11.644841,
+      "ps": 0.2966036
     },
     "annual_latest": {
       "revenue": 41691000000.0,
@@ -1069,10 +1069,10 @@
     "source": "yfinance",
     "name": "Becton, Dickinson and Company",
     "sector": "Healthcare",
-    "market_cap": 41139564544.0,
+    "market_cap": 41179389952.0,
     "multiples": {
-      "pe": 23.669394,
-      "ps": 1.8764626
+      "pe": 23.692307,
+      "ps": 1.8782791
     },
     "annual_latest": {
       "revenue": 21840000000.0,
@@ -1107,10 +1107,10 @@
     "source": "yfinance",
     "name": "Brown-Forman Corporation",
     "sector": "Consumer Defensive",
-    "market_cap": 12371235840.0,
+    "market_cap": 12375823360.0,
     "multiples": {
-      "pe": 15.680232,
-      "ps": 3.1639988
+      "pe": 15.686046,
+      "ps": 3.165172
     },
     "annual_latest": {
       "revenue": 3975000000.0,
@@ -1126,10 +1126,10 @@
     "source": "yfinance",
     "name": "Bunge Global SA",
     "sector": "Consumer Defensive",
-    "market_cap": 24442402816.0,
+    "market_cap": 24455983104.0,
     "multiples": {
-      "pe": 33.24011,
-      "ps": 0.30345517
+      "pe": 33.258575,
+      "ps": 0.30362377
     },
     "annual_latest": {
       "revenue": 70329000000.0,
@@ -1164,10 +1164,10 @@
     "source": "yfinance",
     "name": "The Bank of New York Mellon Corporation",
     "sector": "Financial Services",
-    "market_cap": 91713961984.0,
+    "market_cap": 91727691776.0,
     "multiples": {
-      "pe": 16.578163,
-      "ps": 4.419098
+      "pe": 16.580645,
+      "ps": 4.4197598
     },
     "annual_latest": {
       "revenue": 19759000000.0,
@@ -1185,7 +1185,7 @@
     "sector": "Consumer Cyclical",
     "market_cap": 130427551744.0,
     "multiples": {
-      "pe": 22.205807,
+      "pe": 22.23514,
       "ps": 4.710787
     },
     "annual_latest": {
@@ -1202,10 +1202,10 @@
     "source": "yfinance",
     "name": "Baker Hughes Company",
     "sector": "Energy",
-    "market_cap": 66124353536.0,
+    "market_cap": 66141216768.0,
     "multiples": {
-      "pe": 21.294888,
-      "ps": 2.3706434
+      "pe": 21.300318,
+      "ps": 2.3712478
     },
     "annual_latest": {
       "revenue": 27733000000.0,
@@ -1240,10 +1240,10 @@
     "source": "yfinance",
     "name": "BlackRock, Inc.",
     "sector": "Financial Services",
-    "market_cap": 166802931712.0,
+    "market_cap": 166795149312.0,
     "multiples": {
-      "pe": 27.009308,
-      "ps": 6.506082
+      "pe": 27.028446,
+      "ps": 6.5057783
     },
     "annual_latest": {
       "revenue": 24216000000.0,
@@ -1259,10 +1259,10 @@
     "source": "yfinance",
     "name": "Bristol-Myers Squibb Company",
     "sector": "Healthcare",
-    "market_cap": 115452583936.0,
+    "market_cap": 115560816640.0,
     "multiples": {
-      "pe": 15.836695,
-      "ps": 2.3813493
+      "pe": 15.851541,
+      "ps": 2.3835819
     },
     "annual_latest": {
       "revenue": 48195000000.0,
@@ -1278,10 +1278,10 @@
     "source": "yfinance",
     "name": "Broadridge Financial Solutions, Inc.",
     "sector": "Technology",
-    "market_cap": 17677213696.0,
+    "market_cap": 17676056576.0,
     "multiples": {
-      "pe": 16.32906,
-      "ps": 2.4141614
+      "pe": 16.327991,
+      "ps": 2.4140034
     },
     "annual_latest": {
       "revenue": 6889100000.0,
@@ -1299,7 +1299,7 @@
     "sector": "Financial Services",
     "market_cap": 1013354594304.0,
     "multiples": {
-      "pe": 13.978874,
+      "pe": 13.987198,
       "ps": 2.6994426
     },
     "annual_latest": {
@@ -1316,10 +1316,10 @@
     "source": "yfinance",
     "name": "Brown & Brown, Inc.",
     "sector": "Financial Services",
-    "market_cap": 19169196032.0,
+    "market_cap": 19170889728.0,
     "multiples": {
-      "pe": 18.421825,
-      "ps": 3.0631506
+      "pe": 18.423454,
+      "ps": 3.0634212
     },
     "annual_latest": {
       "revenue": 5763000000.0,
@@ -1354,10 +1354,10 @@
     "source": "yfinance",
     "name": "Blackstone Inc.",
     "sector": "Financial Services",
-    "market_cap": 152397742080.0,
+    "market_cap": 152403853312.0,
     "multiples": {
-      "pe": 31.97051,
-      "ps": 10.585058
+      "pe": 31.971794,
+      "ps": 10.585483
     },
     "annual_latest": {
       "revenue": 12410012000.0,
@@ -1392,10 +1392,10 @@
     "source": "yfinance",
     "name": "Citigroup Inc.",
     "sector": "Financial Services",
-    "market_cap": 223178129408.0,
+    "market_cap": 223213109248.0,
     "multiples": {
-      "pe": 15.770086,
-      "ps": 2.834584
+      "pe": 15.772558,
+      "ps": 2.8350282
     },
     "annual_latest": {
       "revenue": 85213000000.0,
@@ -1411,10 +1411,10 @@
     "source": "yfinance",
     "name": "Conagra Brands, Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 6729218560.0,
+    "market_cap": 6731610624.0,
     "multiples": {
       "pe": null,
-      "ps": 0.6018279
+      "ps": 0.6020419
     },
     "annual_latest": {
       "revenue": 11612800000.0,
@@ -1430,10 +1430,10 @@
     "source": "yfinance",
     "name": "Cardinal Health, Inc.",
     "sector": "Healthcare",
-    "market_cap": 44834025472.0,
+    "market_cap": 44848078848.0,
     "multiples": {
-      "pe": 29.270641,
-      "ps": 0.1788104
+      "pe": 29.279818,
+      "ps": 0.17886645
     },
     "annual_latest": {
       "revenue": 222578000000.0,
@@ -1449,10 +1449,10 @@
     "source": "yfinance",
     "name": "Carrier Global Corporation",
     "sector": "Industrials",
-    "market_cap": 56375644160.0,
+    "market_cap": 56396410880.0,
     "multiples": {
-      "pe": 45.25,
-      "ps": 2.5777614
+      "pe": 45.266666,
+      "ps": 2.578711
     },
     "annual_latest": {
       "revenue": 21747000000.0,
@@ -1468,10 +1468,10 @@
     "source": "yfinance",
     "name": "Caterpillar Inc.",
     "sector": "Industrials",
-    "market_cap": 426804314112.0,
+    "market_cap": 426936500224.0,
     "multiples": {
-      "pe": 46.14756,
-      "ps": 6.0321436
+      "pe": 46.161854,
+      "ps": 6.034012
     },
     "annual_latest": {
       "revenue": 67589000000.0,
@@ -1487,10 +1487,10 @@
     "source": "yfinance",
     "name": "Chubb Limited",
     "sector": "Financial Services",
-    "market_cap": 124859924480.0,
+    "market_cap": 124852158464.0,
     "multiples": {
-      "pe": 11.391366,
-      "ps": 2.0472867
+      "pe": 11.390657,
+      "ps": 2.0471594
     },
     "annual_latest": {
       "revenue": 59783000000.0,
@@ -1506,10 +1506,10 @@
     "source": "yfinance",
     "name": "Cboe Global Markets, Inc.",
     "sector": "Financial Services",
-    "market_cap": 36045901824.0,
+    "market_cap": 36210208768.0,
     "multiples": {
-      "pe": 29.438461,
-      "ps": 7.5220995
+      "pe": 29.597948,
+      "ps": 7.5563874
     },
     "annual_latest": {
       "revenue": 4714200000.0,
@@ -1525,10 +1525,10 @@
     "source": "yfinance",
     "name": "CBRE Group, Inc.",
     "sector": "Real Estate",
-    "market_cap": 42487685120.0,
+    "market_cap": 42505256960.0,
     "multiples": {
-      "pe": 33.127853,
-      "ps": 1.0067694
+      "pe": 33.141552,
+      "ps": 1.0071858
     },
     "annual_latest": {
       "revenue": 40550000000.0,
@@ -1544,10 +1544,10 @@
     "source": "yfinance",
     "name": "Crown Castle Inc.",
     "sector": "Real Estate",
-    "market_cap": 39373426688.0,
+    "market_cap": 39377788928.0,
     "multiples": {
-      "pe": 38.07173,
-      "ps": 9.345698
+      "pe": 38.07595,
+      "ps": 9.346734
     },
     "annual_latest": {
       "revenue": 4264000000.0,
@@ -1563,10 +1563,10 @@
     "source": "yfinance",
     "name": "Carnival Corporation & plc",
     "sector": "Consumer Cyclical",
-    "market_cap": 38103805952.0,
+    "market_cap": 38119043072.0,
     "multiples": {
-      "pe": 12.118503,
-      "ps": 1.4124553
+      "pe": 12.123348,
+      "ps": 1.4130201
     },
     "annual_latest": {
       "revenue": 26621000000.0,
@@ -1601,10 +1601,10 @@
     "source": "yfinance",
     "name": "CDW Corporation",
     "sector": "Technology",
-    "market_cap": 14049336320.0,
+    "market_cap": 14060300288.0,
     "multiples": {
-      "pe": 13.479579,
-      "ps": 0.62652844
+      "pe": 13.490099,
+      "ps": 0.6270174
     },
     "annual_latest": {
       "revenue": 22424100000.0,
@@ -1639,10 +1639,10 @@
     "source": "yfinance",
     "name": "CF Industries Holdings, Inc.",
     "sector": "Basic Materials",
-    "market_cap": 18390190080.0,
+    "market_cap": 18397104128.0,
     "multiples": {
-      "pe": 13.331292,
-      "ps": 2.5960176
+      "pe": 13.336304,
+      "ps": 2.5969937
     },
     "annual_latest": {
       "revenue": 7084000000.0,
@@ -1658,10 +1658,10 @@
     "source": "yfinance",
     "name": "Citizens Financial Group, Inc.",
     "sector": "Financial Services",
-    "market_cap": 27745286144.0,
+    "market_cap": 27749515264.0,
     "multiples": {
-      "pe": 15.547395,
-      "ps": 3.5187426
+      "pe": 15.549765,
+      "ps": 3.519279
     },
     "annual_latest": {
       "revenue": 8247000000.0,
@@ -1677,10 +1677,10 @@
     "source": "yfinance",
     "name": "Church & Dwight Co., Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 22502533120.0,
+    "market_cap": 22500163584.0,
     "multiples": {
-      "pe": 31.240133,
-      "ps": 3.6262825
+      "pe": 31.236843,
+      "ps": 3.6259005
     },
     "annual_latest": {
       "revenue": 6203200000.0,
@@ -1698,7 +1698,7 @@
     "sector": "Industrials",
     "market_cap": 19872215040.0,
     "multiples": {
-      "pe": 34.058586,
+      "pe": 34.12753,
       "ps": 1.226759
     },
     "annual_latest": {
@@ -1734,10 +1734,10 @@
     "source": "yfinance",
     "name": "The Cigna Group",
     "sector": "Healthcare",
-    "market_cap": 74561101824.0,
+    "market_cap": 74592845824.0,
     "multiples": {
-      "pe": 12.112591,
-      "ps": 0.26830962
+      "pe": 12.117748,
+      "ps": 0.26842386
     },
     "annual_latest": {
       "revenue": 274876000000.0,
@@ -1753,10 +1753,10 @@
     "source": "yfinance",
     "name": "Ciena Corporation",
     "sector": "Technology",
-    "market_cap": 81535991808.0,
+    "market_cap": 81557200896.0,
     "multiples": {
-      "pe": 364.96204,
-      "ps": 15.911669
+      "pe": 365.05695,
+      "ps": 15.915808
     },
     "annual_latest": {
       "revenue": 4769507000.0,
@@ -1772,10 +1772,10 @@
     "source": "yfinance",
     "name": "Cincinnati Financial Corporation",
     "sector": "Financial Services",
-    "market_cap": 24804018176.0,
+    "market_cap": 24816392192.0,
     "multiples": {
-      "pe": 9.168097,
-      "ps": 1.9186276
+      "pe": 9.172669,
+      "ps": 1.9195848
     },
     "annual_latest": {
       "revenue": 12631000000.0,
@@ -1791,10 +1791,10 @@
     "source": "yfinance",
     "name": "Colgate-Palmolive Company",
     "sector": "Consumer Defensive",
-    "market_cap": 70520684544.0,
+    "market_cap": 70544695296.0,
     "multiples": {
-      "pe": 34.158916,
-      "ps": 3.3912325
+      "pe": 34.170544,
+      "ps": 3.3923872
     },
     "annual_latest": {
       "revenue": 20382000000.0,
@@ -1810,10 +1810,10 @@
     "source": "yfinance",
     "name": "The Clorox Company",
     "sector": "Consumer Defensive",
-    "market_cap": 10885945344.0,
+    "market_cap": 10884130816.0,
     "multiples": {
-      "pe": 14.638211,
-      "ps": 1.6103469
+      "pe": 14.635773,
+      "ps": 1.6100786
     },
     "annual_latest": {
       "revenue": 7104000000.0,
@@ -1829,10 +1829,10 @@
     "source": "yfinance",
     "name": "Comcast Corporation",
     "sector": "Communication Services",
-    "market_cap": 94342553600.0,
+    "market_cap": 94449729536.0,
     "multiples": {
-      "pe": 5.1784315,
-      "ps": 0.7530716
+      "pe": 5.184314,
+      "ps": 0.7539271
     },
     "annual_latest": {
       "revenue": 123707000000.0,
@@ -1867,10 +1867,10 @@
     "source": "yfinance",
     "name": "Chipotle Mexican Grill, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 41951817728.0,
+    "market_cap": 41996709888.0,
     "multiples": {
-      "pe": 30.004587,
-      "ps": 3.45607
+      "pe": 30.036697,
+      "ps": 3.4597683
     },
     "annual_latest": {
       "revenue": 11925601000.0,
@@ -1886,10 +1886,10 @@
     "source": "yfinance",
     "name": "Cummins Inc.",
     "sector": "Industrials",
-    "market_cap": 98929410048.0,
+    "market_cap": 98767060992.0,
     "multiples": {
-      "pe": 37.209827,
-      "ps": 2.9187882
+      "pe": 37.18234,
+      "ps": 2.9139984
     },
     "annual_latest": {
       "revenue": 33670000000.0,
@@ -1905,10 +1905,10 @@
     "source": "yfinance",
     "name": "CMS Energy Corporation",
     "sector": "Utilities",
-    "market_cap": 22870865920.0,
+    "market_cap": 22875498496.0,
     "multiples": {
-      "pe": 20.508312,
-      "ps": 2.592481
+      "pe": 20.512466,
+      "ps": 2.5930061
     },
     "annual_latest": {
       "revenue": 8539000000.0,
@@ -1924,10 +1924,10 @@
     "source": "yfinance",
     "name": "Centene Corporation",
     "sector": "Healthcare",
-    "market_cap": 27311912960.0,
+    "market_cap": 27321788416.0,
     "multiples": {
       "pe": null,
-      "ps": 0.15315206
+      "ps": 0.15320744
     },
     "annual_latest": {
       "revenue": 194777000000.0,
@@ -1962,10 +1962,10 @@
     "source": "yfinance",
     "name": "Capital One Financial Corporation",
     "sector": "Financial Services",
-    "market_cap": 122634461184.0,
+    "market_cap": 122653483008.0,
     "multiples": {
-      "pe": 59.6821,
-      "ps": 3.3773365
+      "pe": 59.691357,
+      "ps": 3.3778603
     },
     "annual_latest": {
       "revenue": 53434000000.0,
@@ -2000,10 +2000,10 @@
     "source": "yfinance",
     "name": "The Cooper Companies, Inc.",
     "sector": "Healthcare",
-    "market_cap": 11921489920.0,
+    "market_cap": 11925392384.0,
     "multiples": {
-      "pe": 30.39801,
-      "ps": 2.8714027
+      "pe": 30.407959,
+      "ps": 2.8723426
     },
     "annual_latest": {
       "revenue": 4092400000.0,
@@ -2019,10 +2019,10 @@
     "source": "yfinance",
     "name": "ConocoPhillips",
     "sector": "Energy",
-    "market_cap": 144849059840.0,
+    "market_cap": 144855154688.0,
     "multiples": {
-      "pe": 20.185907,
-      "ps": 2.4394398
+      "pe": 20.186758,
+      "ps": 2.4395425
     },
     "annual_latest": {
       "revenue": 58944000000.0,
@@ -2038,10 +2038,10 @@
     "source": "yfinance",
     "name": "Cencora, Inc.",
     "sector": "Healthcare",
-    "market_cap": 49132617728.0,
+    "market_cap": 49165688832.0,
     "multiples": {
-      "pe": 30.356974,
-      "ps": 0.15081635
+      "pe": 19.381903,
+      "ps": 0.15091787
     },
     "annual_latest": {
       "revenue": 321332819000.0,
@@ -2076,10 +2076,10 @@
     "source": "yfinance",
     "name": "Corpay, Inc.",
     "sector": "Technology",
-    "market_cap": 20199024640.0,
+    "market_cap": 20198692864.0,
     "multiples": {
-      "pe": 20.32169,
-      "ps": 4.4605184
+      "pe": 20.321358,
+      "ps": 4.460445
     },
     "annual_latest": {
       "revenue": 4528403000.0,
@@ -2133,10 +2133,10 @@
     "source": "yfinance",
     "name": "Camden Property Trust",
     "sector": "Real Estate",
-    "market_cap": 10387171328.0,
+    "market_cap": 10385684480.0,
     "multiples": {
-      "pe": 29.280725,
-      "ps": 6.5539412
+      "pe": 29.276537,
+      "ps": 6.5530033
     },
     "annual_latest": {
       "revenue": 1573544000.0,
@@ -2152,10 +2152,10 @@
     "source": "yfinance",
     "name": "CRH plc",
     "sector": "Basic Materials",
-    "market_cap": 76776202240.0,
+    "market_cap": 76782886912.0,
     "multiples": {
-      "pe": 21.317255,
-      "ps": 2.0171883
+      "pe": 21.31911,
+      "ps": 2.017364
     },
     "annual_latest": {
       "revenue": 37447000000.0,
@@ -2171,10 +2171,10 @@
     "source": "yfinance",
     "name": "Charles River Laboratories International, Inc.",
     "sector": "Healthcare",
-    "market_cap": 8956058624.0,
+    "market_cap": 8966914048.0,
     "multiples": {
       "pe": null,
-      "ps": 2.2304375
+      "ps": 2.233141
     },
     "annual_latest": {
       "revenue": 4015382000.0,
@@ -2190,10 +2190,10 @@
     "source": "yfinance",
     "name": "Salesforce, Inc.",
     "sector": "Technology",
-    "market_cap": 148198621184.0,
+    "market_cap": 148223164416.0,
     "multiples": {
-      "pe": 23.225641,
-      "ps": 3.5689013
+      "pe": 23.229486,
+      "ps": 3.5694923
     },
     "annual_latest": {
       "revenue": 41525000000.0,
@@ -2209,10 +2209,10 @@
     "source": "yfinance",
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "market_cap": 118709149696.0,
+    "market_cap": 119140917248.0,
     "multiples": {
       "pe": null,
-      "ps": 24.669374
+      "ps": 24.759102
     },
     "annual_latest": {
       "revenue": 4812005000.0,
@@ -2228,10 +2228,10 @@
     "source": "yfinance",
     "name": "Cisco Systems, Inc.",
     "sector": "Technology",
-    "market_cap": 361940582400.0,
+    "market_cap": 361968205824.0,
     "multiples": {
-      "pe": 32.961514,
-      "ps": 6.128977
+      "pe": 32.964027,
+      "ps": 6.1294446
     },
     "annual_latest": {
       "revenue": 56654000000.0,
@@ -2266,10 +2266,10 @@
     "source": "yfinance",
     "name": "CSX Corporation",
     "sector": "Industrials",
-    "market_cap": 84688396288.0,
+    "market_cap": 84731133952.0,
     "multiples": {
-      "pe": 27.96135,
-      "ps": 5.9846225
+      "pe": 27.97546,
+      "ps": 5.987643
     },
     "annual_latest": {
       "revenue": 14092000000.0,
@@ -2285,10 +2285,10 @@
     "source": "yfinance",
     "name": "Cintas Corporation",
     "sector": "Industrials",
-    "market_cap": 67734749184.0,
+    "market_cap": 67758751744.0,
     "multiples": {
-      "pe": 35.7173,
-      "ps": 6.14251
+      "pe": 35.72996,
+      "ps": 6.1446867
     },
     "annual_latest": {
       "revenue": 10340181000.0,
@@ -2304,10 +2304,10 @@
     "source": "yfinance",
     "name": "Coterra Energy Inc.",
     "sector": "Energy",
-    "market_cap": 24717056000.0,
+    "market_cap": 24724652032.0,
     "multiples": {
-      "pe": 14.53125,
-      "ps": 3.5355537
+      "pe": 14.535715,
+      "ps": 3.5366402
     },
     "annual_latest": {
       "revenue": 7645000000.0,
@@ -2323,10 +2323,10 @@
     "source": "yfinance",
     "name": "Cognizant Technology Solutions Corporation",
     "sector": "Technology",
-    "market_cap": 24269631488.0,
+    "market_cap": 24279091200.0,
     "multiples": {
-      "pe": 11.130152,
-      "ps": 1.1337771
+      "pe": 11.13449,
+      "ps": 1.134219
     },
     "annual_latest": {
       "revenue": 21108000000.0,
@@ -2342,10 +2342,10 @@
     "source": "yfinance",
     "name": "Corteva, Inc.",
     "sector": "Basic Materials",
-    "market_cap": 54890106880.0,
+    "market_cap": 54789496832.0,
     "multiples": {
-      "pe": 46.72,
-      "ps": 3.1544225
+      "pe": 44.199997,
+      "ps": 3.1486406
     },
     "annual_latest": {
       "revenue": 17401000000.0,
@@ -2361,10 +2361,10 @@
     "source": "yfinance",
     "name": "Carvana Co.",
     "sector": "Consumer Cyclical",
-    "market_cap": 86066708480.0,
+    "market_cap": 86040190976.0,
     "multiples": {
-      "pe": 45.081017,
-      "ps": 3.8214507
+      "pe": 45.067127,
+      "ps": 3.8202732
     },
     "annual_latest": {
       "revenue": 20322000000.0,
@@ -2380,10 +2380,10 @@
     "source": "yfinance",
     "name": "CVS Health Corporation",
     "sector": "Healthcare",
-    "market_cap": 111320154112.0,
+    "market_cap": 110827044864.0,
     "multiples": {
       "pe": 62.48921,
-      "ps": 0.27841595
+      "ps": 0.27718264
     },
     "annual_latest": {
       "revenue": 402067000000.0,
@@ -2399,10 +2399,10 @@
     "source": "yfinance",
     "name": "Chevron Corporation",
     "sector": "Energy",
-    "market_cap": 366041530368.0,
+    "market_cap": 366061322240.0,
     "multiples": {
-      "pe": 32.256096,
-      "ps": 1.9708686
+      "pe": 32.257843,
+      "ps": 1.9709752
     },
     "annual_latest": {
       "revenue": 184432000000.0,
@@ -2418,10 +2418,10 @@
     "source": "yfinance",
     "name": "Dominion Energy, Inc.",
     "sector": "Utilities",
-    "market_cap": 54196441088.0,
+    "market_cap": 54209630208.0,
     "multiples": {
-      "pe": 18.178465,
-      "ps": 3.1059911
+      "pe": 18.18289,
+      "ps": 3.106747
     },
     "annual_latest": {
       "revenue": 16506000000.0,
@@ -2437,10 +2437,10 @@
     "source": "yfinance",
     "name": "Delta Air Lines, Inc.",
     "sector": "Industrials",
-    "market_cap": 48170827776.0,
+    "market_cap": 48183963648.0,
     "multiples": {
-      "pe": 10.7036495,
-      "ps": 0.73906577
+      "pe": 10.706569,
+      "ps": 0.7392673
     },
     "annual_latest": {
       "revenue": 63364000000.0,
@@ -2475,10 +2475,10 @@
     "source": "yfinance",
     "name": "DuPont de Nemours, Inc.",
     "sector": "Basic Materials",
-    "market_cap": 20520501248.0,
+    "market_cap": 20524759040.0,
     "multiples": {
-      "pe": 131.75,
-      "ps": 2.9662476
+      "pe": 131.76315,
+      "ps": 2.9668632
     },
     "annual_latest": {
       "revenue": 6849000000.0,
@@ -2513,10 +2513,10 @@
     "source": "yfinance",
     "name": "Deere & Company",
     "sector": "Industrials",
-    "market_cap": 159857606656.0,
+    "market_cap": 159806291968.0,
     "multiples": {
-      "pe": 33.38015,
-      "ps": 3.4208043
+      "pe": 33.36943,
+      "ps": 3.419706
     },
     "annual_latest": {
       "revenue": 44665000000.0,
@@ -2532,10 +2532,10 @@
     "source": "yfinance",
     "name": "Deckers Outdoor Corporation",
     "sector": "Consumer Cyclical",
-    "market_cap": 14750021632.0,
+    "market_cap": 14751440896.0,
     "multiples": {
-      "pe": 14.759944,
-      "ps": 2.7443395
+      "pe": 14.761363,
+      "ps": 2.7446036
     },
     "annual_latest": {
       "revenue": 4985612000.0,
@@ -2551,10 +2551,10 @@
     "source": "yfinance",
     "name": "Dell Technologies Inc.",
     "sector": "Technology",
-    "market_cap": 155304083456.0,
+    "market_cap": 155265073152.0,
     "multiples": {
-      "pe": 27.550173,
-      "ps": 1.36786
+      "pe": 27.543253,
+      "ps": 1.3675164
     },
     "annual_latest": {
       "revenue": 113538000000.0,
@@ -2570,10 +2570,10 @@
     "source": "yfinance",
     "name": "Dollar General Corporation",
     "sector": "Consumer Defensive",
-    "market_cap": 25628837888.0,
+    "market_cap": 25627738112.0,
     "multiples": {
-      "pe": 16.989052,
-      "ps": 0.59986466
+      "pe": 16.988321,
+      "ps": 0.5998389
     },
     "annual_latest": {
       "revenue": 42724369000.0,
@@ -2589,10 +2589,10 @@
     "source": "yfinance",
     "name": "Quest Diagnostics Incorporated",
     "sector": "Healthcare",
-    "market_cap": 20935462912.0,
+    "market_cap": 20936015872.0,
     "multiples": {
-      "pe": 20.897789,
-      "ps": 1.8563099
+      "pe": 20.898342,
+      "ps": 1.8563589
     },
     "annual_latest": {
       "revenue": 11035000000.0,
@@ -2608,10 +2608,10 @@
     "source": "yfinance",
     "name": "D.R. Horton, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 42302423040.0,
+    "market_cap": 42301571072.0,
     "multiples": {
-      "pe": 14.006855,
-      "ps": 1.2684994
+      "pe": 14.006573,
+      "ps": 1.2684739
     },
     "annual_latest": {
       "revenue": 34250400000.0,
@@ -2627,10 +2627,10 @@
     "source": "yfinance",
     "name": "Danaher Corporation",
     "sector": "Healthcare",
-    "market_cap": 123718303744.0,
+    "market_cap": 123803238400.0,
     "multiples": {
-      "pe": 33.941746,
-      "ps": 4.9930706
+      "pe": 33.899227,
+      "ps": 4.9964986
     },
     "annual_latest": {
       "revenue": 24568000000.0,
@@ -2646,10 +2646,10 @@
     "source": "yfinance",
     "name": "The Walt Disney Company",
     "sector": "Communication Services",
-    "market_cap": 191306432512.0,
+    "market_cap": 187647426560.0,
     "multiples": {
-      "pe": 15.904271,
-      "ps": 1.9986881
+      "pe": 15.91458,
+      "ps": 1.9604604
     },
     "annual_latest": {
       "revenue": 94425000000.0,
@@ -2665,10 +2665,10 @@
     "source": "yfinance",
     "name": "Digital Realty Trust, Inc.",
     "sector": "Real Estate",
-    "market_cap": 71371694080.0,
+    "market_cap": 71425351680.0,
     "multiples": {
-      "pe": 52.785713,
-      "ps": 11.303635
+      "pe": 52.965515,
+      "ps": 11.312133
     },
     "annual_latest": {
       "revenue": 6112692000.0,
@@ -2703,10 +2703,10 @@
     "source": "yfinance",
     "name": "Healthpeak Properties, Inc.",
     "sector": "Real Estate",
-    "market_cap": 13550552064.0,
+    "market_cap": 13557632000.0,
     "multiples": {
-      "pe": 194.9,
-      "ps": 4.800884
+      "pe": 195.0,
+      "ps": 4.803392
     },
     "annual_latest": {
       "revenue": 2822512000.0,
@@ -2722,10 +2722,10 @@
     "source": "yfinance",
     "name": "Dover Corporation",
     "sector": "Industrials",
-    "market_cap": 30586318848.0,
+    "market_cap": 30592376832.0,
     "multiples": {
-      "pe": 28.391874,
-      "ps": 3.6939394
+      "pe": 28.3975,
+      "ps": 3.6946712
     },
     "annual_latest": {
       "revenue": 8092571000.0,
@@ -2741,10 +2741,10 @@
     "source": "yfinance",
     "name": "Dow Inc.",
     "sector": "Basic Materials",
-    "market_cap": 27737735168.0,
+    "market_cap": 27748544512.0,
     "multiples": {
       "pe": null,
-      "ps": 0.70523846
+      "ps": 0.7055133
     },
     "annual_latest": {
       "revenue": 39968000000.0,
@@ -2760,10 +2760,10 @@
     "source": "yfinance",
     "name": "Domino's Pizza, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 10795805696.0,
+    "market_cap": 10798798848.0,
     "multiples": {
-      "pe": 18.674915,
-      "ps": 2.1684718
+      "pe": 18.680094,
+      "ps": 2.1690729
     },
     "annual_latest": {
       "revenue": 4939994000.0,
@@ -2779,10 +2779,10 @@
     "source": "yfinance",
     "name": "Darden Restaurants, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 22411063296.0,
+    "market_cap": 22414499840.0,
     "multiples": {
-      "pe": 20.618546,
-      "ps": 1.75583
+      "pe": 20.621708,
+      "ps": 1.7560993
     },
     "annual_latest": {
       "revenue": 12076700000.0,
@@ -2798,10 +2798,10 @@
     "source": "yfinance",
     "name": "DTE Energy Company",
     "sector": "Utilities",
-    "market_cap": 29626351616.0,
+    "market_cap": 29631553536.0,
     "multiples": {
-      "pe": 23.42352,
-      "ps": 1.7939056
+      "pe": 23.427631,
+      "ps": 1.7942206
     },
     "annual_latest": {
       "revenue": 15814000000.0,
@@ -2817,10 +2817,10 @@
     "source": "yfinance",
     "name": "Duke Energy Corporation",
     "sector": "Utilities",
-    "market_cap": 97631993856.0,
+    "market_cap": 97870512128.0,
     "multiples": {
-      "pe": 19.27665,
-      "ps": 2.9839542
+      "pe": 19.284178,
+      "ps": 2.991244
     },
     "annual_latest": {
       "revenue": 32237000000.0,
@@ -2836,10 +2836,10 @@
     "source": "yfinance",
     "name": "DaVita Inc.",
     "sector": "Healthcare",
-    "market_cap": 12799137792.0,
+    "market_cap": 12444187648.0,
     "multiples": {
-      "pe": 18.698458,
-      "ps": 0.9381421
+      "pe": 18.678228,
+      "ps": 0.91212523
     },
     "annual_latest": {
       "revenue": 13643069000.0,
@@ -2855,10 +2855,10 @@
     "source": "yfinance",
     "name": "Devon Energy Corporation",
     "sector": "Energy",
-    "market_cap": 28939233280.0,
+    "market_cap": 28959117312.0,
     "multiples": {
-      "pe": 11.167386,
-      "ps": 1.8044167
+      "pe": 11.175059,
+      "ps": 1.8056564
     },
     "annual_latest": {
       "revenue": 17188000000.0,
@@ -2874,10 +2874,10 @@
     "source": "yfinance",
     "name": "DexCom, Inc.",
     "sector": "Healthcare",
-    "market_cap": 23279718400.0,
+    "market_cap": 23291293696.0,
     "multiples": {
-      "pe": 25.892706,
-      "ps": 4.831922
+      "pe": 25.90558,
+      "ps": 4.834325
     },
     "annual_latest": {
       "revenue": 4662000000.0,
@@ -2893,14 +2893,14 @@
     "source": "yfinance",
     "name": "Electronic Arts Inc.",
     "sector": "Communication Services",
-    "market_cap": 50213404672.0,
+    "market_cap": 50248441856.0,
     "multiples": {
-      "pe": 57.16524,
-      "ps": 6.8728995
+      "pe": 57.205128,
+      "ps": 6.8776956
     },
     "annual_latest": {
-      "revenue": 7463000000.0,
-      "op_income": 1577000000.0,
+      "revenue": null,
+      "op_income": null,
       "fcf": 1858000000.0,
       "cfo": 2079000000.0,
       "capex": -221000000.0
@@ -2931,10 +2931,10 @@
     "source": "yfinance",
     "name": "Ecolab Inc.",
     "sector": "Basic Materials",
-    "market_cap": 74384777216.0,
+    "market_cap": 74396073984.0,
     "multiples": {
-      "pe": 35.640057,
-      "ps": 4.521239
+      "pe": 35.64547,
+      "ps": 4.5219254
     },
     "annual_latest": {
       "revenue": 16081200000.0,
@@ -2950,10 +2950,10 @@
     "source": "yfinance",
     "name": "Consolidated Edison, Inc.",
     "sector": "Utilities",
-    "market_cap": 39369494528.0,
+    "market_cap": 39373180928.0,
     "multiples": {
-      "pe": 18.94681,
-      "ps": 2.3270774
+      "pe": 18.948582,
+      "ps": 2.3272953
     },
     "annual_latest": {
       "revenue": 16918000000.0,
@@ -2969,10 +2969,10 @@
     "source": "yfinance",
     "name": "Equifax Inc.",
     "sector": "Industrials",
-    "market_cap": 20883056640.0,
+    "market_cap": 20893913088.0,
     "multiples": {
-      "pe": 30.477114,
-      "ps": 3.3245864
+      "pe": 30.492958,
+      "ps": 3.3263147
     },
     "annual_latest": {
       "revenue": 6074500000.0,
@@ -2988,10 +2988,10 @@
     "source": "yfinance",
     "name": "Everest Group, Ltd.",
     "sector": "Financial Services",
-    "market_cap": 14002436096.0,
+    "market_cap": 13925245952.0,
     "multiples": {
-      "pe": 7.165377,
-      "ps": 0.80770856
+      "pe": 7.167006,
+      "ps": 0.803256
     },
     "annual_latest": {
       "revenue": 17218000000.0,
@@ -3007,10 +3007,10 @@
     "source": "yfinance",
     "name": "Edison International",
     "sector": "Utilities",
-    "market_cap": 26464204800.0,
+    "market_cap": 26473824256.0,
     "multiples": {
-      "pe": 7.475544,
-      "ps": 1.3495948
+      "pe": 7.4782615,
+      "ps": 1.3500854
     },
     "annual_latest": {
       "revenue": 19317000000.0,
@@ -3026,10 +3026,10 @@
     "source": "yfinance",
     "name": "The Estée Lauder Companies Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 31353147392.0,
+    "market_cap": 31356764160.0,
     "multiples": {
       "pe": null,
-      "ps": 2.1137428
+      "ps": 2.1139865
     },
     "annual_latest": {
       "revenue": 14326000000.0,
@@ -3045,10 +3045,10 @@
     "source": "yfinance",
     "name": "Elevance Health, Inc.",
     "sector": "Healthcare",
-    "market_cap": 81379426304.0,
+    "market_cap": 81372913664.0,
     "multiples": {
-      "pe": 15.892282,
-      "ps": 0.40605253
+      "pe": 15.891009,
+      "ps": 0.40602005
     },
     "annual_latest": {
       "revenue": 199125000000.0,
@@ -3064,10 +3064,10 @@
     "source": "yfinance",
     "name": "EMCOR Group, Inc.",
     "sector": "Industrials",
-    "market_cap": 42036518912.0,
+    "market_cap": 42027610112.0,
     "multiples": {
-      "pe": 31.708096,
-      "ps": 2.368617
+      "pe": 31.701376,
+      "ps": 2.368115
     },
     "annual_latest": {
       "revenue": 16986422000.0,
@@ -3083,10 +3083,10 @@
     "source": "yfinance",
     "name": "Emerson Electric Co.",
     "sector": "Industrials",
-    "market_cap": 83086073856.0,
+    "market_cap": 82889195520.0,
     "multiples": {
-      "pe": 34.22222,
-      "ps": 4.5684323
+      "pe": 34.256943,
+      "ps": 4.5576067
     },
     "annual_latest": {
       "revenue": 18016000000.0,
@@ -3102,10 +3102,10 @@
     "source": "yfinance",
     "name": "EOG Resources, Inc.",
     "sector": "Energy",
-    "market_cap": 72163598336.0,
+    "market_cap": 71739736064.0,
     "multiples": {
-      "pe": 14.754107,
-      "ps": 3.1854684
+      "pe": 14.752464,
+      "ps": 3.166758
     },
     "annual_latest": {
       "revenue": 22582000000.0,
@@ -3121,10 +3121,10 @@
     "source": "yfinance",
     "name": "EPAM Systems, Inc.",
     "sector": "Technology",
-    "market_cap": 5642872320.0,
+    "market_cap": 5643400192.0,
     "multiples": {
-      "pe": 15.916667,
-      "ps": 1.0340507
+      "pe": 15.918156,
+      "ps": 1.0341474
     },
     "annual_latest": {
       "revenue": 5457056000.0,
@@ -3140,10 +3140,10 @@
     "source": "yfinance",
     "name": "Equinix, Inc.",
     "sector": "Real Estate",
-    "market_cap": 107258806272.0,
+    "market_cap": 107299233792.0,
     "multiples": {
-      "pe": 75.26298,
-      "ps": 11.259585
+      "pe": 75.29135,
+      "ps": 11.263829
     },
     "annual_latest": {
       "revenue": 9217000000.0,
@@ -3159,10 +3159,10 @@
     "source": "yfinance",
     "name": "Equity Residential",
     "sector": "Real Estate",
-    "market_cap": 25563824128.0,
+    "market_cap": 25559963648.0,
     "multiples": {
-      "pe": 26.467999,
-      "ps": 8.21197
+      "pe": 26.464,
+      "ps": 8.210731
     },
     "annual_latest": {
       "revenue": 3093959000.0,
@@ -3178,10 +3178,10 @@
     "source": "yfinance",
     "name": "EQT Corporation",
     "sector": "Energy",
-    "market_cap": 35883671552.0,
+    "market_cap": 35877421056.0,
     "multiples": {
-      "pe": 10.8861475,
-      "ps": 3.832036
+      "pe": 10.884251,
+      "ps": 3.8313687
     },
     "annual_latest": {
       "revenue": 8353217000.0,
@@ -3197,10 +3197,10 @@
     "source": "yfinance",
     "name": "Erie Indemnity Company",
     "sector": "Financial Services",
-    "market_cap": 11178005504.0,
+    "market_cap": 11167024128.0,
     "multiples": {
-      "pe": 19.558096,
-      "ps": 2.7331624
+      "pe": 19.538883,
+      "ps": 2.7304773
     },
     "annual_latest": {
       "revenue": 4148570000.0,
@@ -3235,10 +3235,10 @@
     "source": "yfinance",
     "name": "Essex Property Trust, Inc.",
     "sector": "Real Estate",
-    "market_cap": 18417080320.0,
+    "market_cap": 18421215232.0,
     "multiples": {
-      "pe": 30.090092,
-      "ps": 9.367688
+      "pe": 30.096848,
+      "ps": 9.369791
     },
     "annual_latest": {
       "revenue": 1887345000.0,
@@ -3254,10 +3254,10 @@
     "source": "yfinance",
     "name": "Eaton Corporation plc",
     "sector": "Industrials",
-    "market_cap": 163508666368.0,
+    "market_cap": 163625746432.0,
     "multiples": {
-      "pe": 40.36686,
-      "ps": 5.732721
+      "pe": 41.15137,
+      "ps": 5.736826
     },
     "annual_latest": {
       "revenue": 27448000000.0,
@@ -3273,10 +3273,10 @@
     "source": "yfinance",
     "name": "Entergy Corporation",
     "sector": "Utilities",
-    "market_cap": 51698397184.0,
+    "market_cap": 51722899456.0,
     "multiples": {
-      "pe": 28.806122,
-      "ps": 3.8907723
+      "pe": 28.816326,
+      "ps": 3.8926163
     },
     "annual_latest": {
       "revenue": 12946686000.0,
@@ -3311,10 +3311,10 @@
     "source": "yfinance",
     "name": "Edwards Lifesciences Corporation",
     "sector": "Healthcare",
-    "market_cap": 47956738048.0,
+    "market_cap": 47968268288.0,
     "multiples": {
-      "pe": 44.962162,
-      "ps": 7.6079545
+      "pe": 44.97297,
+      "ps": 7.6097836
     },
     "annual_latest": {
       "revenue": 6067600000.0,
@@ -3330,10 +3330,10 @@
     "source": "yfinance",
     "name": "Exelon Corporation",
     "sector": "Utilities",
-    "market_cap": 46032650240.0,
+    "market_cap": 46063345664.0,
     "multiples": {
-      "pe": 16.479855,
-      "ps": 1.8976275
+      "pe": 16.490843,
+      "ps": 1.8988929
     },
     "annual_latest": {
       "revenue": 24258000000.0,
@@ -3368,10 +3368,10 @@
     "source": "yfinance",
     "name": "Expeditors International of Washington, Inc.",
     "sector": "Industrials",
-    "market_cap": 20113831936.0,
+    "market_cap": 19967309824.0,
     "multiples": {
-      "pe": 24.474112,
-      "ps": 1.7981975
+      "pe": 24.472494,
+      "ps": 1.7850982
     },
     "annual_latest": {
       "revenue": 11069009000.0,
@@ -3406,10 +3406,10 @@
     "source": "yfinance",
     "name": "Extra Space Storage Inc.",
     "sector": "Real Estate",
-    "market_cap": 31734681600.0,
+    "market_cap": 31746822144.0,
     "multiples": {
-      "pe": 32.313484,
-      "ps": 9.123296
+      "pe": 32.39865,
+      "ps": 9.126786
     },
     "annual_latest": {
       "revenue": 3377542000.0,
@@ -3425,10 +3425,10 @@
     "source": "yfinance",
     "name": "Ford Motor Company",
     "sector": "Consumer Cyclical",
-    "market_cap": 48473788416.0,
+    "market_cap": 48493711360.0,
     "multiples": {
       "pe": null,
-      "ps": 0.25531197
+      "ps": 0.2554169
     },
     "annual_latest": {
       "revenue": 187267000000.0,
@@ -3444,10 +3444,10 @@
     "source": "yfinance",
     "name": "Diamondback Energy, Inc.",
     "sector": "Energy",
-    "market_cap": 54884200448.0,
+    "market_cap": 54878294016.0,
     "multiples": {
-      "pe": 197.07172,
-      "ps": 3.7919164
+      "pe": 197.0505,
+      "ps": 3.7915084
     },
     "annual_latest": {
       "revenue": 14929000000.0,
@@ -3463,10 +3463,10 @@
     "source": "yfinance",
     "name": "Fastenal Company",
     "sector": "Industrials",
-    "market_cap": 51317170176.0,
+    "market_cap": 51328647168.0,
     "multiples": {
-      "pe": 39.55752,
-      "ps": 6.078217
+      "pe": 39.566372,
+      "ps": 6.079576
     },
     "annual_latest": {
       "revenue": 8200500000.0,
@@ -3482,10 +3482,10 @@
     "source": "yfinance",
     "name": "Freeport-McMoRan Inc.",
     "sector": "Basic Materials",
-    "market_cap": 87530962944.0,
+    "market_cap": 87531249664.0,
     "multiples": {
-      "pe": 32.216827,
-      "ps": 3.3129315
+      "pe": 32.21693,
+      "ps": 3.3129423
     },
     "annual_latest": {
       "revenue": 25915000000.0,
@@ -3522,7 +3522,7 @@
     "sector": "Industrials",
     "market_cap": 90000080896.0,
     "multiples": {
-      "pe": 20.14904,
+      "pe": 20.1168,
       "ps": 0.9789747
     },
     "annual_latest": {
@@ -3539,10 +3539,10 @@
     "source": "yfinance",
     "name": "FirstEnergy Corp.",
     "sector": "Utilities",
-    "market_cap": 26334236672.0,
+    "market_cap": 26347538432.0,
     "multiples": {
-      "pe": 24.742935,
-      "ps": 1.7169276
+      "pe": 24.755434,
+      "ps": 1.7177949
     },
     "annual_latest": {
       "revenue": 15090000000.0,
@@ -3558,10 +3558,10 @@
     "source": "yfinance",
     "name": "F5, Inc.",
     "sector": "Technology",
-    "market_cap": 19353907200.0,
+    "market_cap": 19240091648.0,
     "multiples": {
       "pe": 28.021362,
-      "ps": 6.0019097
+      "ps": 5.966614
     },
     "annual_latest": {
       "revenue": 3088072000.0,
@@ -3577,10 +3577,10 @@
     "source": "yfinance",
     "name": "Fair Isaac Corporation",
     "sector": "Technology",
-    "market_cap": 24744929280.0,
+    "market_cap": 24744695808.0,
     "multiples": {
-      "pe": 33.808937,
-      "ps": 10.96946
+      "pe": 33.80862,
+      "ps": 10.969356
     },
     "annual_latest": {
       "revenue": 1990869000.0,
@@ -3596,10 +3596,10 @@
     "source": "yfinance",
     "name": "Fidelity National Information Services, Inc.",
     "sector": "Technology",
-    "market_cap": 23757891584.0,
+    "market_cap": 23760476160.0,
     "multiples": {
-      "pe": 62.96575,
-      "ps": 2.2251468
+      "pe": 62.972603,
+      "ps": 2.2253888
     },
     "annual_latest": {
       "revenue": 10677000000.0,
@@ -3634,10 +3634,10 @@
     "source": "yfinance",
     "name": "Fifth Third Bancorp",
     "sector": "Financial Services",
-    "market_cap": 46052040704.0,
+    "market_cap": 46076878848.0,
     "multiples": {
       "pe": 17.117846,
-      "ps": 5.116894
+      "ps": 5.1196537
     },
     "annual_latest": {
       "revenue": 8821000000.0,
@@ -3653,10 +3653,10 @@
     "source": "yfinance",
     "name": "Comfort Systems USA, Inc.",
     "sector": "Industrials",
-    "market_cap": 70799466496.0,
+    "market_cap": 70809321472.0,
     "multiples": {
-      "pe": 58.093876,
-      "ps": 6.985167
+      "pe": 58.101967,
+      "ps": 6.9861393
     },
     "annual_latest": {
       "revenue": 9101641000.0,
@@ -3672,10 +3672,10 @@
     "source": "yfinance",
     "name": "Fox Corporation",
     "sector": "Communication Services",
-    "market_cap": 23911512064.0,
+    "market_cap": 23915767808.0,
     "multiples": {
-      "pe": 13.479616,
-      "ps": 1.4423641
+      "pe": 13.482015,
+      "ps": 1.4426209
     },
     "annual_latest": {
       "revenue": 16300000000.0,
@@ -3691,10 +3691,10 @@
     "source": "yfinance",
     "name": "Fox Corporation",
     "sector": "Communication Services",
-    "market_cap": 26459635712.0,
+    "market_cap": 26463889408.0,
     "multiples": {
-      "pe": 14.916067,
-      "ps": 1.5960692
+      "pe": 14.918465,
+      "ps": 1.5963259
     },
     "annual_latest": {
       "revenue": 16300000000.0,
@@ -3712,7 +3712,7 @@
     "sector": "Real Estate",
     "market_cap": 10149460992.0,
     "multiples": {
-      "pe": 20.272568,
+      "pe": 20.237434,
       "ps": 7.731103
     },
     "annual_latest": {
@@ -3731,7 +3731,7 @@
     "sector": "Technology",
     "market_cap": 23424831488.0,
     "multiples": {
-      "pe": 14.073596,
+      "pe": 14.082687,
       "ps": 4.322684
     },
     "annual_latest": {
@@ -3748,10 +3748,10 @@
     "source": "yfinance",
     "name": "Fortinet, Inc.",
     "sector": "Technology",
-    "market_cap": 65889181696.0,
+    "market_cap": 65852575744.0,
     "multiples": {
-      "pe": 37.190083,
-      "ps": 9.690155
+      "pe": 37.16942,
+      "ps": 9.684772
     },
     "annual_latest": {
       "revenue": 6799600000.0,
@@ -3769,7 +3769,7 @@
     "sector": "Technology",
     "market_cap": 18413606912.0,
     "multiples": {
-      "pe": 35.321636,
+      "pe": 35.52941,
       "ps": 4.3475485
     },
     "annual_latest": {
@@ -3786,10 +3786,10 @@
     "source": "yfinance",
     "name": "General Dynamics Corporation",
     "sector": "Industrials",
-    "market_cap": 93931216896.0,
+    "market_cap": 93912285184.0,
     "multiples": {
-      "pe": 21.85903,
-      "ps": 1.7456738
+      "pe": 21.854624,
+      "ps": 1.745322
     },
     "annual_latest": {
       "revenue": 52550000000.0,
@@ -3805,10 +3805,10 @@
     "source": "yfinance",
     "name": "GoDaddy Inc.",
     "sector": "Technology",
-    "market_cap": 11306439680.0,
+    "market_cap": 11305775104.0,
     "multiples": {
-      "pe": 13.50317,
-      "ps": 2.2506201
+      "pe": 13.502377,
+      "ps": 2.2504878
     },
     "annual_latest": {
       "revenue": 4951100000.0,
@@ -3824,10 +3824,10 @@
     "source": "yfinance",
     "name": "GE Aerospace",
     "sector": "Industrials",
-    "market_cap": 319524569088.0,
+    "market_cap": 319540232192.0,
     "multiples": {
-      "pe": 37.942307,
-      "ps": 6.6136355
+      "pe": 38.038555,
+      "ps": 6.61396
     },
     "annual_latest": {
       "revenue": 45855000000.0,
@@ -3843,10 +3843,10 @@
     "source": "yfinance",
     "name": "GE HealthCare Technologies Inc.",
     "sector": "Healthcare",
-    "market_cap": 28080470016.0,
+    "market_cap": 28082743296.0,
     "multiples": {
-      "pe": 14.803357,
-      "ps": 1.3385038
+      "pe": 14.804556,
+      "ps": 1.3386122
     },
     "annual_latest": {
       "revenue": 20625000000.0,
@@ -3862,10 +3862,10 @@
     "source": "yfinance",
     "name": "Gen Digital Inc.",
     "sector": "Technology",
-    "market_cap": 11840726016.0,
+    "market_cap": 11846782976.0,
     "multiples": {
-      "pe": 20.154638,
-      "ps": 2.5049133
+      "pe": 20.164948,
+      "ps": 2.5061948
     },
     "annual_latest": {
       "revenue": 3935000000.0,
@@ -3881,10 +3881,10 @@
     "source": "yfinance",
     "name": "GE Vernova Inc.",
     "sector": "Industrials",
-    "market_cap": 300762169344.0,
+    "market_cap": 300686934016.0,
     "multiples": {
-      "pe": 32.75505,
-      "ps": 7.6384044
+      "pe": 32.746853,
+      "ps": 7.6364937
     },
     "annual_latest": {
       "revenue": 38068000000.0,
@@ -3919,10 +3919,10 @@
     "source": "yfinance",
     "name": "General Mills, Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 18705526784.0,
+    "market_cap": 18716200960.0,
     "multiples": {
-      "pe": 8.569682,
-      "ps": 1.0181985
+      "pe": 8.574572,
+      "ps": 1.0187795
     },
     "annual_latest": {
       "revenue": 19486600000.0,
@@ -3938,10 +3938,10 @@
     "source": "yfinance",
     "name": "Globe Life Inc.",
     "sector": "Financial Services",
-    "market_cap": 12107917312.0,
+    "market_cap": 12111053824.0,
     "multiples": {
-      "pe": 10.689059,
-      "ps": 1.9935601
+      "pe": 10.691829,
+      "ps": 1.9940765
     },
     "annual_latest": {
       "revenue": 5994318000.0,
@@ -3957,10 +3957,10 @@
     "source": "yfinance",
     "name": "Corning Incorporated",
     "sector": "Technology",
-    "market_cap": 156248801280.0,
+    "market_cap": 156266020864.0,
     "multiples": {
-      "pe": 87.705315,
-      "ps": 9.573482
+      "pe": 87.71498,
+      "ps": 9.574537
     },
     "annual_latest": {
       "revenue": 15629000000.0,
@@ -3976,10 +3976,10 @@
     "source": "yfinance",
     "name": "General Motors Company",
     "sector": "Consumer Cyclical",
-    "market_cap": 70943023104.0,
+    "market_cap": 70961053696.0,
     "multiples": {
-      "pe": 28.715328,
-      "ps": 0.38425884
+      "pe": 28.722626,
+      "ps": 0.3843565
     },
     "annual_latest": {
       "revenue": 185019000000.0,
@@ -3995,10 +3995,10 @@
     "source": "yfinance",
     "name": "Generac Holdings Inc.",
     "sector": "Industrials",
-    "market_cap": 15729200128.0,
+    "market_cap": 15742663680.0,
     "multiples": {
-      "pe": 83.840126,
-      "ps": 3.6356401
+      "pe": 83.83073,
+      "ps": 3.6387522
     },
     "annual_latest": {
       "revenue": 4209147000.0,
@@ -4014,10 +4014,10 @@
     "source": "yfinance",
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
-    "market_cap": 4786387681280.0,
+    "market_cap": 4787296796672.0,
     "multiples": {
-      "pe": 30.157633,
-      "ps": 11.328782
+      "pe": 30.163359,
+      "ps": 11.330934
     },
     "annual_latest": {
       "revenue": 402836000000.0,
@@ -4033,10 +4033,10 @@
     "source": "yfinance",
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
-    "market_cap": 4819802128384.0,
+    "market_cap": 4822431432704.0,
     "multiples": {
-      "pe": 30.29878,
-      "ps": 11.407869
+      "pe": 30.31531,
+      "ps": 11.414093
     },
     "annual_latest": {
       "revenue": 402836000000.0,
@@ -4052,10 +4052,10 @@
     "source": "yfinance",
     "name": "Genuine Parts Company",
     "sector": "Consumer Cyclical",
-    "market_cap": 14673904640.0,
+    "market_cap": 14675991552.0,
     "multiples": {
-      "pe": 239.71591,
-      "ps": 0.594109
+      "pe": 239.75,
+      "ps": 0.5941935
     },
     "annual_latest": {
       "revenue": 24300141000.0,
@@ -4071,10 +4071,10 @@
     "source": "yfinance",
     "name": "Global Payments Inc.",
     "sector": "Industrials",
-    "market_cap": 19161040896.0,
+    "market_cap": 19036620800.0,
     "multiples": {
-      "pe": 15.714447,
-      "ps": 2.4865487
+      "pe": 15.717833,
+      "ps": 2.4704025
     },
     "annual_latest": {
       "revenue": 7705878000.0,
@@ -4090,10 +4090,10 @@
     "source": "yfinance",
     "name": "Garmin Ltd.",
     "sector": "Technology",
-    "market_cap": 46781132800.0,
+    "market_cap": 46829346816.0,
     "multiples": {
-      "pe": 27.072546,
-      "ps": 6.2676454
+      "pe": 27.100447,
+      "ps": 6.274105
     },
     "annual_latest": {
       "revenue": 7245519000.0,
@@ -4109,10 +4109,10 @@
     "source": "yfinance",
     "name": "The Goldman Sachs Group, Inc.",
     "sector": "Financial Services",
-    "market_cap": 276596031488.0,
+    "market_cap": 276525187072.0,
     "multiples": {
-      "pe": 17.11868,
-      "ps": 4.4950843
+      "pe": 17.114296,
+      "ps": 4.493933
     },
     "annual_latest": {
       "revenue": 58283000000.0,
@@ -4128,10 +4128,10 @@
     "source": "yfinance",
     "name": "W.W. Grainger, Inc.",
     "sector": "Industrials",
-    "market_cap": 55388389376.0,
+    "market_cap": 55369453568.0,
     "multiples": {
-      "pe": 33.048855,
-      "ps": 3.08708
+      "pe": 33.03756,
+      "ps": 3.0860248
     },
     "annual_latest": {
       "revenue": 17942000000.0,
@@ -4147,10 +4147,10 @@
     "source": "yfinance",
     "name": "Halliburton Company",
     "sector": "Energy",
-    "market_cap": 33745893376.0,
+    "market_cap": 33750071296.0,
     "multiples": {
-      "pe": 22.31768,
-      "ps": 1.522211
+      "pe": 22.320444,
+      "ps": 1.5223993
     },
     "annual_latest": {
       "revenue": 22184000000.0,
@@ -4204,10 +4204,10 @@
     "source": "yfinance",
     "name": "HCA Healthcare, Inc.",
     "sector": "Healthcare",
-    "market_cap": 95293505536.0,
+    "market_cap": 95269109760.0,
     "multiples": {
-      "pe": 14.797106,
-      "ps": 1.2474931
+      "pe": 14.793318,
+      "ps": 1.2471738
     },
     "annual_latest": {
       "revenue": 75600000000.0,
@@ -4223,10 +4223,10 @@
     "source": "yfinance",
     "name": "The Home Depot, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 321776680960.0,
+    "market_cap": 321766719488.0,
     "multiples": {
-      "pe": 22.702742,
-      "ps": 1.9539155
+      "pe": 22.702038,
+      "ps": 1.953855
     },
     "annual_latest": {
       "revenue": 164683000000.0,
@@ -4261,10 +4261,10 @@
     "source": "yfinance",
     "name": "Huntington Ingalls Industries, Inc.",
     "sector": "Industrials",
-    "market_cap": 12579038208.0,
+    "market_cap": 12591163392.0,
     "multiples": {
-      "pe": 20.756985,
-      "ps": 0.97898966
+      "pe": 20.749352,
+      "ps": 0.9799333
     },
     "annual_latest": {
       "revenue": 12484000000.0,
@@ -4280,10 +4280,10 @@
     "source": "yfinance",
     "name": "Hilton Worldwide Holdings Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 73168461824.0,
+    "market_cap": 73191227392.0,
     "multiples": {
-      "pe": 49.14526,
-      "ps": 14.428803
+      "pe": 49.160553,
+      "ps": 14.433292
     },
     "annual_latest": {
       "revenue": 12039000000.0,
@@ -4318,10 +4318,10 @@
     "source": "yfinance",
     "name": "Honeywell International Inc.",
     "sector": "Industrials",
-    "market_cap": 137388670976.0,
+    "market_cap": 137414017024.0,
     "multiples": {
-      "pe": 34.6912,
-      "ps": 3.6481326
+      "pe": 34.6976,
+      "ps": 3.6488056
     },
     "annual_latest": {
       "revenue": 37442000000.0,
@@ -4356,10 +4356,10 @@
     "source": "yfinance",
     "name": "Hewlett Packard Enterprise Company",
     "sector": "Technology",
-    "market_cap": 40289927168.0,
+    "market_cap": 40296562688.0,
     "multiples": {
       "pe": null,
-      "ps": 1.1272117
+      "ps": 1.1273974
     },
     "annual_latest": {
       "revenue": 34296000000.0,
@@ -4375,10 +4375,10 @@
     "source": "yfinance",
     "name": "HP Inc.",
     "sector": "Technology",
-    "market_cap": 19658639360.0,
+    "market_cap": 19654047744.0,
     "multiples": {
-      "pe": 8.111742,
-      "ps": 0.34961745
+      "pe": 8.109848,
+      "ps": 0.3495358
     },
     "annual_latest": {
       "revenue": 55295000000.0,
@@ -4394,10 +4394,10 @@
     "source": "yfinance",
     "name": "Hormel Foods Corporation",
     "sector": "Consumer Defensive",
-    "market_cap": 11379877888.0,
+    "market_cap": 11390883840.0,
     "multiples": {
-      "pe": 23.235956,
-      "ps": 0.93702704
+      "pe": 23.258429,
+      "ps": 0.93793327
     },
     "annual_latest": {
       "revenue": 12106160000.0,
@@ -4413,10 +4413,10 @@
     "source": "yfinance",
     "name": "Henry Schein, Inc.",
     "sector": "Healthcare",
-    "market_cap": 8288924160.0,
+    "market_cap": 8252130304.0,
     "multiples": {
       "pe": 21.885197,
-      "ps": 0.62871087
+      "ps": 0.62592006
     },
     "annual_latest": {
       "revenue": 13184000000.0,
@@ -4451,10 +4451,10 @@
     "source": "yfinance",
     "name": "The Hershey Company",
     "sector": "Consumer Defensive",
-    "market_cap": 37816090624.0,
+    "market_cap": 37812035584.0,
     "multiples": {
-      "pe": 34.781715,
-      "ps": 3.153621
+      "pe": 34.777985,
+      "ps": 3.1532829
     },
     "annual_latest": {
       "revenue": 11692576000.0,
@@ -4470,10 +4470,10 @@
     "source": "yfinance",
     "name": "Hubbell Incorporated",
     "sector": "Industrials",
-    "market_cap": 26558277632.0,
+    "market_cap": 26544537600.0,
     "multiples": {
-      "pe": 29.72206,
-      "ps": 4.4292583
+      "pe": 29.671589,
+      "ps": 4.426967
     },
     "annual_latest": {
       "revenue": 5844600000.0,
@@ -4489,10 +4489,10 @@
     "source": "yfinance",
     "name": "Humana Inc.",
     "sector": "Healthcare",
-    "market_cap": 29571149824.0,
+    "market_cap": 29574750208.0,
     "multiples": {
-      "pe": 26.28602,
-      "ps": 0.21553317
+      "pe": 26.28922,
+      "ps": 0.21555941
     },
     "annual_latest": {
       "revenue": 129664000000.0,
@@ -4508,10 +4508,10 @@
     "source": "yfinance",
     "name": "Howmet Aerospace Inc.",
     "sector": "Industrials",
-    "market_cap": 102829096960.0,
+    "market_cap": 102813057024.0,
     "multiples": {
-      "pe": 69.12938,
-      "ps": 12.461112
+      "pe": 69.1186,
+      "ps": 12.4591675
     },
     "annual_latest": {
       "revenue": 8252000000.0,
@@ -4546,10 +4546,10 @@
     "source": "yfinance",
     "name": "International Business Machines Corporation",
     "sector": "Technology",
-    "market_cap": 212193214464.0,
+    "market_cap": 212169719808.0,
     "multiples": {
-      "pe": 19.9969,
-      "ps": 3.0792358
+      "pe": 19.959328,
+      "ps": 3.0788949
     },
     "annual_latest": {
       "revenue": 67536000000.0,
@@ -4565,10 +4565,10 @@
     "source": "yfinance",
     "name": "Intercontinental Exchange, Inc.",
     "sector": "Financial Services",
-    "market_cap": 86752444416.0,
+    "market_cap": 86749618176.0,
     "multiples": {
-      "pe": 22.362244,
-      "ps": 8.313602
+      "pe": 22.328966,
+      "ps": 8.313332
     },
     "annual_latest": {
       "revenue": 12640000000.0,
@@ -4584,10 +4584,10 @@
     "source": "yfinance",
     "name": "IDEXX Laboratories, Inc.",
     "sector": "Healthcare",
-    "market_cap": 46120628224.0,
+    "market_cap": 45691400192.0,
     "multiples": {
       "pe": 42.684597,
-      "ps": 10.373289
+      "ps": 10.276749
     },
     "annual_latest": {
       "revenue": 4303702000.0,
@@ -4603,10 +4603,10 @@
     "source": "yfinance",
     "name": "IDEX Corporation",
     "sector": "Industrials",
-    "market_cap": 16153046016.0,
+    "market_cap": 16149345280.0,
     "multiples": {
-      "pe": 32.331852,
-      "ps": 4.575804
+      "pe": 32.324444,
+      "ps": 4.5747557
     },
     "annual_latest": {
       "revenue": 3457500000.0,
@@ -4622,10 +4622,10 @@
     "source": "yfinance",
     "name": "International Flavors & Fragrances Inc.",
     "sector": "Basic Materials",
-    "market_cap": 21198784512.0,
+    "market_cap": 21172316160.0,
     "multiples": {
       "pe": null,
-      "ps": 1.9466285
+      "ps": 1.9441979
     },
     "annual_latest": {
       "revenue": 10890000000.0,
@@ -4698,10 +4698,10 @@
     "source": "yfinance",
     "name": "Invitation Homes Inc.",
     "sector": "Real Estate",
-    "market_cap": 17078291456.0,
+    "market_cap": 17072766976.0,
     "multiples": {
-      "pe": 30.26242,
-      "ps": 6.144475
+      "pe": 30.252632,
+      "ps": 6.1424875
     },
     "annual_latest": {
       "revenue": 2729296000.0,
@@ -4717,10 +4717,10 @@
     "source": "yfinance",
     "name": "International Paper Company",
     "sector": "Consumer Cyclical",
-    "market_cap": 17745729536.0,
+    "market_cap": 17749407744.0,
     "multiples": {
       "pe": null,
-      "ps": 0.7290468
+      "ps": 0.729198
     },
     "annual_latest": {
       "revenue": 23634000000.0,
@@ -4736,10 +4736,10 @@
     "source": "yfinance",
     "name": "IQVIA Holdings Inc.",
     "sector": "Healthcare",
-    "market_cap": 29614979072.0,
+    "market_cap": 29452843008.0,
     "multiples": {
-      "pe": 21.942785,
-      "ps": 1.815756
+      "pe": 21.92174,
+      "ps": 1.8058151
     },
     "annual_latest": {
       "revenue": 16310000000.0,
@@ -4755,10 +4755,10 @@
     "source": "yfinance",
     "name": "Ingersoll Rand Inc.",
     "sector": "Industrials",
-    "market_cap": 30790381568.0,
+    "market_cap": 30778642432.0,
     "multiples": {
-      "pe": 53.162163,
-      "ps": 3.9569714
+      "pe": 53.14189,
+      "ps": 3.9554627
     },
     "annual_latest": {
       "revenue": 7650900000.0,
@@ -4774,10 +4774,10 @@
     "source": "yfinance",
     "name": "Iron Mountain Incorporated",
     "sector": "Real Estate",
-    "market_cap": 39285153792.0,
+    "market_cap": 39291109376.0,
     "multiples": {
-      "pe": 143.52173,
-      "ps": 5.4221144
+      "pe": 143.54347,
+      "ps": 5.4229364
     },
     "annual_latest": {
       "revenue": 6901737000.0,
@@ -4812,10 +4812,10 @@
     "source": "yfinance",
     "name": "Gartner, Inc.",
     "sector": "Technology",
-    "market_cap": 10109734912.0,
+    "market_cap": 10113083392.0,
     "multiples": {
-      "pe": 14.920949,
-      "ps": 1.5615572
+      "pe": 14.92589,
+      "ps": 1.5620743
     },
     "annual_latest": {
       "revenue": 6497226000.0,
@@ -4831,10 +4831,10 @@
     "source": "yfinance",
     "name": "Illinois Tool Works Inc.",
     "sector": "Industrials",
-    "market_cap": 75078983680.0,
+    "market_cap": 75081859072.0,
     "multiples": {
-      "pe": 24.188486,
-      "ps": 4.628505
+      "pe": 24.189413,
+      "ps": 4.6286826
     },
     "annual_latest": {
       "revenue": 16044000000.0,
@@ -4850,10 +4850,10 @@
     "source": "yfinance",
     "name": "Invesco Ltd.",
     "sector": "Financial Services",
-    "market_cap": 12122038272.0,
+    "market_cap": 12124163072.0,
     "multiples": {
       "pe": null,
-      "ps": 1.8387899
+      "ps": 1.8391122
     },
     "annual_latest": {
       "revenue": 6377100000.0,
@@ -4869,10 +4869,10 @@
     "source": "yfinance",
     "name": "Jacobs Solutions Inc.",
     "sector": "Industrials",
-    "market_cap": 14874626048.0,
+    "market_cap": 14951401472.0,
     "multiples": {
-      "pe": 37.359882,
-      "ps": 1.2005243
+      "pe": 37.351032,
+      "ps": 1.2067208
     },
     "annual_latest": {
       "revenue": 12029783000.0,
@@ -4888,10 +4888,10 @@
     "source": "yfinance",
     "name": "J.B. Hunt Transport Services, Inc.",
     "sector": "Industrials",
-    "market_cap": 23192887296.0,
+    "market_cap": 23202318336.0,
     "multiples": {
-      "pe": 38.190994,
-      "ps": 1.911366
+      "pe": 38.20652,
+      "ps": 1.9121431
     },
     "annual_latest": {
       "revenue": 11999096000.0,
@@ -4907,10 +4907,10 @@
     "source": "yfinance",
     "name": "Jabil Inc.",
     "sector": "Technology",
-    "market_cap": 39250141184.0,
+    "market_cap": 39282847744.0,
     "multiples": {
-      "pe": 50.138813,
-      "ps": 1.2015226
+      "pe": 50.248314,
+      "ps": 1.2025238
     },
     "annual_latest": {
       "revenue": 29802000000.0,
@@ -4926,10 +4926,10 @@
     "source": "yfinance",
     "name": "Johnson Controls International plc",
     "sector": "Industrials",
-    "market_cap": 87537704960.0,
+    "market_cap": 87611154432.0,
     "multiples": {
-      "pe": 47.99329,
-      "ps": 3.6524265
+      "pe": 43.907974,
+      "ps": 3.6554909
     },
     "annual_latest": {
       "revenue": 23596000000.0,
@@ -4964,10 +4964,10 @@
     "source": "yfinance",
     "name": "Johnson & Johnson",
     "sector": "Healthcare",
-    "market_cap": 540468346880.0,
+    "market_cap": 540709060608.0,
     "multiples": {
-      "pe": 25.98611,
-      "ps": 5.6087294
+      "pe": 25.997684,
+      "ps": 5.611227
     },
     "annual_latest": {
       "revenue": 94193000000.0,
@@ -4983,10 +4983,10 @@
     "source": "yfinance",
     "name": "JPMorgan Chase & Co.",
     "sector": "Financial Services",
-    "market_cap": 843965661184.0,
+    "market_cap": 843778097152.0,
     "multiples": {
-      "pe": 15.084771,
-      "ps": 4.8627014
+      "pe": 15.081418,
+      "ps": 4.861621
     },
     "annual_latest": {
       "revenue": 181847000000.0,
@@ -5021,10 +5021,10 @@
     "source": "yfinance",
     "name": "KeyCorp",
     "sector": "Financial Services",
-    "market_cap": 24170524672.0,
+    "market_cap": 24102336512.0,
     "multiples": {
       "pe": 13.638037,
-      "ps": 3.3570173
+      "ps": 3.3475468
     },
     "annual_latest": {
       "revenue": 7285000000.0,
@@ -5040,10 +5040,10 @@
     "source": "yfinance",
     "name": "Keysight Technologies, Inc.",
     "sector": "Technology",
-    "market_cap": 62845374464.0,
+    "market_cap": 62886535168.0,
     "multiples": {
-      "pe": 64.4007,
-      "ps": 11.070173
+      "pe": 64.44288,
+      "ps": 11.077423
     },
     "annual_latest": {
       "revenue": 5375000000.0,
@@ -5059,10 +5059,10 @@
     "source": "yfinance",
     "name": "The Kraft Heinz Company",
     "sector": "Consumer Defensive",
-    "market_cap": 27308990464.0,
+    "market_cap": 27355535360.0,
     "multiples": {
       "pe": null,
-      "ps": 1.0948998
+      "ps": 1.0967659
     },
     "annual_latest": {
       "revenue": 24942000000.0,
@@ -5078,10 +5078,10 @@
     "source": "yfinance",
     "name": "Kimco Realty Corporation",
     "sector": "Real Estate",
-    "market_cap": 16053848064.0,
+    "market_cap": 16050476032.0,
     "multiples": {
-      "pe": 27.36207,
-      "ps": 7.4271517
+      "pe": 27.356321,
+      "ps": 7.4255915
     },
     "annual_latest": {
       "revenue": 2140116000.0,
@@ -5097,10 +5097,10 @@
     "source": "yfinance",
     "name": "KKR & Co. Inc.",
     "sector": "Financial Services",
-    "market_cap": 93352845312.0,
+    "market_cap": 93128179712.0,
     "multiples": {
-      "pe": 43.076927,
-      "ps": 3.6393297
+      "pe": 43.07265,
+      "ps": 3.6305711
     },
     "annual_latest": {
       "revenue": 19207544000.0,
@@ -5154,10 +5154,10 @@
     "source": "yfinance",
     "name": "Kinder Morgan, Inc.",
     "sector": "Energy",
-    "market_cap": 70237749248.0,
+    "market_cap": 70259998720.0,
     "multiples": {
-      "pe": 21.18792,
-      "ps": 4.0080886
+      "pe": 21.194632,
+      "ps": 4.0093584
     },
     "annual_latest": {
       "revenue": 16937000000.0,
@@ -5173,10 +5173,10 @@
     "source": "yfinance",
     "name": "The Coca-Cola Company",
     "sector": "Consumer Defensive",
-    "market_cap": 340606025728.0,
+    "market_cap": 340885700608.0,
     "multiples": {
-      "pe": 24.894653,
-      "ps": 6.911087
+      "pe": 24.915094,
+      "ps": 6.916762
     },
     "annual_latest": {
       "revenue": 47941000000.0,
@@ -5192,10 +5192,10 @@
     "source": "yfinance",
     "name": "The Kroger Co.",
     "sector": "Consumer Defensive",
-    "market_cap": 41768042496.0,
+    "market_cap": 41774374912.0,
     "multiples": {
-      "pe": 42.857143,
-      "ps": 0.2829008
+      "pe": 42.86364,
+      "ps": 0.2829437
     },
     "annual_latest": {
       "revenue": 147642000000.0,
@@ -5211,10 +5211,10 @@
     "source": "yfinance",
     "name": "Kenvue Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 33924921344.0,
+    "market_cap": 33944121344.0,
     "multiples": {
-      "pe": 23.25,
-      "ps": 2.2431183
+      "pe": 23.263159,
+      "ps": 2.2443879
     },
     "annual_latest": {
       "revenue": 15124000000.0,
@@ -5230,10 +5230,10 @@
     "source": "yfinance",
     "name": "Loews Corporation",
     "sector": "Financial Services",
-    "market_cap": 21657174016.0,
+    "market_cap": 21665404928.0,
     "multiples": {
-      "pe": 13.390585,
-      "ps": 1.1697097
+      "pe": 13.378654,
+      "ps": 1.1701542
     },
     "annual_latest": {
       "revenue": 18176000000.0,
@@ -5249,10 +5249,10 @@
     "source": "yfinance",
     "name": "Leidos Holdings, Inc.",
     "sector": "Technology",
-    "market_cap": 16971968512.0,
+    "market_cap": 16968458240.0,
     "multiples": {
-      "pe": 12.344921,
-      "ps": 0.9793969
+      "pe": 12.342176,
+      "ps": 0.9791943
     },
     "annual_latest": {
       "revenue": 17174000000.0,
@@ -5268,10 +5268,10 @@
     "source": "yfinance",
     "name": "Lennar Corporation",
     "sector": "Consumer Cyclical",
-    "market_cap": 22297384960.0,
+    "market_cap": 22299848704.0,
     "multiples": {
-      "pe": 13.0259,
-      "ps": 0.6721168
+      "pe": 13.027339,
+      "ps": 0.6721911
     },
     "annual_latest": {
       "revenue": 34186934000.0,
@@ -5287,10 +5287,10 @@
     "source": "yfinance",
     "name": "Labcorp Holdings Inc.",
     "sector": "Healthcare",
-    "market_cap": 21067849728.0,
+    "market_cap": 21069080576.0,
     "multiples": {
-      "pe": 22.756863,
-      "ps": 1.4895046
+      "pe": 22.758194,
+      "ps": 1.4895916
     },
     "annual_latest": {
       "revenue": 13951700000.0,
@@ -5306,10 +5306,10 @@
     "source": "yfinance",
     "name": "L3Harris Technologies, Inc.",
     "sector": "Industrials",
-    "market_cap": 56300191744.0,
+    "market_cap": 56298336256.0,
     "multiples": {
-      "pe": 32.84891,
-      "ps": 4.379293
+      "pe": 32.847828,
+      "ps": 4.3791485
     },
     "annual_latest": {
       "revenue": 21865000000.0,
@@ -5325,10 +5325,10 @@
     "source": "yfinance",
     "name": "Lennox International Inc.",
     "sector": "Industrials",
-    "market_cap": 18845227008.0,
+    "market_cap": 18839658496.0,
     "multiples": {
-      "pe": 24.057308,
-      "ps": 3.5842419
+      "pe": 24.0502,
+      "ps": 3.5831826
     },
     "annual_latest": {
       "revenue": 5195300000.0,
@@ -5363,10 +5363,10 @@
     "source": "yfinance",
     "name": "Eli Lilly and Company",
     "sector": "Healthcare",
-    "market_cap": 880157655040.0,
+    "market_cap": 880193306624.0,
     "multiples": {
-      "pe": 35.025196,
-      "ps": 12.1822815
+      "pe": 35.026615,
+      "ps": 12.182775
     },
     "annual_latest": {
       "revenue": 65179000000.0,
@@ -5382,10 +5382,10 @@
     "source": "yfinance",
     "name": "Lockheed Martin Corporation",
     "sector": "Industrials",
-    "market_cap": 118528147456.0,
+    "market_cap": 118569648128.0,
     "multiples": {
-      "pe": 24.882866,
-      "ps": 1.5781448
+      "pe": 24.879536,
+      "ps": 1.5786974
     },
     "annual_latest": {
       "revenue": 75048000000.0,
@@ -5420,10 +5420,10 @@
     "source": "yfinance",
     "name": "Lowe's Companies, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 130697404416.0,
+    "market_cap": 130701877248.0,
     "multiples": {
-      "pe": 19.692995,
-      "ps": 1.5147
+      "pe": 19.677067,
+      "ps": 1.5147518
     },
     "annual_latest": {
       "revenue": 86286000000.0,
@@ -5477,10 +5477,10 @@
     "source": "yfinance",
     "name": "Southwest Airlines Co.",
     "sector": "Industrials",
-    "market_cap": 20276387840.0,
+    "market_cap": 20284108800.0,
     "multiples": {
-      "pe": 27.656134,
-      "ps": 0.70199376
+      "pe": 27.666666,
+      "ps": 0.70226103
     },
     "annual_latest": {
       "revenue": 28063000000.0,
@@ -5496,10 +5496,10 @@
     "source": "yfinance",
     "name": "Las Vegas Sands Corp.",
     "sector": "Consumer Cyclical",
-    "market_cap": 35232423936.0,
+    "market_cap": 35265560576.0,
     "multiples": {
-      "pe": 19.619925,
-      "ps": 2.564223
+      "pe": 19.638376,
+      "ps": 2.5666347
     },
     "annual_latest": {
       "revenue": 13017000000.0,
@@ -5534,10 +5534,10 @@
     "source": "yfinance",
     "name": "LyondellBasell Industries N.V.",
     "sector": "Basic Materials",
-    "market_cap": 23704176640.0,
+    "market_cap": 23718225920.0,
     "multiples": {
       "pe": null,
-      "ps": 0.7988466
+      "ps": 0.7993201
     },
     "annual_latest": {
       "revenue": 30153000000.0,
@@ -5553,10 +5553,10 @@
     "source": "yfinance",
     "name": "Live Nation Entertainment, Inc.",
     "sector": "Communication Services",
-    "market_cap": 39444537344.0,
+    "market_cap": 39053864960.0,
     "multiples": {
       "pe": null,
-      "ps": 1.5651721
+      "ps": 1.5496701
     },
     "annual_latest": {
       "revenue": 25201406000.0,
@@ -5572,10 +5572,10 @@
     "source": "yfinance",
     "name": "Mastercard Incorporated",
     "sector": "Financial Services",
-    "market_cap": 434378670080.0,
+    "market_cap": 434626068480.0,
     "multiples": {
-      "pe": 28.416763,
-      "ps": 12.798806
+      "pe": 28.432951,
+      "ps": 12.806095
     },
     "annual_latest": {
       "revenue": 32791000000.0,
@@ -5591,10 +5591,10 @@
     "source": "yfinance",
     "name": "Mid-America Apartment Communities, Inc.",
     "sector": "Real Estate",
-    "market_cap": 15542892544.0,
+    "market_cap": 15548261376.0,
     "multiples": {
-      "pe": 39.351967,
-      "ps": 7.021685
+      "pe": 39.36556,
+      "ps": 7.0241103
     },
     "annual_latest": {
       "revenue": 2209126000.0,
@@ -5629,10 +5629,10 @@
     "source": "yfinance",
     "name": "Masco Corporation",
     "sector": "Industrials",
-    "market_cap": 14512775168.0,
+    "market_cap": 14514791424.0,
     "multiples": {
-      "pe": 17.80693,
-      "ps": 1.8899304
+      "pe": 17.809406,
+      "ps": 1.8901929
     },
     "annual_latest": {
       "revenue": 7562000000.0,
@@ -5648,10 +5648,10 @@
     "source": "yfinance",
     "name": "McDonald's Corporation",
     "sector": "Consumer Cyclical",
-    "market_cap": 201903489024.0,
+    "market_cap": 201946136576.0,
     "multiples": {
-      "pe": 23.76904,
-      "ps": 7.509894
+      "pe": 23.77406,
+      "ps": 7.5114803
     },
     "annual_latest": {
       "revenue": 26885000000.0,
@@ -5667,10 +5667,10 @@
     "source": "yfinance",
     "name": "Microchip Technology Incorporated",
     "sector": "Technology",
-    "market_cap": 55719641088.0,
+    "market_cap": 55693664256.0,
     "multiples": {
       "pe": null,
-      "ps": 12.743491
+      "ps": 12.73755
     },
     "annual_latest": {
       "revenue": 4401600000.0,
@@ -5686,10 +5686,10 @@
     "source": "yfinance",
     "name": "McKesson Corporation",
     "sector": "Healthcare",
-    "market_cap": 91071873024.0,
+    "market_cap": 91090247680.0,
     "multiples": {
-      "pe": 21.439447,
-      "ps": 0.22884795
+      "pe": 21.443771,
+      "ps": 0.22889413
     },
     "annual_latest": {
       "revenue": 359051000000.0,
@@ -5705,10 +5705,10 @@
     "source": "yfinance",
     "name": "Moody's Corporation",
     "sector": "Financial Services",
-    "market_cap": 78352859136.0,
+    "market_cap": 78366834688.0,
     "multiples": {
-      "pe": 32.15484,
-      "ps": 9.952097
+      "pe": 32.160576,
+      "ps": 9.953872
     },
     "annual_latest": {
       "revenue": 7718000000.0,
@@ -5743,10 +5743,10 @@
     "source": "yfinance",
     "name": "Medtronic plc",
     "sector": "Healthcare",
-    "market_cap": 99642310656.0,
+    "market_cap": 99629465600.0,
     "multiples": {
-      "pe": 21.678772,
-      "ps": 2.8080912
+      "pe": 21.675978,
+      "ps": 2.8077292
     },
     "annual_latest": {
       "revenue": 33537000000.0,
@@ -5762,10 +5762,10 @@
     "source": "yfinance",
     "name": "MetLife, Inc.",
     "sector": "Financial Services",
-    "market_cap": 51711586304.0,
+    "market_cap": 51718037504.0,
     "multiples": {
-      "pe": 17.016985,
-      "ps": 0.6708907
+      "pe": 17.01911,
+      "ps": 0.6709744
     },
     "annual_latest": {
       "revenue": 75654000000.0,
@@ -5800,10 +5800,10 @@
     "source": "yfinance",
     "name": "MGM Resorts International",
     "sector": "Consumer Cyclical",
-    "market_cap": 9772237824.0,
+    "market_cap": 9776075776.0,
     "multiples": {
-      "pe": 52.321915,
-      "ps": 0.55162644
+      "pe": 52.342464,
+      "ps": 0.55184305
     },
     "annual_latest": {
       "revenue": 17537683000.0,
@@ -5838,10 +5838,10 @@
     "source": "yfinance",
     "name": "Martin Marietta Materials, Inc.",
     "sector": "Basic Materials",
-    "market_cap": 36955852800.0,
+    "market_cap": 36957048832.0,
     "multiples": {
-      "pe": 38.611042,
-      "ps": 5.8198195
+      "pe": 38.612297,
+      "ps": 5.820008
     },
     "annual_latest": {
       "revenue": 6150000000.0,
@@ -5859,7 +5859,7 @@
     "sector": "Industrials",
     "market_cap": 76430467072.0,
     "multiples": {
-      "pe": 28.289576,
+      "pe": 28.235065,
       "ps": 3.0542865
     },
     "annual_latest": {
@@ -5895,10 +5895,10 @@
     "source": "yfinance",
     "name": "Altria Group, Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 117192966144.0,
+    "market_cap": 117176262656.0,
     "multiples": {
-      "pe": 14.651358,
-      "ps": 5.7509556
+      "pe": 14.649269,
+      "ps": 5.750136
     },
     "annual_latest": {
       "revenue": 20139000000.0,
@@ -5914,10 +5914,10 @@
     "source": "yfinance",
     "name": "Molina Healthcare, Inc.",
     "sector": "Healthcare",
-    "market_cap": 10282194944.0,
+    "market_cap": 10286623744.0,
     "multiples": {
-      "pe": 52.910187,
-      "ps": 0.23858815
+      "pe": 52.932976,
+      "ps": 0.23869093
     },
     "annual_latest": {
       "revenue": 45426000000.0,
@@ -5933,10 +5933,10 @@
     "source": "yfinance",
     "name": "The Mosaic Company",
     "sector": "Basic Materials",
-    "market_cap": 7491645440.0,
+    "market_cap": 7488466944.0,
     "multiples": {
-      "pe": 13.864705,
-      "ps": 0.6215895
+      "pe": 13.858823,
+      "ps": 0.6213258
     },
     "annual_latest": {
       "revenue": 12052400000.0,
@@ -5952,10 +5952,10 @@
     "source": "yfinance",
     "name": "Marathon Petroleum Corporation",
     "sector": "Energy",
-    "market_cap": 71981309952.0,
+    "market_cap": 71752187904.0,
     "multiples": {
-      "pe": 16.173141,
-      "ps": 0.529695
+      "pe": 16.180382,
+      "ps": 0.52800894
     },
     "annual_latest": {
       "revenue": 132699000000.0,
@@ -5990,10 +5990,10 @@
     "source": "yfinance",
     "name": "Merck & Co., Inc.",
     "sector": "Healthcare",
-    "market_cap": 280448565248.0,
+    "market_cap": 280473272320.0,
     "multiples": {
-      "pe": 31.985916,
-      "ps": 4.2642097
+      "pe": 31.988731,
+      "ps": 4.2645855
     },
     "annual_latest": {
       "revenue": 65011000000.0,
@@ -6028,10 +6028,10 @@
     "source": "yfinance",
     "name": "Marsh & McLennan Companies, Inc.",
     "sector": "Financial Services",
-    "market_cap": 78956486656.0,
+    "market_cap": 78966112256.0,
     "multiples": {
-      "pe": 20.485,
-      "ps": 2.8693712
+      "pe": 20.4875,
+      "ps": 2.869721
     },
     "annual_latest": {
       "revenue": 26981000000.0,
@@ -6047,10 +6047,10 @@
     "source": "yfinance",
     "name": "Morgan Stanley",
     "sector": "Financial Services",
-    "market_cap": 306885754880.0,
+    "market_cap": 304968040448.0,
     "multiples": {
-      "pe": 17.522213,
-      "ps": 4.193918
+      "pe": 17.529467,
+      "ps": 4.1677103
     },
     "annual_latest": {
       "revenue": 65966000000.0,
@@ -6066,10 +6066,10 @@
     "source": "yfinance",
     "name": "MSCI Inc.",
     "sector": "Financial Services",
-    "market_cap": 42327457792.0,
+    "market_cap": 42337640448.0,
     "multiples": {
-      "pe": 33.295197,
-      "ps": 13.066212
+      "pe": 33.303204,
+      "ps": 13.069355
     },
     "annual_latest": {
       "revenue": 3134459000.0,
@@ -6085,10 +6085,10 @@
     "source": "yfinance",
     "name": "Microsoft Corporation",
     "sector": "Technology",
-    "market_cap": 3074376597504.0,
+    "market_cap": 3075074949120.0,
     "multiples": {
-      "pe": 24.664242,
-      "ps": 9.659558
+      "pe": 24.669844,
+      "ps": 9.661753
     },
     "annual_latest": {
       "revenue": 281724000000.0,
@@ -6104,10 +6104,10 @@
     "source": "yfinance",
     "name": "Motorola Solutions, Inc.",
     "sector": "Technology",
-    "market_cap": 72074199040.0,
+    "market_cap": 72075862016.0,
     "multiples": {
-      "pe": 34.011765,
-      "ps": 6.1696796
+      "pe": 34.01255,
+      "ps": 6.169822
     },
     "annual_latest": {
       "revenue": 11682000000.0,
@@ -6123,10 +6123,10 @@
     "source": "yfinance",
     "name": "M&T Bank Corporation",
     "sector": "Financial Services",
-    "market_cap": 32294553600.0,
+    "market_cap": 31840083968.0,
     "multiples": {
-      "pe": 12.2034235,
-      "ps": 3.4688027
+      "pe": 12.207748,
+      "ps": 3.4199874
     },
     "annual_latest": {
       "revenue": 9632000000.0,
@@ -6142,10 +6142,10 @@
     "source": "yfinance",
     "name": "Match Group, Inc.",
     "sector": "Communication Services",
-    "market_cap": 8868790272.0,
+    "market_cap": 8864128000.0,
     "multiples": {
       "pe": 15.966386,
-      "ps": 2.5432434
+      "ps": 2.5419064
     },
     "annual_latest": {
       "revenue": 3487197000.0,
@@ -6161,10 +6161,10 @@
     "source": "yfinance",
     "name": "Mettler-Toledo International Inc.",
     "sector": "Healthcare",
-    "market_cap": 26893051904.0,
+    "market_cap": 26870575104.0,
     "multiples": {
-      "pe": 31.570004,
-      "ps": 6.679182
+      "pe": 31.54362,
+      "ps": 6.6735997
     },
     "annual_latest": {
       "revenue": 4026399000.0,
@@ -6180,10 +6180,10 @@
     "source": "yfinance",
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
-    "market_cap": 751973040128.0,
+    "market_cap": 751736258560.0,
     "multiples": {
-      "pe": 31.467672,
-      "ps": 12.938506
+      "pe": 31.457764,
+      "ps": 12.934432
     },
     "annual_latest": {
       "revenue": 37378000000.0,
@@ -6199,10 +6199,10 @@
     "source": "yfinance",
     "name": "Norwegian Cruise Line Holdings Ltd.",
     "sector": "Consumer Cyclical",
-    "market_cap": 8135431680.0,
+    "market_cap": 8149204992.0,
     "multiples": {
-      "pe": 14.290322,
-      "ps": 0.811008
+      "pe": 14.314516,
+      "ps": 0.812381
     },
     "annual_latest": {
       "revenue": 9827592000.0,
@@ -6275,10 +6275,10 @@
     "source": "yfinance",
     "name": "Newmont Corporation",
     "sector": "Basic Materials",
-    "market_cap": 122864648192.0,
+    "market_cap": 122875322368.0,
     "multiples": {
-      "pe": 14.927366,
-      "ps": 4.921279
+      "pe": 14.928664,
+      "ps": 4.921706
     },
     "annual_latest": {
       "revenue": 22669000000.0,
@@ -6313,10 +6313,10 @@
     "source": "yfinance",
     "name": "NiSource Inc.",
     "sector": "Utilities",
-    "market_cap": 22720755712.0,
+    "market_cap": 22774288384.0,
     "multiples": {
-      "pe": 24.348717,
-      "ps": 3.4206672
+      "pe": 24.364101,
+      "ps": 3.4287267
     },
     "annual_latest": {
       "revenue": 6642200000.0,
@@ -6332,10 +6332,10 @@
     "source": "yfinance",
     "name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 64936894464.0,
+    "market_cap": 64981323776.0,
     "multiples": {
-      "pe": 28.848684,
-      "ps": 1.395802
+      "pe": 28.868422,
+      "ps": 1.396757
     },
     "annual_latest": {
       "revenue": 46309000000.0,
@@ -6351,10 +6351,10 @@
     "source": "yfinance",
     "name": "Northrop Grumman Corporation",
     "sector": "Industrials",
-    "market_cap": 79356936192.0,
+    "market_cap": 79481929728.0,
     "multiples": {
-      "pe": 17.514732,
-      "ps": 1.8730837
+      "pe": 17.542318,
+      "ps": 1.8760339
     },
     "annual_latest": {
       "revenue": 41954000000.0,
@@ -6370,10 +6370,10 @@
     "source": "yfinance",
     "name": "ServiceNow, Inc.",
     "sector": "Technology",
-    "market_cap": 91827666944.0,
+    "market_cap": 91837980672.0,
     "multiples": {
-      "pe": 53.000004,
-      "ps": 6.5779133
+      "pe": 53.005955,
+      "ps": 6.5786524
     },
     "annual_latest": {
       "revenue": 13278000000.0,
@@ -6389,10 +6389,10 @@
     "source": "yfinance",
     "name": "NRG Energy, Inc.",
     "sector": "Utilities",
-    "market_cap": 32001906688.0,
+    "market_cap": 32050599936.0,
     "multiples": {
-      "pe": 37.577305,
-      "ps": 1.0419662
+      "pe": 37.566082,
+      "ps": 1.0435516
     },
     "annual_latest": {
       "revenue": 30713000000.0,
@@ -6408,10 +6408,10 @@
     "source": "yfinance",
     "name": "Norfolk Southern Corporation",
     "sector": "Industrials",
-    "market_cap": 71297368064.0,
+    "market_cap": 71252443136.0,
     "multiples": {
-      "pe": 26.721382,
-      "ps": 5.8512406
+      "pe": 26.704546,
+      "ps": 5.8475537
     },
     "annual_latest": {
       "revenue": 12180000000.0,
@@ -6465,10 +6465,10 @@
     "source": "yfinance",
     "name": "Nucor Corporation",
     "sector": "Basic Materials",
-    "market_cap": 53337968640.0,
+    "market_cap": 53340241920.0,
     "multiples": {
-      "pe": 23.258194,
-      "ps": 1.5614159
+      "pe": 23.259186,
+      "ps": 1.5614824
     },
     "annual_latest": {
       "revenue": 32494000000.0,
@@ -6484,10 +6484,10 @@
     "source": "yfinance",
     "name": "NVIDIA Corporation",
     "sector": "Technology",
-    "market_cap": 5047297507328.0,
+    "market_cap": 5051308310528.0,
     "multiples": {
-      "pe": 42.46728,
-      "ps": 23.373827
+      "pe": 42.414284,
+      "ps": 23.3924
     },
     "annual_latest": {
       "revenue": 215938000000.0,
@@ -6503,10 +6503,10 @@
     "source": "yfinance",
     "name": "NVR, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 16658571264.0,
+    "market_cap": 16663598080.0,
     "multiples": {
-      "pe": 14.891233,
-      "ps": 1.6797494
+      "pe": 14.903005,
+      "ps": 1.6802562
     },
     "annual_latest": {
       "revenue": 10341845000.0,
@@ -6522,10 +6522,10 @@
     "source": "yfinance",
     "name": "News Corporation",
     "sector": "Communication Services",
-    "market_cap": 16549869568.0,
+    "market_cap": 16546394112.0,
     "multiples": {
       "pe": 39.25974,
-      "ps": 1.919048
+      "ps": 1.9186449
     },
     "annual_latest": {
       "revenue": 8452000000.0,
@@ -6541,10 +6541,10 @@
     "source": "yfinance",
     "name": "News Corporation",
     "sector": "Communication Services",
-    "market_cap": 14343585792.0,
+    "market_cap": 14340574208.0,
     "multiples": {
       "pe": 34.025974,
-      "ps": 1.6632173
+      "ps": 1.662868
     },
     "annual_latest": {
       "revenue": 8452000000.0,
@@ -6600,7 +6600,7 @@
     "sector": "Industrials",
     "market_cap": 41814347776.0,
     "multiples": {
-      "pe": 41.970707,
+      "pe": 41.88309,
       "ps": 7.6636014
     },
     "annual_latest": {
@@ -6636,10 +6636,10 @@
     "source": "yfinance",
     "name": "Omnicom Group Inc.",
     "sector": "Communication Services",
-    "market_cap": 21921253376.0,
+    "market_cap": 21919827968.0,
     "multiples": {
       "pe": null,
-      "ps": 1.1057713
+      "ps": 1.1056994
     },
     "annual_latest": {
       "revenue": 17271900000.0,
@@ -6674,10 +6674,10 @@
     "source": "yfinance",
     "name": "Oracle Corporation",
     "sector": "Technology",
-    "market_cap": 557952925696.0,
+    "market_cap": 558039236608.0,
     "multiples": {
-      "pe": 34.767025,
-      "ps": 8.707674
+      "pe": 34.7724,
+      "ps": 8.709021
     },
     "annual_latest": {
       "revenue": 57399000000.0,
@@ -6712,10 +6712,10 @@
     "source": "yfinance",
     "name": "Otis Worldwide Corporation",
     "sector": "Industrials",
-    "market_cap": 29442535424.0,
+    "market_cap": 29434859520.0,
     "multiples": {
-      "pe": 20.406916,
-      "ps": 2.010141
+      "pe": 20.401596,
+      "ps": 2.0096169
     },
     "annual_latest": {
       "revenue": 14431000000.0,
@@ -6731,10 +6731,10 @@
     "source": "yfinance",
     "name": "Occidental Petroleum Corporation",
     "sector": "Energy",
-    "market_cap": 54577942528.0,
+    "market_cap": 54824263680.0,
     "multiples": {
-      "pe": 74.37162,
-      "ps": 2.5275757
+      "pe": 74.48648,
+      "ps": 2.538983
     },
     "annual_latest": {
       "revenue": 21593000000.0,
@@ -6750,10 +6750,10 @@
     "source": "yfinance",
     "name": "Palo Alto Networks, Inc.",
     "sector": "Technology",
-    "market_cap": 148887437312.0,
+    "market_cap": 148964474880.0,
     "multiples": {
-      "pe": 101.99168,
-      "ps": 15.049016
+      "pe": 102.04444,
+      "ps": 15.056803
     },
     "annual_latest": {
       "revenue": 9221500000.0,
@@ -6769,10 +6769,10 @@
     "source": "yfinance",
     "name": "Paycom Software, Inc.",
     "sector": "Technology",
-    "market_cap": 6856030208.0,
+    "market_cap": 6858201088.0,
     "multiples": {
-      "pe": 15.614338,
-      "ps": 3.341634
+      "pe": 15.619283,
+      "ps": 3.342692
     },
     "annual_latest": {
       "revenue": 2051700000.0,
@@ -6826,10 +6826,10 @@
     "source": "yfinance",
     "name": "PG&E Corporation",
     "sector": "Utilities",
-    "market_cap": 35620982784.0,
+    "market_cap": 35676041216.0,
     "multiples": {
-      "pe": 12.538759,
-      "ps": 1.3788944
+      "pe": 12.558141,
+      "ps": 1.3810258
     },
     "annual_latest": {
       "revenue": 24935000000.0,
@@ -6845,10 +6845,10 @@
     "source": "yfinance",
     "name": "Public Service Enterprise Group Incorporated",
     "sector": "Utilities",
-    "market_cap": 39602876416.0,
+    "market_cap": 39541800960.0,
     "multiples": {
-      "pe": 17.553097,
-      "ps": 3.2546744
+      "pe": 17.55531,
+      "ps": 3.249655
     },
     "annual_latest": {
       "revenue": 12168000000.0,
@@ -6866,7 +6866,7 @@
     "sector": "Consumer Defensive",
     "market_cap": 213188116480.0,
     "multiples": {
-      "pe": 24.483519,
+      "pe": 24.522013,
       "ps": 2.233529
     },
     "annual_latest": {
@@ -6883,10 +6883,10 @@
     "source": "yfinance",
     "name": "Pfizer Inc.",
     "sector": "Healthcare",
-    "market_cap": 150747136000.0,
+    "market_cap": 151206264832.0,
     "multiples": {
-      "pe": 20.22977,
-      "ps": 2.380907
+      "pe": 20.25191,
+      "ps": 2.3881586
     },
     "annual_latest": {
       "revenue": 62579000000.0,
@@ -6921,10 +6921,10 @@
     "source": "yfinance",
     "name": "The Procter & Gamble Company",
     "sector": "Consumer Defensive",
-    "market_cap": 344469635072.0,
+    "market_cap": 344399773696.0,
     "multiples": {
-      "pe": 21.627192,
-      "ps": 3.9723427
+      "pe": 21.654465,
+      "ps": 3.971537
     },
     "annual_latest": {
       "revenue": 84284000000.0,
@@ -6940,10 +6940,10 @@
     "source": "yfinance",
     "name": "The Progressive Corporation",
     "sector": "Financial Services",
-    "market_cap": 115020783616.0,
+    "market_cap": 114997411840.0,
     "multiples": {
-      "pe": 10.012207,
-      "ps": 1.2863702
+      "pe": 10.010173,
+      "ps": 1.2861087
     },
     "annual_latest": {
       "revenue": 87637000000.0,
@@ -6959,10 +6959,10 @@
     "source": "yfinance",
     "name": "Parker-Hannifin Corporation",
     "sector": "Industrials",
-    "market_cap": 113787928576.0,
+    "market_cap": 113813135360.0,
     "multiples": {
-      "pe": 33.25203,
-      "ps": 5.4218287
+      "pe": 33.333088,
+      "ps": 5.42303
     },
     "annual_latest": {
       "revenue": 19850000000.0,
@@ -6978,10 +6978,10 @@
     "source": "yfinance",
     "name": "PulteGroup, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 22871695360.0,
+    "market_cap": 22877411328.0,
     "multiples": {
-      "pe": 11.623427,
-      "ps": 1.3591553
+      "pe": 11.626331,
+      "ps": 1.3594949
     },
     "annual_latest": {
       "revenue": 17311953000.0,
@@ -6997,10 +6997,10 @@
     "source": "yfinance",
     "name": "Packaging Corporation of America",
     "sector": "Consumer Cyclical",
-    "market_cap": 20240734208.0,
+    "market_cap": 20235382784.0,
     "multiples": {
-      "pe": 27.533981,
-      "ps": 2.1962364
+      "pe": 27.526701,
+      "ps": 2.1956556
     },
     "annual_latest": {
       "revenue": 8989300000.0,
@@ -7016,10 +7016,10 @@
     "source": "yfinance",
     "name": "Prologis, Inc.",
     "sector": "Real Estate",
-    "market_cap": 133249744896.0,
+    "market_cap": 133231091712.0,
     "multiples": {
-      "pe": 35.909546,
-      "ps": 14.211619
+      "pe": 35.814533,
+      "ps": 14.20963
     },
     "annual_latest": {
       "revenue": 8790127000.0,
@@ -7035,10 +7035,10 @@
     "source": "yfinance",
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
-    "market_cap": 320729186304.0,
+    "market_cap": 320736362496.0,
     "multiples": {
-      "pe": 152.03069,
-      "ps": 61.39328
+      "pe": 152.03409,
+      "ps": 61.394653
     },
     "annual_latest": {
       "revenue": 4475446000.0,
@@ -7054,10 +7054,10 @@
     "source": "yfinance",
     "name": "Philip Morris International Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 265843392512.0,
+    "market_cap": 265781035008.0,
     "multiples": {
-      "pe": 24.023945,
-      "ps": 6.4069457
+      "pe": 23.984528,
+      "ps": 6.4054427
     },
     "annual_latest": {
       "revenue": 40648000000.0,
@@ -7073,10 +7073,10 @@
     "source": "yfinance",
     "name": "The PNC Financial Services Group, Inc.",
     "sector": "Financial Services",
-    "market_cap": 89695576064.0,
+    "market_cap": 89316007936.0,
     "multiples": {
-      "pe": 12.913183,
-      "ps": 3.892699
+      "pe": 12.916377,
+      "ps": 3.8762262
     },
     "annual_latest": {
       "revenue": 23077000000.0,
@@ -7092,10 +7092,10 @@
     "source": "yfinance",
     "name": "Pentair plc",
     "sector": "Industrials",
-    "market_cap": 12923594752.0,
+    "market_cap": 12913898496.0,
     "multiples": {
-      "pe": 20.092964,
-      "ps": 3.0753622
+      "pe": 20.07789,
+      "ps": 3.073055
     },
     "annual_latest": {
       "revenue": 4176000000.0,
@@ -7111,10 +7111,10 @@
     "source": "yfinance",
     "name": "Pinnacle West Capital Corporation",
     "sector": "Utilities",
-    "market_cap": 12140530688.0,
+    "market_cap": 12139318272.0,
     "multiples": {
-      "pe": 18.690298,
-      "ps": 2.2246585
+      "pe": 18.688433,
+      "ps": 2.2244363
     },
     "annual_latest": {
       "revenue": 5339939000.0,
@@ -7151,7 +7151,7 @@
     "sector": "Industrials",
     "market_cap": 6854564352.0,
     "multiples": {
-      "pe": 17.271809,
+      "pe": 17.303587,
       "ps": 1.2798194
     },
     "annual_latest": {
@@ -7168,10 +7168,10 @@
     "source": "yfinance",
     "name": "PPG Industries, Inc.",
     "sector": "Basic Materials",
-    "market_cap": 24853350400.0,
+    "market_cap": 24860037120.0,
     "multiples": {
-      "pe": 15.974212,
-      "ps": 1.5416754
+      "pe": 15.97851,
+      "ps": 1.5420903
     },
     "annual_latest": {
       "revenue": 15875000000.0,
@@ -7187,10 +7187,10 @@
     "source": "yfinance",
     "name": "PPL Corporation",
     "sector": "Utilities",
-    "market_cap": 27747371008.0,
+    "market_cap": 27739850752.0,
     "multiples": {
-      "pe": 23.201258,
-      "ps": 3.0687206
+      "pe": 23.19497,
+      "ps": 3.067889
     },
     "annual_latest": {
       "revenue": 9042000000.0,
@@ -7206,10 +7206,10 @@
     "source": "yfinance",
     "name": "Prudential Financial, Inc.",
     "sector": "Financial Services",
-    "market_cap": 34850459648.0,
+    "market_cap": 34785570816.0,
     "multiples": {
-      "pe": 10.313594,
-      "ps": 0.5691451
+      "pe": 10.31514,
+      "ps": 0.5680854
     },
     "annual_latest": {
       "revenue": 60967000000.0,
@@ -7225,10 +7225,10 @@
     "source": "yfinance",
     "name": "Public Storage",
     "sector": "Real Estate",
-    "market_cap": 54224326656.0,
+    "market_cap": 54240124928.0,
     "multiples": {
-      "pe": 31.910124,
-      "ps": 11.130969
+      "pe": 31.95243,
+      "ps": 11.1342125
     },
     "annual_latest": {
       "revenue": 4824113000.0,
@@ -7244,10 +7244,10 @@
     "source": "yfinance",
     "name": "Paramount Skydance Corporation",
     "sector": "Communication Services",
-    "market_cap": 12191152128.0,
+    "market_cap": 12210179072.0,
     "multiples": {
-      "pe": 363.1,
-      "ps": 0.4197188
+      "pe": 363.66666,
+      "ps": 0.42037386
     },
     "annual_latest": {
       "revenue": 29213000000.0,
@@ -7263,10 +7263,10 @@
     "source": "yfinance",
     "name": "Phillips 66",
     "sector": "Energy",
-    "market_cap": 68840538112.0,
+    "market_cap": 68848558080.0,
     "multiples": {
-      "pe": 16.983185,
-      "ps": 0.51187885
+      "pe": 16.985165,
+      "ps": 0.51193845
     },
     "annual_latest": {
       "revenue": 132376000000.0,
@@ -7284,7 +7284,7 @@
     "sector": "Technology",
     "market_cap": 16274503680.0,
     "multiples": {
-      "pe": 20.14212,
+      "pe": 13.137848,
       "ps": 5.6905394
     },
     "annual_latest": {
@@ -7301,10 +7301,10 @@
     "source": "yfinance",
     "name": "Quanta Services, Inc.",
     "sector": "Industrials",
-    "market_cap": 117839978496.0,
+    "market_cap": 117833228288.0,
     "multiples": {
-      "pe": 108.31517,
-      "ps": 3.9122005
+      "pe": 108.30897,
+      "ps": 3.9119763
     },
     "annual_latest": {
       "revenue": 28479697000.0,
@@ -7320,10 +7320,10 @@
     "source": "yfinance",
     "name": "PayPal Holdings, Inc.",
     "sector": "Financial Services",
-    "market_cap": 41618915328.0,
+    "market_cap": 40815022080.0,
     "multiples": {
-      "pe": 8.679174,
-      "ps": 1.2546399
+      "pe": 8.681051,
+      "ps": 1.2304058
     },
     "annual_latest": {
       "revenue": 33172000000.0,
@@ -7339,10 +7339,10 @@
     "source": "yfinance",
     "name": "Qnity Electronics, Inc.",
     "sector": "Technology",
-    "market_cap": 31339812864.0,
+    "market_cap": 31331428352.0,
     "multiples": {
-      "pe": 45.29697,
-      "ps": 6.592304
+      "pe": 45.28485,
+      "ps": 6.5905404
     },
     "annual_latest": {
       "revenue": 4754000000.0,
@@ -7358,10 +7358,10 @@
     "source": "yfinance",
     "name": "QUALCOMM Incorporated",
     "sector": "Technology",
-    "market_cap": 203065753600.0,
+    "market_cap": 202968793088.0,
     "multiples": {
-      "pe": 20.694092,
-      "ps": 4.5647116
+      "pe": 20.68421,
+      "ps": 4.562532
     },
     "annual_latest": {
       "revenue": 44284000000.0,
@@ -7377,10 +7377,10 @@
     "source": "yfinance",
     "name": "Royal Caribbean Cruises Ltd.",
     "sector": "Consumer Cyclical",
-    "market_cap": 76986703872.0,
+    "market_cap": 76993413120.0,
     "multiples": {
-      "pe": 17.514032,
-      "ps": 4.1867905
+      "pe": 17.515558,
+      "ps": 4.1871552
     },
     "annual_latest": {
       "revenue": 17934000000.0,
@@ -7417,7 +7417,7 @@
     "sector": "Healthcare",
     "market_cap": 75594186752.0,
     "multiples": {
-      "pe": 17.61236,
+      "pe": 17.60376,
       "ps": 5.06677
     },
     "annual_latest": {
@@ -7434,10 +7434,10 @@
     "source": "yfinance",
     "name": "Regions Financial Corporation",
     "sector": "Financial Services",
-    "market_cap": 24104534016.0,
+    "market_cap": 24100261888.0,
     "multiples": {
-      "pe": 11.707469,
-      "ps": 3.3581128
+      "pe": 11.705394,
+      "ps": 3.3575177
     },
     "annual_latest": {
       "revenue": 7526000000.0,
@@ -7453,10 +7453,10 @@
     "source": "yfinance",
     "name": "Raymond James Financial, Inc.",
     "sector": "Financial Services",
-    "market_cap": 31017293824.0,
+    "market_cap": 31013400576.0,
     "multiples": {
-      "pe": 15.036792,
-      "ps": 2.112463
+      "pe": 15.063327,
+      "ps": 2.1121979
     },
     "annual_latest": {
       "revenue": 13842000000.0,
@@ -7472,10 +7472,10 @@
     "source": "yfinance",
     "name": "Ralph Lauren Corporation",
     "sector": "Consumer Cyclical",
-    "market_cap": 22570149888.0,
+    "market_cap": 22567421952.0,
     "multiples": {
-      "pe": 25.336624,
-      "ps": 2.8813818
+      "pe": 25.33356,
+      "ps": 2.8810334
     },
     "annual_latest": {
       "revenue": 7079000000.0,
@@ -7491,10 +7491,10 @@
     "source": "yfinance",
     "name": "ResMed Inc.",
     "sector": "Healthcare",
-    "market_cap": 30415421440.0,
+    "market_cap": 30409619456.0,
     "multiples": {
-      "pe": 20.219864,
-      "ps": 5.49234
+      "pe": 20.216007,
+      "ps": 5.4912925
     },
     "annual_latest": {
       "revenue": 5146327000.0,
@@ -7510,10 +7510,10 @@
     "source": "yfinance",
     "name": "Rockwell Automation, Inc.",
     "sector": "Industrials",
-    "market_cap": 51641683968.0,
+    "market_cap": 51113689088.0,
     "multiples": {
-      "pe": 47.69574,
-      "ps": 5.865707
+      "pe": 47.699898,
+      "ps": 5.805735
     },
     "annual_latest": {
       "revenue": 8342000000.0,
@@ -7529,10 +7529,10 @@
     "source": "yfinance",
     "name": "Rollins, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 26095329280.0,
+    "market_cap": 26090514432.0,
     "multiples": {
-      "pe": 49.72477,
-      "ps": 6.786875
+      "pe": 49.715595,
+      "ps": 6.7856226
     },
     "annual_latest": {
       "revenue": 3761050000.0,
@@ -7586,10 +7586,10 @@
     "source": "yfinance",
     "name": "Republic Services, Inc.",
     "sector": "Industrials",
-    "market_cap": 61686194176.0,
+    "market_cap": 61695463424.0,
     "multiples": {
-      "pe": 29.147446,
-      "ps": 3.7180517
+      "pe": 29.151825,
+      "ps": 3.7186103
     },
     "annual_latest": {
       "revenue": 16591000000.0,
@@ -7605,10 +7605,10 @@
     "source": "yfinance",
     "name": "RTX Corporation",
     "sector": "Industrials",
-    "market_cap": 237932019712.0,
+    "market_cap": 238012825600.0,
     "multiples": {
-      "pe": 33.210526,
-      "ps": 2.6327777
+      "pe": 33.097378,
+      "ps": 2.633672
     },
     "annual_latest": {
       "revenue": 88603000000.0,
@@ -7624,10 +7624,10 @@
     "source": "yfinance",
     "name": "Revvity, Inc.",
     "sector": "Healthcare",
-    "market_cap": 11073001472.0,
+    "market_cap": 11078591488.0,
     "multiples": {
-      "pe": 47.615387,
-      "ps": 3.81511
+      "pe": 47.869564,
+      "ps": 3.817036
     },
     "annual_latest": {
       "revenue": 2856051000.0,
@@ -7643,10 +7643,10 @@
     "source": "yfinance",
     "name": "SBA Communications Corporation",
     "sector": "Real Estate",
-    "market_cap": 23168401408.0,
+    "market_cap": 23168405504.0,
     "multiples": {
       "pe": 22.993685,
-      "ps": 8.116934
+      "ps": 8.116936
     },
     "annual_latest": {
       "revenue": 2815139000.0,
@@ -7681,10 +7681,10 @@
     "source": "yfinance",
     "name": "The Charles Schwab Corporation",
     "sector": "Financial Services",
-    "market_cap": 161431142400.0,
+    "market_cap": 161466187776.0,
     "multiples": {
-      "pe": 18.316103,
-      "ps": 6.5082707
+      "pe": 18.32008,
+      "ps": 6.5096836
     },
     "annual_latest": {
       "revenue": 23921000000.0,
@@ -7700,10 +7700,10 @@
     "source": "yfinance",
     "name": "The Sherwin-Williams Company",
     "sector": "Basic Materials",
-    "market_cap": 79823618048.0,
+    "market_cap": 79818686464.0,
     "multiples": {
-      "pe": 31.120193,
-      "ps": 3.3349466
+      "pe": 31.11827,
+      "ps": 3.3347406
     },
     "annual_latest": {
       "revenue": 23574300000.0,
@@ -7719,10 +7719,10 @@
     "source": "yfinance",
     "name": "The J. M. Smucker Company",
     "sector": "Consumer Defensive",
-    "market_cap": 10321957888.0,
+    "market_cap": 10326757376.0,
     "multiples": {
       "pe": null,
-      "ps": 1.1563146
+      "ps": 1.1568522
     },
     "annual_latest": {
       "revenue": 8726100000.0,
@@ -7738,10 +7738,10 @@
     "source": "yfinance",
     "name": "SLB N.V.",
     "sector": "Energy",
-    "market_cap": 82473058304.0,
+    "market_cap": 82467381248.0,
     "multiples": {
-      "pe": 24.301233,
-      "ps": 2.2948067
+      "pe": 24.29956,
+      "ps": 2.2946486
     },
     "annual_latest": {
       "revenue": 35708000000.0,
@@ -7757,10 +7757,10 @@
     "source": "yfinance",
     "name": "Super Micro Computer, Inc.",
     "sector": "Technology",
-    "market_cap": 20807299072.0,
+    "market_cap": 20812703744.0,
     "multiples": {
-      "pe": 18.23737,
-      "ps": 0.74160534
+      "pe": 18.242105,
+      "ps": 0.741798
     },
     "annual_latest": {
       "revenue": 21972042000.0,
@@ -7776,10 +7776,10 @@
     "source": "yfinance",
     "name": "Snap-on Incorporated",
     "sector": "Industrials",
-    "market_cap": 20016001024.0,
+    "market_cap": 20012115968.0,
     "multiples": {
-      "pe": 19.958418,
-      "ps": 3.8336017
+      "pe": 19.954546,
+      "ps": 3.8328576
     },
     "annual_latest": {
       "revenue": 5156100000.0,
@@ -7833,10 +7833,10 @@
     "source": "yfinance",
     "name": "The Southern Company",
     "sector": "Utilities",
-    "market_cap": 105425199104.0,
+    "market_cap": 105413926912.0,
     "multiples": {
-      "pe": 23.918158,
-      "ps": 3.4937928
+      "pe": 23.915602,
+      "ps": 3.4934192
     },
     "annual_latest": {
       "revenue": 29553000000.0,
@@ -7852,10 +7852,10 @@
     "source": "yfinance",
     "name": "Solventum Corporation",
     "sector": "Healthcare",
-    "market_cap": 12318697472.0,
+    "market_cap": 12293672960.0,
     "multiples": {
-      "pe": 8.69082,
-      "ps": 1.4797233
+      "pe": 8.689106,
+      "ps": 1.4767175
     },
     "annual_latest": {
       "revenue": 8325000000.0,
@@ -7871,10 +7871,10 @@
     "source": "yfinance",
     "name": "Simon Property Group, Inc.",
     "sector": "Real Estate",
-    "market_cap": 78218330112.0,
+    "market_cap": 78225932288.0,
     "multiples": {
-      "pe": 14.512006,
-      "ps": 12.289774
+      "pe": 14.492948,
+      "ps": 12.290969
     },
     "annual_latest": {
       "revenue": 6364505000.0,
@@ -7890,10 +7890,10 @@
     "source": "yfinance",
     "name": "S&P Global Inc.",
     "sector": "Financial Services",
-    "market_cap": 125361913856.0,
+    "market_cap": 125376724992.0,
     "multiples": {
-      "pe": 26.788107,
-      "ps": 7.969607
+      "pe": 26.791271,
+      "ps": 7.970548
     },
     "annual_latest": {
       "revenue": 15336000000.0,
@@ -7909,10 +7909,10 @@
     "source": "yfinance",
     "name": "Sempra",
     "sector": "Utilities",
-    "market_cap": 61184593920.0,
+    "market_cap": 61197660160.0,
     "multiples": {
-      "pe": 34.054546,
-      "ps": 4.465377
+      "pe": 34.061817,
+      "ps": 4.4663305
     },
     "annual_latest": {
       "revenue": 13702000000.0,
@@ -7928,10 +7928,10 @@
     "source": "yfinance",
     "name": "STERIS plc",
     "sector": "Healthcare",
-    "market_cap": 21054496768.0,
+    "market_cap": 21048608768.0,
     "multiples": {
-      "pe": 29.87744,
-      "ps": 3.6126359
+      "pe": 29.952515,
+      "ps": 3.6116257
     },
     "annual_latest": {
       "revenue": 5459515000.0,
@@ -7949,7 +7949,7 @@
     "sector": "Basic Materials",
     "market_cap": 34877861888.0,
     "multiples": {
-      "pe": 25.921759,
+      "pe": 25.894005,
       "ps": 1.8344948
     },
     "annual_latest": {
@@ -7966,10 +7966,10 @@
     "source": "yfinance",
     "name": "State Street Corporation",
     "sector": "Financial Services",
-    "market_cap": 41852710912.0,
+    "market_cap": 41858248704.0,
     "multiples": {
-      "pe": 15.367886,
-      "ps": 2.9078517
+      "pe": 15.369919,
+      "ps": 2.9082365
     },
     "annual_latest": {
       "revenue": 13965000000.0,
@@ -8004,10 +8004,10 @@
     "source": "yfinance",
     "name": "Constellation Brands, Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 26226372608.0,
+    "market_cap": 26228094976.0,
     "multiples": {
-      "pe": 15.829522,
-      "ps": 2.86972
+      "pe": 15.830561,
+      "ps": 2.8699086
     },
     "annual_latest": {
       "revenue": 9139000000.0,
@@ -8023,10 +8023,10 @@
     "source": "yfinance",
     "name": "Smurfit Westrock Plc",
     "sector": "Consumer Cyclical",
-    "market_cap": 21977665536.0,
+    "market_cap": 21969799168.0,
     "multiples": {
-      "pe": 58.201385,
-      "ps": 0.70362306
+      "pe": 58.180553,
+      "ps": 0.70337117
     },
     "annual_latest": {
       "revenue": 31179000000.0,
@@ -8042,10 +8042,10 @@
     "source": "yfinance",
     "name": "Stanley Black & Decker, Inc.",
     "sector": "Industrials",
-    "market_cap": 12588792832.0,
+    "market_cap": 12596564992.0,
     "multiples": {
-      "pe": 33.188526,
-      "ps": 0.8264593
+      "pe": 33.209015,
+      "ps": 0.8269695
     },
     "annual_latest": {
       "revenue": 15130400000.0,
@@ -8080,10 +8080,10 @@
     "source": "yfinance",
     "name": "Synchrony Financial",
     "sector": "Financial Services",
-    "market_cap": 25274859520.0,
+    "market_cap": 25278224384.0,
     "multiples": {
-      "pe": 7.778468,
-      "ps": 2.555081
+      "pe": 7.7795033,
+      "ps": 2.555421
     },
     "annual_latest": {
       "revenue": 14981000000.0,
@@ -8099,10 +8099,10 @@
     "source": "yfinance",
     "name": "Stryker Corporation",
     "sector": "Healthcare",
-    "market_cap": 111919497216.0,
+    "market_cap": 111957778432.0,
     "multiples": {
-      "pe": 34.74792,
-      "ps": 4.4289474
+      "pe": 34.759808,
+      "ps": 4.4304624
     },
     "annual_latest": {
       "revenue": 25116000000.0,
@@ -8118,10 +8118,10 @@
     "source": "yfinance",
     "name": "Sysco Corporation",
     "sector": "Consumer Defensive",
-    "market_cap": 35062738944.0,
+    "market_cap": 35065131008.0,
     "multiples": {
-      "pe": 20.368055,
-      "ps": 0.41957638
+      "pe": 20.369446,
+      "ps": 0.419605
     },
     "annual_latest": {
       "revenue": 81370000000.0,
@@ -8137,10 +8137,10 @@
     "source": "yfinance",
     "name": "AT&T Inc.",
     "sector": "Communication Services",
-    "market_cap": 177530044416.0,
+    "market_cap": 177669013504.0,
     "multiples": {
-      "pe": 8.404605,
-      "ps": 1.403089
+      "pe": 8.411184,
+      "ps": 1.4041873
     },
     "annual_latest": {
       "revenue": 125648000000.0,
@@ -8156,10 +8156,10 @@
     "source": "yfinance",
     "name": "Molson Coors Beverage Company",
     "sector": "Consumer Defensive",
-    "market_cap": 8016882688.0,
+    "market_cap": 8019695616.0,
     "multiples": {
       "pe": null,
-      "ps": 0.71657366
+      "ps": 0.71682507
     },
     "annual_latest": {
       "revenue": 11140800000.0,
@@ -8175,10 +8175,10 @@
     "source": "yfinance",
     "name": "TransDigm Group Incorporated",
     "sector": "Industrials",
-    "market_cap": 69668216832.0,
+    "market_cap": 68986806272.0,
     "multiples": {
-      "pe": 39.679733,
-      "ps": 7.3311815
+      "pe": 38.458683,
+      "ps": 7.259477
     },
     "annual_latest": {
       "revenue": 8831000000.0,
@@ -8194,10 +8194,10 @@
     "source": "yfinance",
     "name": "Teledyne Technologies Incorporated",
     "sector": "Technology",
-    "market_cap": 29852178432.0,
+    "market_cap": 29841987584.0,
     "multiples": {
-      "pe": 32.69153,
-      "ps": 4.7950683
+      "pe": 32.680367,
+      "ps": 4.7934318
     },
     "annual_latest": {
       "revenue": 6115400000.0,
@@ -8215,7 +8215,7 @@
     "sector": "Healthcare",
     "market_cap": 7416668160.0,
     "multiples": {
-      "pe": 89.4434,
+      "pe": 67.72143,
       "ps": 6.1013513
     },
     "annual_latest": {
@@ -8232,10 +8232,10 @@
     "source": "yfinance",
     "name": "TE Connectivity plc",
     "sector": "Technology",
-    "market_cap": 63128305664.0,
+    "market_cap": 63099117568.0,
     "multiples": {
-      "pe": 22.09091,
-      "ps": 3.3765676
+      "pe": 22.080694,
+      "ps": 3.3750064
     },
     "annual_latest": {
       "revenue": 17262000000.0,
@@ -8251,10 +8251,10 @@
     "source": "yfinance",
     "name": "Teradyne, Inc.",
     "sector": "Technology",
-    "market_cap": 59940933632.0,
+    "market_cap": 59874246656.0,
     "multiples": {
-      "pe": 71.04008,
-      "ps": 15.828755
+      "pe": 70.961044,
+      "ps": 15.811146
     },
     "annual_latest": {
       "revenue": 3190024000.0,
@@ -8270,10 +8270,10 @@
     "source": "yfinance",
     "name": "Truist Financial Corporation",
     "sector": "Financial Services",
-    "market_cap": 63284424704.0,
+    "market_cap": 63290654720.0,
     "multiples": {
-      "pe": 12.573019,
-      "ps": 3.3919938
+      "pe": 12.574257,
+      "ps": 3.3923275
     },
     "annual_latest": {
       "revenue": 20319000000.0,
@@ -8289,10 +8289,10 @@
     "source": "yfinance",
     "name": "Target Corporation",
     "sector": "Consumer Defensive",
-    "market_cap": 59142832128.0,
+    "market_cap": 59129208832.0,
     "multiples": {
-      "pe": 16.01722,
-      "ps": 0.56444776
+      "pe": 16.01353,
+      "ps": 0.5643177
     },
     "annual_latest": {
       "revenue": 104780000000.0,
@@ -8308,10 +8308,10 @@
     "source": "yfinance",
     "name": "The TJX Companies, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 171871191040.0,
+    "market_cap": 171898830848.0,
     "multiples": {
-      "pe": 31.914785,
-      "ps": 2.8468692
+      "pe": 31.919918,
+      "ps": 2.847327
     },
     "annual_latest": {
       "revenue": 60372000000.0,
@@ -8327,10 +8327,10 @@
     "source": "yfinance",
     "name": "TKO Group Holdings, Inc.",
     "sector": "Communication Services",
-    "market_cap": 14286589952.0,
+    "market_cap": 14279092224.0,
     "multiples": {
-      "pe": 84.32301,
-      "ps": 3.017135
+      "pe": 84.27876,
+      "ps": 3.0155516
     },
     "annual_latest": {
       "revenue": 4735151000.0,
@@ -8346,10 +8346,10 @@
     "source": "yfinance",
     "name": "Thermo Fisher Scientific Inc.",
     "sector": "Healthcare",
-    "market_cap": 175797387264.0,
+    "market_cap": 175758376960.0,
     "multiples": {
-      "pe": 25.992031,
-      "ps": 3.8895807
+      "pe": 25.986263,
+      "ps": 3.8887177
     },
     "annual_latest": {
       "revenue": 44557000000.0,
@@ -8367,7 +8367,7 @@
     "sector": "Communication Services",
     "market_cap": 209038655488.0,
     "multiples": {
-      "pe": 20.548937,
+      "pe": 20.5271,
       "ps": 2.3090541
     },
     "annual_latest": {
@@ -8384,10 +8384,10 @@
     "source": "yfinance",
     "name": "Texas Pacific Land Corporation",
     "sector": "Energy",
-    "market_cap": 29000953856.0,
+    "market_cap": 28938217472.0,
     "multiples": {
-      "pe": 60.352943,
-      "ps": 36.333397
+      "pe": 60.22238,
+      "ps": 36.2548
     },
     "annual_latest": {
       "revenue": 798190000.0,
@@ -8422,10 +8422,10 @@
     "source": "yfinance",
     "name": "Targa Resources Corp.",
     "sector": "Energy",
-    "market_cap": 53589630976.0,
+    "market_cap": 53630472192.0,
     "multiples": {
-      "pe": 29.365135,
-      "ps": 3.1470923
+      "pe": 29.387516,
+      "ps": 3.1494908
     },
     "annual_latest": {
       "revenue": 17028300000.0,
@@ -8441,10 +8441,10 @@
     "source": "yfinance",
     "name": "Trimble Inc.",
     "sector": "Technology",
-    "market_cap": 14719067136.0,
+    "market_cap": 14903699456.0,
     "multiples": {
-      "pe": 36.034092,
-      "ps": 4.1031046
+      "pe": 33.20419,
+      "ps": 4.154573
     },
     "annual_latest": {
       "revenue": 3587300000.0,
@@ -8479,10 +8479,10 @@
     "source": "yfinance",
     "name": "The Travelers Companies, Inc.",
     "sector": "Financial Services",
-    "market_cap": 64123002880.0,
+    "market_cap": 64131510272.0,
     "multiples": {
-      "pe": 8.998806,
-      "ps": 1.3101836
+      "pe": 9.0,
+      "ps": 1.3103575
     },
     "annual_latest": {
       "revenue": 48828000000.0,
@@ -8517,10 +8517,10 @@
     "source": "yfinance",
     "name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 1496783650816.0,
+    "market_cap": 1497519751168.0,
     "multiples": {
-      "pe": 365.6275,
-      "ps": 15.292184
+      "pe": 365.80734,
+      "ps": 15.299705
     },
     "annual_latest": {
       "revenue": 94827000000.0,
@@ -8536,10 +8536,10 @@
     "source": "yfinance",
     "name": "Tyson Foods, Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 23969447936.0,
+    "market_cap": 23976491008.0,
     "multiples": {
-      "pe": 53.598427,
-      "ps": 0.43025395
+      "pe": 53.61417,
+      "ps": 0.43038037
     },
     "annual_latest": {
       "revenue": 54441000000.0,
@@ -8555,10 +8555,10 @@
     "source": "yfinance",
     "name": "Trane Technologies plc",
     "sector": "Industrials",
-    "market_cap": 107897176064.0,
+    "market_cap": 107914862592.0,
     "multiples": {
-      "pe": 37.316513,
-      "ps": 4.994592
+      "pe": 37.322628,
+      "ps": 4.995411
     },
     "annual_latest": {
       "revenue": 21321900000.0,
@@ -8574,10 +8574,10 @@
     "source": "yfinance",
     "name": "The Trade Desk, Inc.",
     "sector": "Communication Services",
-    "market_cap": 11416309760.0,
+    "market_cap": 11428209664.0,
     "multiples": {
-      "pe": 26.650002,
-      "ps": 3.9417095
+      "pe": 26.677778,
+      "ps": 3.9458182
     },
     "annual_latest": {
       "revenue": 2896284000.0,
@@ -8614,7 +8614,7 @@
     "sector": "Technology",
     "market_cap": 263417266176.0,
     "multiples": {
-      "pe": 49.56164,
+      "pe": 49.476925,
       "ps": 14.286651
     },
     "annual_latest": {
@@ -8631,10 +8631,10 @@
     "source": "yfinance",
     "name": "Textron Inc.",
     "sector": "Industrials",
-    "market_cap": 16182108160.0,
+    "market_cap": 16187324416.0,
     "multiples": {
-      "pe": 17.759542,
-      "ps": 1.0654535
+      "pe": 17.765266,
+      "ps": 1.065797
     },
     "annual_latest": {
       "revenue": 14799000000.0,
@@ -8650,10 +8650,10 @@
     "source": "yfinance",
     "name": "Tyler Technologies, Inc.",
     "sector": "Technology",
-    "market_cap": 13519307776.0,
+    "market_cap": 13520994304.0,
     "multiples": {
-      "pe": 44.28315,
-      "ps": 5.678764
+      "pe": 44.227585,
+      "ps": 5.6794724
     },
     "annual_latest": {
       "revenue": 2332340000.0,
@@ -8669,10 +8669,10 @@
     "source": "yfinance",
     "name": "United Airlines Holdings, Inc.",
     "sector": "Industrials",
-    "market_cap": 32467683328.0,
+    "market_cap": 32469956608.0,
     "multiples": {
-      "pe": 8.947495,
-      "ps": 0.53696656
+      "pe": 8.948121,
+      "ps": 0.5370042
     },
     "annual_latest": {
       "revenue": 59070000000.0,
@@ -8688,10 +8688,10 @@
     "source": "yfinance",
     "name": "Uber Technologies, Inc.",
     "sector": "Technology",
-    "market_cap": 162766094336.0,
+    "market_cap": 162941042688.0,
     "multiples": {
-      "pe": 16.719873,
-      "ps": 3.1290941
+      "pe": 16.737843,
+      "ps": 3.1324575
     },
     "annual_latest": {
       "revenue": 52017000000.0,
@@ -8707,10 +8707,10 @@
     "source": "yfinance",
     "name": "UDR, Inc.",
     "sector": "Real Estate",
-    "market_cap": 13725751296.0,
+    "market_cap": 13723899904.0,
     "multiples": {
-      "pe": 25.200678,
-      "ps": 7.7691994
+      "pe": 25.197279,
+      "ps": 7.7681513
     },
     "annual_latest": {
       "revenue": 1712317000.0,
@@ -8726,10 +8726,10 @@
     "source": "yfinance",
     "name": "Universal Health Services, Inc.",
     "sector": "Healthcare",
-    "market_cap": 10279541760.0,
+    "market_cap": 10282899456.0,
     "multiples": {
-      "pe": 7.0327764,
-      "ps": 0.5787935
+      "pe": 7.0350733,
+      "ps": 0.5789826
     },
     "annual_latest": {
       "revenue": 17364829000.0,
@@ -8764,10 +8764,10 @@
     "source": "yfinance",
     "name": "UnitedHealth Group Incorporated",
     "sector": "Healthcare",
-    "market_cap": 333441400832.0,
+    "market_cap": 333543276544.0,
     "multiples": {
-      "pe": 27.646086,
-      "ps": 0.74145377
+      "pe": 27.615038,
+      "ps": 0.74168026
     },
     "annual_latest": {
       "revenue": 447567000000.0,
@@ -8783,10 +8783,10 @@
     "source": "yfinance",
     "name": "Union Pacific Corporation",
     "sector": "Industrials",
-    "market_cap": 159269519360.0,
+    "market_cap": 159251709952.0,
     "multiples": {
-      "pe": 22.0972,
-      "ps": 6.4481587
+      "pe": 22.094728,
+      "ps": 6.447438
     },
     "annual_latest": {
       "revenue": 24510000000.0,
@@ -8821,10 +8821,10 @@
     "source": "yfinance",
     "name": "United Rentals, Inc.",
     "sector": "Industrials",
-    "market_cap": 60420100096.0,
+    "market_cap": 60422602752.0,
     "multiples": {
-      "pe": 24.647585,
-      "ps": 3.6920319
+      "pe": 24.648607,
+      "ps": 3.6921847
     },
     "annual_latest": {
       "revenue": 16099000000.0,
@@ -8840,10 +8840,10 @@
     "source": "yfinance",
     "name": "U.S. Bancorp",
     "sector": "Financial Services",
-    "market_cap": 87130587136.0,
+    "market_cap": 87177158656.0,
     "multiples": {
-      "pe": 11.767296,
-      "ps": 3.2698085
+      "pe": 11.773585,
+      "ps": 3.2715564
     },
     "annual_latest": {
       "revenue": 28540000000.0,
@@ -8859,10 +8859,10 @@
     "source": "yfinance",
     "name": "Visa Inc.",
     "sector": "Financial Services",
-    "market_cap": 606247387136.0,
+    "market_cap": 606275895296.0,
     "multiples": {
-      "pe": 27.81719,
-      "ps": 14.089929
+      "pe": 27.818499,
+      "ps": 14.090591
     },
     "annual_latest": {
       "revenue": 40000000000.0,
@@ -8897,10 +8897,10 @@
     "source": "yfinance",
     "name": "Valero Energy Corporation",
     "sector": "Energy",
-    "market_cap": 70285467648.0,
+    "market_cap": 70281019392.0,
     "multiples": {
-      "pe": 17.29036,
-      "ps": 0.59644324
+      "pe": 17.289263,
+      "ps": 0.5964055
     },
     "annual_latest": {
       "revenue": 122687000000.0,
@@ -8916,10 +8916,10 @@
     "source": "yfinance",
     "name": "Veralto Corporation",
     "sector": "Industrials",
-    "market_cap": 21340119040.0,
+    "market_cap": 21337663488.0,
     "multiples": {
-      "pe": 22.39433,
-      "ps": 3.815505
+      "pe": 22.39175,
+      "ps": 3.8150659
     },
     "annual_latest": {
       "revenue": 5503000000.0,
@@ -8935,10 +8935,10 @@
     "source": "yfinance",
     "name": "Vulcan Materials Company",
     "sector": "Basic Materials",
-    "market_cap": 38347759616.0,
+    "market_cap": 38371115008.0,
     "multiples": {
-      "pe": 34.97515,
-      "ps": 4.75637
+      "pe": 34.996452,
+      "ps": 4.7592673
     },
     "annual_latest": {
       "revenue": 7941100000.0,
@@ -8956,7 +8956,7 @@
     "sector": "Industrials",
     "market_cap": 22396872704.0,
     "multiples": {
-      "pe": 26.018265,
+      "pe": 26.057928,
       "ps": 7.2194414
     },
     "annual_latest": {
@@ -8992,10 +8992,10 @@
     "source": "yfinance",
     "name": "Vertex Pharmaceuticals Incorporated",
     "sector": "Healthcare",
-    "market_cap": 108708626432.0,
+    "market_cap": 108539887616.0,
     "multiples": {
       "pe": 25.379822,
-      "ps": 8.897415
+      "ps": 8.883605
     },
     "annual_latest": {
       "revenue": 12001300000.0,
@@ -9011,10 +9011,10 @@
     "source": "yfinance",
     "name": "Vistra Corp.",
     "sector": "Utilities",
-    "market_cap": 53572038656.0,
+    "market_cap": 53588963328.0,
     "multiples": {
-      "pe": 72.58716,
-      "ps": 3.0201848
+      "pe": 72.610085,
+      "ps": 3.021139
     },
     "annual_latest": {
       "revenue": 17738000000.0,
@@ -9030,10 +9030,10 @@
     "source": "yfinance",
     "name": "Ventas, Inc.",
     "sector": "Real Estate",
-    "market_cap": 42116882432.0,
+    "market_cap": 42112024576.0,
     "multiples": {
-      "pe": 157.50908,
-      "ps": 6.8898954
+      "pe": 157.4909,
+      "ps": 6.8891006
     },
     "annual_latest": {
       "revenue": 5833980000.0,
@@ -9068,10 +9068,10 @@
     "source": "yfinance",
     "name": "Verizon Communications Inc.",
     "sector": "Communication Services",
-    "market_cap": 197984157696.0,
+    "market_cap": 198109429760.0,
     "multiples": {
-      "pe": 11.563415,
-      "ps": 1.4228519
+      "pe": 11.570732,
+      "ps": 1.4237522
     },
     "annual_latest": {
       "revenue": 138191000000.0,
@@ -9087,10 +9087,10 @@
     "source": "yfinance",
     "name": "Westinghouse Air Brake Technologies Corporation",
     "sector": "Industrials",
-    "market_cap": 45890932736.0,
+    "market_cap": 45896024064.0,
     "multiples": {
-      "pe": 38.30878,
-      "ps": 3.9880881
+      "pe": 38.31303,
+      "ps": 3.9885306
     },
     "annual_latest": {
       "revenue": 11167000000.0,
@@ -9106,10 +9106,10 @@
     "source": "yfinance",
     "name": "Waters Corporation",
     "sector": "Healthcare",
-    "market_cap": 34280370176.0,
+    "market_cap": 34311782400.0,
     "multiples": {
-      "pe": 44.48535,
-      "ps": 9.092246
+      "pe": 44.526115,
+      "ps": 9.100578
     },
     "annual_latest": {
       "revenue": 3165286000.0,
@@ -9144,10 +9144,10 @@
     "source": "yfinance",
     "name": "Workday, Inc.",
     "sector": "Technology",
-    "market_cap": 31521916928.0,
+    "market_cap": 30618939392.0,
     "multiples": {
       "pe": 47.347492,
-      "ps": 3.300033
+      "ps": 3.2055004
     },
     "annual_latest": {
       "revenue": 9552000000.0,
@@ -9182,10 +9182,10 @@
     "source": "yfinance",
     "name": "WEC Energy Group, Inc.",
     "sector": "Utilities",
-    "market_cap": 37113470976.0,
+    "market_cap": 37113184256.0,
     "multiples": {
-      "pe": 22.835672,
-      "ps": 3.6801393
+      "pe": 22.83367,
+      "ps": 3.680111
     },
     "annual_latest": {
       "revenue": 9800100000.0,
@@ -9201,10 +9201,10 @@
     "source": "yfinance",
     "name": "Welltower Inc.",
     "sector": "Real Estate",
-    "market_cap": 152756355072.0,
+    "market_cap": 152809291776.0,
     "multiples": {
-      "pe": 104.036064,
-      "ps": 12.981898
+      "pe": 104.07212,
+      "ps": 12.986398
     },
     "annual_latest": {
       "revenue": 10667136000.0,
@@ -9220,10 +9220,10 @@
     "source": "yfinance",
     "name": "Wells Fargo & Company",
     "sector": "Financial Services",
-    "market_cap": 246036185088.0,
+    "market_cap": 246100426752.0,
     "multiples": {
-      "pe": 12.426431,
-      "ps": 3.0324297
+      "pe": 12.429675,
+      "ps": 3.0332215
     },
     "annual_latest": {
       "revenue": 83699000000.0,
@@ -9239,10 +9239,10 @@
     "source": "yfinance",
     "name": "Waste Management, Inc.",
     "sector": "Industrials",
-    "market_cap": 88543436800.0,
+    "market_cap": 88555487232.0,
     "multiples": {
-      "pe": 31.908829,
-      "ps": 3.484179
+      "pe": 31.91317,
+      "ps": 3.4846532
     },
     "annual_latest": {
       "revenue": 25204000000.0,
@@ -9258,10 +9258,10 @@
     "source": "yfinance",
     "name": "The Williams Companies, Inc.",
     "sector": "Energy",
-    "market_cap": 90220576768.0,
+    "market_cap": 90208354304.0,
     "multiples": {
-      "pe": 32.355263,
-      "ps": 7.6380444
+      "pe": 32.35088,
+      "ps": 7.6370096
     },
     "annual_latest": {
       "revenue": 11950000000.0,
@@ -9296,10 +9296,10 @@
     "source": "yfinance",
     "name": "W. R. Berkley Corporation",
     "sector": "Financial Services",
-    "market_cap": 24611215360.0,
+    "market_cap": 24614938624.0,
     "multiples": {
-      "pe": 14.006356,
-      "ps": 1.6572325
+      "pe": 14.008476,
+      "ps": 1.6574833
     },
     "annual_latest": {
       "revenue": 14639850000.0,
@@ -9315,10 +9315,10 @@
     "source": "yfinance",
     "name": "Williams-Sonoma, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 22196492288.0,
+    "market_cap": 22192922624.0,
     "multiples": {
-      "pe": 21.121178,
-      "ps": 2.8432195
+      "pe": 21.093891,
+      "ps": 2.8427622
     },
     "annual_latest": {
       "revenue": 7806816000.0,
@@ -9334,10 +9334,10 @@
     "source": "yfinance",
     "name": "West Pharmaceutical Services, Inc.",
     "sector": "Healthcare",
-    "market_cap": 22079492096.0,
+    "market_cap": 22080903168.0,
     "multiples": {
-      "pe": 41.83802,
-      "ps": 6.8548565
+      "pe": 41.840694,
+      "ps": 6.8552947
     },
     "annual_latest": {
       "revenue": 3074100000.0,
@@ -9429,10 +9429,10 @@
     "source": "yfinance",
     "name": "Exxon Mobil Corporation",
     "sector": "Energy",
-    "market_cap": 615690403840.0,
+    "market_cap": 616312209408.0,
     "multiples": {
-      "pe": 24.964706,
-      "ps": 1.8885745
+      "pe": 24.989918,
+      "ps": 1.8904818
     },
     "annual_latest": {
       "revenue": 323905000000.0,
@@ -9448,10 +9448,10 @@
     "source": "yfinance",
     "name": "Xylem Inc.",
     "sector": "Industrials",
-    "market_cap": 28190447616.0,
+    "market_cap": 28188069888.0,
     "multiples": {
-      "pe": 29.502487,
-      "ps": 3.100918
+      "pe": 29.5,
+      "ps": 3.1006565
     },
     "annual_latest": {
       "revenue": 9035000000.0,
@@ -9467,10 +9467,10 @@
     "source": "yfinance",
     "name": "Block, Inc.",
     "sector": "Technology",
-    "market_cap": 42184310784.0,
+    "market_cap": 42190270464.0,
     "multiples": {
-      "pe": 33.723812,
-      "ps": 1.7436085
+      "pe": 33.728573,
+      "ps": 1.7438548
     },
     "annual_latest": {
       "revenue": 24193683000.0,
@@ -9486,10 +9486,10 @@
     "source": "yfinance",
     "name": "Yum! Brands, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 43123101696.0,
+    "market_cap": 43002425344.0,
     "multiples": {
-      "pe": 25.161291,
-      "ps": 5.081676
+      "pe": 25.164518,
+      "ps": 5.0674553
     },
     "annual_latest": {
       "revenue": 8214000000.0,
@@ -9505,10 +9505,10 @@
     "source": "yfinance",
     "name": "Zimmer Biomet Holdings, Inc.",
     "sector": "Healthcare",
-    "market_cap": 16028365824.0,
+    "market_cap": 16024497152.0,
     "multiples": {
-      "pe": 21.46373,
-      "ps": 1.9060739
+      "pe": 21.45855,
+      "ps": 1.9056139
     },
     "annual_latest": {
       "revenue": 8231500000.0,
@@ -9543,10 +9543,10 @@
     "source": "yfinance",
     "name": "Zoetis Inc.",
     "sector": "Healthcare",
-    "market_cap": 46927937536.0,
+    "market_cap": 46949044224.0,
     "multiples": {
-      "pe": 18.466778,
-      "ps": 4.957002
+      "pe": 18.475082,
+      "ps": 4.9592314
     },
     "annual_latest": {
       "revenue": 9467000000.0,
