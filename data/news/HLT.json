@@ -1,7 +1,7 @@
 {
   "ticker": "HLT",
-  "generated_at_utc": "2026-05-08T16:53:49Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-08T19:55:57Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
