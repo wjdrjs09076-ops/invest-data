@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-07T22:16:00Z",
+  "generated_at_utc": "2026-05-08T03:53:37Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -27,6 +27,11 @@
         {
           "title": "Momentum TOP",
           "items": [
+            {
+              "ticker": "CVNA",
+              "label": "20D 511.8%",
+              "reason": ""
+            },
             {
               "ticker": "INTC",
               "label": "20D 77.6%",
@@ -71,11 +76,6 @@
               "ticker": "CNC",
               "label": "20D 46.4%",
               "reason": ""
-            },
-            {
-              "ticker": "SMCI",
-              "label": "20D 44.8%",
-              "reason": ""
             }
           ]
         },
@@ -97,6 +97,11 @@
         {
           "title": "Risk High",
           "items": [
+            {
+              "ticker": "CVNA",
+              "label": "Vol 1466%",
+              "reason": ""
+            },
             {
               "ticker": "DDOG",
               "label": "Vol 117%",
@@ -140,11 +145,6 @@
             {
               "ticker": "NOW",
               "label": "Vol 89%",
-              "reason": ""
-            },
-            {
-              "ticker": "AKAM",
-              "label": "Vol 88%",
               "reason": ""
             }
           ]
