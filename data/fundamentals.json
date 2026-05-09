@@ -2863,9 +2863,9 @@
     "annual_latest": {
       "revenue": 17188000000.0,
       "op_income": 3856000000.0,
-      "fcf": null,
+      "fcf": 2797000000.0,
       "cfo": 6711000000.0,
-      "capex": null
+      "capex": -3914000000.0
     }
   },
   "DXCM": {
@@ -6543,7 +6543,7 @@
     "sector": "Communication Services",
     "market_cap": 14786685952.0,
     "multiples": {
-      "pe": 35.09091,
+      "pe": 34.20253,
       "ps": 1.6803052
     },
     "annual_latest": {
@@ -6815,9 +6815,9 @@
     "annual_latest": {
       "revenue": 28444800000.0,
       "op_income": 2961700000.0,
-      "fcf": null,
+      "fcf": 3029200000.0,
       "cfo": 4415800000.0,
-      "capex": null
+      "capex": -1386600000.0
     }
   },
   "PCG": {
