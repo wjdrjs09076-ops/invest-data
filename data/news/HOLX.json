@@ -1,7 +1,7 @@
 {
   "ticker": "HOLX",
-  "generated_at_utc": "2026-05-09T14:01:11Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-09T16:32:06Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
