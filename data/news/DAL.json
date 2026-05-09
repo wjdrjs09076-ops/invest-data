@@ -1,7 +1,7 @@
 {
   "ticker": "DAL",
-  "generated_at_utc": "2026-05-08T22:32:55Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-05-09T04:05:08Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
