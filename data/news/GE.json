@@ -1,7 +1,7 @@
 {
   "ticker": "GE",
-  "generated_at_utc": "2026-05-10T04:33:53Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-10T10:46:32Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
