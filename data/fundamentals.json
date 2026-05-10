@@ -24,10 +24,10 @@
     "source": "yfinance",
     "name": "Apple Inc.",
     "sector": "Technology",
-    "market_cap": 4308095467520.0,
+    "market_cap": 4307169837056.0,
     "multiples": {
-      "pe": 35.467957,
-      "ps": 9.542965
+      "pe": 35.460335,
+      "ps": 9.540915
     },
     "annual_latest": {
       "revenue": 416161000000.0,
@@ -461,10 +461,10 @@
     "source": "yfinance",
     "name": "Applied Materials, Inc.",
     "sector": "Technology",
-    "market_cap": 345569492992.0,
+    "market_cap": 345504022528.0,
     "multiples": {
-      "pe": 44.660515,
-      "ps": 12.248157
+      "pe": 44.652054,
+      "ps": 12.245836
     },
     "annual_latest": {
       "revenue": 28368000000.0,
@@ -1183,10 +1183,10 @@
     "source": "yfinance",
     "name": "Booking Holdings Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 128575578112.0,
+    "market_cap": 128625180672.0,
     "multiples": {
-      "pe": 21.890501,
-      "ps": 4.643897
+      "pe": 21.898945,
+      "ps": 4.6456885
     },
     "annual_latest": {
       "revenue": 26917000000.0,
@@ -1202,10 +1202,10 @@
     "source": "yfinance",
     "name": "Baker Hughes Company",
     "sector": "Energy",
-    "market_cap": 63383265280.0,
+    "market_cap": 63393189888.0,
     "multiples": {
-      "pe": 20.41214,
-      "ps": 2.2723718
+      "pe": 20.415335,
+      "ps": 2.2727275
     },
     "annual_latest": {
       "revenue": 27733000000.0,
@@ -1829,10 +1829,10 @@
     "source": "yfinance",
     "name": "Comcast Corporation",
     "sector": "Communication Services",
-    "market_cap": 90734608384.0,
+    "market_cap": 90716749824.0,
     "multiples": {
-      "pe": 4.980392,
-      "ps": 0.72427183
+      "pe": 4.979412,
+      "ps": 0.7241293
     },
     "annual_latest": {
       "revenue": 123707000000.0,
@@ -2863,9 +2863,9 @@
     "annual_latest": {
       "revenue": 17188000000.0,
       "op_income": 3856000000.0,
-      "fcf": 2797000000.0,
+      "fcf": null,
       "cfo": 6711000000.0,
-      "capex": -3914000000.0
+      "capex": null
     }
   },
   "DXCM": {
@@ -2912,10 +2912,10 @@
     "source": "yfinance",
     "name": "eBay Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 47814361088.0,
+    "market_cap": 47797932032.0,
     "multiples": {
-      "pe": 24.87067,
-      "ps": 4.120507
+      "pe": 24.862125,
+      "ps": 4.119091
     },
     "annual_latest": {
       "revenue": 11100000000.0,
@@ -3349,10 +3349,10 @@
     "source": "yfinance",
     "name": "Expand Energy Corporation",
     "sector": "Energy",
-    "market_cap": 22951616512.0,
+    "market_cap": 22945634304.0,
     "multiples": {
-      "pe": 7.1383934,
-      "ps": 1.7715048
+      "pe": 7.1365333,
+      "ps": 1.7710431
     },
     "annual_latest": {
       "revenue": 12189000000.0,
@@ -3862,10 +3862,10 @@
     "source": "yfinance",
     "name": "Gen Digital Inc.",
     "sector": "Technology",
-    "market_cap": 13736454144.0,
+    "market_cap": 13740693504.0,
     "multiples": {
-      "pe": 14.44586,
-      "ps": 2.7472908
+      "pe": 14.450318,
+      "ps": 2.7481387
     },
     "annual_latest": {
       "revenue": 3935000000.0,
@@ -4033,10 +4033,10 @@
     "source": "yfinance",
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
-    "market_cap": 4855869472768.0,
+    "market_cap": 4854816178176.0,
     "multiples": {
-      "pe": 30.572083,
-      "ps": 11.493237
+      "pe": 30.565449,
+      "ps": 11.490744
     },
     "annual_latest": {
       "revenue": 402836000000.0,
@@ -4660,10 +4660,10 @@
     "source": "yfinance",
     "name": "Intel Corporation",
     "sector": "Technology",
-    "market_cap": 627847921664.0,
+    "market_cap": 627722223616.0,
     "multiples": {
       "pe": null,
-      "ps": 11.678067
+      "ps": 11.67573
     },
     "annual_latest": {
       "revenue": 52853000000.0,
@@ -5059,10 +5059,10 @@
     "source": "yfinance",
     "name": "The Kraft Heinz Company",
     "sector": "Consumer Defensive",
-    "market_cap": 28411232256.0,
+    "market_cap": 28407676928.0,
     "multiples": {
       "pe": null,
-      "ps": 1.1369041
+      "ps": 1.1367618
     },
     "annual_latest": {
       "revenue": 24942000000.0,
@@ -5724,10 +5724,10 @@
     "source": "yfinance",
     "name": "Mondelez International, Inc.",
     "sector": "Consumer Defensive",
-    "market_cap": 79008645120.0,
+    "market_cap": 79004794880.0,
     "multiples": {
-      "pe": 30.470297,
-      "ps": 2.0101936
+      "pe": 30.468813,
+      "ps": 2.0100956
     },
     "annual_latest": {
       "revenue": 38537000000.0,
@@ -5876,10 +5876,10 @@
     "source": "yfinance",
     "name": "Monster Beverage Corporation",
     "sector": "Consumer Defensive",
-    "market_cap": 84384374784.0,
+    "market_cap": 84400996352.0,
     "multiples": {
-      "pe": 41.685993,
-      "ps": 9.596684
+      "pe": 41.694202,
+      "ps": 9.598575
     },
     "annual_latest": {
       "revenue": 8294343000.0,
@@ -6085,10 +6085,10 @@
     "source": "yfinance",
     "name": "Microsoft Corporation",
     "sector": "Technology",
-    "market_cap": 3083691884544.0,
+    "market_cap": 3083246239744.0,
     "multiples": {
-      "pe": 24.753725,
-      "ps": 9.688827
+      "pe": 24.750149,
+      "ps": 9.687427
     },
     "annual_latest": {
       "revenue": 281724000000.0,
@@ -6180,10 +6180,10 @@
     "source": "yfinance",
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
-    "market_cap": 842203070464.0,
+    "market_cap": 842180460544.0,
     "multiples": {
-      "pe": 35.21028,
-      "ps": 14.491011
+      "pe": 35.209335,
+      "ps": 14.490622
     },
     "annual_latest": {
       "revenue": 37378000000.0,
@@ -6294,10 +6294,10 @@
     "source": "yfinance",
     "name": "Netflix, Inc.",
     "sector": "Communication Services",
-    "market_cap": 368402759680.0,
+    "market_cap": 368348004352.0,
     "multiples": {
-      "pe": 28.22258,
-      "ps": 7.856746
+      "pe": 28.218388,
+      "ps": 7.8555784
     },
     "annual_latest": {
       "revenue": 45183036000.0,
@@ -6484,10 +6484,10 @@
     "source": "yfinance",
     "name": "NVIDIA Corporation",
     "sector": "Technology",
-    "market_cap": 5230436024320.0,
+    "market_cap": 5230849163264.0,
     "multiples": {
-      "pe": 43.828922,
-      "ps": 24.221933
+      "pe": 43.832382,
+      "ps": 24.223846
     },
     "annual_latest": {
       "revenue": 215938000000.0,
@@ -6655,10 +6655,10 @@
     "source": "yfinance",
     "name": "ON Semiconductor Corporation",
     "sector": "Technology",
-    "market_cap": 40444407808.0,
+    "market_cap": 40443232256.0,
     "multiples": {
-      "pe": 75.88235,
-      "ps": 6.6706924
+      "pe": 75.88014,
+      "ps": 6.6704984
     },
     "annual_latest": {
       "revenue": 5995400000.0,
@@ -6815,9 +6815,9 @@
     "annual_latest": {
       "revenue": 28444800000.0,
       "op_income": 2961700000.0,
-      "fcf": 3029200000.0,
+      "fcf": null,
       "cfo": 4415800000.0,
-      "capex": -1386600000.0
+      "capex": null
     }
   },
   "PCG": {
@@ -7643,10 +7643,10 @@
     "source": "yfinance",
     "name": "SBA Communications Corporation",
     "sector": "Real Estate",
-    "market_cap": 23139768320.0,
+    "market_cap": 23131813888.0,
     "multiples": {
-      "pe": 22.989464,
-      "ps": 8.106903
+      "pe": 22.98156,
+      "ps": 8.1041155
     },
     "annual_latest": {
       "revenue": 2815139000.0,
@@ -8441,10 +8441,10 @@
     "source": "yfinance",
     "name": "Trimble Inc.",
     "sector": "Technology",
-    "market_cap": 14173179904.0,
+    "market_cap": 14168751104.0,
     "multiples": {
-      "pe": 31.83246,
-      "ps": 3.8445127
+      "pe": 31.822514,
+      "ps": 3.8433113
     },
     "annual_latest": {
       "revenue": 3587300000.0,
@@ -8574,10 +8574,10 @@
     "source": "yfinance",
     "name": "The Trade Desk, Inc.",
     "sector": "Communication Services",
-    "market_cap": 10850100224.0,
+    "market_cap": 10840697856.0,
     "multiples": {
-      "pe": 26.227272,
-      "ps": 3.6543152
+      "pe": 26.204544,
+      "ps": 3.6511486
     },
     "annual_latest": {
       "revenue": 2896284000.0,
@@ -8745,10 +8745,10 @@
     "source": "yfinance",
     "name": "Ulta Beauty, Inc.",
     "sector": "Consumer Cyclical",
-    "market_cap": 22812153856.0,
+    "market_cap": 22815215616.0,
     "multiples": {
-      "pe": 20.32658,
-      "ps": 1.8407557
+      "pe": 20.329308,
+      "ps": 1.8410028
     },
     "annual_latest": {
       "revenue": 12392820000.0,
@@ -9163,10 +9163,10 @@
     "source": "yfinance",
     "name": "Western Digital Corporation",
     "sector": "Technology",
-    "market_cap": 165447434240.0,
+    "market_cap": 165449154560.0,
     "multiples": {
-      "pe": 28.742514,
-      "ps": 14.048351
+      "pe": 28.742813,
+      "ps": 14.048497
     },
     "annual_latest": {
       "revenue": 9520000000.0,
