@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-05-11T04:46:37.265978+00:00",
+  "description": "AE-VQC 리짐 조건부 가중치 실험 (risk_on/mid/risk_off별 quantum 가중치 조절)",
+  "regime_weights": {
+    "adaptive": {
+      "risk_on": 0.3,
+      "mid": 0.15,
+      "risk_off": 0.0
+    },
+    "aggressive": {
+      "risk_on": 0.5,
+      "mid": 0.2,
+      "risk_off": 0.0
+    }
+  },
+  "experiments": [
+    {
+      "label": "① Baseline",
+      "mode": "fixed",
+      "use_vqc_ae": false,
+      "elapsed_sec": 978.6,
+      "is_cagr": 0.082317,
+      "is_sharpe": 0.54285,
+      "is_mdd": -0.180135,
+      "oos_cagr": 0.102854,
+      "oos_sharpe": 0.480261,
+      "oos_mdd": -0.282808,
+      "verdict": "PASS    (OOS/IS Sharpe=0.88)",
+      "is_metrics": {
+        "total_return": 0.565581,
+        "cagr": 0.082317,
+        "volatility": 0.151639,
+        "sharpe": 0.54285,
+        "max_drawdown": -0.180135
+      },
+      "oos_metrics": {
+        "total_return": 0.859007,
+        "cagr": 0.102854,
+        "volatility": 0.214163,
+        "sharpe": 0.480261,
+        "max_drawdown": -0.282808
+      }
+    },
+    {
+      "label": "② AE-VQC Fixed(0.30)",
+      "mode": "fixed",
+      "use_vqc_ae": true,
+      "elapsed_sec": 5102.2,
+      "is_cagr": 0.068489,
+      "is_sharpe": 0.489603,
+      "is_mdd": -0.152717,
+      "oos_cagr": 0.15019,
+      "oos_sharpe": 0.803648,
+      "oos_mdd": -0.269323,
+      "verdict": "PASS    (OOS/IS Sharpe=1.64)",
+      "is_metrics": {
+        "total_return": 0.455559,
+        "cagr": 0.068489,
+        "volatility": 0.139886,
+        "sharpe": 0.489603,
+        "max_drawdown": -0.152717
+      },
+      "oos_metrics": {
+        "total_return": 1.425902,
+        "cagr": 0.15019,
+        "volatility": 0.186885,
+        "sharpe": 0.803648,
+        "max_drawdown": -0.269323
+      }
+    },
+    {
+      "label": "③ AE-VQC Adaptive (0.30/0.15/0.00)",
+      "mode": "adaptive",
+      "use_vqc_ae": true,
+      "elapsed_sec": 3634.6,
+      "is_cagr": 0.068307,
+      "is_sharpe": 0.493011,
+      "is_mdd": -0.164409,
+      "oos_cagr": 0.142664,
+      "oos_sharpe": 0.768006,
+      "oos_mdd": -0.230113,
+      "verdict": "PASS    (OOS/IS Sharpe=1.56)",
+      "is_metrics": {
+        "total_return": 0.454159,
+        "cagr": 0.068307,
+        "volatility": 0.138551,
+        "sharpe": 0.493011,
+        "max_drawdown": -0.164409
+      },
+      "oos_metrics": {
+        "total_return": 1.32711,
+        "cagr": 0.142664,
+        "volatility": 0.185759,
+        "sharpe": 0.768006,
+        "max_drawdown": -0.230113
+      }
+    },
+    {
+      "label": "④ AE-VQC Aggressive (0.50/0.20/0.00)",
+      "mode": "adaptive",
+      "use_vqc_ae": true,
+      "elapsed_sec": 2510.0,
+      "is_cagr": 0.064538,
+      "is_sharpe": 0.471459,
+      "is_mdd": -0.153108,
+      "oos_cagr": 0.120843,
+      "oos_sharpe": 0.657828,
+      "oos_mdd": -0.224367,
+      "verdict": "PASS    (OOS/IS Sharpe=1.40)",
+      "is_metrics": {
+        "total_return": 0.425326,
+        "cagr": 0.064538,
+        "volatility": 0.136891,
+        "sharpe": 0.471459,
+        "max_drawdown": -0.153108
+      },
+      "oos_metrics": {
+        "total_return": 1.059606,
+        "cagr": 0.120843,
+        "volatility": 0.1837,
+        "sharpe": 0.657828,
+        "max_drawdown": -0.224367
+      }
+    }
+  ],
+  "prev_ref": [
+    {
+      "label": "① Baseline",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "use_vqc": false,
+      "use_vqc_ae": false,
+      "use_qubo": false,
+      "elapsed_sec": 290.2,
+      "is_cagr": 0.082317,
+      "is_sharpe": 0.54285,
+      "is_mdd": -0.180135,
+      "oos_cagr": 0.102854,
+      "oos_sharpe": 0.480261,
+      "oos_mdd": -0.282807,
+      "verdict": "PASS    (OOS/IS Sharpe=0.88)",
+      "is_metrics": {
+        "total_return": 0.565581,
+        "cagr": 0.082317,
+        "volatility": 0.151639,
+        "sharpe": 0.54285,
+        "max_drawdown": -0.180135
+      },
+      "oos_metrics": {
+        "total_return": 0.859007,
+        "cagr": 0.102854,
+        "volatility": 0.214163,
+        "sharpe": 0.480261,
+        "max_drawdown": -0.282807
+      }
+    },
+    {
+      "label": "② +AE-VQC (4q/16f AE)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml_ae": 0.3
+      },
+      "use_vqc": false,
+      "use_vqc_ae": true,
+      "use_qubo": false,
+      "elapsed_sec": 1435.7,
+      "is_cagr": 0.068489,
+      "is_sharpe": 0.489603,
+      "is_mdd": -0.152717,
+      "oos_cagr": 0.15019,
+      "oos_sharpe": 0.803648,
+      "oos_mdd": -0.269323,
+      "verdict": "PASS    (OOS/IS Sharpe=1.64)",
+      "is_metrics": {
+        "total_return": 0.455559,
+        "cagr": 0.068489,
+        "volatility": 0.139886,
+        "sharpe": 0.489603,
+        "max_drawdown": -0.152717
+      },
+      "oos_metrics": {
+        "total_return": 1.425901,
+        "cagr": 0.15019,
+        "volatility": 0.186885,
+        "sharpe": 0.803648,
+        "max_drawdown": -0.269323
+      }
+    },
+    {
+      "label": "③ +VQC (6q/6f Angle)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml": 0.3
+      },
+      "use_vqc": true,
+      "use_vqc_ae": false,
+      "use_qubo": false,
+      "elapsed_sec": 1444.8,
+      "is_cagr": 0.056685,
+      "is_sharpe": 0.397019,
+      "is_mdd": -0.185026,
+      "oos_cagr": 0.089323,
+      "oos_sharpe": 0.460573,
+      "oos_mdd": -0.267751,
+      "verdict": "PASS    (OOS/IS Sharpe=1.16)",
+      "is_metrics": {
+        "total_return": 0.36676,
+        "cagr": 0.056685,
+        "volatility": 0.142777,
+        "sharpe": 0.397019,
+        "max_drawdown": -0.185026
+      },
+      "oos_metrics": {
+        "total_return": 0.7192,
+        "cagr": 0.089323,
+        "volatility": 0.19394,
+        "sharpe": 0.460573,
+        "max_drawdown": -0.267751
+      }
+    }
+  ]
+}

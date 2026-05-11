@@ -53,6 +53,11 @@ HOLD_BUFFER_N = 25  # [NEW] 버퍼 랭킹: 이 순위 안쪽에 있으면 기존
 TRANSACTION_COST = 0.0015
 BENCHMARK = "SPY"
 
+# ── Altman Z-score filter (experimental) ─────────────────────────────────────
+USE_ZSCORE_FILTER = False          # override to True in run_backtest_zscore.py
+ZSCORE_DISTRESS_SET: set[str] = set()   # populated at runtime if filter enabled
+ZSCORE_DATE_LOOKUP = None          # callable(date) -> set[str]; enables point-in-time mode
+
 # [VIX 시스템 붕괴 필터 설정]
 VIX_TICKER = "^VIX"
 VIX_CRASH_THRESHOLD = 40.0 # 진짜 패닉장에서만 발동
@@ -65,11 +70,17 @@ CURRENT_UNIVERSE_FILES = [
     DATA_DIR / "sp600_current_wiki.json",
 ]
 
+# Sharadar SP500 이벤트를 우선 사용, 없으면 Wikipedia fallback
+_SP500_SHARADAR_EVENTS = DATA_DIR / "sp500_membership_events_sharadar.json"
+_SP500_WIKI_EVENTS     = DATA_DIR / "sp500_membership_events.json"
+
 MEMBERSHIP_EVENTS_FILES = [
-    DATA_DIR / "sp500_membership_events.json",
+    _SP500_SHARADAR_EVENTS if _SP500_SHARADAR_EVENTS.exists() else _SP500_WIKI_EVENTS,
     DATA_DIR / "sp400_membership_events.json",
     DATA_DIR / "sp600_membership_events.json",
 ]
+
+SEP_PRICES_FILE = DATA_DIR / "sep_prices.pkl"
 
 # Regime / exposure
 REGIME_MA_WINDOW = 200
@@ -228,49 +239,132 @@ def reconstruct_membership_as_of(
     return members
 
 
-def download_prices_raw(tickers: list[str]) -> dict[str, pd.Series]:
-    all_tickers = sorted(set(tickers + [BENCHMARK, VIX_TICKER] + DEFENSIVE_TICKERS))
+def load_sep_prices(tickers: list[str], start_date: str) -> dict[str, pd.Series]:
+    """SHARADAR/SEP 가격 캐시에서 조정 종가를 로드한다."""
+    if not SEP_PRICES_FILE.exists():
+        return {}
+    try:
+        payload = pd.read_pickle(SEP_PRICES_FILE)
+        df: pd.DataFrame = payload.get("prices") if isinstance(payload, dict) else payload
+        if df is None or df.empty:
+            return {}
+        df.index = pd.to_datetime(df.index)
+        df = df[df.index >= pd.Timestamp(start_date)]
+        result: dict[str, pd.Series] = {}
+        for t in tickers:
+            if t in df.columns:
+                s = df[t].dropna()
+                if len(s) >= MIN_HISTORY:
+                    result[t] = s
+        print(f"[SEP CACHE] Loaded {len(result)} tickers from {SEP_PRICES_FILE.name}")
+        return result
+    except Exception as e:
+        print(f"[WARN] SEP cache load error: {e}")
+        return {}
 
-    print("Downloading prices...")
 
-    df = yf.download(
-        tickers=all_tickers,
-        start=get_start_date(),
-        auto_adjust=True,
-        progress=False,
-        group_by="ticker",
-        threads=True,
-    )
+def _fill_price_gap(price_map: dict[str, pd.Series], gap_tickers: list[str], gap_start: str) -> None:
+    """SEP 캐시 마지막 날짜 이후의 갭을 yfinance로 보완한다. 200개씩 청크."""
+    if not gap_tickers:
+        return
 
-    price_map: dict[str, pd.Series] = {}
+    chunk_size = 200
+    chunks = [gap_tickers[i : i + chunk_size] for i in range(0, len(gap_tickers), chunk_size)]
 
-    if isinstance(df.columns, pd.MultiIndex):
-        level0 = set(df.columns.get_level_values(0))
-
-        for t in all_tickers:
-            try:
-                if t not in level0:
-                    continue
-                if "Close" not in df[t].columns:
-                    continue
-
-                close = df[t]["Close"].dropna()
-                if close is None or close.empty:
-                    continue
-                if len(close) < MIN_HISTORY:
-                    continue
-
-                price_map[t] = close
-            except Exception:
+    for chunk in chunks:
+        try:
+            df = yf.download(
+                tickers=chunk,
+                start=gap_start,
+                auto_adjust=True,
+                progress=False,
+                group_by="ticker",
+                threads=True,
+            )
+            if df is None or df.empty:
                 continue
 
-    else:
-        if "Close" in df.columns and all_tickers:
+            if isinstance(df.columns, pd.MultiIndex):
+                level0 = set(df.columns.get_level_values(0))
+                for t in chunk:
+                    try:
+                        if t not in level0:
+                            continue
+                        gap_s = df[t]["Close"].dropna()
+                        if gap_s.empty:
+                            continue
+                        gap_s.index = pd.to_datetime(gap_s.index)
+                        if t in price_map:
+                            combined = pd.concat([price_map[t], gap_s])
+                            price_map[t] = combined[~combined.index.duplicated(keep="last")].sort_index()
+                        else:
+                            price_map[t] = gap_s
+                    except Exception:
+                        continue
+            elif "Close" in df.columns and len(chunk) == 1:
+                t = chunk[0]
+                gap_s = df["Close"].dropna()
+                gap_s.index = pd.to_datetime(gap_s.index)
+                if t in price_map:
+                    combined = pd.concat([price_map[t], gap_s])
+                    price_map[t] = combined[~combined.index.duplicated(keep="last")].sort_index()
+                else:
+                    price_map[t] = gap_s
+        except Exception as e:
+            print(f"[WARN] Gap fill chunk error: {e}")
+
+
+def download_prices_raw(tickers: list[str]) -> dict[str, pd.Series]:
+    all_tickers = sorted(set(tickers + [BENCHMARK, VIX_TICKER] + DEFENSIVE_TICKERS))
+    start_date  = get_start_date()
+
+    # 1) SEP 캐시에서 먼저 로드 (Sharadar 조정가, 생존 편향 없음)
+    price_map = load_sep_prices(all_tickers, start_date)
+
+    # 1b) SEP 캐시와 오늘 사이 갭이 있으면 yfinance로 보완
+    if price_map:
+        sep_last = max(s.index[-1] for s in price_map.values() if len(s) > 0)
+        today    = pd.Timestamp.now(tz="UTC").normalize().tz_localize(None)
+        if sep_last < today - pd.Timedelta(days=1):
+            gap_start = (sep_last + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
+            gap_tickers = list(price_map.keys())
+            print(f"[GAP FILL] Fetching {gap_start} ~ today for {len(gap_tickers)} tickers via yfinance...")
+            _fill_price_gap(price_map, gap_tickers, gap_start)
+            after_last = max(s.index[-1] for s in price_map.values() if len(s) > 0)
+            print(f"[GAP FILL] Updated last date: {after_last.date()}")
+
+    # 2) SEP에 없는 종목 (^VIX 등) 은 yfinance fallback
+    missing = [t for t in all_tickers if t not in price_map]
+    if missing:
+        print(f"Downloading {len(missing)} tickers via yfinance (not in SEP cache)...")
+        df = yf.download(
+            tickers=missing,
+            start=start_date,
+            auto_adjust=True,
+            progress=False,
+            group_by="ticker",
+            threads=True,
+        )
+
+        if isinstance(df.columns, pd.MultiIndex):
+            level0 = set(df.columns.get_level_values(0))
+            for t in missing:
+                try:
+                    if t not in level0:
+                        continue
+                    if "Close" not in df[t].columns:
+                        continue
+                    close = df[t]["Close"].dropna()
+                    if len(close) >= MIN_HISTORY:
+                        price_map[t] = close
+                except Exception:
+                    continue
+        elif "Close" in df.columns and len(missing) == 1:
             close = df["Close"].dropna()
             if len(close) >= MIN_HISTORY:
-                price_map[all_tickers[0]] = close
+                price_map[missing[0]] = close
 
-    print("Downloaded series:", len(price_map))
+    print(f"Total price series: {len(price_map)}")
     return price_map
 
 
@@ -551,6 +645,12 @@ def pick_portfolio(rows, current_holdings: set[str], dynamic_floor: float | None
     filtered = [r for r in ranked if passes_absolute_momentum(r)]
     if not filtered:
         filtered = ranked
+
+    # Altman Z-score distress filter (experimental)
+    if USE_ZSCORE_FILTER and ZSCORE_DISTRESS_SET:
+        non_distress = [r for r in filtered if r.ticker not in ZSCORE_DISTRESS_SET]
+        if non_distress:
+            filtered = non_distress
 
     if SELECTION == "BUY":
         selected = [r for r in filtered if r.signal == "BUY"]
@@ -1099,6 +1199,11 @@ def run_backtest() -> None:
         target_regime_meta = last_regime_meta
 
         if date in stock_rebalance_dates:
+            # point-in-time Z-score 업데이트 (look-ahead bias 없는 방식)
+            if USE_ZSCORE_FILTER and ZSCORE_DATE_LOOKUP is not None:
+                import run_backtest_regime as _self
+                _self.ZSCORE_DISTRESS_SET = ZSCORE_DATE_LOOKUP(date)
+
             snapshot = get_rebalance_snapshot(
                 price_map=price_map,
                 date=date,
@@ -1254,6 +1359,23 @@ def run_backtest() -> None:
     with open(DATA_DIR / "final_holdings.json", "w", encoding="utf-8") as f:
         json.dump(final_stocks, f)
     print(f"Saved -> {DATA_DIR / 'final_holdings.json'} (Live Execution Ready)")
+
+    # 실전 추적용 — 마지막 리밸런싱 포트폴리오 가중치 저장
+    live_portfolio_weights = {
+        t: round(w, 6)
+        for t, w in current_stock_holdings.items()
+        if t not in ["TAIL", "DBMF"]
+    }
+    live_state = {
+        "last_updated":       datetime.now(timezone.utc).isoformat(),
+        "last_rebalance_date": str(trading_dates[-1].date()),
+        "portfolio_weights":  live_portfolio_weights,
+        "defensive_weights":  {k: round(v, 6) for k, v in current_defensive_holdings.items()},
+        "stock_exposure":     float(current_stock_exposure),
+        "regime_bucket":      str(last_regime_meta.get("regime_bucket", "risk_on")),
+    }
+    save_json(DATA_DIR / "live_state.json", live_state)
+    print(f"Saved -> {DATA_DIR / 'live_state.json'} ({len(live_portfolio_weights)} holdings)")
 
 
 if __name__ == "__main__":

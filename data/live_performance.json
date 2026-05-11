@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-05-11T04:45:31.318179+00:00",
+  "live_start": "2026-05-04",
+  "strategy_label": "Regime Filter Strategy (MA200 + VIX + Defensive Sleeve)",
+  "summary": {
+    "total_return": 0.035307,
+    "days": 5,
+    "cagr": 4.747582,
+    "sharpe": 16.0238,
+    "mdd": -0.018715,
+    "last_date": "2026-05-08",
+    "last_equity": 1.035307
+  },
+  "current_portfolio": {
+    "AGX": 0.066667,
+    "INSW": 0.066667,
+    "POWL": 0.066667,
+    "CIEN": 0.066667,
+    "SNDK": 0.066667,
+    "WDC": 0.066667,
+    "KGS": 0.066667,
+    "CC": 0.066667,
+    "KALU": 0.066667,
+    "SPHR": 0.066667,
+    "FIX": 0.066667,
+    "OUT": 0.066667,
+    "REX": 0.066667,
+    "UNIT": 0.066667,
+    "ECPG": 0.066667
+  },
+  "regime_bucket": "risk_on",
+  "stock_exposure": 1.0,
+  "daily": [
+    {
+      "date": "2026-05-04",
+      "equity": 1.0,
+      "daily_return": 0.0,
+      "drawdown": 0.0,
+      "benchmark": 1.0,
+      "regime": "risk_on",
+      "stock_exposure": 1.0
+    },
+    {
+      "date": "2026-05-05",
+      "equity": 1.030669,
+      "daily_return": 0.030669,
+      "drawdown": 0.0,
+      "benchmark": 1.008022,
+      "regime": "risk_on",
+      "stock_exposure": 1.0
+    },
+    {
+      "date": "2026-05-06",
+      "equity": 1.034197,
+      "daily_return": 0.003423,
+      "drawdown": 0.0,
+      "benchmark": 1.022033,
+      "regime": "risk_on",
+      "stock_exposure": 1.0
+    },
+    {
+      "date": "2026-05-07",
+      "equity": 1.014842,
+      "daily_return": -0.018715,
+      "drawdown": -0.018715,
+      "benchmark": 1.018899,
+      "regime": "risk_on",
+      "stock_exposure": 1.0
+    },
+    {
+      "date": "2026-05-08",
+      "equity": 1.035307,
+      "daily_return": 0.020166,
+      "drawdown": 0.0,
+      "benchmark": 1.027312,
+      "regime": "risk_on",
+      "stock_exposure": 1.0
+    }
+  ]
+}

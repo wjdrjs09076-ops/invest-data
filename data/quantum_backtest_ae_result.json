@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-05-10T16:34:39.201803+00:00",
+  "description": "AE-VQC (AmplitudeEmbedding 4q/16f) vs VQC (AngleEmbedding 6q/6f) vs Baseline",
+  "experiments": [
+    {
+      "label": "① Baseline",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "use_vqc": false,
+      "use_vqc_ae": false,
+      "use_qubo": false,
+      "elapsed_sec": 290.2,
+      "is_cagr": 0.082317,
+      "is_sharpe": 0.54285,
+      "is_mdd": -0.180135,
+      "oos_cagr": 0.102854,
+      "oos_sharpe": 0.480261,
+      "oos_mdd": -0.282807,
+      "verdict": "PASS    (OOS/IS Sharpe=0.88)",
+      "is_metrics": {
+        "total_return": 0.565581,
+        "cagr": 0.082317,
+        "volatility": 0.151639,
+        "sharpe": 0.54285,
+        "max_drawdown": -0.180135
+      },
+      "oos_metrics": {
+        "total_return": 0.859007,
+        "cagr": 0.102854,
+        "volatility": 0.214163,
+        "sharpe": 0.480261,
+        "max_drawdown": -0.282807
+      }
+    },
+    {
+      "label": "② +AE-VQC (4q/16f AE)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml_ae": 0.3
+      },
+      "use_vqc": false,
+      "use_vqc_ae": true,
+      "use_qubo": false,
+      "elapsed_sec": 1435.7,
+      "is_cagr": 0.068489,
+      "is_sharpe": 0.489603,
+      "is_mdd": -0.152717,
+      "oos_cagr": 0.15019,
+      "oos_sharpe": 0.803648,
+      "oos_mdd": -0.269323,
+      "verdict": "PASS    (OOS/IS Sharpe=1.64)",
+      "is_metrics": {
+        "total_return": 0.455559,
+        "cagr": 0.068489,
+        "volatility": 0.139886,
+        "sharpe": 0.489603,
+        "max_drawdown": -0.152717
+      },
+      "oos_metrics": {
+        "total_return": 1.425901,
+        "cagr": 0.15019,
+        "volatility": 0.186885,
+        "sharpe": 0.803648,
+        "max_drawdown": -0.269323
+      }
+    },
+    {
+      "label": "③ +VQC (6q/6f Angle)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml": 0.3
+      },
+      "use_vqc": true,
+      "use_vqc_ae": false,
+      "use_qubo": false,
+      "elapsed_sec": 1444.8,
+      "is_cagr": 0.056685,
+      "is_sharpe": 0.397019,
+      "is_mdd": -0.185026,
+      "oos_cagr": 0.089323,
+      "oos_sharpe": 0.460573,
+      "oos_mdd": -0.267751,
+      "verdict": "PASS    (OOS/IS Sharpe=1.16)",
+      "is_metrics": {
+        "total_return": 0.36676,
+        "cagr": 0.056685,
+        "volatility": 0.142777,
+        "sharpe": 0.397019,
+        "max_drawdown": -0.185026
+      },
+      "oos_metrics": {
+        "total_return": 0.7192,
+        "cagr": 0.089323,
+        "volatility": 0.19394,
+        "sharpe": 0.460573,
+        "max_drawdown": -0.267751
+      }
+    }
+  ],
+  "prev_ref": [
+    {
+      "label": "① Baseline (모멘텀+밸류)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "elapsed_sec": 533.3,
+      "is_cagr": 0.082317,
+      "is_sharpe": 0.54285,
+      "is_mdd": -0.180135,
+      "oos_cagr": 0.099498,
+      "oos_sharpe": 0.464749,
+      "oos_mdd": -0.282808,
+      "verdict": "PASS    (OOS/IS Sharpe=0.86)",
+      "is_metrics": {
+        "total_return": 0.565581,
+        "cagr": 0.082317,
+        "volatility": 0.151639,
+        "sharpe": 0.54285,
+        "max_drawdown": -0.180135
+      },
+      "oos_metrics": {
+        "total_return": 0.822784,
+        "cagr": 0.099498,
+        "volatility": 0.21409,
+        "sharpe": 0.464749,
+        "max_drawdown": -0.282808
+      }
+    },
+    {
+      "label": "② +VQC (양자ML 신호 추가)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml": 0.3
+      },
+      "use_vqc": true,
+      "use_qubo": false,
+      "elapsed_sec": 2200.7,
+      "is_cagr": 0.056685,
+      "is_sharpe": 0.397019,
+      "is_mdd": -0.185026,
+      "oos_cagr": 0.087238,
+      "oos_sharpe": 0.449824,
+      "oos_mdd": -0.267751,
+      "verdict": "PASS    (OOS/IS Sharpe=1.13)",
+      "is_metrics": {
+        "total_return": 0.36676,
+        "cagr": 0.056685,
+        "volatility": 0.142777,
+        "sharpe": 0.397019,
+        "max_drawdown": -0.185026
+      },
+      "oos_metrics": {
+        "total_return": 0.697896,
+        "cagr": 0.087238,
+        "volatility": 0.193937,
+        "sharpe": 0.449824,
+        "max_drawdown": -0.267751
+      }
+    },
+    {
+      "label": "③ +QUBO (양자 포트폴리오 최적화)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "use_vqc": false,
+      "use_qubo": true,
+      "elapsed_sec": 29995.9,
+      "is_cagr": 0.108774,
+      "is_sharpe": 0.828162,
+      "is_mdd": -0.189656,
+      "oos_cagr": 0.059095,
+      "oos_sharpe": 0.347993,
+      "oos_mdd": -0.290709,
+      "verdict": "FAIL    (OOS/IS Sharpe=0.42)",
+      "is_metrics": {
+        "total_return": 0.79519,
+        "cagr": 0.108774,
+        "volatility": 0.131344,
+        "sharpe": 0.828162,
+        "max_drawdown": -0.189656
+      },
+      "oos_metrics": {
+        "total_return": 0.438211,
+        "cagr": 0.059095,
+        "volatility": 0.169817,
+        "sharpe": 0.347993,
+        "max_drawdown": -0.290709
+      }
+    },
+    {
+      "label": "④ QUBO+VQC (풀 양자영감)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml": 0.3
+      },
+      "use_vqc": true,
+      "use_qubo": true,
+      "elapsed_sec": 54431.4,
+      "is_cagr": 0.078187,
+      "is_sharpe": 0.591675,
+      "is_mdd": -0.179959,
+      "oos_cagr": 0.077642,
+      "oos_sharpe": 0.464544,
+      "oos_mdd": -0.268218,
+      "verdict": "PASS    (OOS/IS Sharpe=0.79)",
+      "is_metrics": {
+        "total_return": 0.532026,
+        "cagr": 0.078187,
+        "volatility": 0.132145,
+        "sharpe": 0.591675,
+        "max_drawdown": -0.179959
+      },
+      "oos_metrics": {
+        "total_return": 0.605728,
+        "cagr": 0.077642,
+        "volatility": 0.167136,
+        "sharpe": 0.464544,
+        "max_drawdown": -0.268218
+      }
+    }
+  ]
+}
