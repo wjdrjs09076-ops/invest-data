@@ -2863,9 +2863,9 @@
     "annual_latest": {
       "revenue": 17188000000.0,
       "op_income": 3856000000.0,
-      "fcf": null,
+      "fcf": 2797000000.0,
       "cfo": 6711000000.0,
-      "capex": null
+      "capex": -3914000000.0
     }
   },
   "DXCM": {
@@ -5100,7 +5100,7 @@
     "market_cap": 94726668288.0,
     "multiples": {
       "pe": 34.870747,
-      "ps": 3.7326584
+      "ps": 3.7360973
     },
     "annual_latest": {
       "revenue": 19207544000.0,
@@ -6815,9 +6815,9 @@
     "annual_latest": {
       "revenue": 28444800000.0,
       "op_income": 2961700000.0,
-      "fcf": null,
+      "fcf": 3029200000.0,
       "cfo": 4415800000.0,
-      "capex": null
+      "capex": -1386600000.0
     }
   },
   "PCG": {
