@@ -20,9 +20,11 @@ jobs:
 
       - name: Install packages
         run: |
-          pip install yfinance pandas
+          pip install nasdaqdatalink pandas
 
       - name: Build fundamentals
+        env:
+          NASDAQ_DATA_LINK_KEY: ${{ secrets.NASDAQ_DATA_LINK_KEY }}
         run: |
           python scripts/build_fundamentals.py
 

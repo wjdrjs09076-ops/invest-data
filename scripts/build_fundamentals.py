@@ -1,36 +1,48 @@
 # scripts/build_fundamentals.py
+"""
+Fundamentals builder using Sharadar SF1 (MRY) + SHARADAR/TICKERS.
+
+SF1 columns used:
+  revenue, opinc, ncfo, capex, fcf, pe, ps, marketcap
+TICKERS columns used:
+  name, sector, industry
+"""
 from __future__ import annotations
 
 import json
 import math
+import os
+from datetime import datetime, timezone
 from pathlib import Path
 
-import yfinance as yf
+import nasdaqdatalink
+import pandas as pd
+
+nasdaqdatalink.ApiConfig.api_key = os.environ.get("NASDAQ_DATA_LINK_KEY", "NHr5446JR6sysBKtTBp1")
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 
 UNIVERSE_FILE = DATA_DIR / "universe.json"
-OUT_FILE = DATA_DIR / "fundamentals.json"
+SP400_FILE    = DATA_DIR / "sp400_current_wiki.json"
+SP600_FILE    = DATA_DIR / "sp600_current_wiki.json"
+OUT_FILE      = DATA_DIR / "fundamentals.json"
+
+DIMENSION  = "MRY"
+CHUNK_SIZE = 200  # tickers per API call
 
 
 def load_json(path: Path, default=None):
     if not path.exists():
         return default
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
 def save_json(path: Path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(
-            data,
-            f,
-            ensure_ascii=False,
-            indent=2,
-            allow_nan=False,  # JSON에 NaN 방지
-        )
+        json.dump(data, f, ensure_ascii=False, indent=2, allow_nan=False)
 
 
 def normalize_ticker(t: str) -> str:
@@ -39,200 +51,161 @@ def normalize_ticker(t: str) -> str:
 
 def safe_num(x):
     try:
-        if x is None:
-            return None
-
         v = float(x)
-
-        if math.isnan(v) or math.isinf(v):
-            return None
-
-        return v
+        return None if (math.isnan(v) or math.isinf(v)) else v
     except Exception:
         return None
 
 
-def read_universe_tickers() -> list[str]:
-    universe = load_json(UNIVERSE_FILE, default={})
+def collect_tickers() -> list[str]:
     tickers: set[str] = set()
 
+    universe = load_json(UNIVERSE_FILE, default={})
     if isinstance(universe, dict):
-        if isinstance(universe.get("items"), list):
-            for item in universe["items"]:
-                if isinstance(item, dict):
-                    t = normalize_ticker(item.get("ticker") or item.get("symbol") or "")
-                    if t:
-                        tickers.add(t)
+        for item in universe.get("items", []):
+            if isinstance(item, dict):
+                t = normalize_ticker(item.get("ticker") or item.get("symbol") or "")
+                if t:
+                    tickers.add(t)
+        for key in ["sp500", "nasdaq100", "dow30", "sp400", "sp600"]:
+            for x in universe.get(key, []):
+                t = normalize_ticker(x if isinstance(x, str) else x.get("ticker", ""))
+                if t:
+                    tickers.add(t)
 
-        for key in ["sp500", "nasdaq100", "dow30"]:
-            arr = universe.get(key, [])
-            if isinstance(arr, list):
-                for x in arr:
-                    if isinstance(x, str):
-                        t = normalize_ticker(x)
-                        if t:
-                            tickers.add(t)
-                    elif isinstance(x, dict):
-                        t = normalize_ticker(x.get("ticker") or x.get("symbol") or "")
-                        if t:
-                            tickers.add(t)
+    for wiki_file in [SP400_FILE, SP600_FILE]:
+        data = load_json(wiki_file, default=[])
+        items = data.get("items", data) if isinstance(data, dict) else data
+        for item in items:
+            t = normalize_ticker(item if isinstance(item, str) else item.get("ticker", ""))
+            if t:
+                tickers.add(t)
 
     return sorted(tickers)
 
 
-def first_available(df, labels: list[str]):
-    if df is None or getattr(df, "empty", True):
-        return None
-
-    for label in labels:
-        if label in df.index:
-            try:
-                val = df.loc[label].iloc[0]
-                return safe_num(val)
-            except Exception:
-                pass
-
-    idx = [str(x) for x in df.index]
-
-    for label in labels:
-        lower = label.lower()
-
-        for i, raw in enumerate(idx):
-            if lower == raw.lower():
-                try:
-                    val = df.iloc[i].iloc[0]
-                    return safe_num(val)
-                except Exception:
-                    pass
-
-    return None
-
-
-def build_one(ticker: str):
-    tk = yf.Ticker(ticker)
-
-    info = {}
+def fetch_sf1_batch(tickers: list[str]) -> pd.DataFrame:
+    """Fetch MRY SF1 rows for a batch of tickers."""
+    sf1_cols = [
+        "ticker", "datekey", "calendardate",
+        "revenue", "opinc", "ncfo", "capex", "fcf",
+        "pe", "ps", "marketcap",
+    ]
     try:
-        info = tk.info or {}
-    except Exception:
-        info = {}
+        df = nasdaqdatalink.get_table(
+            "SHARADAR/SF1",
+            ticker=tickers,
+            dimension=DIMENSION,
+            qopts={"columns": sf1_cols},
+            paginate=True,
+        )
+        return df if df is not None else pd.DataFrame()
+    except Exception as e:
+        print(f"  [WARN] SF1 batch error: {e}")
+        return pd.DataFrame()
 
-    financials = None
-    cashflow = None
 
+def fetch_tickers_meta(tickers: list[str]) -> dict[str, dict]:
+    """Fetch name/sector/industry from SHARADAR/TICKERS."""
+    meta: dict[str, dict] = {}
     try:
-        financials = tk.financials
-    except Exception:
-        financials = None
+        df = nasdaqdatalink.get_table(
+            "SHARADAR/TICKERS",
+            ticker=tickers,
+            qopts={"columns": ["ticker", "name", "sector", "industry", "exchange"]},
+            paginate=True,
+        )
+        if df is not None and not df.empty:
+            for _, row in df.drop_duplicates("ticker").iterrows():
+                meta[str(row["ticker"]).upper()] = {
+                    "name":     row.get("name") or None,
+                    "sector":   row.get("sector") or None,
+                    "industry": row.get("industry") or None,
+                    "exchange": row.get("exchange") or None,
+                }
+    except Exception as e:
+        print(f"  [WARN] TICKERS meta error: {e}")
+    return meta
 
-    try:
-        cashflow = tk.cashflow
-    except Exception:
-        cashflow = None
 
-    revenue = first_available(
-        financials,
-        [
-            "Total Revenue",
-            "Operating Revenue",
-            "Revenue",
-        ],
-    )
+def build_latest_sf1(tickers: list[str]) -> dict[str, dict]:
+    """Return {ticker: latest_MRY_row_dict} for all tickers."""
+    latest: dict[str, dict] = {}
+    total_chunks = (len(tickers) + CHUNK_SIZE - 1) // CHUNK_SIZE
 
-    op_income = first_available(
-        financials,
-        [
-            "Operating Income",
-            "Operating Income or Loss",
-        ],
-    )
+    for i in range(0, len(tickers), CHUNK_SIZE):
+        chunk = tickers[i : i + CHUNK_SIZE]
+        chunk_num = i // CHUNK_SIZE + 1
+        print(f"  SF1 chunk {chunk_num}/{total_chunks}: {len(chunk)} tickers")
 
-    cfo = first_available(
-        cashflow,
-        [
-            "Operating Cash Flow",
-            "Cash Flow From Continuing Operating Activities",
-            "Net Cash Provided By Operating Activities",
-            "Net Cash Provided by Operating Activities",
-        ],
-    )
+        df = fetch_sf1_batch(chunk)
+        if df.empty:
+            continue
 
-    capex = first_available(
-        cashflow,
-        [
-            "Capital Expenditure",
-            "Capital Expenditures",
-            "Purchase Of Property Plant And Equipment",
-            "Payments To Acquire Property Plant And Equipment",
-        ],
-    )
+        df = df.sort_values("datekey")
+        for ticker, grp in df.groupby("ticker"):
+            row = grp.iloc[-1]
+            latest[str(ticker).upper()] = row.to_dict()
 
-    fcf = None
-    if cfo is not None and capex is not None:
-        fcf = safe_num(cfo - abs(capex))
-
-    pe = safe_num(info.get("trailingPE"))
-    ps = safe_num(info.get("priceToSalesTrailing12Months"))
-
-    sector = info.get("sector") or None
-    long_name = info.get("longName") or info.get("shortName") or None
-    market_cap = safe_num(info.get("marketCap"))
-
-    return {
-        "ticker": ticker,
-        "generated_at_utc": None,
-        "source": "yfinance",
-        "name": long_name,
-        "sector": sector,
-        "market_cap": market_cap,
-        "multiples": {
-            "pe": pe,
-            "ps": ps,
-        },
-        "annual_latest": {
-            "revenue": revenue,
-            "op_income": op_income,
-            "fcf": fcf,
-            "cfo": cfo,
-            "capex": capex,
-        },
-    }
+    return latest
 
 
 def main():
-    tickers = read_universe_tickers()
-
-    out = {}
+    tickers = collect_tickers()
     total = len(tickers)
+    print(f"[INFO] Universe: {total} tickers")
+    print(f"[INFO] Fetching Sharadar SF1 (MRY) fundamentals...")
 
-    for i, ticker in enumerate(tickers, start=1):
+    sf1_data = build_latest_sf1(tickers)
+    print(f"[INFO] SF1 data: {len(sf1_data)} tickers with data")
 
-        try:
-            out[ticker] = build_one(ticker)
+    print(f"[INFO] Fetching SHARADAR/TICKERS metadata...")
+    meta = fetch_tickers_meta(tickers)
 
-            if i % 25 == 0 or i == total:
-                print(f"[{i}/{total}] {ticker}")
+    out: dict[str, dict] = {}
+    ts = datetime.now(timezone.utc).isoformat()
 
-        except Exception as e:
+    for ticker in tickers:
+        row  = sf1_data.get(ticker, {})
+        info = meta.get(ticker, {})
 
-            out[ticker] = {
-                "ticker": ticker,
-                "generated_at_utc": None,
-                "source": "yfinance",
-                "error": str(e),
-                "multiples": {"pe": None, "ps": None},
-                "annual_latest": {
-                    "revenue": None,
-                    "op_income": None,
-                    "fcf": None,
-                    "cfo": None,
-                    "capex": None,
-                },
-            }
+        revenue  = safe_num(row.get("revenue"))
+        op_income = safe_num(row.get("opinc"))
+        cfo      = safe_num(row.get("ncfo"))
+        capex    = safe_num(row.get("capex"))
+        fcf      = safe_num(row.get("fcf"))
+        pe       = safe_num(row.get("pe"))
+        ps       = safe_num(row.get("ps"))
+        market_cap = safe_num(row.get("marketcap"))
+
+        out[ticker] = {
+            "ticker":            ticker,
+            "generated_at_utc":  ts,
+            "source":            "SHARADAR/SF1",
+            "datekey":           str(row["datekey"])[:10] if row.get("datekey") else None,
+            "name":              info.get("name"),
+            "sector":            info.get("sector"),
+            "industry":          info.get("industry"),
+            "exchange":          info.get("exchange"),
+            "market_cap":        market_cap,
+            "multiples": {
+                "pe": pe,
+                "ps": ps,
+            },
+            "annual_latest": {
+                "revenue":   revenue,
+                "op_income": op_income,
+                "fcf":       fcf,
+                "cfo":       cfo,
+                "capex":     capex,
+            },
+        }
 
     save_json(OUT_FILE, out)
 
-    print(f"[OK] Saved -> {OUT_FILE}")
+    scored = sum(1 for v in out.values() if v.get("annual_latest", {}).get("revenue") is not None)
+    print(f"\n[OK] Saved -> {OUT_FILE}")
+    print(f"  Total: {total}  With revenue: {scored}")
 
 
 if __name__ == "__main__":

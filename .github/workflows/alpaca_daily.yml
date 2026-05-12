@@ -1,0 +1,47 @@
+name: Alpaca 자동 리밸런싱
+
+on:
+  schedule:
+    # 매일 14:35 UTC = 미국 동부 09:35 AM (장 시작 5분 후)
+    - cron: "35 14 * * 1-5"
+  workflow_dispatch:       # 수동 트리거 (테스트용)
+    inputs:
+      dry_run:
+        description: "DRY_RUN (주문 없이 시뮬레이션만)"
+        required: false
+        default: "true"
+
+jobs:
+  rebalance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install alpaca-py pandas
+
+      - name: Run rebalancer
+        env:
+          ALPACA_API_KEY:    ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ALPACA_BASE_URL:   https://paper-api.alpaca.markets
+          DRIFT_THRESHOLD:   "0.05"
+          # 수동 트리거 시 dry_run 입력값 사용, 스케줄 실행 시 false
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: python invest-data/scripts/alpaca_rebalance.py
+
+      - name: Commit trade log
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add invest-data/data/alpaca_trade_log.json || true
+          git diff --cached --quiet || git commit -m "data: alpaca trade log $(date -u +%Y-%m-%d)"
+          git push || true

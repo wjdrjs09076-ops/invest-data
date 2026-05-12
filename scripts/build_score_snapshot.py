@@ -21,8 +21,11 @@ UNIVERSE_FILE = DATA_DIR / "universe.json"
 SP500_FILE = DATA_DIR / "sp500_tickers.json"
 SP400_FILE = DATA_DIR / "sp400_current_wiki.json"
 SP600_FILE = DATA_DIR / "sp600_current_wiki.json"
-QUALITY_FILE = DATA_DIR / "quality_snapshot.json"
-OUT_FILE = DATA_DIR / "score_snapshot.json"
+QUALITY_FILE        = DATA_DIR / "quality_snapshot.json"
+INSTITUTIONAL_FILE  = DATA_DIR / "institutional_signal.json"
+INSIDER_FILE        = DATA_DIR / "insider_signal.json"
+VALUATION_FILE      = DATA_DIR / "daily_valuation.json"
+OUT_FILE            = DATA_DIR / "score_snapshot.json"
 
 # [NEW] 뉴스 데이터 경로 설정
 NEWS_DIR = DATA_DIR / "news"
@@ -81,9 +84,12 @@ WEIGHT_MOM_252D = 0.00
 WEIGHT_MOM_12_1 = 0.20
 
 # Final score block weights
-WEIGHT_QUALITY = 0.20
-WEIGHT_SECTOR = 0.05
-WEIGHT_RISK = 0.05
+WEIGHT_QUALITY        = 0.15  # Sharadar SF1 퀄리티 (build_quality_snapshot)
+WEIGHT_SECTOR         = 0.05
+WEIGHT_RISK           = 0.05
+WEIGHT_INSTITUTIONAL  = 0.08  # Sharadar SF3 기관 순매수 (build_institutional_signal)
+WEIGHT_INSIDER        = 0.04  # Sharadar SF2 내부자 순매수 (build_insider_signal)
+WEIGHT_VALUATION      = 0.08  # Sharadar DAILY EV/EBIT + P/B (build_daily_valuation)
 
 # Risk internal weights (sum = 1.00 inside risk score)
 WEIGHT_VOL = 0.40
@@ -711,6 +717,25 @@ def load_quality_score_map() -> dict[str, float]:
 
     return out
 
+def load_signal_map(path: Path, key: str = "signals") -> dict[str, float]:
+    """Sharadar 신호 파일에서 {ticker: score(0-100)} 로드"""
+    payload = load_json(path, default={})
+    raw = payload.get(key, {})
+    return {normalize_ticker(t): float(v) for t, v in raw.items() if v is not None}
+
+
+def load_institutional_score_map() -> dict[str, float]:
+    return load_signal_map(INSTITUTIONAL_FILE, key="signals")
+
+
+def load_insider_score_map() -> dict[str, float]:
+    return load_signal_map(INSIDER_FILE, key="signals")
+
+
+def load_valuation_score_map() -> dict[str, float]:
+    return load_signal_map(VALUATION_FILE, key="valuation_score")
+
+
 # [업그레이드] 다운로드 에러(NoneType) 완벽 방어 로직 적용
 def download_close_map(tickers: list[str]) -> dict[str, pd.Series]:
     out: dict[str, pd.Series] = {}
@@ -934,6 +959,9 @@ def safe_log_score(val: float | None) -> float:
 def score_group(
     rows: list[StockMetric],
     quality_score_map: dict[str, float] | None = None,
+    institutional_score_map: dict[str, float] | None = None,
+    insider_score_map: dict[str, float] | None = None,
+    valuation_score_map: dict[str, float] | None = None,
 ) -> list[StockMetric]:
     sector_strength_map, _market_avg = compute_sector_strength(rows)
 
@@ -1008,9 +1036,21 @@ def score_group(
         if quality_score_map is not None:
             quality_score = quality_score_map.get(r.ticker)
 
+        institutional_score = None
+        if institutional_score_map is not None:
+            institutional_score = institutional_score_map.get(r.ticker)
+
+        insider_score = None
+        if insider_score_map is not None:
+            insider_score = insider_score_map.get(r.ticker)
+
+        valuation_score = None
+        if valuation_score_map is not None:
+            valuation_score = valuation_score_map.get(r.ticker)
+
         final_parts: list[tuple[float, float]] = []
         stock_block_weight = (
-            WEIGHT_MOM_21D + WEIGHT_MOM_63D + WEIGHT_RS_63D + 
+            WEIGHT_MOM_21D + WEIGHT_MOM_63D + WEIGHT_RS_63D +
             WEIGHT_MOM_126D + WEIGHT_MOM_252D + WEIGHT_MOM_12_1
         )
 
@@ -1022,6 +1062,12 @@ def score_group(
             final_parts.append((WEIGHT_SECTOR, sector_score))
         if risk_score is not None and WEIGHT_RISK > 0:
             final_parts.append((WEIGHT_RISK, risk_score))
+        if institutional_score is not None and WEIGHT_INSTITUTIONAL > 0:
+            final_parts.append((WEIGHT_INSTITUTIONAL, institutional_score))
+        if insider_score is not None and WEIGHT_INSIDER > 0:
+            final_parts.append((WEIGHT_INSIDER, insider_score))
+        if valuation_score is not None and WEIGHT_VALUATION > 0:
+            final_parts.append((WEIGHT_VALUATION, valuation_score))
 
         if not final_parts:
             continue
@@ -1235,7 +1281,10 @@ def analyze_news_from_local(ticker: str) -> tuple[int, bool, str]:
 
 def build_snapshot() -> dict[str, Any]:
     by_ticker, groups = parse_universe()
-    quality_score_map = load_quality_score_map()
+    quality_score_map      = load_quality_score_map()
+    institutional_score_map = load_institutional_score_map()
+    insider_score_map       = load_insider_score_map()
+    valuation_score_map     = load_valuation_score_map()
 
     all_needed_tickers = sorted(
         set(groups["sp500"])
@@ -1247,6 +1296,9 @@ def build_snapshot() -> dict[str, Any]:
 
     print(f"[INFO] Total unique tickers to fetch: {len(all_needed_tickers)}")
     print(f"[INFO] Loaded quality scores: {len(quality_score_map)}")
+    print(f"[INFO] Loaded institutional scores: {len(institutional_score_map)}")
+    print(f"[INFO] Loaded insider scores: {len(insider_score_map)}")
+    print(f"[INFO] Loaded valuation scores: {len(valuation_score_map)}")
     close_map = download_close_map(all_needed_tickers)
 
     spy_close = close_map.get(BENCHMARK_TICKER)
@@ -1258,7 +1310,13 @@ def build_snapshot() -> dict[str, Any]:
     for group_key in ["sp500", "sp400", "sp600", "nasdaq100", "dow30"]:
         tickers = groups.get(group_key, [])
         metrics = build_metrics_for_group(tickers, by_ticker, close_map)
-        scored = score_group(metrics, quality_score_map=quality_score_map)
+        scored = score_group(
+            metrics,
+            quality_score_map=quality_score_map,
+            institutional_score_map=institutional_score_map,
+            insider_score_map=insider_score_map,
+            valuation_score_map=valuation_score_map,
+        )
 
         # -----------------------------
         # [고도화] 뉴스 필터 및 레드플래그 퇴출 적용
