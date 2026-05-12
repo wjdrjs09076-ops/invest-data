@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-12T20:07:47Z",
+  "generated_at_utc": "2026-05-12T22:35:18Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "NOC",
               "label": "HOLD • score 68",
-              "reason": "RSI 26, 5D -0.1%, 20D -18.0%"
+              "reason": "RSI 26, 5D -0.1%, 20D -17.9%"
             },
             {
               "ticker": "TSCO",
@@ -83,13 +83,13 @@
           "title": "Oversold Reversal",
           "items": [
             {
-              "ticker": "HCA",
+              "ticker": "APTV",
               "label": "RSI 35, 5D 0.2%",
               "reason": ""
             },
             {
-              "ticker": "APTV",
-              "label": "RSI 34, 5D 0.2%",
+              "ticker": "HCA",
+              "label": "RSI 35, 5D 0.2%",
               "reason": ""
             }
           ]
@@ -299,7 +299,7 @@
             {
               "ticker": "MCD",
               "label": "HOLD • score 61",
-              "reason": "RSI 25, 5D -3.6%, 20D -9.3%"
+              "reason": "RSI 25, 5D -3.6%, 20D -9.4%"
             },
             {
               "ticker": "DIS",
@@ -309,7 +309,7 @@
             {
               "ticker": "KO",
               "label": "HOLD • score 54",
-              "reason": "RSI 65, 5D 2.1%, 20D 5.5%"
+              "reason": "RSI 64, 5D 2.0%, 20D 5.4%"
             }
           ]
         },
@@ -328,12 +328,12 @@
             },
             {
               "ticker": "KO",
-              "label": "20D 5.5%",
+              "label": "20D 5.4%",
               "reason": ""
             },
             {
               "ticker": "V",
-              "label": "20D 4.9%",
+              "label": "20D 4.8%",
               "reason": ""
             },
             {
@@ -358,12 +358,12 @@
             },
             {
               "ticker": "JNJ",
-              "label": "20D -6.5%",
+              "label": "20D -6.6%",
               "reason": ""
             },
             {
               "ticker": "MCD",
-              "label": "20D -9.3%",
+              "label": "20D -9.4%",
               "reason": ""
             }
           ]
