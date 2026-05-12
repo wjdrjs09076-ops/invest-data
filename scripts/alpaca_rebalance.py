@@ -108,8 +108,9 @@ def get_current_positions(trading) -> tuple[dict[str, float], float]:
 
 # ─── 현재가 조회 ───────────────────────────────────────────────
 def get_latest_prices(data_client, tickers: list[str]) -> dict[str, float]:
-    from alpaca.data.requests import StockLatestQuoteRequest
+    from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest
 
+    # 우선 bid/ask 중간값 사용
     req    = StockLatestQuoteRequest(symbol_or_symbols=tickers)
     quotes = data_client.get_stock_latest_quote(req)
     prices: dict[str, float] = {}
@@ -117,6 +118,20 @@ def get_latest_prices(data_client, tickers: list[str]) -> dict[str, float]:
         mid = (float(q.bid_price) + float(q.ask_price)) / 2
         if mid > 0:
             prices[sym] = mid
+
+    # bid/ask 0인 종목은 최신 체결가로 대체 (장 시작 직후·시간외)
+    missing = [t for t in tickers if t not in prices]
+    if missing:
+        try:
+            trade_req = StockLatestTradeRequest(symbol_or_symbols=missing)
+            trades = data_client.get_stock_latest_trade(trade_req)
+            for sym, t in trades.items():
+                p = float(t.price)
+                if p > 0:
+                    prices[sym] = p
+        except Exception as e:
+            print(f"  [WARN] 체결가 조회 실패: {e}")
+
     return prices
 
 

@@ -15,6 +15,8 @@ jobs:
   rebalance:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -36,12 +38,12 @@ jobs:
           DRIFT_THRESHOLD:   "0.05"
           # 수동 트리거 시 dry_run 입력값 사용, 스케줄 실행 시 false
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
-        run: python invest-data/scripts/alpaca_rebalance.py
+        run: python scripts/alpaca_rebalance.py
 
       - name: Commit trade log
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add invest-data/data/alpaca_trade_log.json || true
+          git add data/alpaca_trade_log.json || true
           git diff --cached --quiet || git commit -m "data: alpaca trade log $(date -u +%Y-%m-%d)"
           git push || true
