@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-11T22:18:11Z",
+  "generated_at_utc": "2026-05-12T04:05:17Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -183,7 +183,7 @@
             },
             {
               "ticker": "AAPL",
-              "label": "20D 12.9%",
+              "label": "20D 13.0%",
               "reason": ""
             },
             {
@@ -312,7 +312,7 @@
             },
             {
               "ticker": "AAPL",
-              "label": "20D 12.9%",
+              "label": "20D 13.0%",
               "reason": ""
             },
             {
