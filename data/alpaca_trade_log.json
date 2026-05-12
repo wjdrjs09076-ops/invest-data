@@ -1,0 +1,118 @@
+[
+  {
+    "date": "2026-05-12",
+    "timestamp": "2026-05-12T04:54:52.694037+00:00",
+    "reason": "월 정기 리밸런싱 (2026-05)",
+    "portfolio_value": 100000.0,
+    "target_weights": {
+      "AGX": 0.0667,
+      "INSW": 0.0667,
+      "POWL": 0.0667,
+      "CIEN": 0.0667,
+      "SNDK": 0.0667,
+      "WDC": 0.0667,
+      "KGS": 0.0667,
+      "CC": 0.0667,
+      "KALU": 0.0667,
+      "SPHR": 0.0667,
+      "FIX": 0.0667,
+      "OUT": 0.0667,
+      "REX": 0.0667,
+      "UNIT": 0.0667,
+      "ECPG": 0.0667
+    },
+    "orders": [
+      {
+        "symbol": "SNDK",
+        "side": "buy",
+        "qty": 4,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "AGX",
+        "side": "buy",
+        "qty": 23,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "CC",
+        "side": "buy",
+        "qty": 260,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "CIEN",
+        "side": "buy",
+        "qty": 12,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "ECPG",
+        "side": "buy",
+        "qty": 192,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "FIX",
+        "side": "buy",
+        "qty": 3,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "INSW",
+        "side": "buy",
+        "qty": 76,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "KALU",
+        "side": "buy",
+        "qty": 37,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "KGS",
+        "side": "buy",
+        "qty": 91,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "OUT",
+        "side": "buy",
+        "qty": 484,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "REX",
+        "side": "buy",
+        "qty": 329,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "SPHR",
+        "side": "buy",
+        "qty": 51,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "UNIT",
+        "side": "buy",
+        "qty": 578,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "WDC",
+        "side": "buy",
+        "qty": 13,
+        "status": "dry_run"
+      },
+      {
+        "symbol": "POWL",
+        "side": "buy",
+        "qty": 21,
+        "status": "dry_run"
+      }
+    ],
+    "dry_run": true
+  }
+]
