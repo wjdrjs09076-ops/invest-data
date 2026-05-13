@@ -1,7 +1,7 @@
 {
   "ticker": "NFLX",
-  "generated_at_utc": "2026-05-13T11:49:28Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-13T15:32:31Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
