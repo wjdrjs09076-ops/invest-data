@@ -1,7 +1,7 @@
 {
   "ticker": "ADSK",
-  "generated_at_utc": "2026-05-13T17:37:25Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-13T20:24:02Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
