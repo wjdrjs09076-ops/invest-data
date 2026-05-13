@@ -1,7 +1,7 @@
 {
   "ticker": "MRSH",
-  "generated_at_utc": "2026-05-12T20:17:07Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-13T04:32:01Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
