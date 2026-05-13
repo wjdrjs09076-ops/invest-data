@@ -1,7 +1,7 @@
 {
   "ticker": "GIS",
-  "generated_at_utc": "2026-05-13T15:32:31Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-13T17:37:25Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
