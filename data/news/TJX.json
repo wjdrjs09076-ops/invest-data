@@ -1,7 +1,7 @@
 {
   "ticker": "TJX",
-  "generated_at_utc": "2026-05-15T09:33:25Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-05-15T11:34:50Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
