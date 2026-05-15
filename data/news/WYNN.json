@@ -1,7 +1,7 @@
 {
   "ticker": "WYNN",
-  "generated_at_utc": "2026-05-14T20:16:40Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-05-15T04:37:19Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
