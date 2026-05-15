@@ -1,7 +1,7 @@
 {
   "ticker": "PSKY",
-  "generated_at_utc": "2026-05-15T17:13:16Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-15T20:05:07Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }

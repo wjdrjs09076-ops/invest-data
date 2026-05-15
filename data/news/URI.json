@@ -1,7 +1,7 @@
 {
   "ticker": "URI",
-  "generated_at_utc": "2026-05-15T17:13:16Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-15T20:05:07Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
