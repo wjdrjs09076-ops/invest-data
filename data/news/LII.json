@@ -1,7 +1,7 @@
 {
   "ticker": "LII",
-  "generated_at_utc": "2026-05-15T04:37:19Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-05-15T09:33:25Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
