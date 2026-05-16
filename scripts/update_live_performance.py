@@ -86,10 +86,11 @@ def update() -> None:
         print(f"[OK] 이미 최신 ({last_date}). 추가할 데이터 없음.")
         return
 
-    print(f"[FETCH] {fetch_start} ~ {today_str}  ({len(tickers)} tickers)")
+    # last_date 포함해서 다운로드 → 직전일 종가를 prev_prices 초기값으로 사용
+    print(f"[FETCH] {last_date} ~ {today_str}  ({len(tickers)} tickers)")
     raw = yf.download(
         tickers=tickers,
-        start=fetch_start,
+        start=last_date,
         auto_adjust=True,
         progress=False,
         group_by="ticker",
@@ -133,14 +134,18 @@ def update() -> None:
 
     for date in all_dates:
         date_str = str(date.date())
-        if date_str <= last_date:
-            continue
 
         # 종목별 당일 종가
         cur_prices: dict[str, float] = {}
         for t, s in prices.items():
             if date in s.index:
                 cur_prices[t] = float(s[date])
+
+        # last_date 당일은 prev_prices 초기화에만 사용하고 레코드 추가 안 함
+        if date_str <= last_date:
+            if cur_prices:
+                prev_prices = cur_prices
+            continue
 
         if not cur_prices:
             continue
