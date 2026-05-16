@@ -1,7 +1,7 @@
 {
   "ticker": "XEL",
-  "generated_at_utc": "2026-05-16T16:31:57Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-16T19:43:21Z",
+  "error": "<urlopen error [Errno 111] Connection refused>",
   "count": 0,
   "items": []
 }
