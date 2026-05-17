@@ -84,6 +84,14 @@ FACTOR_UNIVERSE: dict[str, dict] = {
     "zscore":   {"type": "zscore",        "rank": "high_good"},
     # ── 기관 보유 변화 (SF3 13F QoQ, PIT bisect) ─────────────
     "institutional": {"type": "institutional", "rank": "high_good", "lookback_qtrs": 2},
+    # ── 기관 크라우딩 역이용 (SF3 보유 비율 낮은 종목 매수, 45일 파일링 딜레이 보정) ──
+    "inst_crowding": {"type": "inst_crowding", "rank": "low_good", "filing_lag_days": 45},
+    # ── 사이즈 중립 기관 크라우딩 (log(mcap) 회귀 잔차, 낮을수록 매수) ──────────────
+    "inst_crowding_neutral": {"type": "inst_crowding_neutral", "rank": "low_good"},
+    # ── SF3 투자자별 상세 신호 (build_sf3_detail_history.py 필요) ─────────────────
+    "inst_new_holders": {"type": "inst_detail", "key": "new_holders_rate", "rank": "high_good", "filing_lag_days": 45},
+    "inst_n_holders_chg": {"type": "inst_detail", "key": "n_holders_chg",  "rank": "high_good", "filing_lag_days": 45},
+    "inst_hhi":           {"type": "inst_detail", "key": "hhi",            "rank": "low_good",  "filing_lag_days": 45},
     # ── 내부자 순매수 (SF2 Form4, 롤링 12개월, PIT bisect) ────
     "insider":  {"type": "insider",       "rank": "high_good", "lookback_days": 365},
     # ── 양자영감 ML (VQC AngleEmbedding, 6큐비트, 6팩터) ─────
@@ -129,6 +137,8 @@ SEP_PRICES_FILE       = DATA_DIR / "sep_prices.pkl"
 DAILY_HISTORY_FILE    = DATA_DIR / "daily_history.pkl"
 ZSCORE_HISTORY_FILE   = DATA_DIR / "zscore_history.json"
 SF3_HISTORY_FILE      = DATA_DIR / "sf3_history.pkl"
+SF3_DETAIL_FILE       = DATA_DIR / "sf3_detail_history.pkl"
+INST_NEUTRAL_FILE     = DATA_DIR / "inst_neutral_history.pkl"
 SF2_HISTORY_FILE      = DATA_DIR / "sf2_history.pkl"
 SP500_SHARADAR_EVENTS = DATA_DIR / "sp500_membership_events_sharadar.json"
 SP500_WIKI_EVENTS     = DATA_DIR / "sp500_membership_events.json"
@@ -281,6 +291,101 @@ class _SF3Lookup:
             return None
         return float((q_n - q_n1) / q_n1)
 
+    def get_level(self, ticker: str, as_of: pd.Timestamp) -> float | None:
+        """가장 최근 분기 기관 보유 총 금액 (PIT)"""
+        rec = self._d.get(ticker)
+        if not rec:
+            return None
+        quarters = rec["quarters"]
+        values   = rec["values"]
+        idx = bisect.bisect_right(quarters, str(as_of.date())) - 1
+        if idx < 0 or values[idx] is None:
+            return None
+        return float(values[idx])
+
+
+class _SF3DetailLookup:
+    """
+    sf3_detail_history.pkl 기반 투자자별 상세 신호 PIT 조회.
+    key: "new_holders_rate" | "n_holders_chg" | "hhi"
+    """
+    def __init__(self):
+        self._d: dict[str, dict] = {}
+        self._ok = False
+
+    def load(self):
+        if self._ok:
+            return
+        self._ok = True
+        if not SF3_DETAIL_FILE.exists():
+            print("[WARN] sf3_detail_history.pkl 없음 — build_sf3_detail_history.py 실행 필요")
+            return
+        payload  = pd.read_pickle(SF3_DETAIL_FILE)
+        self._d  = payload.get("lookup", {}) if isinstance(payload, dict) else {}
+        print(f"[SF3_DETAIL] {len(self._d)} tickers loaded")
+
+    def get_signal(self, ticker: str, key: str, as_of: pd.Timestamp) -> float | None:
+        rec = self._d.get(ticker)
+        if not rec:
+            return None
+        quarters = rec["quarters"]
+        idx = bisect.bisect_right(quarters, str(as_of.date())) - 1
+        if idx < 0:
+            return None
+
+        if key == "hhi":
+            v = rec["hhi"][idx]
+            return float(v) if v is not None else None
+
+        if key == "new_holders_rate":
+            # 신규 진입 기관 수 / 전체 기관 수 (비율로 정규화)
+            new = rec["new_holders"][idx]
+            n   = rec["n_holders"][idx]
+            if new is None or n is None or n == 0:
+                return None
+            return float(new) / float(n)
+
+        if key == "n_holders_chg":
+            # 기관 수 QoQ 변화율
+            if idx < 1:
+                return None
+            n_cur  = rec["n_holders"][idx]
+            n_prev = rec["n_holders"][idx - 1]
+            if n_cur is None or n_prev is None or n_prev == 0:
+                return None
+            return float(n_cur - n_prev) / float(n_prev)
+
+        return None
+
+
+class _InstNeutralLookup:
+    """사이즈 중립 기관 크라우딩 잔차 룩업 (inst_neutral_history.pkl)"""
+    def __init__(self):
+        self._d: dict[str, dict] = {}
+        self._ok = False
+
+    def load(self):
+        if self._ok:
+            return
+        self._ok = True
+        if not INST_NEUTRAL_FILE.exists():
+            print("[WARN] inst_neutral_history.pkl 없음 — build_inst_neutral_history.py 실행 필요")
+            return
+        payload = pd.read_pickle(INST_NEUTRAL_FILE)
+        self._d = payload.get("lookup", {}) if isinstance(payload, dict) else {}
+        print(f"[INST_NEUTRAL] {len(self._d)} tickers loaded")
+
+    def get(self, ticker: str, as_of: pd.Timestamp) -> float | None:
+        rec = self._d.get(ticker)
+        if not rec:
+            return None
+        quarters  = rec["quarters"]
+        residuals = rec["residuals"]
+        idx = bisect.bisect_right(quarters, str(as_of.date())) - 1
+        if idx < 0:
+            return None
+        return float(residuals[idx])
+
 
 class _SF2Lookup:
     def __init__(self):
@@ -338,10 +443,12 @@ class BacktestEngine:
         self._data_loaded = False
 
         # PIT 룩업
-        self._daily  = _DailyLookup()
-        self._zscore = _ZscoreLookup()
-        self._sf3    = _SF3Lookup()
-        self._sf2    = _SF2Lookup()
+        self._daily        = _DailyLookup()
+        self._zscore       = _ZscoreLookup()
+        self._sf3          = _SF3Lookup()
+        self._sf3_detail   = _SF3DetailLookup()
+        self._inst_neutral = _InstNeutralLookup()
+        self._sf2          = _SF2Lookup()
 
         # 시장 데이터
         self.price_map:  dict[str, pd.Series] = {}
@@ -378,6 +485,8 @@ class BacktestEngine:
         self._daily.load()
         self._zscore.load()
         self._sf3.load()
+        self._sf3_detail.load()
+        self._inst_neutral.load()
         self._sf2.load()
         self._log(f"로드 완료: {len(self.price_map)} 시리즈, {len(self.trading_dates)} 거래일")
 
@@ -778,6 +887,26 @@ class BacktestEngine:
 
         elif ftype == "institutional":
             return self._sf3.get_qoq(ticker, as_of, cfg.get("lookback_qtrs", 2))
+
+        elif ftype == "inst_crowding":
+            # 13F 파일링 딜레이 45일 보정: 분기 말 데이터는 45일 후 공개
+            filing_lag = pd.Timedelta(days=cfg.get("filing_lag_days", 45))
+            inst_val = self._sf3.get_level(ticker, as_of - filing_lag)
+            if inst_val is None:
+                return None
+            mcap = self._daily.get(ticker, "marketcap", as_of)
+            if mcap is None or mcap <= 0:
+                return None
+            return inst_val / (mcap * 1_000_000)  # 기관 소유 비율 (0~1+)
+
+        elif ftype == "inst_crowding_neutral":
+            # 사이즈 중립 잔차: build_inst_neutral_history.py 에서 사전 계산
+            return self._inst_neutral.get(ticker, as_of)
+
+        elif ftype == "inst_detail":
+            # 투자자별 상세 신호: build_sf3_detail_history.py 필요
+            filing_lag = pd.Timedelta(days=cfg.get("filing_lag_days", 45))
+            return self._sf3_detail.get_signal(ticker, cfg["key"], as_of - filing_lag)
 
         elif ftype == "insider":
             return self._sf2.get_net_ratio(ticker, as_of, cfg.get("lookback_days", 365))
