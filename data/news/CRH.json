@@ -1,7 +1,7 @@
 {
   "ticker": "CRH",
-  "generated_at_utc": "2026-05-17T22:30:29Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-18T04:52:26Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
