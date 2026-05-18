@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-18T20:00:45Z",
+  "generated_at_utc": "2026-05-18T22:13:24Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -43,12 +43,12 @@
               "reason": ""
             },
             {
-              "ticker": "MU",
+              "ticker": "CNC",
               "label": "20D 52.0%",
               "reason": ""
             },
             {
-              "ticker": "CNC",
+              "ticker": "MU",
               "label": "20D 52.0%",
               "reason": ""
             },
@@ -89,7 +89,7 @@
             },
             {
               "ticker": "COR",
-              "label": "RSI 32, 5D 1.1%",
+              "label": "RSI 31, 5D 1.1%",
               "reason": ""
             },
             {
@@ -304,17 +304,17 @@
             {
               "ticker": "JNJ",
               "label": "HOLD • score 57",
-              "reason": "RSI 50, 5D 3.4%, 20D -0.7%"
+              "reason": "RSI 50, 5D 3.4%, 20D -0.8%"
             },
             {
               "ticker": "KO",
-              "label": "HOLD • score 57",
-              "reason": "RSI 69, 5D 3.3%, 20D 7.6%"
+              "label": "HOLD • score 56",
+              "reason": "RSI 69, 5D 3.2%, 20D 7.6%"
             },
             {
               "ticker": "V",
               "label": "HOLD • score 56",
-              "reason": "RSI 63, 5D 3.0%, 20D 6.2%"
+              "reason": "RSI 63, 5D 2.9%, 20D 6.2%"
             }
           ]
         },
@@ -353,7 +353,7 @@
             },
             {
               "ticker": "JNJ",
-              "label": "20D -0.7%",
+              "label": "20D -0.8%",
               "reason": ""
             },
             {
@@ -387,7 +387,7 @@
             },
             {
               "ticker": "DIS",
-              "label": "Vol 36%",
+              "label": "Vol 35%",
               "reason": ""
             },
             {
