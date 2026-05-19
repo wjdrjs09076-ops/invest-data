@@ -1,7 +1,7 @@
 {
   "ticker": "MSI",
-  "generated_at_utc": "2026-05-19T10:25:23Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-19T16:00:55Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
