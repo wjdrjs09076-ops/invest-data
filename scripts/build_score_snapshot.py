@@ -109,8 +109,8 @@ VOL_WEIGHT_FLOOR = 0.18
 # -----------------------------
 # Absolute momentum / diversification
 # -----------------------------
-ABS_MOM_63D_MIN = 0
-ABS_MOM_252D_MIN = 0
+ABS_MOM_63D_MIN = -5    # pct units (ret63d is stored ×100); notes: > -5%
+ABS_MOM_252D_MIN = -10  # pct units; notes: > -10%
 SECTOR_MAX_NAMES = 3
 
 # -----------------------------
@@ -1253,7 +1253,7 @@ def analyze_news_from_local(ticker: str) -> tuple[int, bool, str]:
         for item in items[:NEWS_LOOKBACK_ITEMS]:
             title = item.get("title", "").upper()
             
-            for match in RED_FLAG_REGEX.finditer(title):
+            for match in HARD_KILL_REGEX.finditer(title):
                 found_red_flags.add(match.group(0))
             for match in MILD_NEG_REGEX.finditer(title):
                 found_mild_neg.add(match.group(0))

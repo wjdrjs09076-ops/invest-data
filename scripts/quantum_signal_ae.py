@@ -70,8 +70,8 @@ AE_INPUT_FEATURES: list[str] = [
     "pb",
     "pe",
     "ps",
-    # 퀄리티
-    "zscore",
+    # 퀄리티 (zscore → IS 기간 데이터 부족으로 IC=0, inst_crowding_neutral로 교체)
+    "inst_crowding_neutral",
     # 수급
     "institutional",
     "insider",
@@ -148,6 +148,7 @@ class AEVQCTrainer:
         lr:       float = DEFAULT_LR,
         batch:    int   = DEFAULT_BATCH,
         verbose:  bool  = True,
+        seed:     int   = 42,
     ):
         self.n_qubits = n_qubits
         self.n_layers = n_layers
@@ -155,6 +156,7 @@ class AEVQCTrainer:
         self.lr       = lr
         self.batch    = batch
         self.verbose  = verbose
+        self.seed     = seed
         self.params_  = None
         self._circuit = None
 
@@ -190,7 +192,7 @@ class AEVQCTrainer:
             f"피처 수({X.shape[1]})가 2^n_qubits({n_features})와 다릅니다."
         )
 
-        rng    = np.random.default_rng(42)
+        rng    = np.random.default_rng(self.seed)
         params = pnp.array(
             rng.uniform(-np.pi, np.pi, (self.n_layers, self.n_qubits, 3)),
             requires_grad=True,
@@ -309,7 +311,15 @@ class AEVQCSignal:
             )
             return False
         with open(params_path, "rb") as f:
-            self._params = pickle.load(f)
+            raw = pickle.load(f)
+        # 앙상블(리스트) 또는 단일 파라미터 모두 지원
+        if isinstance(raw, list):
+            self._params_list = [np.array(p) for p in raw]
+            self._params      = self._params_list[0]
+        else:
+            self._params_list = [np.array(raw)]
+            self._params      = self._params_list[0]
+
         if norm_path.exists():
             with open(norm_path, "rb") as f:
                 norm      = pickle.load(f)
@@ -322,11 +332,12 @@ class AEVQCSignal:
             self._n_layers = meta.get("n_layers", DEFAULT_N_LAYERS)
         self._circuit = _make_ae_circuit(self._n_qubits, self._n_layers)
         self._loaded  = True
+        n_members = len(self._params_list)
         print(
             f"[AE-VQC] 로드 완료 ("
             f"{self._n_qubits}큐비트 / "
             f"2^{self._n_qubits}={2**self._n_qubits}팩터 / "
-            f"{self._n_layers}레이어)"
+            f"{self._n_layers}레이어 / 앙상블={n_members}개)"
         )
         return True
 
@@ -334,6 +345,7 @@ class AEVQCSignal:
         """
         feature_dict : {factor_name: raw_value or None}
         반환         : 0.0 ~ 1.0 (높을수록 양호한 신호), 유효 팩터 부족 시 None
+        앙상블 학습 시 각 회로 출력의 평균값 반환.
         """
         if not self._loaded:
             return None
@@ -341,9 +353,12 @@ class AEVQCSignal:
         if vec is None:
             return None
         try:
-            out  = self._circuit(self._params, vec)
-            prob = float(1.0 / (1.0 + np.exp(-float(out))))
-            return prob
+            probs = []
+            for p in self._params_list:
+                out  = self._circuit(p, vec)
+                prob = float(1.0 / (1.0 + np.exp(-float(out))))
+                probs.append(prob)
+            return float(np.mean(probs))
         except Exception:
             return None
 
@@ -383,10 +398,10 @@ class AEVQCSignal:
 # ═════════════════════════════════════════════════════════════
 
 def normalize_features(X: np.ndarray) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """Z-score 정규화. mu, std 반환 → 추론 시 재사용."""
-    mu  = X.mean(axis=0)
-    std = X.std(axis=0) + 1e-8
-    return (X - mu) / std, mu, std
+    """Z-score 정규화. mu, std 반환 → 추론 시 재사용. NaN-aware."""
+    mu  = np.nanmean(X, axis=0)
+    std = np.nanstd(X, axis=0) + 1e-8
+    return np.nan_to_num((X - mu) / std, nan=0.0), mu, std
 
 
 def build_training_data_ae(
@@ -416,11 +431,15 @@ def build_training_data_ae(
 
     X_list, y_list, t_list = [], [], []
 
+    is_end_ts = pd.Timestamp(IS_END)
+
     for rebal_date in rebal_dates:
         future_dates = engine.trading_dates[engine.trading_dates > rebal_date]
         if len(future_dates) < forward_days:
             continue
         future_date = future_dates[forward_days - 1]
+        if future_date > is_end_ts:   # OOS 라벨 오염 방지
+            continue
 
         members = _reconstruct_universe(rebal_date, engine.universe, engine.events)
         sliced: dict[str, pd.Series] = {}
@@ -462,8 +481,7 @@ def build_training_data_ae(
             n_valid = 0
             for fname in AE_INPUT_FEATURES:
                 fval = s.get("factors", {}).get(fname)
-                # 결측 → 0.0 (z-score 정규화 후 평균에 해당)
-                row.append(0.0 if fval is None else float(fval))
+                row.append(np.nan if fval is None else float(fval))
                 if fval is not None:
                     n_valid += 1
 

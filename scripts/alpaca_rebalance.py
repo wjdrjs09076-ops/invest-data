@@ -67,6 +67,21 @@ def load_target_weights() -> dict[str, float]:
     return {t: w / total for t, w in weights.items() if w > 0}
 
 
+# ─── 레짐 로드 ─────────────────────────────────────────────────
+def load_regime() -> tuple[str, float, list[str]]:
+    """(regime, exposure, triggers) — 파일 없으면 RISK_ON/1.0 반환"""
+    path = DATA_DIR / "market_regime.json"
+    if not path.exists():
+        print("[WARN] market_regime.json 없음 — RISK_ON 가정")
+        return "RISK_ON", 1.0, []
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    regime   = d.get("regime", "RISK_ON")
+    exposure = float(d.get("suggested_exposure", 1.0))
+    triggers = d.get("triggers", [])
+    return regime, exposure, triggers
+
+
 # ─── 리밸런싱 필요 여부 판단 ───────────────────────────────────
 def needs_rebalance(current_pct: dict[str, float],
                     target: dict[str, float],
@@ -172,7 +187,14 @@ def run_rebalance() -> dict:
 
     trading, data_client = _get_clients()
     target_w = load_target_weights()
-    print(f"\n목표 포트폴리오 ({len(target_w)}개 종목):")
+
+    # 레짐 로드 및 노출 적용
+    regime, exposure, triggers = load_regime()
+    print(f"\n레짐: {regime}  노출: {exposure:.0%}  triggers: {triggers or ['none']}")
+    # exposure < 1.0이면 주식 비중 축소 (나머지는 현금 보유)
+    target_w = {t: w * exposure for t, w in target_w.items()}
+
+    print(f"\n목표 포트폴리오 ({len(target_w)}개 종목, 노출={exposure:.0%}):")
     for t, w in sorted(target_w.items()):
         print(f"  {t:<6} {w:.2%}")
 
@@ -182,19 +204,25 @@ def run_rebalance() -> dict:
 
     current_pct = {t: v / portfolio_value for t, v in pos_values.items()}
 
-    # 로그 파일에서 마지막 리밸런싱 날짜 읽기
+    # 로그 파일에서 마지막 리밸런싱 날짜 / 레짐 읽기
     log_path = DATA_DIR / "alpaca_trade_log.json"
     log_data: list[dict] = []
     if log_path.exists():
         with open(log_path, encoding="utf-8") as f:
             log_data = json.load(f)
-    last_rebal = log_data[-1]["date"] if log_data else None
+    last_rebal  = log_data[-1]["date"]   if log_data else None
+    last_regime = log_data[-1].get("regime") if log_data else None
 
-    should_rebal, reason = needs_rebalance(current_pct, target_w, last_rebal)
+    # 레짐 전환 시 즉시 리밸런싱 (노출 변경 반영)
+    if last_regime is not None and last_regime != regime:
+        should_rebal, reason = True, f"레짐 전환: {last_regime} → {regime}"
+    else:
+        should_rebal, reason = needs_rebalance(current_pct, target_w, last_rebal)
     print(f"\n리밸런싱 판단: {'실행' if should_rebal else '스킵'} — {reason}")
 
     if not should_rebal:
-        return {"action": "skip", "reason": reason, "portfolio_value": portfolio_value}
+        return {"action": "skip", "reason": reason, "regime": regime,
+                "exposure": exposure, "portfolio_value": portfolio_value}
 
     # 현재가 조회
     all_tickers = sorted(set(target_w) | set(pos_values))
@@ -243,6 +271,9 @@ def run_rebalance() -> dict:
         "date":            date.today().isoformat(),
         "timestamp":       datetime.now(timezone.utc).isoformat(),
         "reason":          reason,
+        "regime":          regime,
+        "exposure":        exposure,
+        "regime_triggers": triggers,
         "portfolio_value": round(portfolio_value, 2),
         "target_weights":  {t: round(w, 4) for t, w in target_w.items()},
         "orders":          orders_executed,

@@ -92,6 +92,10 @@ FACTOR_UNIVERSE: dict[str, dict] = {
     "inst_new_holders": {"type": "inst_detail", "key": "new_holders_rate", "rank": "high_good", "filing_lag_days": 45},
     "inst_n_holders_chg": {"type": "inst_detail", "key": "n_holders_chg",  "rank": "high_good", "filing_lag_days": 45},
     "inst_hhi":           {"type": "inst_detail", "key": "hhi",            "rank": "low_good",  "filing_lag_days": 45},
+    # ── 스마트머니 집중도: 사이즈 중립 미발견 × HHI (소수 기관 집중 보유 + 전체 미발견) ──
+    "inst_smart_proxy":  {"type": "inst_smart_proxy", "rank": "high_good", "filing_lag_days": 45},
+    # ── 섹터+사이즈 이중 중립 크라우딩 (build_sector_neutral_history.py 필요) ─────────
+    "inst_crowding_sector_neutral": {"type": "inst_crowding_sector_neutral", "rank": "low_good"},
     # ── 내부자 순매수 (SF2 Form4, 롤링 12개월, PIT bisect) ────
     "insider":  {"type": "insider",       "rank": "high_good", "lookback_days": 365},
     # ── 양자영감 ML (VQC AngleEmbedding, 6큐비트, 6팩터) ─────
@@ -138,7 +142,8 @@ DAILY_HISTORY_FILE    = DATA_DIR / "daily_history.pkl"
 ZSCORE_HISTORY_FILE   = DATA_DIR / "zscore_history.json"
 SF3_HISTORY_FILE      = DATA_DIR / "sf3_history.pkl"
 SF3_DETAIL_FILE       = DATA_DIR / "sf3_detail_history.pkl"
-INST_NEUTRAL_FILE     = DATA_DIR / "inst_neutral_history.pkl"
+INST_NEUTRAL_FILE        = DATA_DIR / "inst_neutral_history.pkl"
+SECTOR_NEUTRAL_FILE      = DATA_DIR / "sector_neutral_history.pkl"
 SF2_HISTORY_FILE      = DATA_DIR / "sf2_history.pkl"
 SP500_SHARADAR_EVENTS = DATA_DIR / "sp500_membership_events_sharadar.json"
 SP500_WIKI_EVENTS     = DATA_DIR / "sp500_membership_events.json"
@@ -387,6 +392,35 @@ class _InstNeutralLookup:
         return float(residuals[idx])
 
 
+class _SectorNeutralLookup:
+    """섹터+사이즈 이중 중립 기관 크라우딩 잔차 룩업 (sector_neutral_history.pkl)"""
+    def __init__(self):
+        self._d: dict[str, dict] = {}
+        self._ok = False
+
+    def load(self):
+        if self._ok:
+            return
+        self._ok = True
+        if not SECTOR_NEUTRAL_FILE.exists():
+            print("[WARN] sector_neutral_history.pkl 없음 — build_sector_neutral_history.py 실행 필요")
+            return
+        payload = pd.read_pickle(SECTOR_NEUTRAL_FILE)
+        self._d = payload.get("lookup", {}) if isinstance(payload, dict) else {}
+        print(f"[SECTOR_NEUTRAL] {len(self._d)} tickers loaded")
+
+    def get(self, ticker: str, as_of: pd.Timestamp) -> float | None:
+        rec = self._d.get(ticker)
+        if not rec:
+            return None
+        quarters  = rec["quarters"]
+        residuals = rec["residuals"]
+        idx = bisect.bisect_right(quarters, str(as_of.date())) - 1
+        if idx < 0:
+            return None
+        return float(residuals[idx])
+
+
 class _SF2Lookup:
     def __init__(self):
         self._d: dict[str, dict] = {}
@@ -447,8 +481,9 @@ class BacktestEngine:
         self._zscore       = _ZscoreLookup()
         self._sf3          = _SF3Lookup()
         self._sf3_detail   = _SF3DetailLookup()
-        self._inst_neutral = _InstNeutralLookup()
-        self._sf2          = _SF2Lookup()
+        self._inst_neutral   = _InstNeutralLookup()
+        self._sector_neutral = _SectorNeutralLookup()
+        self._sf2            = _SF2Lookup()
 
         # 시장 데이터
         self.price_map:  dict[str, pd.Series] = {}
@@ -487,6 +522,7 @@ class BacktestEngine:
         self._sf3.load()
         self._sf3_detail.load()
         self._inst_neutral.load()
+        self._sector_neutral.load()
         self._sf2.load()
         self._log(f"로드 완료: {len(self.price_map)} 시리즈, {len(self.trading_dates)} 거래일")
 
@@ -903,10 +939,24 @@ class BacktestEngine:
             # 사이즈 중립 잔차: build_inst_neutral_history.py 에서 사전 계산
             return self._inst_neutral.get(ticker, as_of)
 
+        elif ftype == "inst_crowding_sector_neutral":
+            # 섹터+사이즈 이중 중립 잔차: build_sector_neutral_history.py 에서 사전 계산
+            return self._sector_neutral.get(ticker, as_of)
+
         elif ftype == "inst_detail":
             # 투자자별 상세 신호: build_sf3_detail_history.py 필요
             filing_lag = pd.Timedelta(days=cfg.get("filing_lag_days", 45))
             return self._sf3_detail.get_signal(ticker, cfg["key"], as_of - filing_lag)
+
+        elif ftype == "inst_smart_proxy":
+            # 스마트머니 집중도: (-사이즈중립잔차) × HHI
+            # 전체 기관 보유 비율은 낮으나(미발견), 소수 기관이 집중 보유(확신) = 스마트머니 조용한 축적
+            filing_lag = pd.Timedelta(days=cfg.get("filing_lag_days", 45))
+            residual = self._inst_neutral.get(ticker, as_of)          # 사이즈 통제 잔차 (음수 = 미발견)
+            hhi      = self._sf3_detail.get_signal(ticker, "hhi", as_of - filing_lag)
+            if residual is None or hhi is None:
+                return None
+            return (-residual) * hhi  # 미발견(residual↓) × 집중도(HHI↑) 클수록 높음
 
         elif ftype == "insider":
             return self._sf2.get_net_ratio(ticker, as_of, cfg.get("lookback_days", 365))

@@ -169,6 +169,8 @@ weights = {
 | `inst_new_holders` | inst_detail | high_good | 신규 진입 기관 수 비율 QoQ (sf3_detail_history.pkl) |
 | `inst_n_holders_chg` | inst_detail | high_good | 보유 기관 수 QoQ 변화율 (sf3_detail_history.pkl) |
 | `inst_hhi` | inst_detail | low_good | 기관 보유 집중도 HHI (sf3_detail_history.pkl) |
+| `inst_smart_proxy` | inst_smart_proxy | high_good | 스마트머니 집중도: (-inst_neutral_residual) × HHI (미발견+소수집중) |
+| `inst_crowding_sector_neutral` | inst_crowding_sector_neutral | low_good | 섹터+사이즈 이중 통제 기관 크라우딩 (sector_neutral_history.pkl) |
 | `quantum_ml_ae` | quantum | — | AE-VQC 앙상블 신호 |
 
 ### 핵심 내부 메서드
@@ -302,6 +304,7 @@ weights = opt.optimize(scores, price_slices)
 | `build_zscore_history.py` | `zscore_history.json` | Z-score 역사적 시계열 |
 | `build_inst_neutral_history.py` | `inst_neutral_history.pkl` | 시가총액 통제 기관 크라우딩 (OLS 잔차) |
 | `build_sf3_detail_history.py` | `sf3_detail_history.pkl` | SF3 투자자별 상세 신호 (n_holders, new_holders, HHI) |
+| `build_sector_neutral_history.py` | `sector_neutral_history.pkl` | 섹터+사이즈 이중 중립 기관 크라우딩 OLS 잔차 |
 
 ### 멤버십 데이터
 
@@ -724,4 +727,4 @@ python scripts/baseline_crossvalidate.py --factor insider
 
 ---
 
-*최종 수정: 2026-05-17 (SF3 투자자별 상세 신호 3개 추가: inst_new_holders, inst_n_holders_chg, inst_hhi)*
+*최종 수정: 2026-05-19 (inst_smart_proxy 팩터 추가: 사이즈 통제 미발견 × HHI 스마트머니 집중도 신호)*
