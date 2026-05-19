@@ -1,9 +1,14 @@
 {
-  "generated_at": "2026-03-11T15:05:18.338294+00:00",
+  "generated_at": "2026-05-19T05:12:50.213939+00:00",
   "benchmark": "SPY",
   "ma_window": 200,
-  "last_close": 677.6199951171875,
-  "last_ma": 655.5750784301758,
+  "last_close": 738.6500244140625,
+  "last_ma": 673.8946090698242,
+  "last_vix": 17.81999969482422,
+  "last_yield_10y": 4.623000144958496,
+  "vix_threshold": 25.0,
+  "yield_threshold": 5.0,
+  "triggers": [],
   "regime": "RISK_ON",
   "suggested_exposure": 1.0
 }
