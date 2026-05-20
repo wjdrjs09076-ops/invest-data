@@ -1,7 +1,7 @@
 {
   "ticker": "COIN",
-  "generated_at_utc": "2026-05-19T03:22:25Z",
-  "error": "<urlopen error [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다>",
+  "generated_at_utc": "2026-05-20T04:49:23Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }

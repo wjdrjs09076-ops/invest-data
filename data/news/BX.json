@@ -1,7 +1,7 @@
 {
   "ticker": "BX",
-  "generated_at_utc": "2026-05-19T03:22:25Z",
-  "error": "<urlopen error [WinError 10053] 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다>",
+  "generated_at_utc": "2026-05-20T04:49:23Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
