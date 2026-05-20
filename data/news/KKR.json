@@ -1,7 +1,7 @@
 {
   "ticker": "KKR",
-  "generated_at_utc": "2026-05-19T20:17:13Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-05-19T03:23:24Z",
+  "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
   "count": 0,
   "items": []
 }

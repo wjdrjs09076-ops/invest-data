@@ -1,7 +1,7 @@
 {
   "ticker": "EXE",
-  "generated_at_utc": "2026-05-19T20:17:13Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-05-19T03:23:24Z",
+  "error": "<urlopen error [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다>",
   "count": 0,
   "items": []
 }
