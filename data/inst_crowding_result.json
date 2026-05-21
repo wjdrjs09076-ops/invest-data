@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-05-12T07:37:41.249306+00:00",
+  "results": [
+    {
+      "name": "baseline_ae_vqc",
+      "label": "AE-VQC 베이스라인 (기존)",
+      "weights": {
+        "quantum_ml_ae": 1.0
+      },
+      "IS_sharpe": -0.083,
+      "IS_cagr": -0.0049,
+      "IS_mdd": -0.1712,
+      "OOS_sharpe": 0.076,
+      "OOS_cagr": 0.0045,
+      "OOS_mdd": -0.1559,
+      "generalize": null
+    },
+    {
+      "name": "inst_crowding_only",
+      "label": "기관 크라우딩 역이용 단독",
+      "weights": {
+        "inst_crowding": 1.0
+      },
+      "IS_sharpe": 0.9,
+      "IS_cagr": 0.1258,
+      "IS_mdd": -0.1726,
+      "OOS_sharpe": 0.638,
+      "OOS_cagr": 0.1127,
+      "OOS_mdd": -0.2452,
+      "generalize": 0.709
+    },
+    {
+      "name": "crowding_plus_ae",
+      "label": "AE-VQC + 기관 크라우딩 앙상블",
+      "weights": {
+        "quantum_ml_ae": 1.0,
+        "inst_crowding": 1.0
+      },
+      "IS_sharpe": 0.9,
+      "IS_cagr": 0.1258,
+      "IS_mdd": -0.1726,
+      "OOS_sharpe": 0.638,
+      "OOS_cagr": 0.1127,
+      "OOS_mdd": -0.2452,
+      "generalize": 0.709
+    },
+    {
+      "name": "crowding_plus_momentum",
+      "label": "크라우딩 + 모멘텀(12-1)",
+      "weights": {
+        "inst_crowding": 1.0,
+        "mom12_1": 1.0
+      },
+      "IS_sharpe": 0.166,
+      "IS_cagr": 0.0281,
+      "IS_mdd": -0.2529,
+      "OOS_sharpe": 0.741,
+      "OOS_cagr": 0.1721,
+      "OOS_mdd": -0.2971,
+      "generalize": 4.45
+    }
+  ]
+}

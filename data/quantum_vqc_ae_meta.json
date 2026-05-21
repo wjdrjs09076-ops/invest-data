@@ -1,0 +1,32 @@
+{
+  "n_qubits": 4,
+  "n_layers": 3,
+  "encoding": "amplitude",
+  "n_features": 16,
+  "input_features": [
+    "mom12_1",
+    "mom9_1",
+    "mom6_1",
+    "mom3_1",
+    "mom1",
+    "rs_spy_12m",
+    "rs_spy_6m",
+    "rs_spy_3m",
+    "evebit",
+    "evebitda",
+    "pb",
+    "pe",
+    "ps",
+    "inst_crowding_neutral",
+    "institutional",
+    "insider"
+  ],
+  "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "saved_at": "2026-05-13T17:15:09.101290"
+}

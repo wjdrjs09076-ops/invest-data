@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-05-20T07:44:25.759884+00:00",
+  "description": "inst_crowding 라이브 편입 전 OOS 검증 실험",
+  "results": [
+    {
+      "id": "baseline_mom_inst_insider",
+      "note": "기존 라이브 근사 (momentum + institutional + insider)",
+      "weights": {
+        "mom12_1": 0.5,
+        "institutional": 0.25,
+        "insider": 0.25
+      },
+      "is": {
+        "cagr": 14.73,
+        "sharpe": 0.573,
+        "mdd": -22.36
+      },
+      "oos": {
+        "cagr": 16.92,
+        "sharpe": 0.808,
+        "mdd": -27.13
+      }
+    },
+    {
+      "id": "crowding_neutral_solo",
+      "note": "inst_crowding_neutral 단독",
+      "weights": {
+        "inst_crowding_neutral": 1.0
+      },
+      "is": {
+        "cagr": 7.71,
+        "sharpe": 0.64,
+        "mdd": -18.94
+      },
+      "oos": {
+        "cagr": 11.0,
+        "sharpe": 0.685,
+        "mdd": -23.47
+      }
+    },
+    {
+      "id": "crowding_sector_solo",
+      "note": "inst_crowding_sector_neutral 단독",
+      "weights": {
+        "inst_crowding_sector_neutral": 1.0
+      },
+      "is": {
+        "cagr": 7.02,
+        "sharpe": 0.575,
+        "mdd": -17.72
+      },
+      "oos": {
+        "cagr": 10.7,
+        "sharpe": 0.656,
+        "mdd": -28.41
+      }
+    },
+    {
+      "id": "crowding_sector_plus_mom",
+      "note": "inst_crowding_sector_neutral + mom12_1 (이전 실험 최고 조합)",
+      "weights": {
+        "inst_crowding_sector_neutral": 0.5,
+        "mom12_1": 0.5
+      },
+      "is": {
+        "cagr": 3.87,
+        "sharpe": 0.244,
+        "mdd": -22.5
+      },
+      "oos": {
+        "cagr": 16.03,
+        "sharpe": 0.721,
+        "mdd": -26.48
+      }
+    },
+    {
+      "id": "crowding_both_plus_mom",
+      "note": "inst_crowding_neutral + sector_neutral + mom12_1",
+      "weights": {
+        "inst_crowding_neutral": 0.25,
+        "inst_crowding_sector_neutral": 0.25,
+        "mom12_1": 0.5
+      },
+      "is": {
+        "cagr": 4.52,
+        "sharpe": 0.284,
+        "mdd": -23.25
+      },
+      "oos": {
+        "cagr": 14.39,
+        "sharpe": 0.645,
+        "mdd": -27.32
+      }
+    },
+    {
+      "id": "baseline_plus_crowding_sector",
+      "note": "기존 라이브 + inst_crowding_sector_neutral 추가",
+      "weights": {
+        "mom12_1": 0.3333,
+        "institutional": 0.1667,
+        "insider": 0.1667,
+        "inst_crowding_sector_neutral": 0.3333
+      },
+      "is": {
+        "cagr": 15.66,
+        "sharpe": 0.617,
+        "mdd": -20.76
+      },
+      "oos": {
+        "cagr": 13.51,
+        "sharpe": 0.673,
+        "mdd": -27.37
+      }
+    },
+    {
+      "id": "baseline_plus_crowding_both",
+      "note": "기존 라이브 + inst_crowding 두 팩터 모두 추가",
+      "weights": {
+        "mom12_1": 0.3333,
+        "institutional": 0.1667,
+        "insider": 0.1667,
+        "inst_crowding_neutral": 0.1667,
+        "inst_crowding_sector_neutral": 0.1667
+      },
+      "is": {
+        "cagr": 16.79,
+        "sharpe": 0.662,
+        "mdd": -19.3
+      },
+      "oos": {
+        "cagr": 12.3,
+        "sharpe": 0.611,
+        "mdd": -27.47
+      }
+    }
+  ]
+}

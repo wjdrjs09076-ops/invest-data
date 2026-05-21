@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-06T14:03:14.494568+00:00",
+  "method": "point-in-time via Sharadar SF1",
+  "distress_threshold": 1.81,
+  "n_tickers_with_history": 1490,
+  "baseline": {
+    "cagr": 0.19715372135429687,
+    "sharpe": 0.967333353030631,
+    "max_drawdown": -0.34315723963514755,
+    "volatility": 0.20381156168824247
+  },
+  "zscore_filtered": {
+    "cagr": 0.12699239317655175,
+    "sharpe": 0.6443131148027244,
+    "max_drawdown": -0.2981699071585272,
+    "volatility": 0.1970973277727464
+  },
+  "delta": {
+    "cagr": -0.070161,
+    "sharpe": -0.32302,
+    "max_drawdown": 0.044987,
+    "volatility": -0.006714
+  }
+}

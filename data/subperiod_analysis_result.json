@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-05-11T11:31:18.001422+00:00",
+  "description": "OOS 서브기간별 Baseline vs AE-VQC 알파 분해",
+  "subperiods": [
+    {
+      "period": "COVID 충격",
+      "start": "2020-01-01",
+      "end": "2020-03-31",
+      "baseline_cagr": -0.4873,
+      "baseline_sharpe": -1.797,
+      "baseline_mdd": -0.2376,
+      "ae_cagr": -0.5279,
+      "ae_sharpe": -1.679,
+      "ae_mdd": -0.2693,
+      "alpha_cagr": -0.0406,
+      "alpha_sharpe": 0.118,
+      "days": 62
+    },
+    {
+      "period": "COVID 회복",
+      "start": "2020-04-01",
+      "end": "2020-12-31",
+      "baseline_cagr": 0.3328,
+      "baseline_sharpe": 1.876,
+      "baseline_mdd": -0.0857,
+      "ae_cagr": 0.5653,
+      "ae_sharpe": 3.062,
+      "ae_mdd": -0.0742,
+      "alpha_cagr": 0.2325,
+      "alpha_sharpe": 1.186,
+      "days": 191
+    },
+    {
+      "period": "강세장",
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "baseline_cagr": 0.603,
+      "baseline_sharpe": 1.911,
+      "baseline_mdd": -0.1562,
+      "ae_cagr": 0.3904,
+      "ae_sharpe": 1.499,
+      "ae_mdd": -0.1572,
+      "alpha_cagr": -0.2126,
+      "alpha_sharpe": -0.412,
+      "days": 252
+    },
+    {
+      "period": "약세장(Fed)",
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "baseline_cagr": -0.1131,
+      "baseline_sharpe": -0.925,
+      "baseline_mdd": -0.1428,
+      "ae_cagr": -0.0899,
+      "ae_sharpe": -0.883,
+      "ae_mdd": -0.1198,
+      "alpha_cagr": 0.0232,
+      "alpha_sharpe": 0.042,
+      "days": 251
+    },
+    {
+      "period": "회복2",
+      "start": "2023-01-01",
+      "end": "2024-12-31",
+      "baseline_cagr": 0.1097,
+      "baseline_sharpe": 0.557,
+      "baseline_mdd": -0.1449,
+      "ae_cagr": 0.1863,
+      "ae_sharpe": 1.099,
+      "ae_mdd": -0.146,
+      "alpha_cagr": 0.0766,
+      "alpha_sharpe": 0.542,
+      "days": 502
+    },
+    {
+      "period": "현재",
+      "start": "2025-01-01",
+      "end": "2026-12-31",
+      "baseline_cagr": 0.0046,
+      "baseline_sharpe": 0.022,
+      "baseline_mdd": -0.231,
+      "ae_cagr": 0.1383,
+      "ae_sharpe": 0.862,
+      "ae_mdd": -0.144,
+      "alpha_cagr": 0.1337,
+      "alpha_sharpe": 0.84,
+      "days": 338
+    }
+  ]
+}

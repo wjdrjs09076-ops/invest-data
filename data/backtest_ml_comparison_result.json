@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-05-11T15:13:48.529673+00:00",
+  "description": "Classical LR/MLP vs AE-VQC — 동등 파라미터 수 비교 + DSR",
+  "experiments": [
+    {
+      "label": "① Baseline",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "elapsed_sec": 470.5,
+      "is_cagr": 0.082317,
+      "is_sharpe": 0.54285,
+      "is_mdd": -0.180135,
+      "oos_cagr": 0.103691,
+      "oos_sharpe": 0.484303,
+      "oos_mdd": -0.282808,
+      "verdict": "PASS    (OOS/IS Sharpe=0.89)",
+      "is_metrics": {
+        "total_return": 0.565581,
+        "cagr": 0.082317,
+        "volatility": 0.151639,
+        "sharpe": 0.54285,
+        "max_drawdown": -0.180135
+      },
+      "oos_metrics": {
+        "total_return": 0.868694,
+        "cagr": 0.103691,
+        "volatility": 0.214104,
+        "sharpe": 0.484303,
+        "max_drawdown": -0.282808
+      },
+      "psr_vs_zero": 0.8894,
+      "dsr": 0.2585,
+      "sr_star": 0.7428,
+      "dsr_pass": false
+    },
+    {
+      "label": "② +LR  (17params)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "classical_lr": 0.3
+      },
+      "elapsed_sec": 1498.2,
+      "is_cagr": 0.193269,
+      "is_sharpe": 1.330583,
+      "is_mdd": -0.175881,
+      "oos_cagr": 0.109295,
+      "oos_sharpe": 0.536157,
+      "oos_mdd": -0.285527,
+      "verdict": "FAIL    (OOS/IS Sharpe=0.40)",
+      "is_metrics": {
+        "total_return": 1.721767,
+        "cagr": 0.193269,
+        "volatility": 0.145251,
+        "sharpe": 1.330583,
+        "max_drawdown": -0.175881
+      },
+      "oos_metrics": {
+        "total_return": 0.929648,
+        "cagr": 0.109295,
+        "volatility": 0.20385,
+        "sharpe": 0.536157,
+        "max_drawdown": -0.285527
+      },
+      "psr_vs_zero": 0.9121,
+      "dsr": 0.3024,
+      "sr_star": 0.7428,
+      "dsr_pass": false
+    },
+    {
+      "label": "③ +MLP (37params)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "classical_mlp": 0.3
+      },
+      "elapsed_sec": 1653.6,
+      "is_cagr": 0.152636,
+      "is_sharpe": 1.015132,
+      "is_mdd": -0.187413,
+      "oos_cagr": 0.079476,
+      "oos_sharpe": 0.370264,
+      "oos_mdd": -0.316759,
+      "verdict": "FAIL    (OOS/IS Sharpe=0.36)",
+      "is_metrics": {
+        "total_return": 1.236606,
+        "cagr": 0.152636,
+        "volatility": 0.150361,
+        "sharpe": 1.015132,
+        "max_drawdown": -0.187413
+      },
+      "oos_metrics": {
+        "total_return": 0.623606,
+        "cagr": 0.079476,
+        "volatility": 0.214647,
+        "sharpe": 0.370264,
+        "max_drawdown": -0.316759
+      },
+      "psr_vs_zero": 0.8252,
+      "dsr": 0.1747,
+      "sr_star": 0.7428,
+      "dsr_pass": false
+    },
+    {
+      "label": "④ +AE-VQC (36params)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml_ae": 0.3
+      },
+      "elapsed_sec": 1183.1,
+      "is_cagr": 0.068489,
+      "is_sharpe": 0.489603,
+      "is_mdd": -0.152717,
+      "oos_cagr": 0.151521,
+      "oos_sharpe": 0.81093,
+      "oos_mdd": -0.269323,
+      "verdict": "PASS    (OOS/IS Sharpe=1.66)",
+      "is_metrics": {
+        "total_return": 0.455559,
+        "cagr": 0.068489,
+        "volatility": 0.139886,
+        "sharpe": 0.489603,
+        "max_drawdown": -0.152717
+      },
+      "oos_metrics": {
+        "total_return": 1.445108,
+        "cagr": 0.151521,
+        "volatility": 0.186848,
+        "sharpe": 0.81093,
+        "max_drawdown": -0.269323
+      },
+      "psr_vs_zero": 0.9796,
+      "dsr": 0.5674,
+      "sr_star": 0.7428,
+      "dsr_pass": false
+    }
+  ]
+}

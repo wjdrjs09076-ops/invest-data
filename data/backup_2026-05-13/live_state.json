@@ -1,0 +1,25 @@
+{
+  "last_updated": "2026-05-11T04:45:27.217201+00:00",
+  "last_rebalance_date": "2026-05-01",
+  "portfolio_weights": {
+    "AGX": 0.066667,
+    "INSW": 0.066667,
+    "POWL": 0.066667,
+    "CIEN": 0.066667,
+    "SNDK": 0.066667,
+    "WDC": 0.066667,
+    "KGS": 0.066667,
+    "CC": 0.066667,
+    "KALU": 0.066667,
+    "SPHR": 0.066667,
+    "FIX": 0.066667,
+    "OUT": 0.066667,
+    "REX": 0.066667,
+    "UNIT": 0.066667,
+    "ECPG": 0.066667
+  },
+  "defensive_weights": {},
+  "stock_exposure": 1.0,
+  "regime_bucket": "risk_on",
+  "note": "equal-weight fallback (run_backtest_regime.py re-run needed for exact weights)"
+}

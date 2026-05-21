@@ -1,0 +1,15 @@
+{
+  "factor": "insider",
+  "top_n": 15,
+  "is_period": {
+    "start": "2014-05-01",
+    "end": "2019-12-31"
+  },
+  "simple_backtest": {
+    "sharpe": 1.08,
+    "cagr": 0.159,
+    "max_dd": -0.166,
+    "n_periods": 68
+  },
+  "our_backtest_sharpe": 0.7994121243799812
+}

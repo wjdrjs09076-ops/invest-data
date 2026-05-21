@@ -1,0 +1,28 @@
+{
+  "lr_cv_acc": 0.519411165684289,
+  "mlp_cv_acc": 0.5189432475210904,
+  "n_samples": 40677,
+  "n_lr_params": 17,
+  "n_mlp_params": 37,
+  "trained_at": "2026-05-11T11:06:00.775217+00:00",
+  "is_start": "2014-05-01",
+  "is_end": "2019-12-31",
+  "features": [
+    "mom12_1",
+    "mom9_1",
+    "mom6_1",
+    "mom3_1",
+    "mom1",
+    "rs_spy_12m",
+    "rs_spy_6m",
+    "rs_spy_3m",
+    "evebit",
+    "evebitda",
+    "pb",
+    "pe",
+    "ps",
+    "zscore",
+    "institutional",
+    "insider"
+  ]
+}

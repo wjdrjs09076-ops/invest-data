@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-05-16T07:44:33.686925+00:00",
+  "results": [
+    {
+      "label": "inst_crowding (기존, 사이즈 미통제)",
+      "weights": {
+        "inst_crowding": 1.0
+      },
+      "IS_sharpe": 0.887,
+      "IS_cagr": 0.1234,
+      "IS_mdd": -0.1714,
+      "OOS_sharpe": 0.641,
+      "OOS_cagr": 0.1128,
+      "OOS_mdd": -0.2453,
+      "generalize": 0.723
+    },
+    {
+      "label": "inst_crowding_neutral (사이즈 중립)",
+      "weights": {
+        "inst_crowding_neutral": 1.0
+      },
+      "IS_sharpe": 0.64,
+      "IS_cagr": 0.0771,
+      "IS_mdd": -0.1894,
+      "OOS_sharpe": 0.691,
+      "OOS_cagr": 0.1109,
+      "OOS_mdd": -0.2347,
+      "generalize": 1.079
+    },
+    {
+      "label": "AE-VQC 단독",
+      "weights": {
+        "quantum_ml_ae": 1.0
+      },
+      "IS_sharpe": 0.983,
+      "IS_cagr": 0.1315,
+      "IS_mdd": -0.1598,
+      "OOS_sharpe": 0.73,
+      "OOS_cagr": 0.1216,
+      "OOS_mdd": -0.2442,
+      "generalize": 0.743
+    },
+    {
+      "label": "AE-VQC + neutral 앙상블",
+      "weights": {
+        "quantum_ml_ae": 1.0,
+        "inst_crowding_neutral": 1.0
+      },
+      "IS_sharpe": 0.301,
+      "IS_cagr": 0.0397,
+      "IS_mdd": -0.202,
+      "OOS_sharpe": 0.721,
+      "OOS_cagr": 0.1253,
+      "OOS_mdd": -0.2691,
+      "generalize": 2.394
+    }
+  ]
+}

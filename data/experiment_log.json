@@ -1,0 +1,494 @@
+{
+  "updated_at": "2026-05-19T05:09:56.345374+00:00",
+  "experiments": [
+    {
+      "id": "baseline_v1",
+      "note": "① Baseline (모멘텀+밸류)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 533.3,
+      "run_at": "2026-05-09T06:36:59.309852+00:00",
+      "is_cagr": 0.082317,
+      "is_sharpe": 0.54285,
+      "is_mdd": -0.180135,
+      "oos_cagr": 0.099498,
+      "oos_sharpe": 0.464749,
+      "oos_mdd": -0.282808,
+      "verdict": "PASS    (OOS/IS Sharpe=0.86)",
+      "checks": {},
+      "is_metrics": {
+        "total_return": 0.565581,
+        "cagr": 0.082317,
+        "volatility": 0.151639,
+        "sharpe": 0.54285,
+        "max_drawdown": -0.180135
+      },
+      "oos_metrics": {
+        "total_return": 0.822784,
+        "cagr": 0.099498,
+        "volatility": 0.21409,
+        "sharpe": 0.464749,
+        "max_drawdown": -0.282808
+      },
+      "status": "ok"
+    },
+    {
+      "id": "vqc_v1",
+      "note": "② +VQC (양자ML 신호 추가)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml": 0.3
+      },
+      "use_vqc": true,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 2200.7,
+      "run_at": "2026-05-09T06:36:59.309852+00:00",
+      "is_cagr": 0.056685,
+      "is_sharpe": 0.397019,
+      "is_mdd": -0.185026,
+      "oos_cagr": 0.087238,
+      "oos_sharpe": 0.449824,
+      "oos_mdd": -0.267751,
+      "verdict": "PASS    (OOS/IS Sharpe=1.13)",
+      "checks": {},
+      "is_metrics": {
+        "total_return": 0.36676,
+        "cagr": 0.056685,
+        "volatility": 0.142777,
+        "sharpe": 0.397019,
+        "max_drawdown": -0.185026
+      },
+      "oos_metrics": {
+        "total_return": 0.697896,
+        "cagr": 0.087238,
+        "volatility": 0.193937,
+        "sharpe": 0.449824,
+        "max_drawdown": -0.267751
+      },
+      "status": "ok"
+    },
+    {
+      "id": "qubo_v1",
+      "note": "③ +QUBO (양자 포트폴리오 최적화)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15
+      },
+      "use_vqc": false,
+      "use_qubo": true,
+      "qubo_kwargs": {
+        "risk_aversion": 0.3,
+        "penalty": 5.0
+      },
+      "elapsed_sec": 29995.9,
+      "run_at": "2026-05-09T06:36:59.309852+00:00",
+      "is_cagr": 0.108774,
+      "is_sharpe": 0.828162,
+      "is_mdd": -0.189656,
+      "oos_cagr": 0.059095,
+      "oos_sharpe": 0.347993,
+      "oos_mdd": -0.290709,
+      "verdict": "FAIL    (OOS/IS Sharpe=0.42)",
+      "checks": {},
+      "is_metrics": {
+        "total_return": 0.79519,
+        "cagr": 0.108774,
+        "volatility": 0.131344,
+        "sharpe": 0.828162,
+        "max_drawdown": -0.189656
+      },
+      "oos_metrics": {
+        "total_return": 0.438211,
+        "cagr": 0.059095,
+        "volatility": 0.169817,
+        "sharpe": 0.347993,
+        "max_drawdown": -0.290709
+      },
+      "status": "ok"
+    },
+    {
+      "id": "qubo_vqc_v1",
+      "note": "④ QUBO+VQC (풀 양자영감)",
+      "weights": {
+        "mom12_1": 0.3,
+        "mom6_1": 0.2,
+        "rs_spy_6m": 0.15,
+        "evebit": 0.2,
+        "pb": 0.15,
+        "quantum_ml": 0.3
+      },
+      "use_vqc": true,
+      "use_qubo": true,
+      "qubo_kwargs": {
+        "risk_aversion": 0.3,
+        "penalty": 5.0
+      },
+      "elapsed_sec": 54431.4,
+      "run_at": "2026-05-09T06:36:59.309852+00:00",
+      "is_cagr": 0.078187,
+      "is_sharpe": 0.591675,
+      "is_mdd": -0.179959,
+      "oos_cagr": 0.077642,
+      "oos_sharpe": 0.464544,
+      "oos_mdd": -0.268218,
+      "verdict": "PASS    (OOS/IS Sharpe=0.79)",
+      "checks": {},
+      "is_metrics": {
+        "total_return": 0.532026,
+        "cagr": 0.078187,
+        "volatility": 0.132145,
+        "sharpe": 0.591675,
+        "max_drawdown": -0.179959
+      },
+      "oos_metrics": {
+        "total_return": 0.605728,
+        "cagr": 0.077642,
+        "volatility": 0.167136,
+        "sharpe": 0.464544,
+        "max_drawdown": -0.268218
+      },
+      "status": "ok"
+    },
+    {
+      "id": "smart_proxy_solo",
+      "note": "inst_smart_proxy 단독",
+      "weights": {
+        "inst_smart_proxy": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 368.9,
+      "run_at": "2026-05-19T03:13:18.626513+00:00",
+      "is_cagr": 0.079744,
+      "is_sharpe": 0.656897,
+      "is_mdd": -0.135967,
+      "oos_cagr": 0.061353,
+      "oos_sharpe": 0.35922,
+      "oos_mdd": -0.276102,
+      "verdict": "MARGINAL (OOS/IS Sharpe=0.55)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "WARN",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.544603,
+        "cagr": 0.079744,
+        "volatility": 0.121394,
+        "sharpe": 0.656897,
+        "max_drawdown": -0.135967
+      },
+      "oos_metrics": {
+        "total_return": 0.460144,
+        "cagr": 0.061353,
+        "volatility": 0.170796,
+        "sharpe": 0.35922,
+        "max_drawdown": -0.276102
+      },
+      "status": "ok"
+    },
+    {
+      "id": "smart_proxy_plus_neutral",
+      "note": "inst_smart_proxy + inst_crowding_neutral",
+      "weights": {
+        "inst_smart_proxy": 1.0,
+        "inst_crowding_neutral": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 237.0,
+      "run_at": "2026-05-19T03:17:15.654097+00:00",
+      "is_cagr": 0.077612,
+      "is_sharpe": 0.645626,
+      "is_mdd": -0.167354,
+      "oos_cagr": 0.080302,
+      "oos_sharpe": 0.476604,
+      "oos_mdd": -0.260654,
+      "verdict": "PASS    (OOS/IS Sharpe=0.74)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.527406,
+        "cagr": 0.077612,
+        "volatility": 0.120212,
+        "sharpe": 0.645626,
+        "max_drawdown": -0.167354
+      },
+      "oos_metrics": {
+        "total_return": 0.633997,
+        "cagr": 0.080302,
+        "volatility": 0.168488,
+        "sharpe": 0.476604,
+        "max_drawdown": -0.260654
+      },
+      "status": "ok"
+    },
+    {
+      "id": "smart_proxy_plus_neutral_mom",
+      "note": "inst_smart_proxy + inst_crowding_neutral + mom12_1",
+      "weights": {
+        "inst_smart_proxy": 1.0,
+        "inst_crowding_neutral": 1.0,
+        "mom12_1": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 229.4,
+      "run_at": "2026-05-19T03:21:05.091821+00:00",
+      "is_cagr": 0.040618,
+      "is_sharpe": 0.261099,
+      "is_mdd": -0.205664,
+      "oos_cagr": 0.079337,
+      "oos_sharpe": 0.363234,
+      "oos_mdd": -0.292516,
+      "verdict": "PASS    (OOS/IS Sharpe=1.39)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.253096,
+        "cagr": 0.040618,
+        "volatility": 0.155566,
+        "sharpe": 0.261099,
+        "max_drawdown": -0.205664
+      },
+      "oos_metrics": {
+        "total_return": 0.62474,
+        "cagr": 0.079337,
+        "volatility": 0.218418,
+        "sharpe": 0.363234,
+        "max_drawdown": -0.292516
+      },
+      "status": "ok"
+    },
+    {
+      "id": "neutral_only_ref",
+      "note": "inst_crowding_neutral 단독 (기준선)",
+      "weights": {
+        "inst_crowding_neutral": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 200.7,
+      "run_at": "2026-05-19T03:24:25.801339+00:00",
+      "is_cagr": 0.077057,
+      "is_sharpe": 0.639767,
+      "is_mdd": -0.18936,
+      "oos_cagr": 0.110833,
+      "oos_sharpe": 0.690129,
+      "oos_mdd": -0.234655,
+      "verdict": "PASS    (OOS/IS Sharpe=1.08)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.522951,
+        "cagr": 0.077057,
+        "volatility": 0.120445,
+        "sharpe": 0.639767,
+        "max_drawdown": -0.18936
+      },
+      "oos_metrics": {
+        "total_return": 0.950719,
+        "cagr": 0.110833,
+        "volatility": 0.160597,
+        "sharpe": 0.690129,
+        "max_drawdown": -0.234655
+      },
+      "status": "ok"
+    },
+    {
+      "id": "sector_neutral_solo",
+      "note": "inst_crowding_sector_neutral 단독",
+      "weights": {
+        "inst_crowding_sector_neutral": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 1020.6,
+      "run_at": "2026-05-19T04:57:27.198643+00:00",
+      "is_cagr": 0.070228,
+      "is_sharpe": 0.574971,
+      "is_mdd": -0.177216,
+      "oos_cagr": 0.108742,
+      "oos_sharpe": 0.667348,
+      "oos_mdd": -0.284054,
+      "verdict": "PASS    (OOS/IS Sharpe=1.16)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.469037,
+        "cagr": 0.070228,
+        "volatility": 0.122142,
+        "sharpe": 0.574971,
+        "max_drawdown": -0.177216
+      },
+      "oos_metrics": {
+        "total_return": 0.927496,
+        "cagr": 0.108742,
+        "volatility": 0.162946,
+        "sharpe": 0.667348,
+        "max_drawdown": -0.284054
+      },
+      "status": "ok"
+    },
+    {
+      "id": "sector_vs_size_neutral",
+      "note": "섹터중립 vs 사이즈중립 비교 (사이즈중립 단독)",
+      "weights": {
+        "inst_crowding_neutral": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 1071.8,
+      "run_at": "2026-05-19T04:31:45.603949+00:00",
+      "is_cagr": 0.077057,
+      "is_sharpe": 0.639767,
+      "is_mdd": -0.18936,
+      "oos_cagr": 0.110833,
+      "oos_sharpe": 0.69013,
+      "oos_mdd": -0.234655,
+      "verdict": "PASS    (OOS/IS Sharpe=1.08)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.522951,
+        "cagr": 0.077057,
+        "volatility": 0.120445,
+        "sharpe": 0.639767,
+        "max_drawdown": -0.18936
+      },
+      "oos_metrics": {
+        "total_return": 0.95072,
+        "cagr": 0.110833,
+        "volatility": 0.160597,
+        "sharpe": 0.69013,
+        "max_drawdown": -0.234655
+      },
+      "status": "ok"
+    },
+    {
+      "id": "sector_neutral_plus_mom",
+      "note": "inst_crowding_sector_neutral + mom12_1",
+      "weights": {
+        "inst_crowding_sector_neutral": 1.0,
+        "mom12_1": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 440.7,
+      "run_at": "2026-05-19T05:04:47.861555+00:00",
+      "is_cagr": 0.04112,
+      "is_sharpe": 0.260862,
+      "is_mdd": -0.224998,
+      "oos_cagr": 0.159977,
+      "oos_sharpe": 0.718418,
+      "oos_mdd": -0.2648,
+      "verdict": "PASS    (OOS/IS Sharpe=2.75)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.256524,
+        "cagr": 0.04112,
+        "volatility": 0.157631,
+        "sharpe": 0.260862,
+        "max_drawdown": -0.224998
+      },
+      "oos_metrics": {
+        "total_return": 1.568709,
+        "cagr": 0.159977,
+        "volatility": 0.22268,
+        "sharpe": 0.718418,
+        "max_drawdown": -0.2648
+      },
+      "status": "ok"
+    },
+    {
+      "id": "sector_plus_size_neutral",
+      "note": "섹터중립 + 사이즈중립 조합",
+      "weights": {
+        "inst_crowding_sector_neutral": 1.0,
+        "inst_crowding_neutral": 1.0
+      },
+      "use_vqc": false,
+      "use_qubo": false,
+      "qubo_kwargs": {},
+      "elapsed_sec": 308.5,
+      "run_at": "2026-05-19T05:09:56.341650+00:00",
+      "is_cagr": 0.057474,
+      "is_sharpe": 0.475072,
+      "is_mdd": -0.176298,
+      "oos_cagr": 0.110406,
+      "oos_sharpe": 0.677048,
+      "oos_mdd": -0.271071,
+      "verdict": "PASS    (OOS/IS Sharpe=1.43)",
+      "checks": {
+        "oos_sharpe_positive": "PASS",
+        "overfit_check": "PASS",
+        "oos_mdd_limit": "PASS",
+        "oos_cagr_positive": "PASS"
+      },
+      "is_metrics": {
+        "total_return": 0.372553,
+        "cagr": 0.057474,
+        "volatility": 0.12098,
+        "sharpe": 0.475072,
+        "max_drawdown": -0.176298
+      },
+      "oos_metrics": {
+        "total_return": 0.945962,
+        "cagr": 0.110406,
+        "volatility": 0.16307,
+        "sharpe": 0.677048,
+        "max_drawdown": -0.271071
+      },
+      "status": "ok"
+    }
+  ]
+}

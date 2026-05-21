@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-11T16:52:12.648520+00:00",
+  "description": "White RC + Hansen SPA: Baseline vs LR/MLP/AE-VQC",
+  "oos_start": "2020-01-01",
+  "oos_end": "2026-05-11",
+  "n_boot": 5000,
+  "T": 1597,
+  "K": 3,
+  "block_length": 12,
+  "T_RC": 0.7639,
+  "T_SPA": 0.7639,
+  "p_RC": 0.3916,
+  "p_SPA": 0.3916,
+  "individual": {
+    "+LR (17params)": {
+      "d_bar": 5e-06,
+      "z": 0.0248,
+      "p_indiv": 0.4842
+    },
+    "+MLP (37params)": {
+      "d_bar": -9.2e-05,
+      "z": -0.6219,
+      "p_indiv": 0.7472
+    },
+    "+AE-VQC(36params)": {
+      "d_bar": 0.000145,
+      "z": 0.7639,
+      "p_indiv": 0.1924
+    }
+  }
+}

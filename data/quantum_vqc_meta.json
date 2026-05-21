@@ -1,0 +1,13 @@
+{
+  "n_qubits": 6,
+  "n_layers": 2,
+  "input_features": [
+    "mom12_1",
+    "mom6_1",
+    "rs_spy_6m",
+    "evebit",
+    "pb",
+    "zscore"
+  ],
+  "saved_at": "2026-05-08T15:11:53.285735"
+}
