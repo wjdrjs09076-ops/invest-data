@@ -16,8 +16,8 @@
       "vol_fallback": 0.35,
       "vol_floor": 0.18,
       "dynamic_vol_targeting": true,
-      "absolute_momentum_63d_min": 0,
-      "absolute_momentum_252d_min": 0,
+      "absolute_momentum_63d_min": -5,
+      "absolute_momentum_252d_min": -10,
       "sector_max_names": 3,
       "formula": "weight_i ∝ (score_i ^ alpha) / max(vol20_i, max(vol_floor, spy_vol20))"
     },
@@ -41,52 +41,52 @@
     }
   },
   "metrics": {
-    "total_return": 4.1954673091473875,
-    "cagr": 0.16415095415938152,
-    "volatility": 0.20533958536930613,
-    "sharpe": 0.7994121243799812,
-    "max_drawdown": -0.37436207409951083
+    "total_return": 4.516448484947143,
+    "cagr": 0.17047116962042486,
+    "volatility": 0.206363111360478,
+    "sharpe": 0.8260738486475105,
+    "max_drawdown": -0.373430372062013
   },
   "subperiods": [
     {
       "label": "3y",
       "metrics": {
-        "total_return": 1.1577022698884978,
-        "cagr": 0.292202289406271,
-        "volatility": 0.21950653577892815,
-        "sharpe": 1.3311780825540294,
-        "max_drawdown": -0.18710631593538818
+        "total_return": 0.9829931190917267,
+        "cagr": 0.2563396580379127,
+        "volatility": 0.21867066592904272,
+        "sharpe": 1.172263581623213,
+        "max_drawdown": -0.20397011177406765
       }
     },
     {
       "label": "5y",
       "metrics": {
-        "total_return": 1.2043099389017518,
-        "cagr": 0.17126329005878405,
-        "volatility": 0.20991824467518552,
-        "sharpe": 0.8158570986708956,
-        "max_drawdown": -0.18710631593538818
+        "total_return": 1.006814356809469,
+        "cagr": 0.14948005441176626,
+        "volatility": 0.20844191754309313,
+        "sharpe": 0.7171304897483629,
+        "max_drawdown": -0.20397011177406787
       }
     },
     {
       "label": "10y",
       "metrics": {
-        "total_return": 4.137887919522743,
-        "cagr": 0.17781874709028989,
-        "volatility": 0.2098074203600805,
-        "sharpe": 0.847533165343293,
-        "max_drawdown": -0.37436207409951083
+        "total_return": 4.6305048536215,
+        "cagr": 0.18865202267468595,
+        "volatility": 0.20990564392481748,
+        "sharpe": 0.8987467852091485,
+        "max_drawdown": -0.373430372062013
       }
     }
   ],
   "benchmark": {
     "ticker": "SPY",
     "metrics": {
-      "total_return": 3.295800836825438,
-      "cagr": 0.1439105501629765,
-      "volatility": 0.17888964414918745,
-      "sharpe": 0.8044655175397427,
-      "max_drawdown": -0.33717258279330087
+      "total_return": 3.3357250144208628,
+      "cagr": 0.14477374910090646,
+      "volatility": 0.17882085177515317,
+      "sharpe": 0.8096021669941654,
+      "max_drawdown": -0.33717274691296195
     }
   },
   "notes": [
@@ -101,7 +101,7 @@
     "Exposure signal is applied with a 1-day execution lag.",
     "Transaction cost is applied when total portfolio weights change on execution day.",
     "Stock selection is monthly, while exposure adjustment is daily.",
-    "Absolute momentum filter requires 63D return > 0 and 252D return > 0.",
+    "Absolute momentum filter requires 63D return > -5 and 252D return > -10.",
     "Sector cap limits selected names to reduce concentration risk.",
     "Regime filter uses a 0.50% buffer around the moving average and 2-day confirmation to reduce whipsaw.",
     "Risk-off sleeve uses TAIL, DBMF only.",
