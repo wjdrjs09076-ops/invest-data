@@ -376,5 +376,146 @@
       }
     ],
     "dry_run": false
+  },
+  {
+    "date": "2026-05-21",
+    "timestamp": "2026-05-21T09:10:38.723903+00:00",
+    "reason": "드리프트 초과: KGS 6.5%",
+    "regime": "RISK_ON",
+    "exposure": 1.0,
+    "regime_triggers": [],
+    "portfolio_value": 94416.97,
+    "target_weights": {
+      "AGX": 0.0559,
+      "INSW": 0.0696,
+      "POWL": 0.05,
+      "CIEN": 0.05,
+      "SNDK": 0.05,
+      "WDC": 0.0595,
+      "KGS": 0.1276,
+      "CC": 0.05,
+      "KALU": 0.05,
+      "SPHR": 0.0598,
+      "FIX": 0.05,
+      "OUT": 0.1077,
+      "REX": 0.083,
+      "ECPG": 0.0869,
+      "ESI": 0.05
+    },
+    "orders": [
+      {
+        "symbol": "UNIT",
+        "side": "sell",
+        "qty": 579,
+        "order_id": "a9ab3e0b-a7ac-494f-99f4-8634dfbbad53",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "FIX",
+        "side": "sell",
+        "qty": 1,
+        "order_id": "b0f9c0ca-1a96-4792-8edf-8bc2e60bfccc",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "POWL",
+        "side": "sell",
+        "qty": 6,
+        "order_id": "e443a239-0d8d-4609-ba33-122635c4104c",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "CIEN",
+        "side": "sell",
+        "qty": 2,
+        "order_id": "cade98d3-38df-474e-a3a7-3142e2acf42e",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "KALU",
+        "side": "sell",
+        "qty": 8,
+        "order_id": "3f4ac619-f289-4c43-bc80-d28d428cd781",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "WDC",
+        "side": "sell",
+        "qty": 2,
+        "order_id": "f2d25c82-1781-40e2-bb8f-df8f8cccb8b8",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "CC",
+        "side": "sell",
+        "qty": 26,
+        "order_id": "e7e4e7f5-42e1-4fdf-9185-036e68b919d9",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "KGS",
+        "side": "buy",
+        "qty": 85,
+        "order_id": "9a499324-d9b9-4cdc-8dcc-32090caad496",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "ECPG",
+        "side": "buy",
+        "qty": 157,
+        "order_id": "cffba0d9-44a7-4a94-af11-5dfd774f9898",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "REX",
+        "side": "buy",
+        "qty": 257,
+        "order_id": "54cec629-9475-419d-b8e4-d3277ead3f28",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "ESI",
+        "side": "buy",
+        "qty": 243,
+        "order_id": "3f0fd765-33c0-40c8-8d00-0de69dfa7a46",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "OUT",
+        "side": "buy",
+        "qty": 100,
+        "order_id": "f8d142c1-070b-4c97-8e2f-ff0f5eb97653",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "SPHR",
+        "side": "buy",
+        "qty": 51,
+        "order_id": "2ae59be0-702c-41de-9df7-2cdab9ba5227",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "AGX",
+        "side": "buy",
+        "qty": 10,
+        "order_id": "24b9814e-8836-477d-8efc-e5176bfebdc6",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "SNDK",
+        "side": "buy",
+        "qty": 2,
+        "order_id": "9b96826a-2345-427a-b528-d840f8a9dd2b",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "INSW",
+        "side": "buy",
+        "qty": 5,
+        "order_id": "84ee2626-7b32-40d4-a584-2acb1a27789a",
+        "status": "OrderStatus.PENDING_NEW"
+      }
+    ],
+    "dry_run": false
   }
 ]
