@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-21T22:41:53Z",
+  "generated_at_utc": "2026-05-22T04:35:13Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -160,7 +160,7 @@
             {
               "ticker": "MSFT",
               "label": "HOLD • score 55",
-              "reason": "RSI 55, 5D 2.4%, 20D 0.8%"
+              "reason": "RSI 56, 5D 2.6%, 20D 1.0%"
             },
             {
               "ticker": "COST",
@@ -209,7 +209,7 @@
             },
             {
               "ticker": "MSFT",
-              "label": "20D 0.8%",
+              "label": "20D 1.0%",
               "reason": ""
             },
             {
@@ -309,7 +309,7 @@
             {
               "ticker": "MSFT",
               "label": "HOLD • score 55",
-              "reason": "RSI 55, 5D 2.4%, 20D 0.8%"
+              "reason": "RSI 56, 5D 2.6%, 20D 1.0%"
             }
           ]
         },
@@ -338,7 +338,7 @@
             },
             {
               "ticker": "MSFT",
-              "label": "20D 0.8%",
+              "label": "20D 1.0%",
               "reason": ""
             },
             {
