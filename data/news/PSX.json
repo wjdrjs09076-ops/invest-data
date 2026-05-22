@@ -1,7 +1,7 @@
 {
   "ticker": "PSX",
-  "generated_at_utc": "2026-05-22T04:46:35Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-22T09:58:45Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
