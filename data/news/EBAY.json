@@ -1,7 +1,7 @@
 {
   "ticker": "EBAY",
-  "generated_at_utc": "2026-05-23T04:27:12Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-23T08:36:05Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }

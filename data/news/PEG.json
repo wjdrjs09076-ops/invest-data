@@ -1,7 +1,7 @@
 {
   "ticker": "PEG",
-  "generated_at_utc": "2026-05-23T04:27:12Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-23T08:36:05Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
