@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-22T20:10:46Z",
+  "generated_at_utc": "2026-05-23T04:07:21Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -64,7 +64,7 @@
             },
             {
               "ticker": "HUM",
-              "label": "20D 43.0%",
+              "label": "20D 43.1%",
               "reason": ""
             }
           ]
@@ -94,7 +94,7 @@
             },
             {
               "ticker": "LDOS",
-              "label": "RSI 31, 5D 1.9%",
+              "label": "RSI 32, 5D 1.9%",
               "reason": ""
             }
           ]
