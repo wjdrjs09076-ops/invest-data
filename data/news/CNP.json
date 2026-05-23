@@ -1,7 +1,7 @@
 {
   "ticker": "CNP",
-  "generated_at_utc": "2026-05-23T10:58:28Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-23T14:11:04Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
