@@ -1,7 +1,7 @@
 {
   "ticker": "CTRA",
-  "generated_at_utc": "2026-05-24T19:48:09Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-05-24T22:36:49Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
