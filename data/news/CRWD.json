@@ -1,7 +1,7 @@
 {
   "ticker": "CRWD",
-  "generated_at_utc": "2026-05-25T05:08:42Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-25T10:57:55Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
