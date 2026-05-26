@@ -171,6 +171,7 @@ weights = {
 | `inst_hhi` | inst_detail | low_good | 기관 보유 집중도 HHI (sf3_detail_history.pkl) |
 | `inst_smart_proxy` | inst_smart_proxy | high_good | 스마트머니 집중도: (-inst_neutral_residual) × HHI (미발견+소수집중) |
 | `inst_crowding_sector_neutral` | inst_crowding_sector_neutral | low_good | 섹터+사이즈 이중 통제 기관 크라우딩 (sector_neutral_history.pkl) |
+| `credit_quality` | credit_quality | high_good | S&P 방법론 5-factor 신용 점수 0~100 (credit_score_history.pkl) |
 | `quantum_ml_ae` | quantum | — | AE-VQC 앙상블 신호 |
 
 ### 핵심 내부 메서드
@@ -305,6 +306,7 @@ weights = opt.optimize(scores, price_slices)
 | `build_inst_neutral_history.py` | `inst_neutral_history.pkl` | 시가총액 통제 기관 크라우딩 (OLS 잔차) |
 | `build_sf3_detail_history.py` | `sf3_detail_history.pkl` | SF3 투자자별 상세 신호 (n_holders, new_holders, HHI) |
 | `build_sector_neutral_history.py` | `sector_neutral_history.pkl` | 섹터+사이즈 이중 중립 기관 크라우딩 OLS 잔차 |
+| `build_credit_score_history.py` | `credit_score_history.pkl` | S&P 방법론 5-factor 신용 점수 PIT 히스토리 (SF1 ARQ) |
 
 ### 멤버십 데이터
 

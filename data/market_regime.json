@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-24T07:14:16.769398+00:00",
+  "generated_at": "2026-05-26T03:24:15.855279+00:00",
   "benchmark": "SPY",
   "ma_window": 200,
   "last_close": 745.6400146484375,
-  "last_ma": 676.2488177490235,
-  "last_vix": 16.700000762939453,
+  "last_ma": 676.2488189697266,
+  "last_vix": 16.59000015258789,
   "last_yield_10y": 4.558000087738037,
   "vix_threshold": 25.0,
   "yield_threshold": 5.0,

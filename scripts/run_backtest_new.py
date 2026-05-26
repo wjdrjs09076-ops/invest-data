@@ -98,6 +98,9 @@ FACTOR_UNIVERSE: dict[str, dict] = {
     "inst_crowding_sector_neutral": {"type": "inst_crowding_sector_neutral", "rank": "low_good"},
     # ── 내부자 순매수 (SF2 Form4, 롤링 12개월, PIT bisect) ────
     "insider":  {"type": "insider",       "rank": "high_good", "lookback_days": 365},
+    # ── S&P 방법론 기반 신용 점수 (build_credit_score_history.py 필요) ──────────
+    # 0~100점: 높을수록 신용 우량. AAA/AA≥80, A≥65, BBB≥50, BB≥35, B≥20, CCC<20
+    "credit_quality": {"type": "credit_quality", "rank": "high_good"},
     # ── 양자영감 ML (VQC AngleEmbedding, 6큐비트, 6팩터) ─────
     "quantum_ml":    {"type": "quantum_ml",    "rank": "high_good"},
     # ── 양자영감 ML (VQC AmplitudeEmbedding, 4큐비트, 16팩터) ─
@@ -144,6 +147,7 @@ SF3_HISTORY_FILE      = DATA_DIR / "sf3_history.pkl"
 SF3_DETAIL_FILE       = DATA_DIR / "sf3_detail_history.pkl"
 INST_NEUTRAL_FILE        = DATA_DIR / "inst_neutral_history.pkl"
 SECTOR_NEUTRAL_FILE      = DATA_DIR / "sector_neutral_history.pkl"
+CREDIT_SCORE_FILE        = DATA_DIR / "credit_score_history.pkl"
 SF2_HISTORY_FILE      = DATA_DIR / "sf2_history.pkl"
 SP500_SHARADAR_EVENTS = DATA_DIR / "sp500_membership_events_sharadar.json"
 SP500_WIKI_EVENTS     = DATA_DIR / "sp500_membership_events.json"
@@ -392,6 +396,36 @@ class _InstNeutralLookup:
         return float(residuals[idx])
 
 
+class _CreditScoreLookup:
+    """S&P 방법론 기반 신용 점수 룩업 (credit_score_history.pkl)
+    포맷: {ticker: {date_str: score}}  date_str = datekey (SEC 공시일)
+    """
+    def __init__(self):
+        self._d: dict[str, dict[str, float]] = {}
+        self._ok = False
+
+    def load(self):
+        if self._ok:
+            return
+        self._ok = True
+        if not CREDIT_SCORE_FILE.exists():
+            print("[WARN] credit_score_history.pkl 없음 — build_credit_score_history.py 실행 필요")
+            return
+        self._d = pd.read_pickle(CREDIT_SCORE_FILE)
+        print(f"[CREDIT] {len(self._d)} tickers loaded")
+
+    def get(self, ticker: str, as_of: pd.Timestamp) -> float | None:
+        rec = self._d.get(ticker)
+        if not rec:
+            return None
+        dates = sorted(rec.keys())
+        as_of_str = str(as_of.date())
+        idx = bisect.bisect_right(dates, as_of_str) - 1
+        if idx < 0:
+            return None
+        return float(rec[dates[idx]])
+
+
 class _SectorNeutralLookup:
     """섹터+사이즈 이중 중립 기관 크라우딩 잔차 룩업 (sector_neutral_history.pkl)"""
     def __init__(self):
@@ -483,6 +517,7 @@ class BacktestEngine:
         self._sf3_detail   = _SF3DetailLookup()
         self._inst_neutral   = _InstNeutralLookup()
         self._sector_neutral = _SectorNeutralLookup()
+        self._credit         = _CreditScoreLookup()
         self._sf2            = _SF2Lookup()
 
         # 시장 데이터
@@ -523,6 +558,7 @@ class BacktestEngine:
         self._sf3_detail.load()
         self._inst_neutral.load()
         self._sector_neutral.load()
+        self._credit.load()
         self._sf2.load()
         self._log(f"로드 완료: {len(self.price_map)} 시리즈, {len(self.trading_dates)} 거래일")
 
@@ -942,6 +978,10 @@ class BacktestEngine:
         elif ftype == "inst_crowding_sector_neutral":
             # 섹터+사이즈 이중 중립 잔차: build_sector_neutral_history.py 에서 사전 계산
             return self._sector_neutral.get(ticker, as_of)
+
+        elif ftype == "credit_quality":
+            # S&P 방법론 기반 신용 점수 (0~100): build_credit_score_history.py 에서 사전 계산
+            return self._credit.get(ticker, as_of)
 
         elif ftype == "inst_detail":
             # 투자자별 상세 신호: build_sf3_detail_history.py 필요
