@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-26T22:39:15Z",
+  "generated_at_utc": "2026-05-27T01:28:53Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -308,8 +308,8 @@
             },
             {
               "ticker": "JNJ",
-              "label": "HOLD • score 51",
-              "reason": "RSI 51, 5D 0.6%, 20D 2.1%"
+              "label": "HOLD • score 52",
+              "reason": "RSI 53, 5D 1.1%, 20D 2.7%"
             }
           ]
         },
@@ -338,7 +338,7 @@
             },
             {
               "ticker": "JNJ",
-              "label": "20D 2.1%",
+              "label": "20D 2.7%",
               "reason": ""
             },
             {
@@ -406,13 +406,13 @@
               "reason": ""
             },
             {
-              "ticker": "JNJ",
+              "ticker": "MCD",
               "label": "Vol 19%",
               "reason": ""
             },
             {
-              "ticker": "MCD",
-              "label": "Vol 19%",
+              "ticker": "JNJ",
+              "label": "Vol 18%",
               "reason": ""
             },
             {
