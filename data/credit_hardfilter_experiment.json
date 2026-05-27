@@ -1,0 +1,38 @@
+[
+  {
+    "id": "baseline",
+    "is_sharpe": 0.572898,
+    "oos_sharpe": 0.819328,
+    "is_cagr": 0.147318,
+    "oos_cagr": 0.171422,
+    "oos_mdd": -0.271298,
+    "is_mdd": -0.223609
+  },
+  {
+    "id": "baseline_hardfilter_25",
+    "is_sharpe": 0.543133,
+    "oos_sharpe": 0.643243,
+    "is_cagr": 0.139234,
+    "oos_cagr": 0.130846,
+    "oos_mdd": -0.271177,
+    "is_mdd": -0.230764
+  },
+  {
+    "id": "baseline_hardfilter_30",
+    "is_sharpe": 0.551018,
+    "oos_sharpe": 0.786014,
+    "is_cagr": 0.141359,
+    "oos_cagr": 0.157654,
+    "oos_mdd": -0.265994,
+    "is_mdd": -0.225141
+  },
+  {
+    "id": "baseline_hardfilter_20",
+    "is_sharpe": 0.523161,
+    "oos_sharpe": 0.690468,
+    "is_cagr": 0.134039,
+    "oos_cagr": 0.141459,
+    "oos_mdd": -0.271332,
+    "is_mdd": -0.222453
+  }
+]

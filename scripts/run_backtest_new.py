@@ -148,6 +148,7 @@ SF3_DETAIL_FILE       = DATA_DIR / "sf3_detail_history.pkl"
 INST_NEUTRAL_FILE        = DATA_DIR / "inst_neutral_history.pkl"
 SECTOR_NEUTRAL_FILE      = DATA_DIR / "sector_neutral_history.pkl"
 CREDIT_SCORE_FILE        = DATA_DIR / "credit_score_history.pkl"
+CREDIT_DISTRESS_THRESHOLD = 25.0  # < 이 점수이면 CCC/D → 유니버스 제외
 SF2_HISTORY_FILE      = DATA_DIR / "sf2_history.pkl"
 SP500_SHARADAR_EVENTS = DATA_DIR / "sp500_membership_events_sharadar.json"
 SP500_WIKI_EVENTS     = DATA_DIR / "sp500_membership_events.json"
@@ -625,7 +626,12 @@ class BacktestEngine:
     # 메인 API
     # ──────────────────────────────────────────────────────────
 
-    def run(self, weights: dict[str, float]) -> BacktestResult:
+    def run(
+        self,
+        weights: dict[str, float],
+        credit_hard_filter: bool = False,
+        credit_threshold: float = CREDIT_DISTRESS_THRESHOLD,
+    ) -> BacktestResult:
         """
         weights: {factor_name: weight, ...}  — 합계가 1이 될 필요 없음, 내부에서 정규화
         factor_name은 FACTOR_UNIVERSE에 정의된 키여야 함.
@@ -633,6 +639,9 @@ class BacktestEngine:
         반환: BacktestResult (is_metrics, oos_metrics, is_sharpe, oos_sharpe 등)
         """
         self.load_data()
+        # 실행 중 credit hard filter 파라미터 보존
+        self._credit_hard_filter   = credit_hard_filter
+        self._credit_hard_threshold = credit_threshold
 
         # 사용할 팩터만 걸러냄
         active = {k: v for k, v in weights.items() if k in FACTOR_UNIVERSE and v > 0}
@@ -858,6 +867,12 @@ class BacktestEngine:
 
         if not sliced:
             return cur_holdings
+
+        # credit hard filter: CCC/D 부실 기업 유니버스 제외
+        if getattr(self, "_credit_hard_filter", False) and self._credit._ok:
+            thr = getattr(self, "_credit_hard_threshold", CREDIT_DISTRESS_THRESHOLD)
+            sliced = {t: ps for t, ps in sliced.items()
+                      if (self._credit.get(t, date) or 100.0) >= thr}
 
         # 팩터 점수 계산
         scores = self._score_all(list(sliced.keys()), sliced, pit_bench, date, norm_w)
