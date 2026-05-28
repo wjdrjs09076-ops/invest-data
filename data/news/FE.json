@@ -1,7 +1,7 @@
 {
   "ticker": "FE",
-  "generated_at_utc": "2026-05-27T20:36:37Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-28T04:53:30Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
