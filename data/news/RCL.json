@@ -1,7 +1,7 @@
 {
   "ticker": "RCL",
-  "generated_at_utc": "2026-05-29T04:56:39Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-29T10:31:55Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
