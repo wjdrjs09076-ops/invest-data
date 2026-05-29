@@ -1,7 +1,7 @@
 {
   "ticker": "CTVA",
-  "generated_at_utc": "2026-05-28T20:57:43Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-29T04:56:39Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
