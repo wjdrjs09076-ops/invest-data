@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-28T22:45:00Z",
+  "generated_at_utc": "2026-05-29T22:41:32Z",
   "note": "Sector distributions for PE/PS computed from fundamentals.json (Yahoo pipeline).",
   "source": "fundamentals.json",
   "sectors": {
@@ -1724,8 +1724,8 @@
         14.127,
         14.148,
         14.598,
+        14.974,
         15.003,
-        15.044,
         15.17,
         15.989,
         16.04,
@@ -1907,8 +1907,8 @@
         0.738,
         0.748,
         0.754,
-        0.785,
         0.791,
+        0.813,
         0.862,
         0.924,
         0.931,
