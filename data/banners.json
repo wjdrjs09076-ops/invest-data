@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-29T22:42:21Z",
+  "generated_at_utc": "2026-05-30T04:17:10Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -13,14 +13,14 @@
               "reason": "RSI 24, 5D -14.6%, 20D -20.8%"
             },
             {
-              "ticker": "HII",
-              "label": "HOLD • score 62",
-              "reason": "RSI 30, 5D -3.0%, 20D -15.4%"
-            },
-            {
               "ticker": "HCA",
               "label": "HOLD • score 61",
               "reason": "RSI 20, 5D -3.6%, 20D -12.9%"
+            },
+            {
+              "ticker": "ATO",
+              "label": "HOLD • score 60",
+              "reason": "RSI 29, 5D -4.2%, 20D -10.5%"
             }
           ]
         },
