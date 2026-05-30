@@ -1,7 +1,7 @@
 {
   "ticker": "EXPE",
-  "generated_at_utc": "2026-05-30T04:37:20Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-05-30T09:01:23Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
