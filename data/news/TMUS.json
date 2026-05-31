@@ -1,7 +1,7 @@
 {
   "ticker": "TMUS",
-  "generated_at_utc": "2026-05-31T09:35:04Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-05-31T11:19:32Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
