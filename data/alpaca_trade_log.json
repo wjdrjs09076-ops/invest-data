@@ -651,5 +651,139 @@
       }
     ],
     "dry_run": false
+  },
+  {
+    "date": "2026-06-01",
+    "timestamp": "2026-06-01T19:31:30.933309+00:00",
+    "reason": "월 정기 리밸런싱 (2026-06)",
+    "regime": "RISK_ON",
+    "exposure": 1.0,
+    "regime_triggers": [],
+    "portfolio_value": 95078.2,
+    "target_weights": {
+      "AGX": 0.0559,
+      "INSW": 0.0696,
+      "POWL": 0.05,
+      "CIEN": 0.05,
+      "SNDK": 0.05,
+      "WDC": 0.0595,
+      "KGS": 0.1276,
+      "CC": 0.05,
+      "KALU": 0.05,
+      "SPHR": 0.0598,
+      "FIX": 0.05,
+      "OUT": 0.1077,
+      "REX": 0.083,
+      "ECPG": 0.0869,
+      "ESI": 0.05
+    },
+    "orders": [
+      {
+        "symbol": "SPHR",
+        "side": "sell",
+        "qty": 7,
+        "order_id": "1390c4cc-0ecb-4476-bb97-6188ecebcb63",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "KALU",
+        "side": "sell",
+        "qty": 3,
+        "order_id": "9420643b-b3c7-41fe-8999-59a86803daef",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "SNDK",
+        "side": "sell",
+        "qty": 1,
+        "order_id": "3f912fb4-0781-46e8-9e9f-99d940d586c8",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "WDC",
+        "side": "sell",
+        "qty": 1,
+        "order_id": "cf293a1b-8fba-44be-9879-8ecf0875d87d",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "KGS",
+        "side": "sell",
+        "qty": 5,
+        "order_id": "cd3b9b36-a327-4c44-9f5d-fa965a5ff601",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "CC",
+        "side": "sell",
+        "qty": 15,
+        "order_id": "9deeb40b-76bd-4687-b0b0-7cd79286b56a",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "ESI",
+        "side": "sell",
+        "qty": 7,
+        "order_id": "5a1d5774-955f-4703-9fe6-c07de049874f",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "POWL",
+        "side": "sell",
+        "qty": 1,
+        "order_id": "3af6e9c7-5f4e-473f-9193-5821fd6813c8",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "ECPG",
+        "side": "buy",
+        "qty": 17,
+        "order_id": "53c6654a-060f-4e4e-a2e8-b5ed830ab630",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "FIX",
+        "side": "buy",
+        "qty": 1,
+        "order_id": "d243f18f-adf1-444d-9bdd-98ce6b7d6e32",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "OUT",
+        "side": "buy",
+        "qty": 33,
+        "order_id": "9242a668-d473-4aa6-b970-e277e167ddc5",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "INSW",
+        "side": "buy",
+        "qty": 7,
+        "order_id": "56df3030-910d-4be8-978c-79fb5ccf3594",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "CIEN",
+        "side": "buy",
+        "qty": 1,
+        "order_id": "3fb10861-6740-49ae-a2be-889da75b2546",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "REX",
+        "side": "buy",
+        "qty": 2,
+        "order_id": "68f0ccb6-04b7-4302-bb19-63bf39a31359",
+        "status": "OrderStatus.PENDING_NEW"
+      },
+      {
+        "symbol": "AGX",
+        "side": "buy",
+        "qty": 1,
+        "order_id": "cbdd0705-1288-48f1-9c48-6f77ac0b1701",
+        "status": "OrderStatus.PENDING_NEW"
+      }
+    ],
+    "dry_run": false
   }
 ]
