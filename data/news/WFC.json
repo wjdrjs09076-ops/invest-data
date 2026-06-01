@@ -1,7 +1,7 @@
 {
   "ticker": "WFC",
-  "generated_at_utc": "2026-06-01T05:27:55Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-06-01T12:19:14Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
