@@ -1,7 +1,7 @@
 {
   "ticker": "JNJ",
-  "generated_at_utc": "2026-06-01T12:19:14Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-06-01T18:24:25Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
