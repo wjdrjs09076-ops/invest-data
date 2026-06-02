@@ -1,7 +1,7 @@
 {
   "ticker": "FE",
-  "generated_at_utc": "2026-06-02T17:05:10Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-06-02T21:34:13Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
