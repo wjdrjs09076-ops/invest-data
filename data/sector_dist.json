@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-02T23:06:58Z",
+  "generated_at_utc": "2026-06-03T23:12:32Z",
   "note": "Sector distributions for PE/PS computed from fundamentals.json (Yahoo pipeline).",
   "source": "fundamentals.json",
   "sectors": {
@@ -1460,7 +1460,6 @@
         26.961,
         26.968,
         27.05,
-        27.177,
         27.303,
         27.782,
         27.923,
@@ -1698,8 +1697,8 @@
         15.773,
         16.981
       ],
-      "n": 193,
-      "pe_n": 163,
+      "n": 192,
+      "pe_n": 162,
       "ps_n": 185
     },
     "Information Technology": {
@@ -2750,7 +2749,7 @@
     "Unknown": {
       "pe": [],
       "ps": [],
-      "n": 9,
+      "n": 10,
       "pe_n": 0,
       "ps_n": 0
     },
