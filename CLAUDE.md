@@ -44,15 +44,23 @@
 
 문제가 구체적이고 작업 지연이 작으면 추가. 그렇지 않으면 기각.
 
-## 데이터 파이프라인 실행 순서
+## 일일 업데이트 (Sharadar 구독 취소 후 — 2026-06~)
+```
+1. build_market_regime.py      # SPY MA200 + VIX + 10Y 레짐
+2. update_live_performance.py  # 라이브 포트폴리오 수익률
+3. build_score_snapshot.py     # 종목 점수 스냅샷 (캐시된 신호 사용)
+4. build_banners.py            # 뉴스 배너
+5. deploy_portal_daily.py      # invest-portal 커밋·배포
+```
+
+## 데이터 파이프라인 (전체 재빌드 — Sharadar 필요, 현재 비활성)
 ```
 1. build_sp400_membership.py   # SP400 멤버십 이벤트
 2. build_sp600_membership.py   # SP600 멤버십 이벤트
-3. build_score_snapshot.py     # 점수 스냅샷
-4. build_daily_history.py      # SHARADAR/DAILY PIT 캐시
-5. build_sf3_history.py        # SF3 13F 기관 보유 캐시
-6. build_sf2_history.py        # SF2 Form4 내부자 거래 캐시
-7. quantum_signal.py           # VQC 학습 → quantum_vqc_params.pkl
+3. build_daily_history.py      # SHARADAR/DAILY PIT 캐시
+4. build_sf3_history.py        # SF3 13F 기관 보유 캐시
+5. build_sf2_history.py        # SF2 Form4 내부자 거래 캐시
+6. quantum_signal.py           # VQC 학습 → quantum_vqc_params.pkl
 ```
 
 ## IS/OOS 기간 (절대 수정 금지)

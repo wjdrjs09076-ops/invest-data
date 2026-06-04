@@ -20,14 +20,12 @@ from pathlib import Path
 PORTAL_DIR = Path(__file__).resolve().parents[2]  # invest-portal/
 
 # portal에 커밋해야 할 public/data 파일 목록 (누락 방지용 고정 리스트)
+# Sharadar 구독 취소(2026-06) 이후: fundamentals/daily_valuation/risk_snapshot 제외
 TARGET_FILES = [
     "public/data/market_regime.json",
     "public/data/score_snapshot.json",
     "public/data/live_performance.json",
     "public/data/live_state.json",
-    "public/data/risk_snapshot.json",
-    "public/data/fundamentals.json",
-    "public/data/daily_valuation.json",
     "public/data/banners.json",
 ]
 
