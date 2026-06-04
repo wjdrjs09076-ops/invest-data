@@ -1,7 +1,7 @@
 {
   "ticker": "NCLH",
-  "generated_at_utc": "2026-06-04T10:27:13Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-06-04T16:02:22Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
