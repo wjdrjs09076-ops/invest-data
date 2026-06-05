@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-04T23:07:54.241226+00:00",
+  "generated_at": "2026-06-05T23:06:39.692052+00:00",
   "live_start": "2026-05-04",
   "strategy_label": "Regime Filter Strategy (MA200 + VIX + Defensive Sleeve)",
   "summary": {
-    "total_return": 0.031226,
-    "days": 23,
-    "cagr": 0.400592,
-    "sharpe": 1.7397,
+    "total_return": -0.007627,
+    "days": 24,
+    "cagr": -0.077244,
+    "sharpe": -0.2989,
     "mdd": -0.064396,
-    "last_date": "2026-06-04",
-    "last_equity": 1.031226
+    "last_date": "2026-06-05",
+    "last_equity": 0.992373
   },
   "current_portfolio": {
     "WDC": 0.05,
@@ -235,6 +235,15 @@
       "daily_return": 0.002609,
       "drawdown": -0.020907,
       "benchmark": 1.054429,
+      "regime": "live",
+      "stock_exposure": 1.0
+    },
+    {
+      "date": "2026-06-05",
+      "equity": 0.992373,
+      "daily_return": -0.037676,
+      "drawdown": -0.057795,
+      "benchmark": 1.027215,
       "regime": "live",
       "stock_exposure": 1.0
     }
