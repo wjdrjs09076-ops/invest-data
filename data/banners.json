@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-05T22:34:52Z",
+  "generated_at_utc": "2026-06-06T04:19:39Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -158,14 +158,14 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "PEP",
-              "label": "HOLD • score 59",
-              "reason": "RSI 33, 5D -1.6%, 20D -9.2%"
-            },
-            {
               "ticker": "COST",
               "label": "HOLD • score 53",
               "reason": "RSI 41, 5D 1.6%, 20D -4.0%"
+            },
+            {
+              "ticker": "PEP",
+              "label": "HOLD • score 49",
+              "reason": "RSI 38, 5D -0.5%, 20D -8.2%"
             },
             {
               "ticker": "AAPL",
@@ -219,7 +219,7 @@
             },
             {
               "ticker": "PEP",
-              "label": "20D -9.2%",
+              "label": "20D -8.2%",
               "reason": ""
             },
             {
