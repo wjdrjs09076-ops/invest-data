@@ -1,7 +1,7 @@
 {
   "ticker": "DVA",
-  "generated_at_utc": "2026-06-09T04:48:48Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-06-09T10:20:50Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
