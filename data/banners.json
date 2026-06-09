@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-08T22:49:23Z",
+  "generated_at_utc": "2026-06-09T04:34:34Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -18,9 +18,9 @@
               "reason": "RSI 28, 5D -12.4%, 20D -26.4%"
             },
             {
-              "ticker": "REGN",
+              "ticker": "UHS",
               "label": "HOLD • score 66",
-              "reason": "RSI 35, 5D 1.8%, 20D -14.4%"
+              "reason": "RSI 28, 5D -1.1%, 20D -15.8%"
             }
           ]
         },
@@ -239,7 +239,7 @@
             },
             {
               "ticker": "GOOGL",
-              "label": "20D -9.4%",
+              "label": "20D -9.3%",
               "reason": ""
             },
             {
