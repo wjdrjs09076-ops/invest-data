@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-11T22:58:28Z",
+  "generated_at_utc": "2026-06-12T05:02:59Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -98,11 +98,6 @@
           "title": "Risk High",
           "items": [
             {
-              "ticker": "KLAC",
-              "label": "Vol 3683%",
-              "reason": ""
-            },
-            {
               "ticker": "SMCI",
               "label": "Vol 144%",
               "reason": ""
@@ -145,6 +140,11 @@
             {
               "ticker": "NOW",
               "label": "Vol 93%",
+              "reason": ""
+            },
+            {
+              "ticker": "GLW",
+              "label": "Vol 89%",
               "reason": ""
             }
           ]
