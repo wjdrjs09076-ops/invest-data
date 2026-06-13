@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-13T09:33:33Z",
+  "generated_at_utc": "2026-06-13T14:25:37Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -53,6 +53,11 @@
               "reason": ""
             },
             {
+              "ticker": "KLAC",
+              "label": "20D 34.6%",
+              "reason": ""
+            },
+            {
               "ticker": "MGM",
               "label": "20D 33.0%",
               "reason": ""
@@ -71,11 +76,6 @@
               "ticker": "AMAT",
               "label": "20D 28.9%",
               "reason": ""
-            },
-            {
-              "ticker": "WSM",
-              "label": "20D 28.7%",
-              "reason": ""
             }
           ]
         },
@@ -86,11 +86,6 @@
         {
           "title": "Risk High",
           "items": [
-            {
-              "ticker": "KLAC",
-              "label": "Vol 335%",
-              "reason": ""
-            },
             {
               "ticker": "SMCI",
               "label": "Vol 145%",
@@ -134,6 +129,11 @@
             {
               "ticker": "NOW",
               "label": "Vol 92%",
+              "reason": ""
+            },
+            {
+              "ticker": "GLW",
+              "label": "Vol 89%",
               "reason": ""
             }
           ]
