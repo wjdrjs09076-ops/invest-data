@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T21:19:26Z",
+  "generated_at_utc": "2026-06-17T05:16:19Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -7,11 +7,6 @@
         {
           "title": "Today's BUY Candidates",
           "items": [
-            {
-              "ticker": "ROL",
-              "label": "HOLD • score 63",
-              "reason": "RSI 34, 5D 0.5%, 20D -12.4%"
-            },
             {
               "ticker": "NFLX",
               "label": "HOLD • score 61",
@@ -21,6 +16,11 @@
               "ticker": "TRMB",
               "label": "HOLD • score 60",
               "reason": "RSI 30, 5D -4.1%, 20D -7.7%"
+            },
+            {
+              "ticker": "BSX",
+              "label": "HOLD • score 60",
+              "reason": "RSI 30, 5D -4.2%, 20D -16.1%"
             }
           ]
         },
@@ -49,7 +49,7 @@
             },
             {
               "ticker": "HPE",
-              "label": "20D 46.6%",
+              "label": "20D 47.0%",
               "reason": ""
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "ticker": "WSM",
-              "label": "20D 34.7%",
+              "label": "20D 34.3%",
               "reason": ""
             },
             {
@@ -81,13 +81,7 @@
         },
         {
           "title": "Oversold Reversal",
-          "items": [
-            {
-              "ticker": "ROL",
-              "label": "RSI 34, 5D 0.5%",
-              "reason": ""
-            }
-          ]
+          "items": []
         },
         {
           "title": "Risk High",
