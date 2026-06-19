@@ -1,6 +1,6 @@
 {
   "ticker": "NOW",
-  "generated_at_utc": "2026-06-19T11:05:37Z",
+  "generated_at_utc": "2026-06-19T15:51:00Z",
   "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
