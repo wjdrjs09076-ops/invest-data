@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T14:29:36Z",
+  "generated_at_utc": "2026-06-20T16:50:09Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -15,12 +15,12 @@
             {
               "ticker": "ADSK",
               "label": "HOLD • score 66",
-              "reason": "RSI 28, 5D -5.7%, 20D -20.4%"
+              "reason": "RSI 28, 5D -12.7%, 20D -20.9%"
             },
             {
-              "ticker": "TRMB",
-              "label": "HOLD • score 65",
-              "reason": "RSI 27, 5D -1.7%, 20D -12.2%"
+              "ticker": "TSN",
+              "label": "HOLD • score 62",
+              "reason": "RSI 33, 5D 0.1%, 20D -14.3%"
             }
           ]
         },
@@ -73,15 +73,21 @@
               "reason": ""
             },
             {
-              "ticker": "NTAP",
-              "label": "20D 34.2%",
+              "ticker": "LRCX",
+              "label": "20D 33.3%",
               "reason": ""
             }
           ]
         },
         {
           "title": "Oversold Reversal",
-          "items": []
+          "items": [
+            {
+              "ticker": "TSN",
+              "label": "RSI 33, 5D 0.1%",
+              "reason": ""
+            }
+          ]
         },
         {
           "title": "Risk High",
@@ -113,7 +119,7 @@
             },
             {
               "ticker": "NTAP",
-              "label": "Vol 99%",
+              "label": "Vol 100%",
               "reason": ""
             },
             {
@@ -317,7 +323,7 @@
             },
             {
               "ticker": "PG",
-              "label": "20D 5.6%",
+              "label": "20D 6.6%",
               "reason": ""
             },
             {
