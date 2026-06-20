@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T09:41:01Z",
+  "generated_at_utc": "2026-06-20T14:29:36Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -15,7 +15,7 @@
             {
               "ticker": "ADSK",
               "label": "HOLD • score 66",
-              "reason": "RSI 28, 5D -12.7%, 20D -20.9%"
+              "reason": "RSI 28, 5D -5.7%, 20D -20.4%"
             },
             {
               "ticker": "TRMB",
