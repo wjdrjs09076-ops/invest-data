@@ -1,7 +1,7 @@
 {
   "ticker": "RMD",
-  "generated_at_utc": "2026-06-22T23:04:31Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-06-23T04:43:47Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
