@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-22T22:54:42Z",
+  "generated_at_utc": "2026-06-23T04:20:08Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -184,7 +184,7 @@
             },
             {
               "ticker": "AVGO",
-              "label": "20D -5.4%",
+              "label": "20D -5.3%",
               "reason": ""
             },
             {
@@ -223,7 +223,7 @@
           "items": [
             {
               "ticker": "AVGO",
-              "label": "Vol 75%",
+              "label": "Vol 74%",
               "reason": ""
             },
             {
