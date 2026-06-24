@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-24T20:07:40Z",
+  "generated_at_utc": "2026-06-24T22:39:50Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -48,12 +48,12 @@
               "reason": ""
             },
             {
-              "ticker": "HPE",
+              "ticker": "MRNA",
               "label": "20D 28.5%",
               "reason": ""
             },
             {
-              "ticker": "MRNA",
+              "ticker": "HPE",
               "label": "20D 28.5%",
               "reason": ""
             },
@@ -98,12 +98,12 @@
             },
             {
               "ticker": "MU",
-              "label": "Vol 117%",
+              "label": "Vol 116%",
               "reason": ""
             },
             {
               "ticker": "SNDK",
-              "label": "Vol 108%",
+              "label": "Vol 109%",
               "reason": ""
             },
             {
@@ -154,7 +154,7 @@
             {
               "ticker": "AAPL",
               "label": "HOLD • score 46",
-              "reason": "RSI 46, 5D -2.0%, 20D -4.9%"
+              "reason": "RSI 46, 5D -2.1%, 20D -4.9%"
             },
             {
               "ticker": "COST",
@@ -332,17 +332,17 @@
             },
             {
               "ticker": "KO",
-              "label": "20D 0.9%",
+              "label": "20D 0.8%",
               "reason": ""
             },
             {
               "ticker": "MCD",
-              "label": "20D -1.2%",
+              "label": "20D -1.3%",
               "reason": ""
             },
             {
               "ticker": "DIS",
-              "label": "20D -2.0%",
+              "label": "20D -2.1%",
               "reason": ""
             },
             {
