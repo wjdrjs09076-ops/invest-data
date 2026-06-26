@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-25T22:45:20Z",
+  "generated_at_utc": "2026-06-26T04:39:21Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -29,7 +29,7 @@
           "items": [
             {
               "ticker": "DD",
-              "label": "20D 178.6%",
+              "label": "20D 189.1%",
               "reason": ""
             },
             {
@@ -94,7 +94,7 @@
           "items": [
             {
               "ticker": "DD",
-              "label": "Vol 661%",
+              "label": "Vol 706%",
               "reason": ""
             },
             {
