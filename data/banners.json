@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T22:35:50Z",
+  "generated_at_utc": "2026-06-27T04:15:38Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -59,7 +59,7 @@
             },
             {
               "ticker": "HUM",
-              "label": "20D 24.3%",
+              "label": "20D 24.6%",
               "reason": ""
             },
             {
