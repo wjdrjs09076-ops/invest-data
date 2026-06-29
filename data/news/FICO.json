@@ -1,7 +1,7 @@
 {
   "ticker": "FICO",
-  "generated_at_utc": "2026-06-29T20:29:02Z",
-  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>",
+  "generated_at_utc": "2026-06-29T22:38:39Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
