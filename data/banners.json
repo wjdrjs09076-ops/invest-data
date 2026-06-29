@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T20:15:28Z",
+  "generated_at_utc": "2026-06-29T22:20:05Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -34,7 +34,7 @@
             },
             {
               "ticker": "GLW",
-              "label": "20D 41.2%",
+              "label": "20D 41.1%",
               "reason": ""
             },
             {
@@ -54,7 +54,7 @@
             },
             {
               "ticker": "HUM",
-              "label": "20D 27.8%",
+              "label": "20D 27.6%",
               "reason": ""
             },
             {
@@ -358,7 +358,7 @@
             },
             {
               "ticker": "DIS",
-              "label": "20D -3.2%",
+              "label": "20D -3.1%",
               "reason": ""
             },
             {
