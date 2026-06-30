@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T22:20:05Z",
+  "generated_at_utc": "2026-06-30T04:33:16Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -108,11 +108,6 @@
           "title": "Risk High",
           "items": [
             {
-              "ticker": "HON",
-              "label": "Vol 410%",
-              "reason": ""
-            },
-            {
               "ticker": "SMCI",
               "label": "Vol 148%",
               "reason": ""
@@ -155,6 +150,11 @@
             {
               "ticker": "AMAT",
               "label": "Vol 98%",
+              "reason": ""
+            },
+            {
+              "ticker": "INTC",
+              "label": "Vol 97%",
               "reason": ""
             }
           ]
