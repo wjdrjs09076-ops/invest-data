@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T20:18:24Z",
+  "generated_at_utc": "2026-06-30T22:39:32Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -309,7 +309,7 @@
             {
               "ticker": "V",
               "label": "HOLD • score 58",
-              "reason": "RSI 66, 5D 4.3%, 20D 6.2%"
+              "reason": "RSI 67, 5D 4.4%, 20D 6.3%"
             },
             {
               "ticker": "KO",
@@ -338,12 +338,12 @@
             },
             {
               "ticker": "V",
-              "label": "20D 6.2%",
+              "label": "20D 6.3%",
               "reason": ""
             },
             {
               "ticker": "PG",
-              "label": "20D 4.4%",
+              "label": "20D 4.5%",
               "reason": ""
             },
             {
