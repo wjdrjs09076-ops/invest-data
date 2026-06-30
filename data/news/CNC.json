@@ -1,7 +1,7 @@
 {
   "ticker": "CNC",
-  "generated_at_utc": "2026-06-30T15:16:16Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-06-30T17:26:10Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
