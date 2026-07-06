@@ -1,7 +1,7 @@
 {
   "ticker": "CAH",
-  "generated_at_utc": "2026-07-06T04:55:25Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-07-06T11:14:22Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
