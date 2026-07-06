@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-06T20:13:37Z",
+  "generated_at_utc": "2026-07-06T22:37:24Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -59,7 +59,7 @@
             },
             {
               "ticker": "CRL",
-              "label": "20D 24.5%",
+              "label": "20D 24.6%",
               "reason": ""
             },
             {
@@ -69,11 +69,11 @@
             },
             {
               "ticker": "DVA",
-              "label": "20D 22.6%",
+              "label": "20D 22.7%",
               "reason": ""
             },
             {
-              "ticker": "KMB",
+              "ticker": "AXON",
               "label": "20D 21.3%",
               "reason": ""
             }
@@ -84,7 +84,7 @@
           "items": [
             {
               "ticker": "CBOE",
-              "label": "RSI 35, 5D 1.1%",
+              "label": "RSI 35, 5D 1.2%",
               "reason": ""
             },
             {
