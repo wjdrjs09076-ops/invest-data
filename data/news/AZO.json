@@ -1,7 +1,7 @@
 {
   "ticker": "AZO",
-  "generated_at_utc": "2026-07-06T11:14:22Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-06T16:03:19Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
