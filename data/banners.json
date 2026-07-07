@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-06T22:37:24Z",
+  "generated_at_utc": "2026-07-07T04:16:15Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -327,13 +327,13 @@
               "reason": ""
             },
             {
-              "ticker": "KO",
-              "label": "20D 8.7%",
+              "ticker": "JPM",
+              "label": "20D 9.1%",
               "reason": ""
             },
             {
-              "ticker": "JPM",
-              "label": "20D 8.6%",
+              "ticker": "KO",
+              "label": "20D 8.7%",
               "reason": ""
             },
             {
