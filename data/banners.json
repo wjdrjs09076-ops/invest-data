@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-07T20:13:06Z",
+  "generated_at_utc": "2026-07-07T22:30:44Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -15,7 +15,7 @@
             {
               "ticker": "ORCL",
               "label": "HOLD • score 66",
-              "reason": "RSI 29, 5D -4.1%, 20D -33.7%"
+              "reason": "RSI 29, 5D -4.2%, 20D -33.7%"
             },
             {
               "ticker": "LYB",
