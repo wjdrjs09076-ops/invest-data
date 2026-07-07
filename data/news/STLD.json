@@ -1,7 +1,7 @@
 {
   "ticker": "STLD",
-  "generated_at_utc": "2026-07-06T20:30:41Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-07T04:35:21Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
