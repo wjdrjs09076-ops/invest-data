@@ -1,7 +1,7 @@
 {
   "ticker": "SNDK",
-  "generated_at_utc": "2026-07-09T15:43:47Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-07-09T20:26:32Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
