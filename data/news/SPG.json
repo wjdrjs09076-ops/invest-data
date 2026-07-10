@@ -1,7 +1,7 @@
 {
   "ticker": "SPG",
-  "generated_at_utc": "2026-07-10T15:16:16Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-10T17:22:12Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
