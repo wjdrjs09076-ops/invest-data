@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-10T22:14:46Z",
+  "generated_at_utc": "2026-07-11T03:42:10Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,17 +10,17 @@
             {
               "ticker": "ORCL",
               "label": "HOLD • score 69",
-              "reason": "RSI 31, 5D 0.3%, 20D -30.1%"
-            },
-            {
-              "ticker": "VZ",
-              "label": "HOLD • score 60",
-              "reason": "RSI 34, 5D -1.0%, 20D -10.3%"
+              "reason": "RSI 31, 5D 0.6%, 20D -29.9%"
             },
             {
               "ticker": "HPQ",
               "label": "HOLD • score 58",
               "reason": "RSI 57, 5D 10.4%, 20D -1.9%"
+            },
+            {
+              "ticker": "NTAP",
+              "label": "HOLD • score 58",
+              "reason": "RSI 64, 5D 9.9%, 20D 5.4%"
             }
           ]
         },
@@ -84,7 +84,7 @@
           "items": [
             {
               "ticker": "ORCL",
-              "label": "RSI 31, 5D 0.3%",
+              "label": "RSI 31, 5D 0.6%",
               "reason": ""
             }
           ]
