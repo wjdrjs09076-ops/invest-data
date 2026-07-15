@@ -1,7 +1,7 @@
 {
   "ticker": "MLM",
-  "generated_at_utc": "2026-07-15T11:12:46Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-15T14:23:02Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
