@@ -1,7 +1,7 @@
 {
   "ticker": "GD",
-  "generated_at_utc": "2026-07-15T19:47:45Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-15T22:34:17Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
