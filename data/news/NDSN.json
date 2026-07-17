@@ -1,6 +1,6 @@
 {
   "ticker": "NDSN",
-  "generated_at_utc": "2026-07-16T19:43:28Z",
+  "generated_at_utc": "2026-07-16T22:32:59Z",
   "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
