@@ -1,7 +1,7 @@
 {
   "ticker": "DTE",
-  "generated_at_utc": "2026-07-17T19:42:05Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-07-17T22:27:08Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
