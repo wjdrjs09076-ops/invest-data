@@ -1,7 +1,7 @@
 {
   "ticker": "GEN",
-  "generated_at_utc": "2026-07-18T08:24:50Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-07-18T10:47:12Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
