@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T22:23:35Z",
+  "generated_at": "2026-07-19T22:27:13Z",
   "market_context": {
     "benchmark": "SPY",
     "spy_vol20": 0.1224,
@@ -392,8 +392,8 @@
           "news_reason": ""
         }
       ],
-      "count": 593,
-      "filtered_count_absolute_momentum": 408,
+      "count": 595,
+      "filtered_count_absolute_momentum": 407,
       "quality_count": 4,
       "portfolio_construction": {
         "method": "score_x_inverse_vol",
