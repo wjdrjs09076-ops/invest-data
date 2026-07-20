@@ -1,7 +1,7 @@
 {
   "ticker": "COST",
-  "generated_at_utc": "2026-07-20T17:04:20Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-07-20T20:09:26Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
