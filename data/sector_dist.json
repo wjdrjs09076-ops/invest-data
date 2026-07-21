@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-20T22:11:32Z",
+  "generated_at_utc": "2026-07-21T22:10:32Z",
   "note": "Sector distributions for PE/PS computed from fundamentals.json (Yahoo pipeline).",
   "source": "fundamentals.json",
   "sectors": {
