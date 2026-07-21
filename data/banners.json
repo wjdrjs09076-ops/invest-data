@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-20T22:12:08Z",
+  "generated_at_utc": "2026-07-21T03:44:05Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -352,7 +352,7 @@
             },
             {
               "ticker": "CAT",
-              "label": "20D -12.3%",
+              "label": "20D -12.2%",
               "reason": ""
             }
           ]
