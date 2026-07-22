@@ -1,7 +1,7 @@
 {
   "ticker": "MRK",
-  "generated_at_utc": "2026-07-21T22:30:45Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-07-22T03:59:14Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
