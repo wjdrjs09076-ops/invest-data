@@ -1,7 +1,7 @@
 {
   "ticker": "CMG",
-  "generated_at_utc": "2026-07-22T14:36:16Z",
-  "error": "Expecting value: line 1 column 1 (char 0)",
+  "generated_at_utc": "2026-07-22T16:58:18Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
