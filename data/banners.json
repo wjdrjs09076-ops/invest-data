@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-24T22:17:15Z",
+  "generated_at_utc": "2026-07-25T03:36:05Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -83,13 +83,13 @@
           "title": "Oversold Reversal",
           "items": [
             {
-              "ticker": "IBM",
-              "label": "RSI 35, 5D 0.7%",
+              "ticker": "PNR",
+              "label": "RSI 33, 5D 1.1%",
               "reason": ""
             },
             {
-              "ticker": "PNR",
-              "label": "RSI 32, 5D 0.7%",
+              "ticker": "IBM",
+              "label": "RSI 35, 5D 0.7%",
               "reason": ""
             }
           ]
@@ -209,7 +209,7 @@
             },
             {
               "ticker": "COST",
-              "label": "20D -0.8%",
+              "label": "20D -0.6%",
               "reason": ""
             },
             {
@@ -283,7 +283,7 @@
             },
             {
               "ticker": "COST",
-              "label": "Vol 24%",
+              "label": "Vol 25%",
               "reason": ""
             }
           ]
@@ -353,7 +353,7 @@
             },
             {
               "ticker": "PG",
-              "label": "20D -0.7%",
+              "label": "20D 0.0%",
               "reason": ""
             },
             {
@@ -417,7 +417,7 @@
             },
             {
               "ticker": "PG",
-              "label": "Vol 23%",
+              "label": "Vol 24%",
               "reason": ""
             },
             {
