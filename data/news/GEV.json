@@ -1,7 +1,7 @@
 {
   "ticker": "GEV",
-  "generated_at_utc": "2026-07-30T11:30:24Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-30T14:52:21Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
