@@ -1,7 +1,7 @@
 {
   "ticker": "ORCL",
-  "generated_at_utc": "2026-07-30T09:15:10Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-07-30T11:30:24Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
