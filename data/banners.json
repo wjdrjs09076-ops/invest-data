@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-03T19:57:20Z",
+  "generated_at_utc": "2026-08-03T22:17:15Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -8,19 +8,9 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "NXPI",
-              "label": "HOLD • score 66",
-              "reason": "RSI 28, 5D -16.3%, 20D -20.1%"
-            },
-            {
-              "ticker": "ROL",
-              "label": "HOLD • score 64",
-              "reason": "RSI 28, 5D -2.2%, 20D -10.6%"
-            },
-            {
               "ticker": "GNRC",
-              "label": "HOLD • score 60",
-              "reason": "RSI 35, 5D 2.0%, 20D -21.8%"
+              "label": "BUY • score 72",
+              "reason": "RSI 35, 5D 1.9%, 20D -22.0%"
             }
           ]
         },
@@ -29,12 +19,12 @@
           "items": [
             {
               "ticker": "CTSH",
-              "label": "20D 33.5%",
+              "label": "20D 33.4%",
               "reason": ""
             },
             {
               "ticker": "PYPL",
-              "label": "20D 28.4%",
+              "label": "20D 28.3%",
               "reason": ""
             },
             {
@@ -44,36 +34,36 @@
             },
             {
               "ticker": "BAX",
-              "label": "20D 24.1%",
+              "label": "20D 24.4%",
               "reason": ""
             },
             {
               "ticker": "GRMN",
-              "label": "20D 24.0%",
+              "label": "20D 24.3%",
               "reason": ""
             },
             {
               "ticker": "EPAM",
-              "label": "20D 23.3%",
+              "label": "20D 23.5%",
               "reason": ""
             },
             {
               "ticker": "ACN",
-              "label": "20D 22.8%",
+              "label": "20D 22.5%",
               "reason": ""
             },
             {
               "ticker": "CBOE",
-              "label": "20D 21.6%",
-              "reason": ""
-            },
-            {
-              "ticker": "PAYC",
-              "label": "20D 20.8%",
+              "label": "20D 21.5%",
               "reason": ""
             },
             {
               "ticker": "DXCM",
+              "label": "20D 20.6%",
+              "reason": ""
+            },
+            {
+              "ticker": "PAYC",
               "label": "20D 20.6%",
               "reason": ""
             }
@@ -81,14 +71,20 @@
         },
         {
           "title": "Oversold Reversal",
-          "items": []
+          "items": [
+            {
+              "ticker": "GNRC",
+              "label": "RSI 35, 5D 1.9%",
+              "reason": ""
+            }
+          ]
         },
         {
           "title": "Risk High",
           "items": [
             {
               "ticker": "SNDK",
-              "label": "Vol 164%",
+              "label": "Vol 163%",
               "reason": ""
             },
             {
@@ -293,12 +289,12 @@
             {
               "ticker": "DIS",
               "label": "HOLD • score 53",
-              "reason": "RSI 52, 5D 1.6%, 20D 0.8%"
+              "reason": "RSI 52, 5D 1.5%, 20D 0.7%"
             },
             {
               "ticker": "V",
               "label": "HOLD • score 52",
-              "reason": "RSI 63, 5D 0.8%, 20D 2.3%"
+              "reason": "RSI 63, 5D 0.9%, 20D 2.4%"
             }
           ]
         },
@@ -322,12 +318,12 @@
             },
             {
               "ticker": "V",
-              "label": "20D 2.3%",
+              "label": "20D 2.4%",
               "reason": ""
             },
             {
               "ticker": "DIS",
-              "label": "20D 0.8%",
+              "label": "20D 0.7%",
               "reason": ""
             },
             {
@@ -352,7 +348,7 @@
             },
             {
               "ticker": "CAT",
-              "label": "20D -14.2%",
+              "label": "20D -14.3%",
               "reason": ""
             }
           ]
