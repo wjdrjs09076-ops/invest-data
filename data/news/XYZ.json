@@ -1,7 +1,7 @@
 {
   "ticker": "XYZ",
-  "generated_at_utc": "2026-08-03T20:15:59Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-03T22:36:14Z",
+  "error": "HTTP Error 503: Service Unavailable",
   "count": 0,
   "items": []
 }
