@@ -1,7 +1,7 @@
 {
   "ticker": "TFC",
-  "generated_at_utc": "2026-08-05T17:05:37Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-08-05T20:11:47Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
