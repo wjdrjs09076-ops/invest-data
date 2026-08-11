@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-11T02:26:47Z",
+  "generated_at_utc": "2026-08-11T04:39:23Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -27,11 +27,6 @@
         {
           "title": "Momentum TOP",
           "items": [
-            {
-              "ticker": "MNST",
-              "label": "20D 88.4%",
-              "reason": ""
-            },
             {
               "ticker": "PAYC",
               "label": "20D 45.7%",
@@ -76,6 +71,11 @@
               "ticker": "GRMN",
               "label": "20D 28.5%",
               "reason": ""
+            },
+            {
+              "ticker": "WDAY",
+              "label": "20D 27.1%",
+              "reason": ""
             }
           ]
         },
@@ -97,11 +97,6 @@
         {
           "title": "Risk High",
           "items": [
-            {
-              "ticker": "MNST",
-              "label": "Vol 366%",
-              "reason": ""
-            },
             {
               "ticker": "SNDK",
               "label": "Vol 159%",
@@ -144,6 +139,11 @@
             },
             {
               "ticker": "PAYC",
+              "label": "Vol 94%",
+              "reason": ""
+            },
+            {
+              "ticker": "DELL",
               "label": "Vol 94%",
               "reason": ""
             }
