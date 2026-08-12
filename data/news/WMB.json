@@ -1,7 +1,7 @@
 {
   "ticker": "WMB",
-  "generated_at_utc": "2026-08-11T22:21:30Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-08-12T03:07:01Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
