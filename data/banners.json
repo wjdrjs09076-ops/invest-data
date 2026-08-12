@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-12T07:51:15Z",
+  "generated_at_utc": "2026-08-12T10:19:16Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -13,14 +13,14 @@
               "reason": "RSI 30, 5D -1.6%, 20D -16.0%"
             },
             {
+              "ticker": "CTVA",
+              "label": "HOLD • score 63",
+              "reason": "RSI 35, 5D 0.6%, 20D -11.2%"
+            },
+            {
               "ticker": "REG",
               "label": "HOLD • score 60",
               "reason": "RSI 29, 5D -4.5%, 20D -5.6%"
-            },
-            {
-              "ticker": "NI",
-              "label": "HOLD • score 60",
-              "reason": "RSI 30, 5D -5.7%, 20D -9.3%"
             }
           ]
         },
@@ -28,13 +28,13 @@
           "title": "Momentum TOP",
           "items": [
             {
-              "ticker": "PAYC",
-              "label": "20D 47.7%",
+              "ticker": "ZBRA",
+              "label": "20D 47.3%",
               "reason": ""
             },
             {
-              "ticker": "ZBRA",
-              "label": "20D 47.3%",
+              "ticker": "PAYC",
+              "label": "20D 45.7%",
               "reason": ""
             },
             {
@@ -45,6 +45,11 @@
             {
               "ticker": "CTSH",
               "label": "20D 36.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "PLTR",
+              "label": "20D 34.8%",
               "reason": ""
             },
             {
@@ -63,32 +68,33 @@
               "reason": ""
             },
             {
-              "ticker": "PLTR",
-              "label": "20D 30.8%",
+              "ticker": "GRMN",
+              "label": "20D 28.3%",
               "reason": ""
             },
             {
               "ticker": "WDAY",
-              "label": "20D 29.7%",
-              "reason": ""
-            },
-            {
-              "ticker": "GRMN",
-              "label": "20D 28.3%",
+              "label": "20D 27.1%",
               "reason": ""
             }
           ]
         },
         {
           "title": "Oversold Reversal",
-          "items": []
+          "items": [
+            {
+              "ticker": "CTVA",
+              "label": "RSI 35, 5D 0.6%",
+              "reason": ""
+            }
+          ]
         },
         {
           "title": "Risk High",
           "items": [
             {
               "ticker": "SNDK",
-              "label": "Vol 158%",
+              "label": "Vol 159%",
               "reason": ""
             },
             {
@@ -127,12 +133,12 @@
               "reason": ""
             },
             {
-              "ticker": "TTD",
-              "label": "Vol 93%",
+              "ticker": "DELL",
+              "label": "Vol 94%",
               "reason": ""
             },
             {
-              "ticker": "GLW",
+              "ticker": "TTD",
               "label": "Vol 93%",
               "reason": ""
             }
@@ -153,8 +159,8 @@
             },
             {
               "ticker": "META",
-              "label": "HOLD • score 54",
-              "reason": "RSI 50, 5D 1.9%, 20D -9.4%"
+              "label": "HOLD • score 52",
+              "reason": "RSI 49, 5D 0.8%, 20D -9.4%"
             },
             {
               "ticker": "COST",
