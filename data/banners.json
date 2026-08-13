@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-13T07:52:06Z",
+  "generated_at_utc": "2026-08-13T10:21:29Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -8,14 +8,14 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "ROL",
-              "label": "HOLD • score 63",
-              "reason": "RSI 28, 5D -2.3%, 20D -17.1%"
+              "ticker": "NI",
+              "label": "HOLD • score 64",
+              "reason": "RSI 30, 5D -2.1%, 20D -7.5%"
             },
             {
-              "ticker": "APTV",
-              "label": "HOLD • score 62",
-              "reason": "RSI 33, 5D 3.1%, 20D -20.0%"
+              "ticker": "ROL",
+              "label": "HOLD • score 63",
+              "reason": "RSI 28, 5D -2.3%, 20D -16.1%"
             },
             {
               "ticker": "DVA",
@@ -33,23 +33,23 @@
               "reason": ""
             },
             {
+              "ticker": "ZBRA",
+              "label": "20D 48.3%",
+              "reason": ""
+            },
+            {
               "ticker": "SMCI",
               "label": "20D 39.9%",
               "reason": ""
             },
             {
-              "ticker": "ZBRA",
-              "label": "20D 38.8%",
+              "ticker": "CTSH",
+              "label": "20D 34.8%",
               "reason": ""
             },
             {
               "ticker": "IT",
               "label": "20D 34.7%",
-              "reason": ""
-            },
-            {
-              "ticker": "CTSH",
-              "label": "20D 31.8%",
               "reason": ""
             },
             {
@@ -84,7 +84,7 @@
           "items": [
             {
               "ticker": "APTV",
-              "label": "RSI 33, 5D 3.1%",
+              "label": "RSI 34, 5D 3.1%",
               "reason": ""
             }
           ]
@@ -128,18 +128,18 @@
               "reason": ""
             },
             {
-              "ticker": "ZBRA",
-              "label": "Vol 100%",
-              "reason": ""
-            },
-            {
               "ticker": "PAYC",
               "label": "Vol 98%",
               "reason": ""
             },
             {
-              "ticker": "AXON",
-              "label": "Vol 94%",
+              "ticker": "ZBRA",
+              "label": "Vol 97%",
+              "reason": ""
+            },
+            {
+              "ticker": "TER",
+              "label": "Vol 93%",
               "reason": ""
             }
           ]
