@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-14T02:45:07Z",
+  "generated_at_utc": "2026-08-14T05:01:42Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -68,13 +68,13 @@
               "reason": ""
             },
             {
-              "ticker": "HPQ",
+              "ticker": "IT",
               "label": "20D 29.7%",
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "20D 28.3%",
+              "ticker": "HPQ",
+              "label": "20D 29.7%",
               "reason": ""
             }
           ]
@@ -124,7 +124,7 @@
             },
             {
               "ticker": "IT",
-              "label": "Vol 99%",
+              "label": "Vol 104%",
               "reason": ""
             },
             {
