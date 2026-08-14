@@ -1,7 +1,7 @@
 {
   "ticker": "RCL",
-  "generated_at_utc": "2026-08-13T22:21:26Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-14T03:09:35Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
