@@ -1,7 +1,7 @@
 {
   "ticker": "FOXA",
-  "generated_at_utc": "2026-08-13T19:38:57Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-13T22:21:26Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
