@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T15:34:20Z",
+  "generated_at_utc": "2026-08-15T18:47:00Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -20,7 +20,7 @@
             {
               "ticker": "ROL",
               "label": "HOLD • score 61",
-              "reason": "RSI 27, 5D -3.6%, 20D -19.4%"
+              "reason": "RSI 27, 5D -3.6%, 20D -20.0%"
             }
           ]
         },
@@ -48,18 +48,23 @@
               "reason": ""
             },
             {
+              "ticker": "IT",
+              "label": "20D 36.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "CTSH",
+              "label": "20D 36.2%",
+              "reason": ""
+            },
+            {
               "ticker": "LDOS",
-              "label": "20D 35.1%",
+              "label": "20D 32.9%",
               "reason": ""
             },
             {
               "ticker": "PLTR",
               "label": "20D 31.5%",
-              "reason": ""
-            },
-            {
-              "ticker": "CTSH",
-              "label": "20D 31.3%",
               "reason": ""
             },
             {
@@ -70,11 +75,6 @@
             {
               "ticker": "TER",
               "label": "20D 29.9%",
-              "reason": ""
-            },
-            {
-              "ticker": "IT",
-              "label": "20D 29.2%",
               "reason": ""
             }
           ]
@@ -123,13 +123,13 @@
               "reason": ""
             },
             {
-              "ticker": "TTD",
-              "label": "Vol 99%",
+              "ticker": "IT",
+              "label": "Vol 101%",
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "Vol 98%",
+              "ticker": "TTD",
+              "label": "Vol 99%",
               "reason": ""
             },
             {
