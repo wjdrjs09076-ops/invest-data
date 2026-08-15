@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T06:56:40Z",
+  "generated_at_utc": "2026-08-15T09:40:19Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "DVA",
               "label": "HOLD • score 64",
-              "reason": "RSI 26, 5D -2.0%, 20D -22.5%"
+              "reason": "RSI 26, 5D -2.0%, 20D -24.0%"
             },
             {
               "ticker": "TTD",
@@ -20,7 +20,7 @@
             {
               "ticker": "ROL",
               "label": "HOLD • score 61",
-              "reason": "RSI 27, 5D -3.6%, 20D -20.0%"
+              "reason": "RSI 27, 5D -3.6%, 20D -19.4%"
             }
           ]
         },
@@ -34,12 +34,12 @@
             },
             {
               "ticker": "PAYC",
-              "label": "20D 51.8%",
+              "label": "20D 45.0%",
               "reason": ""
             },
             {
               "ticker": "ZBRA",
-              "label": "20D 44.6%",
+              "label": "20D 40.6%",
               "reason": ""
             },
             {
@@ -48,23 +48,18 @@
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "20D 36.2%",
-              "reason": ""
-            },
-            {
-              "ticker": "CTSH",
-              "label": "20D 36.2%",
-              "reason": ""
-            },
-            {
               "ticker": "LDOS",
-              "label": "20D 32.9%",
+              "label": "20D 35.1%",
               "reason": ""
             },
             {
               "ticker": "PLTR",
               "label": "20D 31.5%",
+              "reason": ""
+            },
+            {
+              "ticker": "CTSH",
+              "label": "20D 31.3%",
               "reason": ""
             },
             {
@@ -75,6 +70,11 @@
             {
               "ticker": "TER",
               "label": "20D 29.9%",
+              "reason": ""
+            },
+            {
+              "ticker": "IT",
+              "label": "20D 29.2%",
               "reason": ""
             }
           ]
@@ -123,13 +123,13 @@
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "Vol 101%",
+              "ticker": "TTD",
+              "label": "Vol 99%",
               "reason": ""
             },
             {
-              "ticker": "TTD",
-              "label": "Vol 99%",
+              "ticker": "IT",
+              "label": "Vol 98%",
               "reason": ""
             },
             {
@@ -139,7 +139,7 @@
             },
             {
               "ticker": "PAYC",
-              "label": "Vol 98%",
+              "label": "Vol 96%",
               "reason": ""
             }
           ]
