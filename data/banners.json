@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T21:34:12Z",
+  "generated_at_utc": "2026-08-16T01:56:39Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -34,7 +34,7 @@
             },
             {
               "ticker": "PAYC",
-              "label": "20D 47.4%",
+              "label": "20D 45.0%",
               "reason": ""
             },
             {
@@ -139,7 +139,7 @@
             },
             {
               "ticker": "PAYC",
-              "label": "Vol 95%",
+              "label": "Vol 96%",
               "reason": ""
             }
           ]
