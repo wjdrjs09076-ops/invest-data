@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T12:59:53Z",
+  "generated_at_utc": "2026-08-16T15:34:58Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -20,7 +20,7 @@
             {
               "ticker": "ROL",
               "label": "HOLD • score 61",
-              "reason": "RSI 27, 5D -3.6%, 20D -19.4%"
+              "reason": "RSI 27, 5D -3.6%, 20D -20.0%"
             }
           ]
         },
@@ -39,7 +39,7 @@
             },
             {
               "ticker": "ZBRA",
-              "label": "20D 44.6%",
+              "label": "20D 40.6%",
               "reason": ""
             },
             {
@@ -128,12 +128,12 @@
               "reason": ""
             },
             {
-              "ticker": "ZBRA",
+              "ticker": "IT",
               "label": "Vol 98%",
               "reason": ""
             },
             {
-              "ticker": "IT",
+              "ticker": "ZBRA",
               "label": "Vol 98%",
               "reason": ""
             },
