@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T09:41:31Z",
+  "generated_at_utc": "2026-08-16T12:59:53Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -34,12 +34,12 @@
             },
             {
               "ticker": "PAYC",
-              "label": "20D 45.0%",
+              "label": "20D 47.4%",
               "reason": ""
             },
             {
               "ticker": "ZBRA",
-              "label": "20D 40.6%",
+              "label": "20D 44.6%",
               "reason": ""
             },
             {
@@ -128,18 +128,18 @@
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "Vol 98%",
-              "reason": ""
-            },
-            {
               "ticker": "ZBRA",
               "label": "Vol 98%",
               "reason": ""
             },
             {
+              "ticker": "IT",
+              "label": "Vol 98%",
+              "reason": ""
+            },
+            {
               "ticker": "PAYC",
-              "label": "Vol 96%",
+              "label": "Vol 95%",
               "reason": ""
             }
           ]
