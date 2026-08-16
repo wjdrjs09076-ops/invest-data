@@ -1,7 +1,7 @@
 {
   "ticker": "NI",
-  "generated_at_utc": "2026-08-16T07:15:30Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-16T09:54:44Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
