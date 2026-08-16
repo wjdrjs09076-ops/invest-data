@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T18:46:05Z",
+  "generated_at_utc": "2026-08-16T21:33:44Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "DVA",
               "label": "HOLD • score 64",
-              "reason": "RSI 26, 5D -2.0%, 20D -22.5%"
+              "reason": "RSI 26, 5D -2.0%, 20D -24.0%"
             },
             {
               "ticker": "TTD",
@@ -39,7 +39,7 @@
             },
             {
               "ticker": "ZBRA",
-              "label": "20D 40.6%",
+              "label": "20D 44.6%",
               "reason": ""
             },
             {
@@ -48,18 +48,23 @@
               "reason": ""
             },
             {
+              "ticker": "IT",
+              "label": "20D 36.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "CTSH",
+              "label": "20D 36.2%",
+              "reason": ""
+            },
+            {
               "ticker": "LDOS",
-              "label": "20D 32.9%",
+              "label": "20D 35.1%",
               "reason": ""
             },
             {
               "ticker": "PLTR",
               "label": "20D 31.5%",
-              "reason": ""
-            },
-            {
-              "ticker": "CTSH",
-              "label": "20D 31.3%",
               "reason": ""
             },
             {
@@ -70,11 +75,6 @@
             {
               "ticker": "TER",
               "label": "20D 29.9%",
-              "reason": ""
-            },
-            {
-              "ticker": "IT",
-              "label": "20D 29.2%",
               "reason": ""
             }
           ]
@@ -123,13 +123,13 @@
               "reason": ""
             },
             {
-              "ticker": "TTD",
-              "label": "Vol 99%",
+              "ticker": "IT",
+              "label": "Vol 101%",
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "Vol 98%",
+              "ticker": "TTD",
+              "label": "Vol 99%",
               "reason": ""
             },
             {
