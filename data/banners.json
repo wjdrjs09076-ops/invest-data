@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T15:34:58Z",
+  "generated_at_utc": "2026-08-16T18:46:05Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "DVA",
               "label": "HOLD • score 64",
-              "reason": "RSI 26, 5D -2.0%, 20D -24.0%"
+              "reason": "RSI 26, 5D -2.0%, 20D -22.5%"
             },
             {
               "ticker": "TTD",
@@ -49,7 +49,7 @@
             },
             {
               "ticker": "LDOS",
-              "label": "20D 35.1%",
+              "label": "20D 32.9%",
               "reason": ""
             },
             {
