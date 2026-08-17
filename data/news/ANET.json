@@ -1,7 +1,7 @@
 {
   "ticker": "ANET",
-  "generated_at_utc": "2026-08-17T19:09:17Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-17T21:54:30Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
