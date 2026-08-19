@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T01:52:27Z",
+  "generated_at_utc": "2026-08-19T03:58:09Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -18,18 +18,23 @@
           "title": "Momentum TOP",
           "items": [
             {
-              "ticker": "PAYC",
-              "label": "20D 49.6%",
-              "reason": ""
-            },
-            {
               "ticker": "SMCI",
               "label": "20D 46.7%",
               "reason": ""
             },
             {
+              "ticker": "PAYC",
+              "label": "20D 43.4%",
+              "reason": ""
+            },
+            {
               "ticker": "ZBRA",
               "label": "20D 38.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "LDOS",
+              "label": "20D 36.8%",
               "reason": ""
             },
             {
@@ -43,11 +48,6 @@
               "reason": ""
             },
             {
-              "ticker": "LDOS",
-              "label": "20D 34.7%",
-              "reason": ""
-            },
-            {
               "ticker": "CTSH",
               "label": "20D 29.8%",
               "reason": ""
@@ -58,13 +58,13 @@
               "reason": ""
             },
             {
-              "ticker": "ABNB",
-              "label": "20D 27.2%",
+              "ticker": "CRL",
+              "label": "20D 27.3%",
               "reason": ""
             },
             {
-              "ticker": "GRMN",
-              "label": "20D 25.7%",
+              "ticker": "ABNB",
+              "label": "20D 27.2%",
               "reason": ""
             }
           ]
@@ -123,6 +123,11 @@
               "reason": ""
             },
             {
+              "ticker": "PAYC",
+              "label": "Vol 99%",
+              "reason": ""
+            },
+            {
               "ticker": "ZBRA",
               "label": "Vol 99%",
               "reason": ""
@@ -130,11 +135,6 @@
             {
               "ticker": "IT",
               "label": "Vol 96%",
-              "reason": ""
-            },
-            {
-              "ticker": "PAYC",
-              "label": "Vol 94%",
               "reason": ""
             }
           ]
