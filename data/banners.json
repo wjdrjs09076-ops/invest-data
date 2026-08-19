@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T09:48:26Z",
+  "generated_at_utc": "2026-08-19T13:07:43Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "MNST",
               "label": "BUY • score 72",
-              "reason": "RSI 15, 5D 4.1%, 20D -50.4%"
+              "reason": "RSI 15, 5D 4.1%, 20D -51.4%"
             }
           ]
         },
@@ -24,7 +24,7 @@
             },
             {
               "ticker": "PAYC",
-              "label": "20D 44.1%",
+              "label": "20D 43.4%",
               "reason": ""
             },
             {
@@ -38,18 +38,13 @@
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "20D 35.1%",
-              "reason": ""
-            },
-            {
               "ticker": "WDAY",
               "label": "20D 35.0%",
               "reason": ""
             },
             {
               "ticker": "CTSH",
-              "label": "20D 33.2%",
+              "label": "20D 29.8%",
               "reason": ""
             },
             {
@@ -58,13 +53,18 @@
               "reason": ""
             },
             {
-              "ticker": "CRL",
-              "label": "20D 27.3%",
+              "ticker": "IT",
+              "label": "20D 27.4%",
               "reason": ""
             },
             {
               "ticker": "ABNB",
               "label": "20D 27.2%",
+              "reason": ""
+            },
+            {
+              "ticker": "NEM",
+              "label": "20D 25.4%",
               "reason": ""
             }
           ]
@@ -78,13 +78,8 @@
               "reason": ""
             },
             {
-              "ticker": "REG",
-              "label": "RSI 35, 5D 0.5%",
-              "reason": ""
-            },
-            {
               "ticker": "NI",
-              "label": "RSI 33, 5D 0.3%",
+              "label": "RSI 34, 5D 0.3%",
               "reason": ""
             }
           ]
@@ -94,7 +89,7 @@
           "items": [
             {
               "ticker": "MNST",
-              "label": "Vol 179%",
+              "label": "Vol 178%",
               "reason": ""
             },
             {
@@ -128,18 +123,18 @@
               "reason": ""
             },
             {
-              "ticker": "ZBRA",
-              "label": "Vol 98%",
-              "reason": ""
-            },
-            {
               "ticker": "PAYC",
-              "label": "Vol 96%",
+              "label": "Vol 99%",
               "reason": ""
             },
             {
               "ticker": "IT",
-              "label": "Vol 96%",
+              "label": "Vol 99%",
+              "reason": ""
+            },
+            {
+              "ticker": "ZBRA",
+              "label": "Vol 98%",
               "reason": ""
             }
           ]
