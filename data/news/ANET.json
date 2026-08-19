@@ -1,7 +1,7 @@
 {
   "ticker": "ANET",
-  "generated_at_utc": "2026-08-19T19:04:31Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-19T21:55:18Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
