@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-20T03:57:51Z",
+  "generated_at_utc": "2026-08-20T07:05:03Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "MNST",
               "label": "BUY • score 70",
-              "reason": "RSI 15, 5D 3.2%, 20D -50.3%"
+              "reason": "RSI 16, 5D 3.2%, 20D -49.8%"
             }
           ]
         },
@@ -24,12 +24,17 @@
             },
             {
               "ticker": "PAYC",
-              "label": "20D 50.2%",
+              "label": "20D 54.0%",
               "reason": ""
             },
             {
               "ticker": "WDAY",
               "label": "20D 49.8%",
+              "reason": ""
+            },
+            {
+              "ticker": "IT",
+              "label": "20D 46.0%",
               "reason": ""
             },
             {
@@ -43,28 +48,23 @@
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "20D 37.5%",
+              "ticker": "LDOS",
+              "label": "20D 36.4%",
               "reason": ""
             },
             {
-              "ticker": "LDOS",
-              "label": "20D 36.7%",
+              "ticker": "ZBRA",
+              "label": "20D 35.0%",
+              "reason": ""
+            },
+            {
+              "ticker": "PTC",
+              "label": "20D 34.8%",
               "reason": ""
             },
             {
               "ticker": "NOW",
               "label": "20D 33.2%",
-              "reason": ""
-            },
-            {
-              "ticker": "ABNB",
-              "label": "20D 33.1%",
-              "reason": ""
-            },
-            {
-              "ticker": "ZBRA",
-              "label": "20D 32.6%",
               "reason": ""
             }
           ]
@@ -74,7 +74,7 @@
           "items": [
             {
               "ticker": "MNST",
-              "label": "RSI 15, 5D 3.2%",
+              "label": "RSI 16, 5D 3.2%",
               "reason": ""
             },
             {
@@ -99,7 +99,7 @@
             },
             {
               "ticker": "MNST",
-              "label": "Vol 178%",
+              "label": "Vol 179%",
               "reason": ""
             },
             {
@@ -133,13 +133,13 @@
               "reason": ""
             },
             {
-              "ticker": "IT",
-              "label": "Vol 100%",
+              "ticker": "TTD",
+              "label": "Vol 99%",
               "reason": ""
             },
             {
-              "ticker": "TTD",
-              "label": "Vol 99%",
+              "ticker": "IT",
+              "label": "Vol 96%",
               "reason": ""
             }
           ]
