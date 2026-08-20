@@ -1,7 +1,7 @@
 {
   "ticker": "MTCH",
-  "generated_at_utc": "2026-08-20T16:01:56Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-08-20T19:16:11Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
