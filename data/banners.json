@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-20T01:51:01Z",
+  "generated_at_utc": "2026-08-20T03:57:51Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -10,7 +10,7 @@
             {
               "ticker": "MNST",
               "label": "BUY • score 70",
-              "reason": "RSI 16, 5D 3.2%, 20D -49.8%"
+              "reason": "RSI 15, 5D 3.2%, 20D -50.3%"
             }
           ]
         },
@@ -33,6 +33,11 @@
               "reason": ""
             },
             {
+              "ticker": "CTSH",
+              "label": "20D 41.9%",
+              "reason": ""
+            },
+            {
               "ticker": "PLTR",
               "label": "20D 40.6%",
               "reason": ""
@@ -40,11 +45,6 @@
             {
               "ticker": "IT",
               "label": "20D 37.5%",
-              "reason": ""
-            },
-            {
-              "ticker": "CTSH",
-              "label": "20D 37.3%",
               "reason": ""
             },
             {
@@ -74,7 +74,7 @@
           "items": [
             {
               "ticker": "MNST",
-              "label": "RSI 16, 5D 3.2%",
+              "label": "RSI 15, 5D 3.2%",
               "reason": ""
             },
             {
@@ -99,7 +99,7 @@
             },
             {
               "ticker": "MNST",
-              "label": "Vol 179%",
+              "label": "Vol 178%",
               "reason": ""
             },
             {
