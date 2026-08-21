@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-21T01:56:42Z",
+  "generated_at_utc": "2026-08-21T04:00:17Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -9,18 +9,8 @@
           "items": [
             {
               "ticker": "MNST",
-              "label": "HOLD • score 67",
-              "reason": "RSI 15, 5D 1.7%, 20D -49.7%"
-            },
-            {
-              "ticker": "DVA",
-              "label": "HOLD • score 64",
-              "reason": "RSI 25, 5D -2.2%, 20D -25.1%"
-            },
-            {
-              "ticker": "ROL",
-              "label": "HOLD • score 63",
-              "reason": "RSI 31, 5D 0.4%, 20D -7.3%"
+              "label": "BUY • score 70",
+              "reason": "RSI 15, 5D 3.2%, 20D -50.3%"
             }
           ]
         },
@@ -84,7 +74,7 @@
           "items": [
             {
               "ticker": "MNST",
-              "label": "RSI 15, 5D 1.7%",
+              "label": "RSI 15, 5D 3.2%",
               "reason": ""
             },
             {
@@ -109,7 +99,7 @@
             },
             {
               "ticker": "MNST",
-              "label": "Vol 179%",
+              "label": "Vol 178%",
               "reason": ""
             },
             {
