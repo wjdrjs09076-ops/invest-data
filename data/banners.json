@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T21:43:43Z",
+  "generated_at_utc": "2026-08-26T01:57:38Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -303,8 +303,8 @@
             },
             {
               "ticker": "JNJ",
-              "label": "HOLD • score 51",
-              "reason": "RSI 64, 5D 0.7%, 20D 2.4%"
+              "label": "HOLD • score 52",
+              "reason": "RSI 66, 5D 1.2%, 20D 2.9%"
             },
             {
               "ticker": "MCD",
@@ -338,7 +338,7 @@
             },
             {
               "ticker": "JNJ",
-              "label": "20D 2.4%",
+              "label": "20D 2.9%",
               "reason": ""
             },
             {
