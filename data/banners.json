@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-26T16:33:52Z",
+  "generated_at_utc": "2026-08-26T20:02:39Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -8,19 +8,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
+              "ticker": "DVA",
+              "label": "HOLD • score 65",
+              "reason": "RSI 34, 5D 1.6%, 20D -25.3%"
+            },
+            {
               "ticker": "TJX",
               "label": "HOLD • score 60",
-              "reason": "RSI 23, 5D -4.9%, 20D -14.7%"
+              "reason": "RSI 23, 5D -5.3%, 20D -15.1%"
             },
             {
               "ticker": "LII",
               "label": "HOLD • score 60",
-              "reason": "RSI 29, 5D -6.4%, 20D -8.7%"
-            },
-            {
-              "ticker": "NI",
-              "label": "HOLD • score 59",
-              "reason": "RSI 32, 5D -1.4%, 20D -7.8%"
+              "reason": "RSI 30, 5D -6.1%, 20D -8.4%"
             }
           ]
         },
@@ -29,59 +29,65 @@
           "items": [
             {
               "ticker": "MRNA",
-              "label": "20D 170.5%",
-              "reason": ""
-            },
-            {
-              "ticker": "SMCI",
-              "label": "20D 47.8%",
+              "label": "20D 174.7%",
               "reason": ""
             },
             {
               "ticker": "SNDK",
-              "label": "20D 47.5%",
+              "label": "20D 47.6%",
               "reason": ""
             },
             {
-              "ticker": "NEM",
-              "label": "20D 44.7%",
+              "ticker": "SMCI",
+              "label": "20D 45.5%",
               "reason": ""
             },
             {
               "ticker": "PLTR",
-              "label": "20D 42.2%",
+              "label": "20D 44.3%",
+              "reason": ""
+            },
+            {
+              "ticker": "NEM",
+              "label": "20D 44.1%",
               "reason": ""
             },
             {
               "ticker": "PAYC",
-              "label": "20D 37.2%",
+              "label": "20D 37.8%",
               "reason": ""
             },
             {
               "ticker": "PSKY",
-              "label": "20D 33.7%",
+              "label": "20D 35.1%",
               "reason": ""
             },
             {
               "ticker": "FCX",
-              "label": "20D 30.7%",
+              "label": "20D 31.8%",
               "reason": ""
             },
             {
-              "ticker": "ZBRA",
-              "label": "20D 28.1%",
+              "ticker": "ANET",
+              "label": "20D 28.0%",
               "reason": ""
             },
             {
-              "ticker": "CRL",
-              "label": "20D 26.9%",
+              "ticker": "MSFT",
+              "label": "20D 27.3%",
               "reason": ""
             }
           ]
         },
         {
           "title": "Oversold Reversal",
-          "items": []
+          "items": [
+            {
+              "ticker": "DVA",
+              "label": "RSI 34, 5D 1.6%",
+              "reason": ""
+            }
+          ]
         },
         {
           "title": "Risk High",
@@ -118,7 +124,7 @@
             },
             {
               "ticker": "SMCI",
-              "label": "Vol 95%",
+              "label": "Vol 96%",
               "reason": ""
             },
             {
@@ -147,19 +153,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "META",
+              "ticker": "AVGO",
               "label": "HOLD • score 58",
-              "reason": "RSI 49, 5D 5.7%, 20D -1.4%"
+              "reason": "RSI 34, 5D -1.9%, 20D -4.0%"
             },
             {
-              "ticker": "AVGO",
-              "label": "HOLD • score 56",
-              "reason": "RSI 33, 5D -3.2%, 20D -5.3%"
+              "ticker": "META",
+              "label": "HOLD • score 58",
+              "reason": "RSI 49, 5D 5.5%, 20D -1.6%"
             },
             {
               "ticker": "COST",
               "label": "HOLD • score 50",
-              "reason": "RSI 53, 5D 0.2%, 20D -1.5%"
+              "reason": "RSI 52, 5D -0.1%, 20D -1.8%"
             }
           ]
         },
@@ -168,47 +174,47 @@
           "items": [
             {
               "ticker": "MSFT",
-              "label": "20D 26.8%",
+              "label": "20D 27.3%",
               "reason": ""
             },
             {
               "ticker": "TSLA",
-              "label": "20D 15.6%",
+              "label": "20D 15.9%",
               "reason": ""
             },
             {
               "ticker": "AMZN",
-              "label": "20D 14.2%",
+              "label": "20D 14.8%",
               "reason": ""
             },
             {
               "ticker": "NVDA",
-              "label": "20D 10.5%",
+              "label": "20D 10.3%",
               "reason": ""
             },
             {
               "ticker": "GOOGL",
-              "label": "20D 1.1%",
+              "label": "20D 1.6%",
               "reason": ""
             },
             {
               "ticker": "PEP",
-              "label": "20D -0.7%",
+              "label": "20D -0.9%",
               "reason": ""
             },
             {
               "ticker": "META",
-              "label": "20D -1.4%",
+              "label": "20D -1.6%",
               "reason": ""
             },
             {
               "ticker": "COST",
-              "label": "20D -1.5%",
+              "label": "20D -1.8%",
               "reason": ""
             },
             {
               "ticker": "AVGO",
-              "label": "20D -5.3%",
+              "label": "20D -4.0%",
               "reason": ""
             },
             {
@@ -227,7 +233,7 @@
           "items": [
             {
               "ticker": "AMZN",
-              "label": "Vol 63%",
+              "label": "Vol 62%",
               "reason": ""
             },
             {
@@ -242,7 +248,7 @@
             },
             {
               "ticker": "AVGO",
-              "label": "Vol 45%",
+              "label": "Vol 44%",
               "reason": ""
             },
             {
@@ -252,7 +258,7 @@
             },
             {
               "ticker": "TSLA",
-              "label": "Vol 39%",
+              "label": "Vol 38%",
               "reason": ""
             },
             {
@@ -286,19 +292,19 @@
           "title": "Today's BUY Candidates",
           "items": [
             {
-              "ticker": "V",
-              "label": "HOLD • score 58",
-              "reason": "RSI 68, 5D 4.5%, 20D 3.8%"
-            },
-            {
               "ticker": "DIS",
               "label": "HOLD • score 55",
-              "reason": "RSI 66, 5D 2.7%, 20D 11.5%"
+              "reason": "RSI 65, 5D 2.5%, 20D 11.3%"
             },
             {
               "ticker": "CAT",
               "label": "HOLD • score 51",
-              "reason": "RSI 42, 5D 0.5%, 20D 4.8%"
+              "reason": "RSI 43, 5D 0.7%, 20D 5.0%"
+            },
+            {
+              "ticker": "PG",
+              "label": "HOLD • score 51",
+              "reason": "RSI 49, 5D 0.5%, 20D -0.7%"
             }
           ]
         },
@@ -307,42 +313,42 @@
           "items": [
             {
               "ticker": "MSFT",
-              "label": "20D 26.8%",
+              "label": "20D 27.3%",
               "reason": ""
             },
             {
               "ticker": "DIS",
-              "label": "20D 11.5%",
+              "label": "20D 11.3%",
               "reason": ""
             },
             {
               "ticker": "CAT",
-              "label": "20D 4.8%",
+              "label": "20D 5.0%",
               "reason": ""
             },
             {
               "ticker": "V",
-              "label": "20D 3.8%",
+              "label": "20D 4.3%",
               "reason": ""
             },
             {
               "ticker": "JPM",
-              "label": "20D 3.4%",
+              "label": "20D 3.5%",
               "reason": ""
             },
             {
               "ticker": "JNJ",
-              "label": "20D 2.5%",
+              "label": "20D 2.2%",
               "reason": ""
             },
             {
               "ticker": "KO",
-              "label": "20D 1.8%",
+              "label": "20D 1.1%",
               "reason": ""
             },
             {
               "ticker": "PG",
-              "label": "20D -0.9%",
+              "label": "20D -0.7%",
               "reason": ""
             },
             {
@@ -390,13 +396,18 @@
               "reason": ""
             },
             {
+              "ticker": "MCD",
+              "label": "Vol 19%",
+              "reason": ""
+            },
+            {
               "ticker": "V",
               "label": "Vol 19%",
               "reason": ""
             },
             {
-              "ticker": "MCD",
-              "label": "Vol 19%",
+              "ticker": "KO",
+              "label": "Vol 15%",
               "reason": ""
             },
             {
@@ -406,11 +417,6 @@
             },
             {
               "ticker": "JPM",
-              "label": "Vol 14%",
-              "reason": ""
-            },
-            {
-              "ticker": "KO",
               "label": "Vol 14%",
               "reason": ""
             }
