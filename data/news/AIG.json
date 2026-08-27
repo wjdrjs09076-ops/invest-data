@@ -1,7 +1,7 @@
 {
   "ticker": "AIG",
-  "generated_at_utc": "2026-08-27T01:01:35Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-27T14:36:04Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
