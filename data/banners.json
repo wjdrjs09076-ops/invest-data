@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-26T20:02:39Z",
+  "generated_at_utc": "2026-08-27T00:47:33Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -64,7 +64,7 @@
             },
             {
               "ticker": "FCX",
-              "label": "20D 31.8%",
+              "label": "20D 31.7%",
               "reason": ""
             },
             {
@@ -304,7 +304,7 @@
             {
               "ticker": "PG",
               "label": "HOLD • score 51",
-              "reason": "RSI 49, 5D 0.5%, 20D -0.7%"
+              "reason": "RSI 48, 5D 0.4%, 20D -0.8%"
             }
           ]
         },
@@ -333,7 +333,7 @@
             },
             {
               "ticker": "JPM",
-              "label": "20D 3.5%",
+              "label": "20D 3.4%",
               "reason": ""
             },
             {
@@ -348,7 +348,7 @@
             },
             {
               "ticker": "PG",
-              "label": "20D -0.7%",
+              "label": "20D -0.8%",
               "reason": ""
             },
             {
