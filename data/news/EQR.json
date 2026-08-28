@@ -1,7 +1,7 @@
 {
   "ticker": "EQR",
-  "generated_at_utc": "2026-08-27T14:36:04Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-08-28T00:34:54Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
