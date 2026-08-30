@@ -1,7 +1,7 @@
 {
   "ticker": "RSG",
-  "generated_at_utc": "2026-08-28T22:35:29Z",
-  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>",
+  "generated_at_utc": "2026-08-29T23:34:09Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
