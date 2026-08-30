@@ -1,7 +1,7 @@
 {
   "ticker": "RTX",
-  "generated_at_utc": "2026-08-29T23:34:09Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-08-30T05:44:52Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
