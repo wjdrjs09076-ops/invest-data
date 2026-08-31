@@ -1,7 +1,7 @@
 {
   "ticker": "CDW",
-  "generated_at_utc": "2026-08-30T23:47:58Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-08-31T06:02:36Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
