@@ -1,7 +1,7 @@
 {
   "ticker": "TDG",
-  "generated_at_utc": "2026-08-30T16:56:17Z",
-  "error": "<urlopen error [Errno 111] Connection refused>",
+  "generated_at_utc": "2026-08-30T23:47:58Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
