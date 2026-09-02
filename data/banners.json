@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T04:33:23Z",
+  "generated_at_utc": "2026-09-02T11:17:40Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -43,13 +43,13 @@
               "reason": ""
             },
             {
-              "ticker": "PSKY",
-              "label": "20D 28.3%",
+              "ticker": "NEM",
+              "label": "20D 28.6%",
               "reason": ""
             },
             {
-              "ticker": "NEM",
-              "label": "20D 25.5%",
+              "ticker": "PSKY",
+              "label": "20D 28.3%",
               "reason": ""
             },
             {
@@ -318,7 +318,7 @@
             },
             {
               "ticker": "JNJ",
-              "label": "20D 6.9%",
+              "label": "20D 7.1%",
               "reason": ""
             },
             {
@@ -348,7 +348,7 @@
             },
             {
               "ticker": "JPM",
-              "label": "20D -0.7%",
+              "label": "20D 0.7%",
               "reason": ""
             },
             {
@@ -386,12 +386,12 @@
               "reason": ""
             },
             {
-              "ticker": "JNJ",
+              "ticker": "V",
               "label": "Vol 20%",
               "reason": ""
             },
             {
-              "ticker": "V",
+              "ticker": "JNJ",
               "label": "Vol 20%",
               "reason": ""
             },
