@@ -1,7 +1,7 @@
 {
   "ticker": "VZ",
-  "generated_at_utc": "2026-09-02T16:49:49Z",
-  "error": "<urlopen error timed out>",
+  "generated_at_utc": "2026-09-02T23:31:42Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
