@@ -1,7 +1,7 @@
 {
   "ticker": "CME",
-  "generated_at_utc": "2026-09-04T05:02:01Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-09-04T11:42:42Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
