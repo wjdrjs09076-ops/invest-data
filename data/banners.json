@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T23:02:39Z",
+  "generated_at_utc": "2026-09-05T04:28:19Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -92,11 +92,6 @@
               "reason": ""
             },
             {
-              "ticker": "APH",
-              "label": "Vol 173%",
-              "reason": ""
-            },
-            {
               "ticker": "EIX",
               "label": "Vol 98%",
               "reason": ""
@@ -133,6 +128,11 @@
             },
             {
               "ticker": "COIN",
+              "label": "Vol 84%",
+              "reason": ""
+            },
+            {
+              "ticker": "DELL",
               "label": "Vol 84%",
               "reason": ""
             }
@@ -193,7 +193,7 @@
             },
             {
               "ticker": "PEP",
-              "label": "20D -1.0%",
+              "label": "20D 0.1%",
               "reason": ""
             },
             {
@@ -203,7 +203,7 @@
             },
             {
               "ticker": "GOOGL",
-              "label": "20D -4.5%",
+              "label": "20D -4.4%",
               "reason": ""
             },
             {
@@ -272,7 +272,7 @@
             },
             {
               "ticker": "PEP",
-              "label": "Vol 18%",
+              "label": "Vol 17%",
               "reason": ""
             }
           ]
