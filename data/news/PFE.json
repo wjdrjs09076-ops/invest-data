@@ -1,7 +1,7 @@
 {
   "ticker": "PFE",
-  "generated_at_utc": "2026-09-07T19:21:46Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-09-07T23:44:10Z",
+  "error": "HTTP Error 503: Service Unavailable",
   "count": 0,
   "items": []
 }
