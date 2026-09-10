@@ -1,7 +1,7 @@
 {
   "ticker": "KDP",
-  "generated_at_utc": "2026-09-10T16:38:49Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-09-10T21:08:48Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
