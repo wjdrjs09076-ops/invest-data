@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T23:11:11Z",
+  "generated_at_utc": "2026-09-11T04:39:40Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -209,7 +209,7 @@
             },
             {
               "ticker": "NVDA",
-              "label": "20D -2.6%",
+              "label": "20D -2.4%",
               "reason": ""
             },
             {
