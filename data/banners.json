@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T21:20:27Z",
+  "generated_at_utc": "2026-09-16T04:48:43Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -332,6 +332,11 @@
               "reason": ""
             },
             {
+              "ticker": "KO",
+              "label": "20D 2.6%",
+              "reason": ""
+            },
+            {
               "ticker": "PG",
               "label": "20D 2.5%",
               "reason": ""
@@ -339,11 +344,6 @@
             {
               "ticker": "JNJ",
               "label": "20D 2.3%",
-              "reason": ""
-            },
-            {
-              "ticker": "KO",
-              "label": "20D 2.0%",
               "reason": ""
             },
             {
