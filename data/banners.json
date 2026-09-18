@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-17T21:21:54Z",
+  "generated_at_utc": "2026-09-18T04:43:09Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -64,7 +64,7 @@
             },
             {
               "ticker": "CRM",
-              "label": "20D 17.8%",
+              "label": "20D 18.0%",
               "reason": ""
             },
             {
@@ -159,7 +159,7 @@
             },
             {
               "ticker": "HPE",
-              "label": "Vol 84%",
+              "label": "Vol 85%",
               "reason": ""
             },
             {
