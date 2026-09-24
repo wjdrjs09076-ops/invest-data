@@ -1,7 +1,7 @@
 {
   "ticker": "MU",
-  "generated_at_utc": "2026-09-24T05:18:31Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-09-24T12:08:47Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
