@@ -1,7 +1,7 @@
 {
   "ticker": "RVTY",
-  "generated_at_utc": "2026-09-29T22:33:21Z",
-  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "generated_at_utc": "2026-09-30T05:54:52Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
