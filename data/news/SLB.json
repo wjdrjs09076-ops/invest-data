@@ -1,7 +1,7 @@
 {
   "ticker": "SLB",
-  "generated_at_utc": "2026-10-05T15:12:54Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-10-05T22:09:24Z",
+  "error": "Expecting value: line 1 column 1 (char 0)",
   "count": 0,
   "items": []
 }
