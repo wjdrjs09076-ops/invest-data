@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T22:39:14Z",
+  "generated_at_utc": "2026-10-07T05:58:42Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -342,14 +342,14 @@
               "reason": "RSI 26, 5D -0.7%, 20D -9.1%"
             },
             {
-              "ticker": "JPM",
-              "label": "HOLD • score 60",
-              "reason": "RSI 34, 5D -1.1%, 20D -6.3%"
-            },
-            {
               "ticker": "CAT",
               "label": "HOLD • score 58",
               "reason": "RSI 63, 5D 4.5%, 20D 5.0%"
+            },
+            {
+              "ticker": "MSFT",
+              "label": "HOLD • score 58",
+              "reason": "RSI 68, 5D 4.0%, 20D 7.2%"
             }
           ]
         },
@@ -398,7 +398,7 @@
             },
             {
               "ticker": "JPM",
-              "label": "20D -6.3%",
+              "label": "20D -5.8%",
               "reason": ""
             },
             {
