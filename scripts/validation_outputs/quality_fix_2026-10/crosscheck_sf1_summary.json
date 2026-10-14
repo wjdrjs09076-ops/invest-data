@@ -1,0 +1,238 @@
+{
+  "reference": "Sharadar SF1 MRY via data/fundamentals.json (generated 2026-06-04)",
+  "rule": "compare only where SF1 period end == SEC-extracted fiscal year end; match if relative diff <= 0.5%",
+  "tickers_in_both": 492,
+  "tickers_same_period": 451,
+  "by_item": {
+    "revenue": {
+      "n_same_period": 451,
+      "new_compared": 423,
+      "new_match_within_0.5pct": 402,
+      "new_match_rate": 0.9504,
+      "old_compared": 440,
+      "old_match_within_0.5pct": 10,
+      "old_match_rate": 0.0227
+    },
+    "op_income": {
+      "n_same_period": 451,
+      "new_compared": 347,
+      "new_match_within_0.5pct": 295,
+      "new_match_rate": 0.8501,
+      "old_compared": 377,
+      "old_match_within_0.5pct": 0,
+      "old_match_rate": 0.0
+    }
+  },
+  "new_mismatches": [
+    {
+      "ticker": "HPE",
+      "item": "op_income",
+      "sf1_value": 63000000.0,
+      "new_value": -437000000.0,
+      "new_rel_diff": 7.936507936507937
+    },
+    {
+      "ticker": "SOLV",
+      "item": "op_income",
+      "sf1_value": 632000000.0,
+      "new_value": 2181000000.0,
+      "new_rel_diff": 2.4509493670886076
+    },
+    {
+      "ticker": "BA",
+      "item": "op_income",
+      "sf1_value": -5391000000.0,
+      "new_value": 4281000000.0,
+      "new_rel_diff": 1.7941012799109628
+    },
+    {
+      "ticker": "CPT",
+      "item": "revenue",
+      "sf1_value": 1606027000.0,
+      "new_value": 12967000.0,
+      "new_rel_diff": 0.9919260386033361
+    },
+    {
+      "ticker": "RF",
+      "item": "op_income",
+      "sf1_value": 2743000000.0,
+      "new_value": 53000000.0,
+      "new_rel_diff": 0.980678089682829
+    },
+    {
+      "ticker": "REG",
+      "item": "op_income",
+      "sf1_value": 583065000.0,
+      "new_value": 1123441000.0,
+      "new_rel_diff": 0.9267851783248866
+    },
+    {
+      "ticker": "MTB",
+      "item": "revenue",
+      "sf1_value": 9185000000.0,
+      "new_value": 1657000000.0,
+      "new_rel_diff": 0.819597169297768
+    },
+    {
+      "ticker": "HBAN",
+      "item": "revenue",
+      "sf1_value": 7703000000.0,
+      "new_value": 1562000000.0,
+      "new_rel_diff": 0.7972218616123589
+    },
+    {
+      "ticker": "HAS",
+      "item": "op_income",
+      "sf1_value": 36100000.0,
+      "new_value": 11100000.0,
+      "new_rel_diff": 0.6925207756232687
+    },
+    {
+      "ticker": "COF",
+      "item": "revenue",
+      "sf1_value": 32779000000.0,
+      "new_value": 53434000000.0,
+      "new_rel_diff": 0.6301290460355715
+    },
+    {
+      "ticker": "IBKR",
+      "item": "revenue",
+      "sf1_value": 6205000000.0,
+      "new_value": 2440000000.0,
+      "new_rel_diff": 0.6067687348912167
+    },
+    {
+      "ticker": "ROK",
+      "item": "op_income",
+      "sf1_value": 1076000000.0,
+      "new_value": 1703000000.0,
+      "new_rel_diff": 0.5827137546468402
+    },
+    {
+      "ticker": "ESS",
+      "item": "op_income",
+      "sf1_value": 599792000.0,
+      "new_value": 899316000.0,
+      "new_rel_diff": 0.4993797849921306
+    },
+    {
+      "ticker": "AXP",
+      "item": "revenue",
+      "sf1_value": 66973000000.0,
+      "new_value": 41304000000.0,
+      "new_rel_diff": 0.3832738566287907
+    },
+    {
+      "ticker": "FE",
+      "item": "op_income",
+      "sf1_value": 3551000000.0,
+      "new_value": 2206000000.0,
+      "new_rel_diff": 0.378766544635314
+    },
+    {
+      "ticker": "CBRE",
+      "item": "op_income",
+      "sf1_value": 1294000000.0,
+      "new_value": 1753000000.0,
+      "new_rel_diff": 0.3547140649149923
+    },
+    {
+      "ticker": "DIS",
+      "item": "op_income",
+      "sf1_value": 13013000000.0,
+      "new_value": 17551000000.0,
+      "new_rel_diff": 0.34872819488204104
+    },
+    {
+      "ticker": "FRT",
+      "item": "op_income",
+      "sf1_value": 452088000.0,
+      "new_value": 602199000.0,
+      "new_rel_diff": 0.33203933747412007
+    },
+    {
+      "ticker": "IFF",
+      "item": "op_income",
+      "sf1_value": -562000000.0,
+      "new_value": -382000000.0,
+      "new_rel_diff": 0.3202846975088968
+    },
+    {
+      "ticker": "MET",
+      "item": "op_income",
+      "sf1_value": 4661000000.0,
+      "new_value": 6137000000.0,
+      "new_rel_diff": 0.31667024243724523
+    },
+    {
+      "ticker": "CMS",
+      "item": "op_income",
+      "sf1_value": 2240000000.0,
+      "new_value": 1727000000.0,
+      "new_rel_diff": 0.22901785714285713
+    },
+    {
+      "ticker": "GDDY",
+      "item": "op_income",
+      "sf1_value": 1416400000.0,
+      "new_value": 1127300000.0,
+      "new_rel_diff": 0.2041090087545891
+    },
+    {
+      "ticker": "HON",
+      "item": "op_income",
+      "sf1_value": 6820000000.0,
+      "new_value": 8127000000.0,
+      "new_rel_diff": 0.19164222873900294
+    },
+    {
+      "ticker": "TAP",
+      "item": "revenue",
+      "sf1_value": 11140800000.0,
+      "new_value": 13040300000.0,
+      "new_rel_diff": 0.17049942553497055
+    },
+    {
+      "ticker": "AWK",
+      "item": "op_income",
+      "sf1_value": 2227000000.0,
+      "new_value": 1879000000.0,
+      "new_rel_diff": 0.15626403233048944
+    },
+    {
+      "ticker": "ARES",
+      "item": "revenue",
+      "sf1_value": 5601482000.0,
+      "new_value": 4755618000.0,
+      "new_rel_diff": 0.15100717988560886
+    },
+    {
+      "ticker": "RSG",
+      "item": "revenue",
+      "sf1_value": 16591000000.0,
+      "new_value": 19027000000.0,
+      "new_rel_diff": 0.14682659273099874
+    },
+    {
+      "ticker": "EW",
+      "item": "op_income",
+      "sf1_value": 1104800000.0,
+      "new_value": 1264200000.0,
+      "new_rel_diff": 0.14427950760318609
+    },
+    {
+      "ticker": "HAS",
+      "item": "revenue",
+      "sf1_value": 4701300000.0,
+      "new_value": 5365900000.0,
+      "new_rel_diff": 0.14136515431901814
+    },
+    {
+      "ticker": "CARR",
+      "item": "op_income",
+      "sf1_value": 1907000000.0,
+      "new_value": 2172000000.0,
+      "new_rel_diff": 0.13896171997902465
+    }
+  ]
+}

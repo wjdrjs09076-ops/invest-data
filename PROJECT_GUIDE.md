@@ -307,6 +307,25 @@ weights = opt.optimize(scores, price_slices)
 | `build_sf3_detail_history.py` | `sf3_detail_history.pkl` | SF3 투자자별 상세 신호 (n_holders, new_holders, HHI) |
 | `build_sector_neutral_history.py` | `sector_neutral_history.pkl` | 섹터+사이즈 이중 중립 기관 크라우딩 OLS 잔차 |
 | `build_credit_score_history.py` | `credit_score_history.pkl` | S&P 방법론 5-factor 신용 점수 PIT 히스토리 (SF1 ARQ) |
+| `build_quality_snapshot.py` | `quality_snapshot.json` | SEC Company Facts API 기반 품질 점수(ROE·GP/A·영업이익률). 수동 실행, 워크플로 없음 |
+
+**build_quality_snapshot.py 추출 규칙 (2026-10 수정)**
+
+이전 버전은 10-K/10-Q 값을 섞어 종료일이 가장 최근인 값 하나를 골랐고, 후보 태그 중 '값이 하나라도 있는 첫 태그'를 채택했다. 그래서 손익에 분기 값이 들어가거나(자본·자산은 시점 값), 오래전에 쓰다 만 태그(예: MSFT 매출 = 2010년 12월 분기 값)가 채택됐다. 현재 규칙:
+
+- 손익 항목은 10-K(20-F/40-F, 정정본 포함)의 연간 값만 사용 (기간 길이 350~380일). `fy`/`fp`는 문서의 회계기간이라 쓰지 않음
+- 회사별 최신 회계연도 말(FYE)에 모든 항목을 맞춤. 그 날짜에 값이 없으면 과거 값으로 채우지 않고 결측
+- USD 단위만 사용. 같은 기간 값이 여러 공시에 있으면 가장 늦게 제출된 값
+- 순이익과 자본의 연결 기준을 짝지음 (지배기업 귀속 ↔ 지배기업 귀속)
+- 영업이익>매출, 매출총이익>매출, 자본≤0, FYE 550일 초과는 해당 비율을 결측(중립 0.5)으로 두고 `flags`에 기록
+- 점수 산식과 기존 출력 키는 동일. `fiscal_year_end`, `period_start`, `source`(항목별 태그·공시번호), `flags` 키 추가
+
+```bash
+python scripts/build_quality_snapshot.py                                   # SEC 수집(또는 캐시) → data/quality_snapshot.json
+python scripts/build_quality_snapshot.py --offline --out data/quality_snapshot_v2.json   # 캐시만 사용, 다른 파일로 출력
+```
+
+`.env.local`에 `SEC_USER_AGENT="이름 이메일"`이 있어야 SEC에서 받을 수 있다(오프라인 모드는 불필요). 이 파일은 `build_score_snapshot.py`(가중치 0.15)와 invest-portal의 `build_strategy_topn_ci.py`가 main 브랜치에서 읽으므로, 덮어쓰면 다음 일일 실행부터 점수와 Top-5 전향 실험 입력이 바뀐다.
 
 ### 멤버십 데이터
 
@@ -516,6 +535,8 @@ IS  MaxDD:  -16.0%   OOS MaxDD:  -24.4%
 | `audit_pit.py` | PIT 무결성 감사 |
 | `ablation_study.py` | 팩터 ablation 실험 |
 | `run_spa_test.py` | SPA(Superior Predictive Ability) 검정 |
+| `compare_quality_snapshot.py` | `build_quality_snapshot.py` 수정 전/후 로직을 같은 SEC 캐시에 적용해 비교. 결과는 `scripts/validation_outputs/quality_fix_2026-10/` |
+| `crosscheck_quality_vs_sf1.py` | SEC 추출 매출·영업이익을 Sharadar SF1(`fundamentals.json`)과 같은 회계기간 기준으로 대조. 결과는 같은 폴더 |
 
 ---
 
@@ -638,6 +659,8 @@ TELEGRAM_CHAT_ID       텔레그램 채팅 ID
 | `market_regime.json` | `public/data/` | 시장 레짐 상태 |
 | `live_performance.json` | `public/data/` | 라이브 성과 |
 | `banners.json` | `public/data/` | 포털 배너 데이터 |
+| `quality_snapshot.json` | (raw URL로 직접 읽음) | 운영 중인 품질 점수. `build_score_snapshot.py`와 invest-portal Top-5 스크립트가 사용 |
+| `quality_snapshot_v2.json` | — | 2026-10 수정 로직 결과(검토용). 운영 반영 전까지 어디서도 읽지 않음 |
 
 ---
 

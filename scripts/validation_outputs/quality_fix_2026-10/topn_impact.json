@@ -1,0 +1,75 @@
+{
+  "prod": {
+    "summary": {
+      "total_return": 0.651943,
+      "days": 196,
+      "cagr": null,
+      "sharpe": null,
+      "mdd": -0.210863,
+      "last_date": "2026-10-13",
+      "last_equity": 1.651943
+    },
+    "current_portfolio": [
+      "IQV",
+      "MPC",
+      "MRK",
+      "PSX",
+      "TGT"
+    ]
+  },
+  "v2": {
+    "summary": {
+      "total_return": 0.75051,
+      "days": 196,
+      "cagr": null,
+      "sharpe": null,
+      "mdd": -0.28166,
+      "last_date": "2026-10-13",
+      "last_equity": 1.75051
+    },
+    "current_portfolio": [
+      "FTNT",
+      "IQV",
+      "MPC",
+      "MRK",
+      "PSX"
+    ]
+  },
+  "noquality": {
+    "summary": {
+      "total_return": 0.225422,
+      "days": 196,
+      "cagr": null,
+      "sharpe": null,
+      "mdd": -0.337468,
+      "last_date": "2026-10-13",
+      "last_equity": 1.225422
+    },
+    "current_portfolio": [
+      "CRL",
+      "IQV",
+      "MPC",
+      "PSX",
+      "VLO"
+    ]
+  },
+  "committed_site_file": {
+    "summary": {
+      "total_return": 0.639059,
+      "days": 195,
+      "cagr": null,
+      "sharpe": null,
+      "mdd": -0.210863,
+      "last_date": "2026-10-12",
+      "last_equity": 1.639059
+    },
+    "current_portfolio": [
+      "IQV",
+      "MPC",
+      "MRK",
+      "PSX",
+      "TGT"
+    ],
+    "generated_at": "2026-10-14T01:19:29.941404+00:00"
+  }
+}

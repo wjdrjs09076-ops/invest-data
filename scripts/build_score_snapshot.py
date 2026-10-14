@@ -84,7 +84,7 @@ WEIGHT_MOM_252D = 0.00
 WEIGHT_MOM_12_1 = 0.20
 
 # Final score block weights
-WEIGHT_QUALITY        = 0.15  # Sharadar SF1 퀄리티 (build_quality_snapshot)
+WEIGHT_QUALITY        = 0.15  # SEC Company Facts 퀄리티 (build_quality_snapshot.py, quality_snapshot.json)
 WEIGHT_SECTOR         = 0.05
 WEIGHT_RISK           = 0.05
 WEIGHT_INSTITUTIONAL  = 0.08  # Sharadar SF3 기관 순매수 (build_institutional_signal)

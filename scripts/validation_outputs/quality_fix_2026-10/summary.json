@@ -1,0 +1,307 @@
+{
+  "run_date": "2026-10-14",
+  "data": "same SEC companyfacts cache for both versions (data/sec_cache)",
+  "tickers_compared": 497,
+  "tickers_without_cik_in_sec_map": [
+    "AVB",
+    "BK",
+    "CTRA",
+    "EA",
+    "EQR",
+    "HOLX"
+  ],
+  "old": {
+    "opinc_gt_revenue_margin_gt_100pct": 24,
+    "margin_below_minus_100pct": 2,
+    "gross_profit_gt_revenue": 33,
+    "any_flow_item_from_10Q": 473,
+    "any_item_period_end_older_than_550d": 241,
+    "ratio_components_with_different_period_ends": 246,
+    "coverage": {
+      "roe": 497,
+      "gpa": 255,
+      "margin": 408
+    }
+  },
+  "new": {
+    "opinc_gt_revenue_margin_gt_100pct": 0,
+    "margin_below_minus_100pct_operating_loss_gt_revenue": [
+      "MRNA"
+    ],
+    "coverage": {
+      "roe": 464,
+      "gpa": 184,
+      "margin": 362
+    },
+    "fye_distribution_by_month": {
+      "2024-12": 1,
+      "2025-06": 1,
+      "2025-08": 4,
+      "2025-09": 22,
+      "2025-10": 10,
+      "2025-11": 8,
+      "2025-12": 374,
+      "2026-01": 22,
+      "2026-02": 4,
+      "2026-03": 6,
+      "2026-04": 5,
+      "2026-05": 9,
+      "2026-06": 20,
+      "2026-07": 7,
+      "2026-08": 2,
+      "2026-09": 1
+    },
+    "flag_counts": {
+      "missing_at_fye:gross_profit": 312,
+      "missing_at_fye:op_income": 112,
+      "revenue_tag_conflict": 41,
+      "roe_basis_mismatch": 31,
+      "nonpositive_equity": 30,
+      "missing_at_fye:revenue": 30,
+      "equity_lt_5pct_assets": 11,
+      "missing_at_fye:net_income": 1,
+      "stale_fye": 1,
+      "no_annual_data": 1
+    }
+  },
+  "score_change_same_data": {
+    "spearman_old_vs_new": 0.678,
+    "mean_abs_diff": 9.8,
+    "n_abs_diff_ge_20": 76,
+    "n_abs_diff_ge_30": 20
+  },
+  "score_change_vs_production_file": {
+    "production_generated_at": "2026-03-12T15:27:12.572734+00:00",
+    "n_compared": 497,
+    "mean_abs_diff": 11.6,
+    "n_abs_diff_ge_20": 101
+  },
+  "stale_tag_examples": [
+    {
+      "ticker": "A",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2017-10-31",
+      "old_val": 4472000000.0,
+      "new_val": 6948000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AAPL",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-09-29",
+      "old_val": 62900000000.0,
+      "new_val": 416161000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "ADI",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-11-03",
+      "old_val": 1596586000.0,
+      "new_val": 11019707000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AEE",
+      "item": "net_income",
+      "old_tag": "NetIncomeLoss",
+      "old_end": "2017-12-31",
+      "old_val": -60000000.0,
+      "new_val": 1461000000.0,
+      "new_tag": "ProfitLoss"
+    },
+    {
+      "ticker": "AEP",
+      "item": "net_income",
+      "old_tag": "NetIncomeLoss",
+      "old_end": "2024-09-30",
+      "old_val": 961700000.0,
+      "new_val": 3696000000.0,
+      "new_tag": "ProfitLoss"
+    },
+    {
+      "ticker": "AJG",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2019-12-31",
+      "old_val": 1721400000.0,
+      "new_val": 13942000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AKAM",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-03-31",
+      "old_val": 668724000.0,
+      "new_val": NaN,
+      "new_tag": NaN
+    },
+    {
+      "ticker": "ALGN",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2011-09-30",
+      "old_val": 125894000.0,
+      "new_val": 4034964000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AMAT",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2021-01-31",
+      "old_val": 5162000000.0,
+      "new_val": 28368000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AMD",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2017-09-30",
+      "old_val": 1584000000.0,
+      "new_val": 34639000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AMGN",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2021-06-30",
+      "old_val": 6526000000.0,
+      "new_val": 36751000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AMT",
+      "item": "net_income",
+      "old_tag": "NetIncomeLoss",
+      "old_end": "2022-09-30",
+      "old_val": 839700000.0,
+      "new_val": 2628500000.0,
+      "new_tag": "ProfitLoss"
+    },
+    {
+      "ticker": "AON",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2020-03-31",
+      "old_val": 3219000000.0,
+      "new_val": 17181000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "APH",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-06-30",
+      "old_val": 1981400000.0,
+      "new_val": 23094700000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AVGO",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-11-04",
+      "old_val": 5444000000.0,
+      "new_val": 63887000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AVGO",
+      "item": "net_income",
+      "old_tag": "NetIncomeLoss",
+      "old_end": "2024-11-03",
+      "old_val": 5895000000.0,
+      "new_val": 23126000000.0,
+      "new_tag": "ProfitLoss"
+    },
+    {
+      "ticker": "AVY",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-09-29",
+      "old_val": 1759700000.0,
+      "new_val": 8855500000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AWK",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2015-06-30",
+      "old_val": 782121000.0,
+      "new_val": 5121000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "AXP",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2010-12-31",
+      "old_val": 27819000000.0,
+      "new_val": 41304000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "BALL",
+      "item": "revenue",
+      "old_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "old_end": "2018-06-30",
+      "old_val": 3101000000.0,
+      "new_val": NaN,
+      "new_tag": NaN
+    },
+    {
+      "ticker": "BALL",
+      "item": "net_income",
+      "old_tag": "NetIncomeLoss",
+      "old_end": "2011-12-31",
+      "old_val": 444000000.0,
+      "new_val": 915000000.0,
+      "new_tag": "ProfitLoss"
+    },
+    {
+      "ticker": "BEN",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2020-06-30",
+      "old_val": 1188100000.0,
+      "new_val": 8770700000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "BKNG",
+      "item": "net_income",
+      "old_tag": "NetIncomeLoss",
+      "old_end": "2012-12-31",
+      "old_val": 288663000.0,
+      "new_val": NaN,
+      "new_tag": NaN
+    },
+    {
+      "ticker": "BLK",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2024-12-31",
+      "old_val": 12794000000.0,
+      "new_val": 24216000000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "ticker": "BR",
+      "item": "revenue",
+      "old_tag": "Revenues",
+      "old_end": "2018-03-31",
+      "old_val": 1071900000.0,
+      "new_val": 7476800000.0,
+      "new_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    }
+  ],
+  "n_stale_tag_cases_revenue_or_net_income": 191
+}
