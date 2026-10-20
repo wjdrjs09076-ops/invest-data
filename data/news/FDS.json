@@ -1,7 +1,7 @@
 {
   "ticker": "FDS",
-  "generated_at_utc": "2026-10-20T08:50:37Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-10-20T14:27:23Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
