@@ -1,7 +1,7 @@
 {
   "ticker": "JCI",
-  "generated_at_utc": "2026-10-23T12:01:05Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-10-23T17:23:43Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
