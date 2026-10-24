@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T21:24:04Z",
+  "generated_at_utc": "2026-10-24T04:35:36Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -318,7 +318,7 @@
             },
             {
               "ticker": "PG",
-              "label": "20D 10.1%",
+              "label": "20D 10.8%",
               "reason": ""
             },
             {
@@ -382,7 +382,7 @@
             },
             {
               "ticker": "PG",
-              "label": "Vol 29%",
+              "label": "Vol 28%",
               "reason": ""
             },
             {
