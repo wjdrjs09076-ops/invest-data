@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T22:18:40Z",
+  "generated_at_utc": "2026-10-31T05:39:44Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -179,7 +179,7 @@
           "items": [
             {
               "ticker": "COST",
-              "label": "20D 10.0%",
+              "label": "20D 10.1%",
               "reason": ""
             },
             {
