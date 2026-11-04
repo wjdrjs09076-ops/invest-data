@@ -1,7 +1,7 @@
 {
   "ticker": "WELL",
-  "generated_at_utc": "2026-11-03T19:45:43Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-11-04T01:36:58Z",
+  "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
