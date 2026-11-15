@@ -1,7 +1,7 @@
 {
   "ticker": "CSGP",
-  "generated_at_utc": "2026-11-14T18:27:10Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-11-14T22:42:26Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
