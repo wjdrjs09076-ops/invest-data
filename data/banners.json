@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T02:33:24Z",
+  "generated_at_utc": "2026-11-19T11:38:42Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -103,11 +103,6 @@
               "reason": ""
             },
             {
-              "ticker": "SNDK",
-              "label": "Vol 128%",
-              "reason": ""
-            },
-            {
               "ticker": "AMD",
               "label": "Vol 123%",
               "reason": ""
@@ -139,6 +134,11 @@
             },
             {
               "ticker": "WDC",
+              "label": "Vol 102%",
+              "reason": ""
+            },
+            {
+              "ticker": "MRNA",
               "label": "Vol 102%",
               "reason": ""
             }
