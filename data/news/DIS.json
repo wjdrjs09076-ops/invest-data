@@ -1,7 +1,7 @@
 {
   "ticker": "DIS",
-  "generated_at_utc": "2026-11-22T11:56:08Z",
-  "error": "<urlopen error _ssl.c:1001: The handshake operation timed out>",
+  "generated_at_utc": "2026-11-22T19:56:17Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
