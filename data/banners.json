@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T23:53:31Z",
+  "generated_at_utc": "2026-11-25T08:32:10Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -108,11 +108,6 @@
               "reason": ""
             },
             {
-              "ticker": "SNDK",
-              "label": "Vol 137%",
-              "reason": ""
-            },
-            {
               "ticker": "MU",
               "label": "Vol 136%",
               "reason": ""
@@ -130,6 +125,11 @@
             {
               "ticker": "CIEN",
               "label": "Vol 127%",
+              "reason": ""
+            },
+            {
+              "ticker": "SNDK",
+              "label": "Vol 126%",
               "reason": ""
             },
             {
@@ -163,9 +163,9 @@
               "reason": "RSI 57, 5D 0.5%, 20D 6.9%"
             },
             {
-              "ticker": "COST",
-              "label": "HOLD • score 47",
-              "reason": "RSI 65, 5D -1.7%, 20D 10.2%"
+              "ticker": "MSFT",
+              "label": "HOLD • score 46",
+              "reason": "RSI 41, 5D -1.8%, 20D -6.4%"
             }
           ]
         },
@@ -174,7 +174,7 @@
           "items": [
             {
               "ticker": "COST",
-              "label": "20D 10.2%",
+              "label": "20D 13.3%",
               "reason": ""
             },
             {
@@ -338,7 +338,7 @@
             },
             {
               "ticker": "JNJ",
-              "label": "20D 2.9%",
+              "label": "20D 3.4%",
               "reason": ""
             },
             {
@@ -407,7 +407,7 @@
             },
             {
               "ticker": "JNJ",
-              "label": "Vol 26%",
+              "label": "Vol 27%",
               "reason": ""
             },
             {
