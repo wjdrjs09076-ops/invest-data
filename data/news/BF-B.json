@@ -1,7 +1,7 @@
 {
   "ticker": "BF-B",
-  "generated_at_utc": "2026-11-24T14:12:06Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-11-25T00:03:31Z",
+  "error": "<urlopen error _ssl.c:1001: The handshake operation timed out>",
   "count": 0,
   "items": []
 }
