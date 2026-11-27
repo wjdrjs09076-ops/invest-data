@@ -1,7 +1,7 @@
 {
   "ticker": "SJM",
-  "generated_at_utc": "2026-11-27T01:54:06Z",
-  "error": "<urlopen error _ssl.c:1001: The handshake operation timed out>",
+  "generated_at_utc": "2026-11-27T13:02:37Z",
+  "error": "HTTP Error 429: Too Many Requests",
   "count": 0,
   "items": []
 }
