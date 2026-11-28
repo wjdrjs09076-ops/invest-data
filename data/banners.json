@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-27T23:27:02Z",
+  "generated_at_utc": "2026-11-28T07:47:32Z",
   "universes": [
     {
       "universe": "S&P 500",
@@ -118,13 +118,13 @@
               "reason": ""
             },
             {
-              "ticker": "SNDK",
+              "ticker": "CIEN",
               "label": "Vol 129%",
               "reason": ""
             },
             {
-              "ticker": "CIEN",
-              "label": "Vol 129%",
+              "ticker": "SNDK",
+              "label": "Vol 126%",
               "reason": ""
             },
             {
