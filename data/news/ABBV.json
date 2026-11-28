@@ -1,7 +1,7 @@
 {
   "ticker": "ABBV",
-  "generated_at_utc": "2026-11-27T13:02:37Z",
-  "error": "HTTP Error 429: Too Many Requests",
+  "generated_at_utc": "2026-11-27T23:42:10Z",
+  "error": "<urlopen error timed out>",
   "count": 0,
   "items": []
 }
